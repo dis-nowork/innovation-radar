@@ -106,6 +106,16 @@
 | 94 | Zipstack/unstract | 6.1k | AI/ETL | No-code LLM platform — APIs e ETL p/ estruturar docs não-estruturados | 🎯⚡🚀💸 |
 | 95 | cocoindex-io/cocoindex | 6.0k | AI/Data Infra | Framework de transformação de dados p/ AI — Rust core, incremental | ⚡📈💸 |
 
+| 96 | SigNoz/signoz | 25.5k | Observabilidade | Datadog/NewRelic killer — logs+traces+metrics OpenTelemetry nativo | 🎯💸🚀 |
+| 97 | activepieces/activepieces | 20.6k | AI Workflow | Zapier/Make killer — ~400 MCP servers + AI agents + workflow visual | 🎯💸🚀⚡ |
+| 98 | oraios/serena | 19.6k | DevTools/MCP | IDE tools p/ LLMs — semantic code retrieval, symbol-level editing | 🎯💎⚡ |
+| 99 | CapSoftware/Cap | 16.8k | Creative Tools | Loom killer — screen recording open-source com sharing bonito | 🎯💸💎 |
+| 100 | bytebot-ai/bytebot | 10.3k | AI/Automação | AI desktop agent — Linux desktop containerizado, NLP→ações reais | 🎯⚡🚀💎 |
+| 101 | VoltAgent/voltagent | 5.4k | AI Framework | AI Agent Engineering Platform — TypeScript, observability nativa, MCP | 🎯⚡💎 |
+| 102 | rishikanthc/Scriberr | 2.0k | AI/Transcrição | Transcrição AI 100% local — speaker detection, NVIDIA Parakeet/Whisper | 🎯💸💎 |
+| 103 | vas3k/TaxHacker | 1.1k | Fintech/AI | Contabilidade AI self-hosted — receipts/invoices→Excel com multi-moeda | 🎯💸⚡ |
+| 104 | rapidaai/voice-ai | 559 | Voice AI | Plataforma voice agent orquestração — Go/gRPC, production-grade | 🎯⚡🚀 |
+
 ---
 
-**Total:** 95 repos | **22 categorias** | Ordenado por ⭐ stars
+**Total:** 104 repos | **24 categorias** | Ordenado por ⭐ stars

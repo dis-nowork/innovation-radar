@@ -63,3 +63,104 @@ Agentes, automação de browser, workflows inteligentes.
 
 ---
 
+### [bytebot-ai/bytebot](https://github.com/bytebot-ai/bytebot) ⭐ 10.3k | 🎯⚡🚀💎
+**Problema:** Browser agents só fazem web. RPA tradicional só faz cliques scripted. Ninguém resolve "dê uma task complexa a um computador virtual e deixe ele resolver".
+**Solução:** AI desktop agent self-hosted — Ubuntu Linux completo em container. O AI vê a tela, move mouse, digita, usa qualquer app (browser, IDE, email, terminal), instala software conforme precisa.
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** Milhões de tarefas manuais que envolvem múltiplos apps desktop
+- ⚡ **Velocidade:** Deploy em 2 minutos via Docker
+- 🚀 **Escala:** N tasks paralelas, cada uma em container isolado
+- 💎 **Qualidade:** Não é limitado a browser — usa QUALQUER app, como um funcionário real
+**TAM:** RPA $13B+, AI assistants $25B+
+**Modelo de negócio:** Open core → managed cloud → enterprise (multi-agent orchestration)
+**Esforço:** Médio — funcional mas early stage
+
+---
+
+### [activepieces/activepieces](https://github.com/activepieces/activepieces) ⭐ 20.6k | 🎯💸🚀⚡
+**Problema:** Zapier ($19.99-$799/mês) e Make ($9-$299/mês) são caros. Nenhum tem MCP/AI agents nativos.
+**Solução:** Workflow automation open-source com ~400 MCP servers + AI agents nativos.
+**Por que é 5-10x melhor:**
+- 💸 **Custo:** Self-hosted grátis vs centenas/mês em Zapier
+- 🚀 **Escala:** 400+ integrações MCP = AI agent acessa tudo
+- ⚡ **Velocidade:** Visual builder + MCP = conectar AI a qualquer serviço em minutos
+**TAM:** Workflow automation $15B+
+**Modelo de negócio:** Open core → Cloud SaaS → Enterprise
+**Esforço:** Baixo — 58k+ commits, equipe ativa, produto maduro
+
+---
+
+### [VoltAgent/voltagent](https://github.com/VoltAgent/voltagent) ⭐ 5.4k | 🎯⚡💎
+**Problema:** Construir AI agents em TypeScript/Node.js é fragmentado — sem standard framework, sem observability.
+**Solução:** AI Agent Engineering Platform — TypeScript, observability built-in, MCP, multi-agent, console visual.
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** TypeScript devs (65%+ dos web devs) precisam de framework sério pra agents
+- ⚡ **Velocidade:** Composable architecture — agents como building blocks
+- 💎 **Qualidade:** Observability nativa + console visual de debugging
+**TAM:** AI framework/tooling $5B+
+**Modelo de negócio:** Open core → managed platform → enterprise console
+**Esforço:** Médio — crescendo rápido, precisa de mais integrações
+
+---
+
+### [vas3k/TaxHacker](https://github.com/vas3k/TaxHacker) ⭐ 1.1k | 🎯💸⚡
+**Problema:** Freelancers gastam 5-20h/mês organizando receipts. QuickBooks/FreshBooks $15-55/mês + input manual.
+**Solução:** Contabilidade AI self-hosted. Foto de receipt → AI extrai tudo. Multi-moeda com conversão histórica.
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** Pain point #1 de freelancers
+- 💸 **Custo:** Self-hosted grátis vs $20-55/mês
+- ⚡ **Velocidade:** Foto → dados estruturados em segundos vs 5-10 min/receipt manual
+**TAM:** 1.57B freelancers. Accounting software $20B+
+**Modelo de negócio:** Open core → Cloud → White-label pra contadores
+**Esforço:** Médio — early stage, creator com track record (vas3k.club)
+
+---
+
+### [rishikanthc/Scriberr](https://github.com/rishikanthc/Scriberr) ⭐ 2.0k | 🎯💸💎
+**Problema:** Otter.ai $16-40/mês, envia dados pra cloud. Profissionais precisam de transcrição local (compliance).
+**Solução:** Transcrição AI 100% offline/local. NVIDIA Parakeet + Whisper. Speaker diarization. Word-level timing.
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** Privacidade de áudio é critical pra legal, saúde, finanças
+- 💸 **Custo:** Grátis vs $200-480/ano em SaaS
+- 💎 **Qualidade:** NVIDIA Parakeet SoTA em accuracy
+**TAM:** Transcription $30B+. Healthcare transcription $5B+
+**Modelo de negócio:** Open core → Enterprise (batch, API) → Vertical (legal, medical)
+**Esforço:** Médio — funcional, GPU recomendado
+
+---
+
+### [oraios/serena](https://github.com/oraios/serena) ⭐ 19.6k | 🎯💎⚡
+**Problema:** LLMs desperdiçam tokens lendo arquivos inteiros pra entender código.
+**Solução:** IDE-like tools como MCP — symbol-level retrieval e editing semântico.
+**Por que é 5-10x melhor:**
+- 💎 **Qualidade:** Symbol-level > text-level. Menos erros, mais precisão
+- ⚡ **Velocidade:** 10x menos tokens = 10x mais rápido e barato
+**TAM:** AI coding tools $10B+
+**Modelo de negócio:** Open core → IDE plugins premium → Enterprise
+**Esforço:** Baixo — já funciona com Claude Code, Codex, VSCode, Cursor, IntelliJ
+
+---
+
+### [CapSoftware/Cap](https://github.com/CapSoftware/Cap) ⭐ 16.8k | 🎯💸💎
+**Problema:** Loom cobra $12.50-15/user/mês. Times de 20+ pagam $3-4k/ano.
+**Solução:** Screen recording open-source com sharing bonito. Tauri/Rust + Next.js. Self-hostável.
+**Por que é 5-10x melhor:**
+- 💸 **Custo:** Self-hosted grátis vs $150-180/user/ano no Loom
+- 💎 **Qualidade:** Tauri (Rust) = performance nativa. Docker deploy em 1 comando
+**TAM:** Async video $5B+. Remote work tools $30B+
+**Modelo de negócio:** Cloud managed → Enterprise (SSO, branding, analytics)
+**Esforço:** Baixo — muito maduro, self-hosting em 1 comando
+
+---
+
+### [rapidaai/voice-ai](https://github.com/rapidaai/voice-ai) ⭐ 559 | 🎯⚡🚀
+**Problema:** Vapi.ai ($0.05-0.50/min), Bland.ai ($0.09/min) — voice AI em produção é caro.
+**Solução:** Orquestração voice AI open-source em Go/gRPC. LLM-agnostic, production-grade.
+**Por que é 5-10x melhor:**
+- ⚡ **Velocidade:** Go + gRPC = latência mínima (critical pra conversas)
+- 🚀 **Escala:** Enterprise-ready desde day 1
+**TAM:** Conversational AI $32B+. Call centers $400B+
+**Modelo de negócio:** Open core → managed → enterprise
+**Esforço:** Alto — jovem (559 stars), arquitetura sólida, precisa crescer
+
+---

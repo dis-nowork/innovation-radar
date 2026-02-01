@@ -61,3 +61,36 @@ Já tem cloud platform. Precisa crescer base de integrações enterprise.
 ### Combinações
 - + OpenObserve = stack observability + AIOps completa (Datadog killer end-to-end)
 - + Automatisch/n8n para workflows de remediação automática
+
+---
+
+## SigNoz/signoz ⭐ 25.5k
+**Link:** https://github.com/SigNoz/signoz
+**Eixos:** 🎯💸🚀 (3 eixos)
+
+### Problema Real
+Datadog cobra $15-31/host/mês por infra, $12.50/milhão de log events, $1.70/span de APM. Startups com 50 servers pagam facilmente $5-20k/mês. NewRelic similar. É o imposto mais odiado do SaaS moderno.
+
+### Por que é 5-10x melhor
+- **🎯 Problema real:** O custo de observabilidade cresce linearmente com a infra — quanto mais sucesso, mais caro. Empresas estão desesperadas por alternativas
+- **💸 Custo:** Self-hosted gratuito. Cloud managed ~80% mais barato que Datadog. Sem surpresas de billing
+- **🚀 Escala:** OpenTelemetry nativo (standard da indústria) = logs + traces + metrics num só lugar, sem vendor lock-in
+
+### TAM
+- Observability market: $40B+ (2025), CAGR 15%+
+- Datadog: $2.7B revenue, 28k+ clientes
+- NewRelic: $900M+ revenue
+- Público: Todo time de engenharia em produção
+
+### Modelo de Negócio
+- **Open core + SaaS:** Community self-hosted → Enterprise cloud
+- **Usage-based pricing:** Transparente, sem "surprise bills" (o oposto do Datadog)
+- **Enterprise:** SSO, RBAC, dashboards customizados, alerting avançado
+
+### Esforço para Produtizar: Baixo
+Produto muito maduro. Cloud offering ativo. Equipe de 50+ pessoas. VC-funded ($6.5M seed).
+
+### Combinações
+- + OpenObserve (complementar: SigNoz mais forte em APM/traces, OpenObserve em log storage barato)
+- + Keep (AIOps + incident management) = stack completa anti-Datadog
+- + VoltAgent (observability nativa pra AI agents) = nicho emergente de "AI observability"
