@@ -131,3 +131,29 @@ OpenSpec (21.5k ⭐) cristaliza algo que a comunidade sente mas não articulava:
 - Combinação: OpenSpec (specs) + Archon (13.7k ⭐, knowledge backbone) + coding agent = pipeline onde humano escreve intenção, AI traduz em spec, AI executa spec
 
 **O padrão histórico:** Docker (padronizou deploy) → Kubernetes (padronizou orquestração) → OpenSpec (padronizará a interface humano-AI para código). Quem controla o padrão controla o ecossistema.
+
+### Insight #15: O "Document-to-Intelligence Pipeline" é a infraestrutura invisível da era AI
+Três repos desta rodada (Docling 51.8k, Unstract 6.1k, CocoIndex 6k) atacam o mesmo problema de ângulos diferentes: **transformar documentos bagunçados em dados estruturados para AI**. Separados são úteis. Juntos são a coluna vertebral de qualquer empresa AI-first.
+
+**O pipeline emergente:**
+1. **Docling** (parser) → converte qualquer formato em representação unificada
+2. **Unstract** (extractor) → aplica LLMs para extrair schemas específicos (faturas→JSON, contratos→campos)
+3. **CocoIndex** (transformer) → transforma, indexa e mantém tudo sincronizado incrementalmente
+
+**Por que isso é enorme:**
+- Toda empresa tem terabytes de documentos não-estruturados. O IDC estima que 80% dos dados corporativos são não-estruturados.
+- Quem controlar esse pipeline controla o input de TODOS os agentes AI da empresa
+- É o equivalente ao "data warehouse" dos anos 2000, mas para a era de AI agents
+
+**Oportunidade de produto:** Um "Snowflake para documentos" — plataforma unificada que ingere docs, extrai dados, mantém knowledge graph atualizado, e serve APIs para qualquer agente AI. Combinação: Docling + Unstract + CocoIndex + Graphiti = 🎯💸⚡💎🚀 — **5 eixos**. Isso é unicórnio territory.
+
+### Insight #16: "Trend Intelligence" é o novo BI — e está sendo democratizado
+TrendRadar (45.2k ⭐) prova que existe demanda massiva por ferramentas de intelligence que antes eram exclusivas de enterprises com Brandwatch ($800-3000/mês) ou Meltwater ($4000+/mês). A combinação de:
+- Agregação multi-plataforma (antes precisava de APIs caras)
+- AI summarization (antes precisava de analistas humanos)
+- Push notifications (antes precisava de dashboards que ninguém olha)
+- MCP integration (novo: AI agents podem consumir intelligence programaticamente)
+
+**O padrão:** Toda ferramenta de "monitoramento" está virando "intelligence" graças a LLMs. O custo marginal de análise caiu de $50-200/hora (analista) para $0.01-0.10/análise (LLM). Isso é 💸⚡📈 simultâneo — 3 eixos de disrupção.
+
+**Gap de mercado:** Ninguém combinou trend intelligence + knowledge graph temporal + ação automatizada. Imagina: TrendRadar detecta trend → Graphiti atualiza grafo de conhecimento → agente AI toma ação (compra ação, publica conteúdo, ajusta preço). Intelligence → decisão → ação, tudo automatizado.

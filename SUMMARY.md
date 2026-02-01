@@ -98,6 +98,14 @@
 | 87 | Billionmail/BillionMail | 13.4k | Marketing/Email | Mail server + email marketing self-hosted — sending ilimitado | 🎯💸📈🚀 |
 | 88 | Fission-AI/OpenSpec | 21.5k | DevTools/AI | Spec-driven development — specs como interface p/ AI coding agents | 🎯⚡💎 |
 
+| 89 | docling-project/docling | 51.8k | AI/Documentos | Parser universal de docs (PDF/DOCX/PPTX/XLSX/HTML) → gen AI ready | 🎯💸⚡💎 |
+| 90 | sansan0/TrendRadar | 45.2k | Inteligência/Monitoramento | Monitor de tendências AI-driven — multi-plataforma + MCP + alertas push | 🎯⚡🚀 |
+| 91 | getzep/graphiti | 22.5k | AI/Knowledge Graph | Knowledge graphs temporais real-time p/ agentes AI — memória estruturada | 🎯💎⚡ |
+| 92 | different-ai/openwork | 8.1k | AI/Produtividade | Open-source Claude Cowork — AI workspace colaborativo | 🎯💸 |
+| 93 | Open-Dev-Society/OpenStock | 8.1k | Fintech | Plataforma financeira open-source — preços real-time, alertas, análises | 🎯💸🚀 |
+| 94 | Zipstack/unstract | 6.1k | AI/ETL | No-code LLM platform — APIs e ETL p/ estruturar docs não-estruturados | 🎯⚡🚀💸 |
+| 95 | cocoindex-io/cocoindex | 6.0k | AI/Data Infra | Framework de transformação de dados p/ AI — Rust core, incremental | ⚡📈💸 |
+
 ---
 
-**Total:** 88 repos | **20 categorias** | Ordenado por ⭐ stars
+**Total:** 95 repos | **22 categorias** | Ordenado por ⭐ stars

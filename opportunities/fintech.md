@@ -37,3 +37,17 @@ Billing, finanças pessoais, gestão financeira.
 
 ---
 
+
+### [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) ⭐ 8.1k | 🎯💸🚀
+**Problema:** Plataformas de mercado financeiro (Bloomberg Terminal $24k/ano, TradingView Pro $30/mês, Yahoo Finance Premium) cobram caro por dados que deveriam ser acessíveis.
+**Solução:** Plataforma open-source para tracking de preços real-time, alertas personalizados, insights detalhados por empresa. Grátis para sempre.
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** 200M+ de investidores retail no mundo precisam de ferramentas acessíveis
+- 💸 **Custo:** $0 vs $30-2000/mês das alternativas
+- 🚀 **Escala:** Open-source = comunidade pode adicionar exchanges, indicadores, data sources
+**TAM:** $3B+ (financial data & analytics para retail investors)
+**Modelo de negócio:** Premium data feeds, enterprise dashboards, white-label para fintechs
+**Esforço:** Médio — precisa de data feeds confiáveis e compliance
+**Combinações:** OpenStock + TrendRadar (#90) = sinais de mercado + sentiment analysis AI = alpha
+
+---
