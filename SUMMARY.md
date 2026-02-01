@@ -70,7 +70,14 @@
 | 61 | heyform/heyform | 8.6k | Marketing | Form builder open-source (Typeform killer) | 🎯💸 |
 | 62 | redotvideo/revideo | 3.6k | Creative Tools | Templates de vídeo com código + API | 🎯⚡🚀 |
 | 63 | stephengpope/no-code-architects-toolkit | 2.2k | Creative Tools | API grátis de media processing | 🎯💸⚡ |
+| 64 | twentyhq/twenty | 39.1k | CRM | CRM open-source moderno (Salesforce killer) | 🎯💸💎🚀 |
+| 65 | simstudioai/sim | 26.3k | AI Workflow | Plataforma visual p/ workflows de AI agents | 🎯⚡🚀 |
+| 66 | pipecat-ai/pipecat | 10.1k | Voice AI | Framework voice + multimodal conversational AI | 🎯⚡💸 |
+| 67 | livekit/agents | 9.2k | Voice AI | Framework realtime voice AI agents | 🎯⚡🚀 |
+| 68 | getlago/lago | 9.2k | Fintech | Billing & metering usage-based open-source | 🎯💸🚀 |
+| 69 | aureuserp/aureuserp | 9.0k | ERP | ERP completo open-source (Laravel/Filament) | 🎯💸🚀 |
+| 70 | ElatoAI/ElatoAI | 1.4k | Voice AI/IoT | Voice AI agents em ESP32 (toys, companions) | 🎯⚡🚀💎 |
 
 ---
 
-**Total:** 63 repos | **14 categorias** | Ordenado por ⭐ stars
+**Total:** 70 repos | **16 categorias** | Ordenado por ⭐ stars
