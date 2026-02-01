@@ -1,39 +1,39 @@
 # ☁️ Infra/Cloud
 
-Infraestrutura simplificada — PaaS self-hosted, monitoring, status pages.
+Deploy, monitoring, PaaS self-hosted.
 
-| # | Repo | Stars | Encontrado |
-|---|------|-------|------------|
-| 14 | [coollabsio/coolify](https://github.com/coollabsio/coolify) | 50.1k | 2026-02-01 |
-| 15 | [dokploy/dokploy](https://github.com/dokploy/dokploy) | 29.7k | 2026-02-01 |
-| 16 | [openstatusHQ/openstatus](https://github.com/openstatusHQ/openstatus) | 8.3k | 2026-02-01 |
-
----
-
-## 14. coollabsio/coolify ⭐ 50.1k
-
-**Problema:** Deploy de apps no próprio servidor é complexo (Docker, Nginx, SSL, CI/CD). Vercel/Netlify são simples mas caros e vendor-locked. Coolify é a PaaS self-hosted que dá a experiência Vercel/Heroku no seu próprio hardware — deploy com 1-click de apps, databases, e 280+ serviços. SSH connection basta
-
-**Ideia de Produto:** **Self-Hosted PaaS SaaS**: plataforma managed de deployment que compete com Vercel/Heroku/Netlify mas roda na infra do cliente. Já tem cloud pago (app.coolify.io). Monetiza via cloud hosting managed, tiers enterprise (HA, suporte prioritário), marketplace de templates. Self-hosted grátis = funil PLG massivo. Upsell: multi-server management, backups, monitoring avançado, team seats
-
-**Potencial:** 🔥🔥🔥🔥🔥 TAM: PaaS/Cloud Platform $150B+ (Heroku vendido por $0, mas Vercel vale $3.5B+, Netlify $2B+). Apache-2.0. 50.1k stars, 3.5k forks. Criado Jan/2021. Stack: PHP/Laravel + Svelte. Push ativo (última em Jan/2026). O crescimento de 50k stars prova demanda brutal. O timing é perfeito: Heroku matou free tier, devs buscam alternativas. Coolify captura exatamente o "quero Vercel DX mas no meu VPS de $5/mês". Receita já validada com cloud tier
+### [coollabsio/coolify](https://github.com/coollabsio/coolify) ⭐ 50.1k | 🎯💸🚀
+**Problema:** Vercel/Netlify ficam caros em produção ($20-100/mês por projeto).
+**Solução:** PaaS self-hosted: deploy 1-click no seu VPS de $5/mês. DX de Vercel, preço de VPS.
+**Por que é superior:** 💸 $5/mês vs $100+ no Vercel. 🚀 50k stars = maior PaaS open-source. 🎯 Todo dev precisa de deploy.
 
 ---
 
-## 15. dokploy/dokploy ⭐ 29.7k
-
-**Problema:** Mesmo problema que Coolify mas com abordagem mais moderna e crescimento mais explosivo. Dokploy é PaaS open-source com Docker Compose nativo, multi-node via Docker Swarm, backups automatizados, monitoring real-time, e CLI/API completa. Traefik integrado para routing/load balancing
-
-**Ideia de Produto:** **Cloud Deployment Platform**: PaaS managed que compete diretamente com Coolify mas com stack moderna (TypeScript full). Já tem cloud (app.dokploy.com). Monetiza via cloud tiers, enterprise features (multi-server, SSO, audit logs), suporte premium. Templates marketplace (Plausible, Pocketbase, Cal.com com 1-click)
-
-**Potencial:** 🔥🔥🔥🔥🔥 TAM: PaaS $150B+. Licença custom (source-available). 29.7k stars, 2k forks. Criado **Apr/2024** → 29.7k stars em apenas 21 meses = crescimento mais rápido que Coolify! TypeScript full-stack = melhor DX para contributors. Features diferenciadas: Docker Compose nativo, Docker Swarm multi-node, CLI, monitoring granular por recurso. Sponsors incluem Hostinger (validação de hosting company). O mercado PaaS self-hosted é winner-takes-most e Dokploy está ganhando momentum rápido
+### [dokploy/dokploy](https://github.com/dokploy/dokploy) ⭐ 29.7k | 🎯💸
+**Problema:** Mesmo problema do Coolify — deploy caro e lock-in em plataformas cloud.
+**Solução:** PaaS open-source com Docker: deploy, databases, certificados, tudo em um painel.
+**Por que é superior:** 💸 Grátis vs Heroku/Railway. 🎯 29k stars, UX moderna. Alternativa mais leve ao Coolify.
 
 ---
 
-## 16. openstatusHQ/openstatus ⭐ 8.3k
+### [openstatusHQ/openstatus](https://github.com/openstatusHQ/openstatus) ⭐ 8.3k | 🎯💸
+**Problema:** Pingdom ($15/mês) + Statuspage ($29/mês) = $44/mês só pra monitorar uptime.
+**Solução:** Monitoring + status page unificados, open-source.
+**Por que é superior:** 💸 2 ferramentas pagas substituídas por 1 grátis. 🎯 Todo SaaS precisa de status page.
 
-**Problema:** Status pages e uptime monitoring são caros (Pingdom $15+/mês, Statuspage.io $29+/mês, BetterUptime $20+/mês) e fragmentados. OpenStatus unifica synthetic monitoring global + status pages bonitas + API monitoring num produto open-source moderno. "Monitoring as code"
+---
 
-**Ideia de Produto:** **Synthetic Monitoring + Status Page SaaS**: plataforma que substitui Pingdom + Statuspage.io + UptimeRobot num produto unificado. Monitora globalmente, alerta em tempo real, gera status pages públicas profissionais. Monetiza via cloud (free tier → pro → enterprise), volume de checks, regiões premium, incident management. Enterprise: SSO, SLA reports, custom domains
+### [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot) ⭐ 9.4k | 💸⚡
+**Problema:** Workloads de AI ficam presos num cloud provider caro (GPU on-demand é proibitivo).
+**Solução:** Orquestrador multi-cloud: roda AI workloads no provider mais barato automaticamente.
+**Por que é superior:** 💸 Encontra GPU 3-5x mais barata entre providers. ⚡ Setup automático, sem lock-in.
 
-**Potencial:** 🔥🔥🔥🔥 TAM: Application Performance Monitoring $8B+ (Status Page $2B+, Synthetic Monitoring $3B+). AGPL-3.0. 8.3k stars, 566 forks. Criado Jun/2023. Stack moderna (Next.js, Turso, Tinybird, shadcn/ui). HN front-page + ProductHunt top post = validação da comunidade. Já tem enterprise plan e cal.com booking. O diferencial é "monitoring as code" — config versionável, GitOps-friendly. Todo SaaS precisa de status page + monitoring. Mercado fragmentado e overpriced — oportunidade clara de disrupção open-source
+---
+
+### [alibaba/higress](https://github.com/alibaba/higress) ⭐ 7.4k | ⚡📈
+**Problema:** API gateways tradicionais não entendem tráfego de LLMs (tokens, rate limiting por modelo).
+**Solução:** API gateway AI-native: roteamento inteligente de LLMs, load balancing por custo/latência.
+**Por que é superior:** ⚡ Roteamento inteligente reduz latência. 📈 Escala tráfego de AI sem config manual.
+
+---
+

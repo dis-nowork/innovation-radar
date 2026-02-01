@@ -1,50 +1,39 @@
 # 🤖 AI/Automação
 
-Ferramentas que substituem trabalho manual com agentes AI, automação de browser e workflows inteligentes.
+Agentes, automação de browser, workflows inteligentes.
 
-| # | Repo | Stars | Encontrado |
-|---|------|-------|------------|
-| 1 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 77.5k | 2026-02-01 |
-| 2 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | 46.3k | 2026-02-01 |
-| 3 | [simstudioai/sim](https://github.com/simstudioai/sim) | 26.3k | 2026-02-01 |
-| 4 | [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern) | 20.2k | 2026-02-01 |
+### [browser-use/browser-use](https://github.com/browser-use/browser-use) ⭐ 77.5k | 🎯⚡🚀
+**Problema:** RPA tradicional quebra quando sites mudam layout. Empresas gastam fortunas mantendo scripts Selenium/Puppeteer.
+**Solução:** Automação de browser com LLMs que enxergam a página como humano — não depende de seletores CSS.
+**Por que é superior:** ⚡ 10x mais rápido de configurar (sem mapear seletores). 🚀 Escala pra qualquer site sem manutenção. TAM: RPA $13B+.
 
 ---
 
-## 1. browser-use/browser-use ⭐ 77.5k
-
-**Problema:** Automação de browser para agentes AI — substitui RPA tradicional (Selenium/Puppeteer) com LLMs que "enxergam" a página
-
-**Ideia de Produto:** **SaaS de automação browser AI**: plataforma no-code onde empresas criam bots que navegam sites, preenchem formulários, extraem dados. Cobra por execução. Modelo: Zapier + RPA + AI. Freemium com tiers enterprise
-
-**Potencial:** 🔥🔥🔥🔥🔥 TAM: RPA $13B+. MIT license. Criado Oct/2024, 77k stars em 15 meses = demanda absurda. Já tem empresa (browser-use.com)
+### [mem0ai/mem0](https://github.com/mem0ai/mem0) ⭐ 46.3k | 🎯⚡📈
+**Problema:** Chatbots e agentes AI esquecem tudo entre sessões — zero continuidade.
+**Solução:** API de memória persistente que qualquer app AI integra em minutos.
+**Por que é superior:** ⚡ Integração em horas vs semanas construindo do zero. 📈 Cada interação melhora o retrieval (efeito rede). Infra-play tipo Pinecone.
 
 ---
 
-## 2. mem0ai/mem0 ⭐ 46.3k
-
-**Problema:** Memória persistente para agentes AI — chatbots/agentes esquecem contexto entre sessões. Mem0 dá long-term memory universal
-
-**Ideia de Produto:** **Memory-as-a-Service para AI**: API de memória que qualquer app AI integra em minutos. Cobra por volume de memórias armazenadas/queries. Todo chatbot, copilot e agente precisa de memória. Infra play tipo Pinecone/Weaviate
-
-**Potencial:** 🔥🔥🔥🔥🔥 TAM: AI infrastructure $50B+. Apache-2.0. Fundacional — toda app AI precisa de memória. Já tem mem0.ai com tração. Moat: efeito rede (mais dados = melhor retrieval)
+### [simstudioai/sim](https://github.com/simstudioai/sim) ⭐ 26.3k | 🎯⚡🚀
+**Problema:** Orquestrar agentes AI exige código complexo — inacessível pra não-devs.
+**Solução:** Builder visual drag-and-drop pra criar pipelines de agentes AI sem código.
+**Por que é superior:** ⚡ De semanas de código pra horas no visual builder. 🚀 Abre mercado de AI agents pra qualquer empresa. 26k stars em 1 ano.
 
 ---
 
-## 3. simstudioai/sim ⭐ 26.3k
-
-**Problema:** Construir workflows de agentes AI ainda é código complexo. Sim oferece builder visual drag-and-drop para orquestrar agentes
-
-**Ideia de Produto:** **Plataforma visual de AI workflows**: builder no-code para criar pipelines de agentes AI. Think "Figma for AI agents". Monetiza com cloud hosting, execuções, templates marketplace. Enterprise: SSO, audit, teams
-
-**Potencial:** 🔥🔥🔥🔥 TAM: Workflow automation $15B+. Apache-2.0. Criado Jan/2025 → 26k stars em 1 ano = crescimento explosivo. Timing perfeito — mercado de AI agents está nascendo agora
+### [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern) ⭐ 20.2k | 🎯💎⚡
+**Problema:** Bots de automação web quebram toda vez que o site atualiza o layout.
+**Solução:** RPA com AI vision — entende interfaces visualmente como humano, não depende de DOM.
+**Por que é superior:** 💎 Qualidade absurda: bots que não quebram. ⚡ Zero manutenção quando sites mudam. AGPL = moat competitivo.
 
 ---
 
-## 4. Skyvern-AI/skyvern ⭐ 20.2k
+### [comet-ml/opik](https://github.com/comet-ml/opik) ⭐ 17.6k | 🎯⚡
+**Problema:** LLMs em produção são caixas pretas — sem visibilidade de erros, custos ou drift.
+**Solução:** Observabilidade e debug de LLMs/agentes — tracing, avaliação, monitoramento contínuo.
+**Por que é superior:** 🎯 Problema real e urgente: toda empresa com AI em produção precisa. ⚡ Setup em minutos vs construir monitoring from scratch.
 
-**Problema:** Automação de browser com visão computacional — não depende de seletores CSS/XPath frágeis, usa AI vision para entender interfaces como humano
+---
 
-**Ideia de Produto:** **RPA inteligente com AI vision**: plataforma onde empresas automatizam processos web (procurement, data entry, scraping) sem scripts frágeis. Diferencial vs browser-use: foco enterprise, workflows complexos. AGPL = moat competitivo
-
-**Potencial:** 🔥🔥🔥🔥 TAM: RPA $13B+ (convergindo com AI). AGPL-3.0 = proteção comercial. Já tem skyvern.com. Proposta de valor clara: "seus bots não quebram quando o site muda"
