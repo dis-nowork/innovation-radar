@@ -73,3 +73,18 @@
 - + Lago = ERP com billing usage-based para SaaS
 
 ---
+
+### [inventree/InvenTree](https://github.com/inventree/InvenTree) ⭐ 6.3k | 🎯💸🚀
+**Problema:** Gestão de inventário/estoque pra manufatura e e-commerce usa planilhas ou ERPs caríssimos (Fishbowl $349/mês, NetSuite $$$).
+**Solução:** Sistema completo de inventário open-source: BOM management, stock tracking, supplier management, barcode scanning. Python/Django backend maduro (desde 2017).
+**Por que é superior:**
+- 💸 Grátis vs $349/mês do Fishbowl ou $10k+/ano do NetSuite inventory module
+- 🚀 API REST completa + plugins = integra com qualquer ERP, e-commerce, ou automação
+- 🎯 Manufatura, makers, labs, e-commerce — todos precisam controlar estoque
+**TAM:** Inventory management software market $3B+.
+**Modelo de negócio:** SaaS managed hosting. Enterprise: integrations, custom plugins, support.
+**Esforço:** Baixo (maduro desde 2017, 1.2k forks, ativo).
+**Combinação:** InvenTree + Aureus ERP + Lago billing = Stack completo pra manufatura/e-commerce.
+**Licença:** MIT | 1.2k forks
+
+---

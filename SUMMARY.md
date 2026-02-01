@@ -77,7 +77,13 @@
 | 68 | getlago/lago | 9.2k | Fintech | Billing & metering usage-based open-source | 🎯💸🚀 |
 | 69 | aureuserp/aureuserp | 9.0k | ERP | ERP completo open-source (Laravel/Filament) | 🎯💸🚀 |
 | 70 | ElatoAI/ElatoAI | 1.4k | Voice AI/IoT | Voice AI agents em ESP32 (toys, companions) | 🎯⚡🚀💎 |
+| 71 | 1Panel-dev/1Panel | 33.1k | Infra/MCP | Painel web p/ servers Linux + MCP Server nativo | 🎯💸🚀 |
+| 72 | jlowin/fastmcp | 22.5k | DevTools/MCP | Framework Pythonic p/ criar MCP servers e clients | 🎯⚡🚀 |
+| 73 | activepieces/activepieces | 20.6k | Automação | AI Workflow Automation + ~400 MCP servers (n8n killer) | 🎯💸⚡🚀 |
+| 74 | oraios/serena | 19.6k | DevTools/AI | Coding agent toolkit — IDE-like tools via MCP | 🎯⚡💎 |
+| 75 | automatisch/automatisch | 13.6k | Automação | Zapier killer open-source, self-hosted | 🎯💸 |
+| 76 | inventree/InvenTree | 6.3k | Operações | Inventory management system open-source | 🎯💸🚀 |
 
 ---
 
-**Total:** 70 repos | **16 categorias** | Ordenado por ⭐ stars
+**Total:** 76 repos | **17 categorias** | Ordenado por ⭐ stars

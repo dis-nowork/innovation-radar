@@ -54,3 +54,22 @@ ElatoAI (1.4k ⭐) mostra que é possível rodar voice AI em ESP32 ($5). Isso ab
 O diferencial: **customizável e privado**. Pais podem controlar exatamente o que o brinquedo fala. Empresas podem treinar com seus dados. Sem lock-in de cloud.
 
 Próximo passo: Monitorar ESP32-S3 com câmera (multimodal) + repos de TTS local (Piper, Coqui) para eliminar dependência de cloud.
+
+### Insight #7: MCP é o "API Economy 2.0" — e quem controla o middleware ganha
+O ecossistema MCP explodiu: FastMCP (22k ⭐), GitHub MCP Server (26k ⭐), Playwright MCP (26k ⭐), ActivePieces com ~400 MCPs. A analogia histórica é clara:
+- **2010s:** REST APIs + Zapier/IFTTT como cola → Zapier vale $5B
+- **2020s:** MCP servers + AI agents como cola → [?] vale $??B
+
+**O gap monstruoso:** Não existe um **"Zapier for MCP"** maduro. ActivePieces (20k ⭐) é o mais perto, mas ainda tratando MCP como feature, não como core. Quem construir uma plataforma onde PMEs conectam MCP servers visualmente e deployam AI agents que usam essas conexões — sem código — captura o próximo Zapier.
+
+**Stack convergente:** FastMCP (criar MCPs) → ActivePieces (orquestrar) → 1Panel (infraestrutura) = pipeline completo de "MCP-first automation". Cada repo sozinho resolve um pedaço; juntos, são 🎯💸⚡🚀.
+
+### Insight #8: "IDE-aware AI" é o próximo moat em coding tools
+Serena (19.6k ⭐) prova que coding agents que entendem a estrutura semântica do código (símbolos, referências, tipos) gastam 5-10x menos tokens e cometem menos erros. O insight: a maioria dos coding agents hoje é "grep com LLM" — lê arquivos inteiros, faz string replacement cego.
+
+**O gap:** Nenhuma plataforma integrou isso como primitiva fundamental. Cursor, Windsurf, Cline — todos fazem file-level operations. Quem incorporar semantic code intelligence como camada base (tipo Serena) em um coding agent/IDE tem vantagem defensável: mesmos modelos, resultados muito melhores.
+
+**Combinação de eixos:** Serena + modelos baratos (Haiku, GPT-4o mini) = qualidade de coding agent premium a 1/10 do custo. Isso é 💎⚡💸 — 3 eixos.
+
+**Próximo a monitorar:** Repos que combinam Serena com agents autônomos (não apenas MCP tools estáticas, mas agents que planejam e executam multi-step coding tasks).
+
