@@ -116,6 +116,13 @@
 | 103 | vas3k/TaxHacker | 1.1k | Fintech/AI | Contabilidade AI self-hosted — receipts/invoices→Excel com multi-moeda | 🎯💸⚡ |
 | 104 | rapidaai/voice-ai | 559 | Voice AI | Plataforma voice agent orquestração — Go/gRPC, production-grade | 🎯⚡🚀 |
 
+| 105 | firecrawl/open-lovable | 23.9k | AI/WebDev | Clone e recria qualquer website como React app em segundos — Firecrawl powered | 🎯⚡🚀💸 |
+| 106 | toon-format/toon | 22.4k | AI/Infra | Token-Oriented Object Notation — formato compacto que economiza 30-50% tokens em LLM prompts | ⚡💸📈 |
+| 107 | coze-dev/coze-studio | 19.7k | AI/Plataforma | AI Agent IDE visual da ByteDance — cria, debugga e deploya agents no-code | 🎯💸🚀 |
+| 108 | stan-smith/FossFLOW | 17.1k | DevOps/Design | Diagramas isométricos de infra bonitos — substitui Lucidchart/draw.io p/ infra | 🎯💎💸 |
+| 109 | thedotmack/claude-mem | 16.3k | AI/DevTools | Memory plugin p/ Claude Code — captura, comprime e injeta contexto entre sessões | 🎯💎⚡ |
+| 110 | google/A2UI | 10.9k | AI/UX | Agent-to-User Interface — formato declarativo p/ agents gerarem UIs ricas e seguras | 🎯💎🚀 |
+
 ---
 
-**Total:** 104 repos | **24 categorias** | Ordenado por ⭐ stars
+**Total:** 110 repos | **25 categorias** | Ordenado por ⭐ stars
