@@ -65,6 +65,12 @@
 | 57 | kittendevv/Invio | 722 | Fintech | Faturamento pra freelancers | 🎯💸 |
 | 58 | open-condo-software/condo | 299 | Operações | Gestão de condomínio | 🎯💸 |
 
+| 59 | penpot/penpot | 44.0k | Creative Tools | Design tool open-source (Figma killer) | 🎯💸💎 |
+| 60 | remotion-dev/remotion | 34.3k | Creative Tools | Vídeos programáticos com React | 🎯⚡🚀 |
+| 61 | heyform/heyform | 8.6k | Marketing | Form builder open-source (Typeform killer) | 🎯💸 |
+| 62 | redotvideo/revideo | 3.6k | Creative Tools | Templates de vídeo com código + API | 🎯⚡🚀 |
+| 63 | stephengpope/no-code-architects-toolkit | 2.2k | Creative Tools | API grátis de media processing | 🎯💸⚡ |
+
 ---
 
-**Total:** 58 repos | **13 categorias** | Ordenado por ⭐ stars
+**Total:** 63 repos | **14 categorias** | Ordenado por ⭐ stars
