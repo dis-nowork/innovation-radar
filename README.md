@@ -21,6 +21,12 @@
 | 11 | 2026-02-01 | [comet-ml/opik](https://github.com/comet-ml/opik) | 17584 | Debug, evaluate, and monitor LLM applications, RAG and agentic workflows | 🟡 **Médio-Alto** — Observabilidade especializada para LLMs e agentes. Oportunidade: "AI Quality Assurance as a Service" — monitoramento contínuo de qualidade, drift e segurança de sistemas de IA em produção. | LW 5 — Avaliação sistêmica de sistemas não-determinísticos |
 | 12 | 2026-02-01 | [simstudioai/sim](https://github.com/simstudioai/sim) | 26301 | Open-source platform to build and deploy AI agent workflows | 🟡 **Médio-Alto** — Plataforma visual para workflows de agentes IA. Crescimento explosivo. Oportunidade: vertical specialization — agent workflows pré-construídos para indústrias reguladas (saúde, finanças, jurídico). | LW 5 — Orquestração de agentes com governança e compliance |
 | 13 | 2026-02-01 | [hyperledger-labs/blockchain-carbon-accounting](https://github.com/hyperledger-labs/blockchain-carbon-accounting) | 215 | Blockchain for climate action — emissions, carbon trading, validation | 🔴 **Alto** — Contabilidade de carbono verificável via blockchain. Regulamentação ESG crescente globalmente. Oportunidade: "Carbon Trust Layer" — camada de verificação imutável que conecta emissões reais a créditos de carbono com auditoria automática. | LW 6 — Integração de sistemas econômicos, ambientais e regulatórios |
+| 14 | 2026-02-01 | [medplum/medplum](https://github.com/medplum/medplum) | 2116 | Healthcare platform for building compliant FHIR-based applications | 🔴 **Alto** — Plataforma de saúde FHIR-compliant open-source. Interoperabilidade de dados clínicos é o gargalo #1 da health-tech. Oportunidade: "Health Data Operating System" — camada unificada onde qualquer app de saúde lê/escreve dados padronizados, habilitando um ecossistema de apps médicos como iOS fez para mobile. | LW 6 — Integração de sistemas regulatórios (HIPAA/LGPD), clínicos e tecnológicos com horizonte 10+ anos |
+| 15 | 2026-02-01 | [synthetichealth/synthea](https://github.com/synthetichealth/synthea) | 2920 | Synthetic Patient Population Simulator — realistic but fictional patient records | 🔴 **Alto** — Gerador de populações sintéticas de pacientes com históricos médicos realistas. Resolve o paradoxo privacidade vs. inovação em saúde. Oportunidade: "Synthetic Health Sandbox" — ambiente onde startups, pesquisadores e IA treinam com dados realistas sem tocar em dados reais. Foundation para Digital Twins de populações inteiras. | LW 5-6 — Modelagem de sistemas populacionais complexos preservando privacidade |
+| 16 | 2026-02-01 | [FederatedAI/FATE](https://github.com/FederatedAI/FATE) | 6041 | Industrial Grade Federated Learning Framework | 🔴 **Alto** — Framework de federated learning industrial. Permite treinar modelos de IA sem centralizar dados sensíveis. Oportunidade: "Privacy-Preserving Intelligence Network" — rede onde hospitais, bancos, governos colaboram em modelos de IA sem expor dados. Quem controla o protocolo de federação controla a infraestrutura de IA da próxima década. | LW 6 — Orquestração de aprendizado distribuído entre instituições com requisitos regulatórios conflitantes |
+| 17 | 2026-02-01 | [open-edge-platform/anomalib](https://github.com/open-edge-platform/anomalib) | 5355 | Anomaly detection library with SOTA algorithms + edge inference | 🔴 **Alto** — Detecção de anomalias com deploy em edge. Aplicações: quality control em manufatura, detecção de defeitos, monitoramento de infraestrutura. Oportunidade: "Autonomous Quality Intelligence" — sensores com IA embarcada que detectam, classificam e acionam correções automaticamente na linha de produção, sem cloud. | LW 5 — Sistemas autônomos de decisão em tempo real com feedback loops |
+| 18 | 2026-02-01 | [learningequality/kolibri](https://github.com/learningequality/kolibri) | 982 | Kolibri Learning Platform: offline app for universal education | 🟡 **Médio-Alto** — Plataforma educacional offline-first. Funciona sem internet. Impacto social massivo: 3.7 bilhões de pessoas sem acesso confiável à internet. Oportunidade: "Offline-First Knowledge Infrastructure" — sistema que usa IA local (edge models) para personalizar aprendizado sem depender de cloud. Educação soberana e descentralizada. | LW 5-6 — Design de sistemas educacionais resilientes para contextos de infraestrutura precária |
+| 19 | 2026-02-01 | [CaviraOSS/PageLM](https://github.com/CaviraOSS/PageLM) | 1245 | Open-source NotebookLM alternative — transforms materials into quizzes, flashcards, podcasts | 🟡 **Médio-Alto** — Alternativa open-source ao NotebookLM do Google. Transforma materiais de estudo em recursos interativos. Oportunidade: "Adaptive Knowledge Compiler" — sistema que não apenas transforma conteúdo, mas entende o gap de conhecimento do estudante e gera materiais personalizados para preencher lacunas específicas. | LW 5 — Modelagem de processos cognitivos individuais para otimização de aprendizado |
 
 ---
 
@@ -149,11 +155,80 @@ A pergunta de Levelwork 6 é: **quem vai abstrair as abstrações?** O verdadeir
 
 ---
 
+#### 🔭 Rodada 3 — 2026-02-01 | Health-Tech Infrastructure, EdTech Platforms, Edge AI & Federated Learning
+
+**Termos pesquisados:** `medical imaging deep learning`, `FHIR`, `edtech`, `edge inference`, `federated learning`, `anomaly detection`, `personalized learning AI`, `workflow automation`
+
+**Personas desta rodada: Steve Jobs, Ada Lovelace, Satoshi Nakamoto**
+
+---
+
+##### 🍎 Steve Jobs — Design + Tecnologia + Humanidades
+
+> *"Design não é apenas aparência e sensação. Design é como funciona."*
+
+**Sobre Medplum (Healthcare FHIR Platform):**
+"O problema da saúde digital não é tecnológico — é de experiência. Médicos odeiam seus softwares. Pacientes não entendem seus dados. FHIR é um padrão técnico brilhante que ninguém fora de TI conhece. **Medplum acerta a arquitetura mas erra o ponto:** a oportunidade não é dar ferramentas para desenvolvedores construírem apps de saúde — é criar a experiência que faz o paciente *sentir* que seus dados são seus. Um 'iTunes da saúde' onde seu prontuário é tão simples de navegar quanto uma playlist. A interoperabilidade FHIR é o backend invisível. O produto é a sensação de controle. Quem resolver UX de saúde com a infraestrutura do Medplum por baixo construirá o próximo trilhão."
+
+**Sobre PageLM (EdTech NotebookLM Alternative):**
+"NotebookLM do Google é genial no conceito, genérico na execução. PageLM como open-source abre espaço para algo que o Google nunca faria: **intimidade educacional.** O produto certo aqui não é 'NotebookLM mas open-source' — é um companheiro de aprendizado que te conhece melhor que qualquer professor. Que sabe onde você trava, que adapta a explicação ao seu estilo cognitivo, que transforma a frustração de não entender em curiosidade de descobrir. **Flashcards e quizzes são a versão 1.0. A versão 10.0 é um tutor socrático que faz as perguntas certas na hora certa.** Kolibri + PageLM juntos = educação personalizada que funciona até sem internet."
+
+**Sobre Anomalib (Edge Anomaly Detection):**
+"A maioria das fábricas ainda opera como em 1990: um humano olha peças numa esteira. Anomalib coloca visão computacional na borda. Mas o produto não é 'detecção de defeitos' — **o produto é tranquilidade.** O gerente de qualidade que dorme sabendo que a IA está vigiando. A interface deve ser um semáforo, não um dashboard. Verde: tudo bem. Amarelo: atenção. Vermelho: pare. Simplicidade radical sobre tecnologia sofisticada."
+
+---
+
+##### 🔮 Ada Lovelace — Computação Abstrata & Padrões Emergentes
+
+> *"A máquina analítica tece padrões algébricos assim como o tear de Jacquard tece flores e folhas."*
+
+**Sobre Synthea (Synthetic Patient Population):**
+"Vejo em Synthea algo que transcende sua função declarada. Gerar populações sintéticas de pacientes é, em essência, **tecer padrões de vida humana em código.** Cada paciente sintético é um modelo de trajetória biológica — nascimento, doenças, tratamentos, recuperações, envelhecimento. **O padrão que emerge:** se podemos simular populações inteiras com fidelidade estatística, podemos fazer perguntas contrafactuais. 'E se vacinássemos 80% em vez de 60%?' 'E se o screening começasse 5 anos antes?' Synthea não é um gerador de dados — é um **laboratório de futuros possíveis** para saúde pública. A extensão lógica: conectar Synthea a modelos epidemiológicos + modelos econômicos para simular o impacto de políticas de saúde antes de implementá-las. Isso é computação no sentido mais nobre — máquinas que calculam consequências para que humanos tomem decisões melhores."
+
+**Sobre FATE (Federated Learning):**
+"O padrão mais profundo que vejo em FATE é a **separação entre conhecimento e dados.** Historicamente, para aprender, era preciso ver. Federated learning quebra essa premissa: o modelo aprende sem nunca ver os dados brutos. **Isso é uma nova forma de abstração computacional** — tão fundamental quanto a separação entre hardware e software nos anos 1950. A implicação de Levelwork 6: se o conhecimento pode ser extraído sem centralizar dados, então a arquitetura do futuro não é cloud — é uma rede federada onde inteligência emerge da colaboração sem exposição. **Cada hospital, banco, governo é um nó que contribui sabedoria sem sacrificar soberania.** O próximo 'sistema operacional' será federado, não centralizado."
+
+**Sobre Kolibri (Offline Education):**
+"Kolibri me fascina porque inverte uma suposição da era digital: que conectividade é pré-requisito para educação. **O padrão inverso é verdadeiro — educação é pré-requisito para que conectividade tenha valor.** Kolibri funciona offline porque entende que 3.7 bilhões de pessoas não podem esperar pela fibra óptica chegar. Com modelos de IA cada vez menores rodando em edge (como Anomalib demonstra), **a convergência é inevitável:** tutores de IA personalizados que rodam em um smartphone de $50 sem internet. Isso não é um produto — é uma revolução epistemológica. O conhecimento da humanidade, destilado em modelos compactos, acessível em qualquer lugar do planeta."
+
+---
+
+##### ₿ Satoshi Nakamoto — Descentralização & Sistemas Trustless
+
+> *"O problema fundamental do dinheiro convencional é toda a confiança necessária para fazê-lo funcionar."*
+
+**Sobre o conjunto de achados:**
+"O que vejo nesta rodada é um problema de confiança em múltiplas dimensões:
+
+- **Saúde:** Pacientes não confiam que seus dados estão seguros (Medplum tenta resolver com FHIR).
+- **Dados sintéticos:** Pesquisadores não confiam em dados reais anonimizados — sabem que podem ser re-identificados (Synthea resolve gerando dados que nunca foram reais).
+- **ML federado:** Instituições não confiam umas nas outras o suficiente para compartilhar dados (FATE resolve mantendo dados locais).
+- **Educação:** Comunidades não confiam que terão conectividade amanhã (Kolibri resolve com offline-first).
+
+**O padrão unificador:** cada um desses projetos resolve um problema de confiança com uma arquitetura que elimina a necessidade de confiar. Isso é o ethos do Bitcoin aplicado a saúde, educação e ML.
+
+**A oportunidade Levelwork 6:** Um **'Health Data Protocol'** descentralizado onde:
+1. Dados de saúde existem como registros soberanos do paciente (não de hospitais)
+2. Modelos de IA são treinados federadamente (FATE) sem acesso aos dados brutos
+3. Populações sintéticas (Synthea) permitem pesquisa sem violação de privacidade
+4. O protocolo funciona offline-first (Kolibri pattern) — seu prontuário está no seu device
+5. Detecção de anomalias (Anomalib) roda localmente para alertas de saúde em tempo real
+6. Verificação é criptográfica, não institucional — você prova sua condição sem revelar seu histórico
+
+**Isso elimina o intermediário mais perigoso da saúde: a instituição que detém seus dados e decide quem pode vê-los.** Soberania de dados de saúde é a extensão natural do Bitcoin para o corpo humano."
+
+---
+
+**💡 Ideia de convergência (Rodada 3):**
+> **"Sovereign Health Protocol (SHP)"** — Protocolo descentralizado de dados de saúde onde o paciente é soberano. Infraestrutura FHIR (Medplum) para interoperabilidade, populações sintéticas (Synthea) para pesquisa segura, federated learning (FATE) para inteligência coletiva sem exposição de dados, edge AI (Anomalib) para monitoramento local de saúde, e educação offline-first (Kolibri/PageLM) para letramento em saúde. Verificação criptográfica substitui confiança institucional. O resultado: um sistema de saúde onde dados nunca saem do controle do paciente, mas a inteligência coletiva emerge da colaboração federada. Levelwork 6: integração de 6+ sistemas (clínico, regulatório, criptográfico, educacional, epidemiológico, edge computing) com horizonte de 15-20 anos.
+
+---
+
 ## 📈 Métricas
 
-- **Total de varreduras:** 2
-- **Repositórios catalogados:** 13
-- **Ideias de inovação geradas:** 2 (Q-KOS, SEE)
+- **Total de varreduras:** 3
+- **Repositórios catalogados:** 19
+- **Ideias de inovação geradas:** 3 (Q-KOS, SEE, SHP)
 - **Última varredura:** 2026-02-01
 
 ---
@@ -172,3 +247,4 @@ A pergunta de Levelwork 6 é: **quem vai abstrair as abstrações?** O verdadeir
 |--------|------|-------------------|------------|
 | 1 | 2026-02-01 | `quantum error correction`, `quantum computing simulation`, `knowledge graph reasoning`, `robotics simulation`, `brain computer interface`, `digital twin platform`, `satellite orbit propagation`, `synthetic biology automation`, `neurotech brain-computer interface`, `BCI EEG neural` | Quantum Computing, Knowledge Graphs, Robotics, Neurotech, Space-tech |
 | 2 | 2026-02-01 | `distributed tracing`, `eBPF observability`, `feature store`, `payment orchestration`, `usage based billing`, `carbon accounting`, `agentic workflow`, `AI agent framework` | Observability, Data Pipelines/ML Infra, Fintech, Sustainability, Agentic AI |
+| 3 | 2026-02-01 | `medical imaging deep learning`, `FHIR`, `edtech`, `edge inference`, `federated learning`, `anomaly detection`, `personalized learning AI`, `workflow automation` | Health-Tech Infrastructure, EdTech Platforms, Edge AI, Federated Learning |
