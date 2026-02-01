@@ -84,6 +84,13 @@
 | 75 | automatisch/automatisch | 13.6k | Automação | Zapier killer open-source, self-hosted | 🎯💸 |
 | 76 | inventree/InvenTree | 6.3k | Operações | Inventory management system open-source | 🎯💸🚀 |
 
+| 77 | khoj-ai/khoj | 32.4k | AI/Produtividade | AI second brain — personal AI self-hostable com RAG, agents, deep research | 🎯💸🚀💎 |
+| 78 | onlook-dev/onlook | 24.6k | DevTools/Design | Cursor for Designers — editor visual AI-first p/ React + Tailwind | 🎯⚡💎 |
+| 79 | openobserve/openobserve | 17.8k | Observabilidade | 140x menor custo de storage vs Elasticsearch — logs, metrics, traces | 🎯💸⚡📈 |
+| 80 | keephq/keep | 11.3k | AIOps | Plataforma AIOps open-source — alert dedup, correlation, bi-directional | 🎯💸🚀 |
+| 81 | bytedance/flowgram.ai | 7.6k | Framework/AI | Framework de canvas p/ workflow AI — toolkit da ByteDance p/ builders | 🎯⚡🚀 |
+| 82 | Freika/dawarich | 7.9k | Privacidade/Geo | Google Timeline self-hosted — location history, trips, family sharing | 🎯💸 |
+
 ---
 
-**Total:** 76 repos | **17 categorias** | Ordenado por ⭐ stars
+**Total:** 82 repos | **19 categorias** | Ordenado por ⭐ stars
