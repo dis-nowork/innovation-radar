@@ -91,6 +91,13 @@
 | 81 | bytedance/flowgram.ai | 7.6k | Framework/AI | Framework de canvas p/ workflow AI — toolkit da ByteDance p/ builders | 🎯⚡🚀 |
 | 82 | Freika/dawarich | 7.9k | Privacidade/Geo | Google Timeline self-hosted — location history, trips, family sharing | 🎯💸 |
 
+| 83 | OpenCut-app/OpenCut | 45.4k | Creative Tools | Editor de vídeo open-source (CapCut killer) — web, desktop, mobile | 🎯💸🚀 |
+| 84 | resemble-ai/chatterbox | 22.1k | Voice AI/TTS | SoTA TTS open-source — Turbo 350M, multilingual, paralinguistic tags | 💸💎🚀 |
+| 85 | usestrix/strix | 19.6k | Security/AI | AI hackers autônomos — pentest com PoCs reais, zero false positives | 🎯💎⚡ |
+| 86 | mediar-ai/screenpipe | 16.6k | Privacidade/AI | Open-source Rewind.ai — 24/7 screen+mic recording 100% local | 🎯💸💎 |
+| 87 | Billionmail/BillionMail | 13.4k | Marketing/Email | Mail server + email marketing self-hosted — sending ilimitado | 🎯💸📈🚀 |
+| 88 | Fission-AI/OpenSpec | 21.5k | DevTools/AI | Spec-driven development — specs como interface p/ AI coding agents | 🎯⚡💎 |
+
 ---
 
-**Total:** 82 repos | **19 categorias** | Ordenado por ⭐ stars
+**Total:** 88 repos | **20 categorias** | Ordenado por ⭐ stars
