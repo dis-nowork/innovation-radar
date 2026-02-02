@@ -2162,3 +2162,30 @@ Nenhum SaaS faz isso de ponta a ponta. É 3 repos open-source combinados.
 **TAM combinado:** Se 500M+ pessoas usam AI regularmente, e cada uma pagaria $5-15/mês por UX profissional → $30-90B/ano. Maior que muitos AI providers.
 
 **Gap específico:** Ninguém fez ainda um "Notion for AI conversations" — org, templates, version control, team sharing, analytics, tudo unificado, cross-provider. PromptHub chega perto mas é desktop-only. Gemini Voyager é Gemini-only. O produto cross-provider, cloud+local, team-ready não existe.
+
+---
+
+## 2026-02-02: Edge AI Reasoning — O Paradigma Muda
+
+### Insight 1: A Revolução "Tiny + Recursive" Ameaça o Modelo de Negócio dos LLM Providers
+
+**Padrão emergente:** TinyRecursiveModels (7M params, 45% ARC-AGI) + NeuTTS (120M params, TTS natural em celular) demonstram que tarefas antes reservadas a modelos massivos podem rodar em edge com modelos minúsculos usando técnicas inteligentes (recursão, codecs neurais compactos).
+
+**Implicação de negócio:** Se reasoning e voice podem rodar em 7M-360M params no device, a "API tax" dos cloud providers começa a evaporar. A competição migra de "quem tem o modelo maior" para "quem embarca melhor em edge".
+
+**Oportunidades de produto:**
+- SDK de "reasoning-as-a-library" para devices embarcados
+- TTS+STT+reasoning stack completo em <500MB para smartphones
+- AI toys/companions que funcionam 100% offline (privacidade + latência zero)
+- "Reasoning API" com custo 100x menor usando modelos recursivos em vez de LLMs
+
+**Gap não preenchido:** Ninguém uniu TTS on-device + STT on-device + reasoning tiny num único SDK embarcável. Quem fizer isso primeiro cria um "Android para AI agents físicos".
+
+### Insight 2: Right-to-Repair como Plataforma de Software
+
+**Padrão:** FreeMDU reverse-engineered o protocolo IR da Miele. O movimento right-to-repair (legislação EU Digital Markets Act, US FTC) cria demanda por ferramentas de diagnóstico open-source para eletrodomésticos, carros, equipamentos médicos.
+
+**Oportunidade de plataforma:** Uma "plataforma horizontal de diagnóstico" que agregue protocolos reverse-engineered de múltiplas marcas (Miele, Bosch, Samsung, LG) + Home Assistant integration + guias de reparo crowd-sourced = "iFixit + Home Assistant" combinados.
+
+**TAM ignorado:** 100M+ eletrodomésticos premium na Europa só Miele. Se expandir para todas as marcas + carros (OBD-II já é padrão) = mercado endereçável de centenas de milhões de devices. Modelo SaaS de €5-10/mês por household.
+
