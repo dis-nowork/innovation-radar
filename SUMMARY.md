@@ -209,7 +209,13 @@
 | 180 | stan-smith/FossFLOW | 17.1k | Creative Tools/Diagrams | Diagramas isométricos de infra open-source — PWA offline, Cloudcraft killer ($199/mo→$0), export PNG/SVG | 🎯💸💎 |
 | 181 | Snapchat/Valdi | 16.3k | Mobile/Cross-Platform | UI framework cross-platform nativo (não WebView) — TypeScript→native views, 8 anos em produção no Snap, view recycling | ⚡💎🚀 |
 | 182 | coze-dev/coze-studio | 19.7k | AI/Agent Platform | Plataforma visual p/ criar AI agents — prompt+RAG+plugins+workflows, by ByteDance, open-source completo, Chat SDK | 🎯💸🚀 |
+| 183 | henrygd/beszel | 19.1k | Observabilidade/Infra | Server monitoring ultra-leve — Docker stats, alertas, multi-user, OAuth, PocketBase backend, 3MB agent | 🎯💸💎 |
+| 184 | octelium/octelium | 3.1k | Infra/Zero Trust | Plataforma zero trust unificada — VPN+ZTNA+API gateway+PaaS+MCP gateway, self-hosted, secretless access | 🎯💸🚀💎 |
+| 185 | rcourtman/Pulse | 4.0k | Observabilidade/Infra | Dashboard unificado Proxmox+Docker+K8s com AI chat e patrulha — MSP/homelab single-pane-of-glass | 🎯💎🚀 |
+| 186 | maillab/cloud-mail | 4.2k | Email/Infra | Email service completo em Cloudflare Workers — custo ~$0, domínio custom, admin RBAC, R2 storage | 🎯💸🚀 |
+| 187 | allinssl/allinssl | 3.3k | Infra/SSL | Gestão completa ciclo de vida SSL — multi-CA, deploy automático CDN/WAF/cloud, monitoramento, auto-renovação | 🎯⚡💸 |
+| 188 | Relaticle/relaticle | 1.1k | CRM/Business | CRM next-gen open-source — Laravel 12+Filament 4, custom fields no-code, multi-tenant, self-hosted | 🎯💸💎 |
 
 ---
 
-**Total:** 182 repos | **40 categorias** | Ordenado por ⭐ stars
+**Total:** 188 repos | **42 categorias** | Ordenado por ⭐ stars
