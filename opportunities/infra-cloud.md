@@ -37,3 +37,16 @@ Deploy, monitoring, PaaS self-hosted.
 
 ---
 
+
+### [ai-dynamo/dynamo](https://github.com/ai-dynamo/dynamo) ⭐ 6.0k | ⚡📈🚀💸
+**Problema:** Servir LLMs em produção requer orquestração complexa de GPUs, especialmente para modelos grandes que excedem capacidade de uma GPU. Tensor parallelism cria gargalos de coordenação. Empresas gastam fortunas em infra subotimizada.
+**Solução:** NVIDIA Dynamo — framework open-source de inferência distribuída. Disaggregated prefill & decode, dynamic GPU scheduling, LLM-aware request routing, KV cache offloading. Engine-agnostic (TRT-LLM, vLLM, SGLang). Rust + Python.
+**Por que é 5-10x melhor:**
+- ⚡ **Velocidade:** Disaggregated serving + NIXL = latência dramaticamente menor
+- 📈 **Volume:** Datacenter-scale, multi-node nativo — não é wrapper, é framework fundamental
+- 🚀 **Escala:** De single-GPU para clusters com scheduling dinâmico
+- 💸 **Custo:** Open-source vs proprietary serving (Anyscale, Modal pricing). GPU utilization otimizada = menos GPUs necessárias
+**TAM:** $10B+ (AI inference infrastructure, o mercado mais quente de 2025-2026)
+**Modelo de negócio:** Open-core (NVIDIA vende hardware + consulting), mas terceiros podem construir managed platforms em cima
+**Esforço:** Alto — requer expertise em GPU infra e distributed systems
+**Combinações:** Dynamo + qualquer modelo open-source = serving de produção. Dynamo + deepinfra/together model = competir com OpenAI em custo

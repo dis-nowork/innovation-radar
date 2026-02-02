@@ -148,6 +148,12 @@
 | 126 | superdesigndev/superdesign | 5.8k | DevTools/Design | AI Design Agent p/ IDE — gera mockups/wireframes/componentes com NL no Cursor/VSCode | 🎯⚡💎 |
 | 127 | presenton/presenton | 3.9k | Creative Tools/AI | AI Presentation Generator (Gamma/Decktopus killer) — local, MCP Server, multi-provider | 🎯💸⚡🚀 |
 
+| 128 | google/langextract | 23.9k | AI/Data Extraction | Extração estruturada de texto com grounding preciso + visualização interativa — substitui pipelines NER manuais | 🎯💎⚡🚀 |
+| 129 | deepseek-ai/DeepSeek-OCR | 22.3k | AI/Vision | Compressão óptica contextual — OCR free com LLM, ~2500 tokens/s em A100. DeepSeek-OCR2 já lançado | 🎯⚡💸📈 |
+| 130 | BloopAI/vibe-kanban | 20.1k | DevTools/AI | Kanban orchestrator p/ coding agents — gerencia Claude Code, Codex, Gemini CLI em paralelo + SSH remoto | 🎯⚡🚀 |
+| 131 | ai-dynamo/dynamo | 6.0k | AI/Infra | NVIDIA Dynamo — serving framework datacenter-scale p/ LLMs com disaggregated prefill/decode, multi-engine | ⚡📈🚀💸 |
+| 132 | lucasgelfond/zerobrew | 4.8k | DevTools/Infra | Homebrew 5-20x mais rápido — content-addressable store, APFS clonefile, Rust. Drop-in replacement | ⚡💸 |
+
 ---
 
-**Total:** 127 repos | **28 categorias** | Ordenado por ⭐ stars
+**Total:** 132 repos | **29 categorias** | Ordenado por ⭐ stars

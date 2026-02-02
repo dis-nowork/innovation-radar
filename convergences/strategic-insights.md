@@ -328,3 +328,39 @@ Memvid (12.7k ⭐) não é "mais um vector DB" — é uma **mudança arquitetura
 **O padrão histórico:** SQLite → apps mobile dominaram. Memvid → agents descentralizados dominam. **Quem construir o "framework de agents" que usa Memvid como primitiva de memória** (ao invés de integrar Pinecone/Weaviate como afterthought) terá agents mais rápidos, baratos e portáteis.
 
 **Combinação letal:** Memvid (memória local) + MCP (tools) + Chatterbox TTS (voz) + ElatoAI (hardware) = **agent embarcado com memória persistente que fala e age** — zero cloud. Custo de operação: ~$0 após deploy. Isso é 💸⚡💎🚀 — 4 eixos.
+
+---
+
+## 🔮 Insight #16 — A Stack de Extração Documental Está Madura (Fev 2026)
+
+Pela primeira vez, existe uma stack open-source completa para **document intelligence enterprise-grade**:
+
+1. **Captura:** DeepSeek-OCR (#129) → scan/foto → texto com contexto semântico
+2. **Extração:** LangExtract (#128) → texto → dados estruturados com grounding
+3. **Transformação:** CocoIndex (#95) → pipeline incremental, só reprocessa mudanças
+4. **Orquestração:** Unstract (#94) → no-code document workflow com LLMs
+
+**Cada peça existia isolada. Juntas, substituem ABBYY ($500k+ licença enterprise) ou AWS Textract+Comprehend ($$$$ por volume).**
+
+Quem **integrar essas 4 peças em um produto vertical** (healthcare records, legal discovery, financial compliance) tem:
+- 💸 10x menor custo que incumbents
+- ⚡ Velocidade de setup: dias vs meses
+- 💎 Qualidade: source grounding elimina alucinações
+- 🚀 Escala: incremental processing = volume ilimitado
+
+**TAM combinado: $15B+.** O mercado IDP (Intelligent Document Processing) é um dos poucos em enterprise AI onde **PME também paga** (contadores, escritórios de advocacia, clínicas).
+
+---
+
+## 🔮 Insight #17 — O "Human OS" para Coding Agents
+
+Vibe-Kanban (#130) revela um padrão emergente: **o humano virou o orquestrador, não o executor.** A nova stack de desenvolvimento:
+
+- **Planejamento:** Spec-driven (OpenSpec, spec-workflow-mcp)
+- **Orquestração:** Vibe-Kanban (múltiplos agents em paralelo)
+- **Contexto:** Context7 (docs atualizados para agents)
+- **Review:** Code review agents com scoring
+
+**O gap:** Ninguém ainda fez o **"Jira for AI-first teams"** — onde tasks são escritas para agents, não humanos. Onde o "sprint" é 30 minutos, não 2 semanas. Onde "deploy" acontece em cada task completada.
+
+Quem construir isso captura o workflow inteiro do engenheiro de 2026-2027. **TAM: $5B+ (developer productivity, project management tools).**

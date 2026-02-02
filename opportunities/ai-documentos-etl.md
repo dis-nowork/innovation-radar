@@ -45,3 +45,29 @@ Processamento de documentos, extração de dados, pipelines de transformação c
 **Combinações:** CocoIndex + Docling (#89) + Graphiti (#91) = pipeline doc→transformação→knowledge graph com freshness automática
 
 ---
+
+### [google/langextract](https://github.com/google/langextract) ⭐ 23.9k | 🎯💎⚡🚀
+**Problema:** Extrair informação estruturada de texto livre (notas clínicas, contratos, relatórios) requer pipelines NER complexos, fine-tuning, ou regex frágeis. Empresas gastam meses construindo extractors customizados.
+**Solução:** Biblioteca Python do Google que usa LLMs para extrair dados estruturados com source grounding preciso (mapeia cada extração ao texto original) + visualização HTML interativa. Funciona com few-shot examples, sem fine-tuning.
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** Healthcare, legal, finance — todos precisam extrair dados de texto não-estruturado
+- 💎 **Qualidade:** Source grounding elimina alucinações — cada fact vem com highlight no texto original
+- ⚡ **Velocidade:** Chunking otimizado + processamento paralelo supera "needle in haystack" de docs longos
+- 🚀 **Escala:** De domínio específico a qualquer domínio com few-shot examples — sem retreinamento
+**TAM:** $5B+ (intelligent document processing + NLP extraction)
+**Modelo de negócio:** SaaS de extração vertical (healthcare, legal, finance), API metered, enterprise on-prem
+**Esforço:** Médio — core library pronta, precisa wrapper SaaS + integrations
+**Combinações:** LangExtract + Docling (#89) = PDF→texto→extração estruturada end-to-end. LangExtract + CocoIndex (#95) = pipeline incremental de extração em larga escala
+
+### [deepseek-ai/DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) ⭐ 22.3k | 🎯⚡💸📈
+**Problema:** OCR tradicional (Tesseract, ABBYY, AWS Textract) é caro, lento em documentos complexos, e perde contexto semântico. OCR "inteligente" requer integração de múltiplas ferramentas.
+**Solução:** "Contexts Optical Compression" — modelo LLM-centric que investiga visão encoders de uma perspectiva centrada no LLM. ~2500 tokens/s em A100. DeepSeek-OCR2 já lançado (Jan 2026). Suportado em vLLM upstream.
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** Todo negócio digitaliza documentos — receitas, contratos, faturas
+- ⚡ **Velocidade:** 2500 tokens/s throughput de produção
+- 💸 **Custo:** Open-source vs Textract/ABBYY pricing ($1.50+ per 1000 pages)
+- 📈 **Volume:** Batch processing nativo, streaming output, concurrency otimizada
+**TAM:** $15B+ (OCR/IDP market, um dos maiores de enterprise AI)
+**Modelo de negócio:** Managed OCR API (pay-per-page), on-prem enterprise, vertical solutions (healthcare records, legal discovery)
+**Esforço:** Alto — requer GPU infra, mas vLLM integration já resolve serving
+**Combinações:** DeepSeek-OCR + LangExtract (#128) = scan→OCR→extração estruturada. DeepSeek-OCR + Unstract (#94) = document processing pipeline completo
