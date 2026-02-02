@@ -2074,3 +2074,25 @@ Nenhum SaaS faz isso de ponta a ponta. É 3 repos open-source combinados.
 **Oportunidade de $1B:** Quem criar a "Canva of AI Video" — interface simples, fábrica completa por trás — captura o mercado de $100B+ de short-form video. Huobao Drama é o motor; falta a UI consumer-grade e o marketplace de templates.
 
 **Meta-padrão:** json-render (#420) by Vercel resolve exatamente o problema de "AI gera output seguro" — e pode ser a camada de UI que falta para todas essas fábricas. AI gera JSON constrangido → UI renderiza com componentes seguros. Isso é a arquitetura que vai dominar: não "AI gera código" mas "AI preenche templates seguros".
+
+---
+
+## 2026-02-02 (noite) — Insights: A Era do "Tiny but Mighty" & Collaboration-as-Library
+
+### Insight #1: Modelos "Tiny but Mighty" estão democratizando AI pro edge — e criando uma nova camada de monetização
+**Padrão emergente:** Soprano (80M params, 2000x realtime), KittenTTS (#417, <25MB), e agora VibeVoice-Realtime-0.5B — todos comprovam que modelos tiny podem competir com gigantes. Soprano com 80M params entrega qualidade comparável a modelos 100x maiores.
+
+**Por que importa:** Isso não é otimização acadêmica — é um **shift de negócio**. Quando TTS de qualidade roda em CPU de celular, toda a cadeia de valor muda: não precisa de GPU cloud ($$$), não precisa de API key, não precisa de internet. O custo marginal vai a zero. Isso mata o modelo de API pricing (ElevenLabs, Play.ht, Google TTS) para 80% dos use cases.
+
+**Gap de mercado:** Ninguém montou um "App Store de modelos tiny" — marketplace onde devs encontram modelos <100MB otimizados para edge, com benchmarks padronizados, one-click deploy, e revenue sharing. É o "npm/pip para AI models" mas focado em tiny/edge.
+
+**Combinação assassina:** Soprano (#424) + lue (#429) = audiobook reader que roda 100% offline com qualidade de estúdio. Soprano (#424) + KnowNote (#427) = knowledge base que lê seus documentos em voz alta. Soprano + chatbot = voice assistant local que responde em <100ms.
+
+### Insight #2: "Collaboration-as-Library" é o Stripe da produtividade — e está chegando
+**Padrão:** SyncKit (154KB, 3 linhas de código) é para collaboration o que Stripe foi para pagamentos: abstrai complexidade absurda num SDK simples. Yjs/Automerge existem há anos mas requerem expertise de PhD. Liveblocks cobra $2K+/mês.
+
+**Por que importa:** Real-time collaboration vai ser tão commoditizado quanto autenticação. Todo app vai ter "invite to edit" como feature padrão. O problema é que hoje é caro (Liveblocks) ou difícil (Yjs raw). SyncKit resolve os dois com open-source + batteries-included.
+
+**Oportunidade de $500M:** "Managed SyncKit" = Liveblocks killer. Open core + hosted sync servers + enterprise tier. Capture dos $2B+ que vão ser gastos em real-time collaboration infra nos próximos 5 anos.
+
+**Meta-padrão:** Junto com BoxLite (#426) como "sandbox-as-library" e Drift (#335) como "codebase-intelligence-as-library", estamos vendo uma nova geração de **infra primitives como bibliotecas embeddable** — não SaaS, não microservices, mas `npm install`. Isso é o futuro: infra que cabe em 3 linhas de código, roda no processo da sua app, sem deploy separado. Quem montar o "Vercel for embedded infra" (deploy BoxLite+SyncKit+Drift como stack unificado) tem um negócio de bilhão.
