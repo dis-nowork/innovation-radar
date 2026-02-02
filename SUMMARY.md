@@ -392,7 +392,14 @@
 | 346 | openops-cloud/openops | ~1k | FinOps/Automação | FinOps automation no-code — workflows pré-built p/ otimizar cloud costs, tabelas Excel-like, analytics, HITL approvals, MCP server | 🎯💸🚀⚡ |
 | 347 | wiredoor/wiredoor | 1.5k | Infra/Networking | Ingress-as-a-service self-hosted — WireGuard+Nginx, expõe serviços locais p/ internet, ngrok/Cloudflare Tunnel killer | 🎯💸💎 |
 | 348 | ajnart/dcm | 1.3k | Infra/Docker | Docker Compose Maker — catálogo visual de containers, pick-click-generate compose files, self-hostable | 🎯⚡💸 |
+| 349 | Lightricks/LTX-2 | 3.4k | AI/Video Generation | Primeiro DiT audio+vídeo unificado — text/image→video com áudio sincronizado, 19B params, LoRA trainer, spatial+temporal upscaler, production-ready | 🎯💎🚀⚡ |
+| 350 | kyutai-labs/pocket-tts | 2.9k | AI/Voice | TTS que roda em CPU — 100M params, 6x real-time no MacBook, 200ms latência, voice cloning, streaming, roda no browser, MIT | 🎯💸⚡🚀 |
+| 351 | hipcityreg/situation-monitor | 2.4k | Intelligence/Dashboard | Dashboard real-time de news, mercados e geopolítica — monitoramento global, alertas, agregação multi-fonte | 🎯💎🚀 |
+| 352 | deepseek-ai/DeepSeek-OCR-2 | 1.9k | AI/Vision | Visual Causal Flow — OCR v2 com encoding visual human-like, vLLM inference, evolução do OCR-1 state-of-art, Apache-2.0 | 🎯💎⚡ |
+| 353 | QwenLM/Qwen3-ASR | 1.1k | AI/Speech | ASR multilíngue 52 idiomas — 0.6B/1.7B params, language detection, timestamp prediction, streaming, forced alignment, state-of-art open-source, Apache-2.0 | 🎯💎🚀💸 |
+| 354 | smittix/intercept | 1.1k | SIGINT/Security | Plataforma SIGINT open-source — pager decode, ADS-B, AIS, ACARS, WiFi/BT scan, Meshtastic, satellite tracking, remote agents, offline mode, MIT | 🎯💸🚀💎 |
+| 355 | 1jehuang/mermaid-rs-renderer | 749 | DevTools/Rendering | Mermaid renderer 500-1600x mais rápido — Rust puro, zero browser, font cache, flowchart/class/state/sequence, CLI, MIT | ⚡💸💎 |
 
 ---
 
-**Total:** 348 repos | **89 categorias** | Ordenado por ⭐ stars
+**Total:** 355 repos | **91 categorias** | Ordenado por ⭐ stars

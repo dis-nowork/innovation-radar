@@ -1659,3 +1659,22 @@ DCM (#348, 1.3k⭐) revela uma necessidade não-óbvia: **discovery e configura�
 **Combinação explosiva:** DCM (discovery+config) + Coolify (#3, PaaS) + Github-Store (#297, app store para releases) = **"App Store for Self-Hosted Software"** completa. Browse → click → deploy → monitor. Não existe isso hoje — é o gap mais óbvio no ecossistema self-hosted.
 
 **TAM:** 50M+ self-hosters globalmente (estimativa Synology + Proxmox + homelab communities). Se 10% pagarem $5/mês por managed catalog + one-click deploy = $300M ARR. O Umbrel tentou isso mas falhou no UX. Quem acertar ganha.
+
+---
+
+## 2026-02-02 — Edge AI & Browser Dependencies: A Morte do Chromium como Dependência
+
+### Insight #34: "CPU-First AI" Está Criando uma Nova Categoria de Produtos
+Pocket TTS (#350, 2.9k⭐) demonstra algo fundamental: **modelos de AI úteis que rodam em CPU puro, sem GPU, sem cloud**. 100M params, 6x real-time, roda no browser via WASM. Isso não é um trade-off menor — é uma nova categoria. Combinado com Qwen3-ASR (#353) que faz speech recognition multilíngue em 0.6B params, temos o building block completo para **assistentes de voz 100% locais sem nenhuma chamada de API**.
+
+**A oportunidade bilionária:** Quem montar o pipeline Pocket TTS + Qwen3-ASR + LLM local (Phi-3/Gemma) num SDK embeddable tem um "Siri/Alexa killer" que roda em qualquer hardware sem subscription. O mercado de smart home ($150B+) e wearables ($60B+) precisa desesperadamente de voz local — privacidade, latência, e custo de cloud são os 3 maiores problemas. Ninguém unificou isso ainda num SDK developer-friendly.
+
+### Insight #35: Browser Dependencies São o Próximo "Left-Pad" — E Rust Está Matando Elas
+Mermaid-rs-renderer (#355, 749⭐) consegue 500-1600x speedup simplesmente eliminando Puppeteer/Chromium. O padrão se repete: **toda ferramenta que depende de headless Chrome para rendering está 1000x mais lenta que precisa ser**. Isso vale para PDF generation, screenshot tools, social image generators, e-mail template rendering.
+
+**Gap de mercado:** Uma "rendering farm" Rust-native que substitui todas as dependências de Chromium headless. Hoje, empresas como Browserless.io cobram $200-400/mês por Chromium-as-a-service. Uma API Rust-native para render SVG/PDF/PNG seria 1000x mais rápida e 100x mais barata. Targets: CI/CD pipelines (rendering diagrams), SaaS (PDF invoices), e-commerce (product image generation).
+
+### Insight #36: SIGINT + OSINT Convergem — A "Bloomberg Terminal" Para Intelligence
+Intercept (#354, 1.1k⭐) + Situation Monitor (#351, 2.4k⭐) são duas metades do mesmo produto: **uma plataforma de intelligence que combina sinais físicos (rádio, ADS-B, WiFi) com sinais digitais (news, markets, social)**. Hoje essas ferramentas são separadas — Palantir cobra $millions, Bloomberg $24k/ano, e ferramentas SIGINT são fragmentadas.
+
+**Combinação potente:** Intercept (physical signals) + Situation Monitor (digital signals) + AI analysis (classificação automática + correlação) = **"Palantir for the rest of us"**. O timing é perfeito: SDR hardware custa <$30, LLMs locais classificam sinais, e tudo roda self-hosted. Nichos: jornalismo investigativo, maritime security, disaster response, defense contractors menores. Se empacotar como appliance (Raspberry Pi + SDR + software) a $500, com subscription de $50/mês para premium feeds + AI analysis = $100M+ ARR é viável em 3-5 anos.
