@@ -135,7 +135,13 @@
 | 114 | colanode/colanode | 4.5k | Colaboração | Slack+Notion local-first open-source — chat, pages, databases, files | 🎯💸💎 |
 | 115 | CaviraOSS/PageLM | 1.2k | Educação/AI | NotebookLM open-source — PDFs→quizzes, flashcards, podcasts, notas | 🎯💸🚀 |
 | 116 | 1Panel-dev/CordysCRM | 1.8k | CRM/AI | CRM AI open-source (Salesforce killer chinês) — 1Panel ecosystem | 🎯💸 |
+| 117 | BeehiveInnovations/pal-mcp-server | 11.0k | MCP/DevTools | Multi-model orchestration — CLI-to-CLI bridge, consensus, subagents cross-model | 🎯⚡🚀💎 |
+| 118 | hangwin/mcp-chrome | 10.2k | MCP/Browser | Chrome extension MCP — browser automation com login state, 20+ tools, semantic search | 🎯⚡💸💎 |
+| 119 | dtyq/magic | 4.5k | AI/Plataforma | All-in-one AI productivity — Agent + Workflow + IM + Collab (Slack+Notion+Zapier killer) | 🎯💸🚀 |
+| 120 | Pimzino/spec-workflow-mcp | 3.8k | MCP/DevTools | Spec-driven dev workflow — requirements→design→tasks com dashboard real-time e approval | 🎯💎⚡ |
+| 121 | nguyenphutrong/quotio | 3.3k | DevTools/AI | macOS AI quota manager — unifica Claude/Gemini/OpenAI, failover automático, proxy local | 🎯💸⚡ |
+| 122 | modelcontextprotocol/ext-apps | 1.2k | MCP/UI | MCP Apps standard — UIs interativas inline em chatbots via MCP servers (spec oficial) | 🎯🚀💎 |
 
 ---
 
-**Total:** 116 repos | **27 categorias** | Ordenado por ⭐ stars
+**Total:** 122 repos | **28 categorias** | Ordenado por ⭐ stars
