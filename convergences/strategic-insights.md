@@ -2189,3 +2189,32 @@ Nenhum SaaS faz isso de ponta a ponta. É 3 repos open-source combinados.
 
 **TAM ignorado:** 100M+ eletrodomésticos premium na Europa só Miele. Se expandir para todas as marcas + carros (OBD-II já é padrão) = mercado endereçável de centenas de milhões de devices. Modelo SaaS de €5-10/mês por household.
 
+---
+
+## Insight #92 — O Fim da "Era Silenciosa" do Vídeo AI (2 fev 2026)
+
+O gap mais óbvio e mais ignorado em AI generativa: **vídeo sem áudio**. Todo gerador de vídeo open-source (CogVideo, Wan, AnimateDiff) produz vídeo mudo. Os únicos que fazem vídeo+áudio sincronizado são Sora 2, Veo 3 e Kling — todos fechados.
+
+MOVA (OpenMOSS) é o primeiro open-source a resolver isso com arquitetura nativa bimodal (não pipeline cascadeado). Isso é transformativo porque:
+
+1. **Content creators** hoje pagam $100-300/mês em ferramentas separadas (gerador de vídeo + TTS + sincronização)
+2. **Dubbing/localization** é um mercado de $3B que depende de sincronização perfeita
+3. **Acessibilidade** (audio-description) ganha lip-sync grátis
+
+**Combinação killer:** MOVA + OpenCut + Qwen3-TTS = **studio de produção de vídeo AI completo, open-source, zero custo mensal**. Isso democratiza produção de conteúdo que hoje custa $5k+/mês em ferramentas.
+
+---
+
+## Insight #93 — A Convergência "Telefonia + AI" é o Maior Gap B2B (2 fev 2026)
+
+Asterisk/FreePBX têm **2.5M+ instalações ativas** (clínicas, escritórios, call centers, hotéis). Essas empresas gastam $500-5000/mês em voice AI platforms (Vapi, Bland.ai, Retell) que NÃO integram com telefonia existente.
+
+O Asterisk-AI-Voice-Agent resolve isso com pipeline modular (swap providers de STT/LLM/TTS), mas o verdadeiro insight é **a oportunidade de platform business**:
+
+1. **Horizontal:** Voice agent genérico para qualquer Asterisk user
+2. **Vertical templates:** Dental clinic agent, hotel booking agent, restaurant reservation agent
+3. **Marketplace:** Integrações com CRMs, ERPs, calendários
+4. **Revenue model:** $49-299/mês per agent (Vapi cobra $0.05-0.10/min = $300-600/mês para 100 chamadas/dia)
+
+**Combinação:** Asterisk AI + Step 3.5 Flash (reasoning local) + CordysCRM = **call center AI completo, self-hosted, com CRM integrado, a 1/10 do custo de soluções enterprise**. TAM: $18B contact center AI market.
+
