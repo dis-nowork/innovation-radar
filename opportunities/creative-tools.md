@@ -100,3 +100,44 @@ Ferramentas que democratizam a criação profissional de conteúdo visual, víde
 **Modelo:** Open-source extension + freemium cloud (model hosting). Enterprise: self-hosted com modelos privados.
 **Esforço:** Baixo — extension funcional, boa DX. Precisa expandir templates e conectar com design systems.
 **Combinações:** SuperDesign + Penpot = mockup AI → design refinado → código. SuperDesign + open-lovable = mock → clone → deploy. SuperDesign + Onlook = design → visual editing → production.
+
+---
+
+## Anionex/banana-slides ⭐ 11.4k
+**Link:** https://github.com/Anionex/banana-slides
+**Eixos:** 🎯💎🚀
+
+### Problema Real
+PPT é o pesadelo universal: 400M+ usuários de PowerPoint, todos odeiam fazer slides. Ferramentas AI existentes (Beautiful.ai $12/mês, Gamma $10/mês, Tome $16/mês) geram slides genéricas:
+- Templates fixos, zero personalização
+- Resultados homogêneos — todo mundo parece igual
+- Difícil iterar e modificar depois
+
+### Como Resolve
+- **Geração por imagem nativa** usando modelo banana pro — qualidade visual 10x superior a templates
+- **Upload de template arbitrário** como referência visual
+- **Modificação por voz/texto** de áreas específicas
+- **Export PPTX editável** — não te prende no app
+- Upload de materiais com parsing inteligente
+
+### Por que é 5-10x Melhor
+- **🎯 Problema real:** Todo profissional/estudante faz PPT
+- **💎 Qualidade:** Geração por imagem > templates pré-definidos. Cada slide é visualmente única
+- **🚀 Escala:** De "designers fazem slides bonitas" para "qualquer pessoa faz slides bonitas"
+
+### TAM
+- Mercado de presentation software: $8B+ em 2025
+- 400M+ usuários PowerPoint + 60M+ Google Slides
+- Empresas gastam média $500-2000/ano em ferramentas de apresentação
+
+### Modelo de Negócio
+- Freemium: X slides/mês grátis, ilimitado pago
+- Teams: templates corporativos, brand guidelines
+- API: integrar geração de slides em outros produtos
+
+### Esforço para Produtizar: Médio
+Funcional mas muito focado em chinês; needs i18n, cloud hosting, team features
+
+### Combinações
+- + VibeVoice (#76 ASR): transcreve briefing verbal → gera PPT automaticamente
+- + LangExtract (#128): extrai dados de relatórios → popula slides com dados reais

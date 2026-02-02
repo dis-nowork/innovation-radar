@@ -56,3 +56,43 @@ Google matou o Timeline gratuito e mudou para armazenamento on-device. Milhões 
 
 ### Esforço para Produtizar: Médio
 Já tem cloud, mas precisa de mobile app melhor e onboarding mais simples.
+
+---
+
+## fastrepl/hyprnote ⭐ 7.6k
+**Link:** https://github.com/fastrepl/hyprnote
+**Eixos:** 🎯💸⚡
+
+### Problema Real
+Meeting notes são um inferno: ou você toma notas e perde a conversa, ou presta atenção e esquece os detalhes. Ferramentas como Otter.ai ($16.67/mês), Fireflies ($18/mês) e Krisp ($8/mês) resolvem parcialmente, mas:
+- Adicionam bots invasivos nas chamadas
+- Dependem de cloud (privacidade zero)
+- Custo acumula ($100-200/ano por pessoa)
+
+### Como Resolve
+- **Captura de áudio local** — ouve som entrando/saindo do computador, sem bot na call
+- **Transcrição real-time** com diarização de speakers
+- **Notepad integrado** — jota enquanto ouve, AI completa o resto pós-meeting
+- **100% offline** via LM Studio ou Ollama
+- macOS hoje, Windows/Linux Q1 2026
+
+### Por que é 5-10x Melhor
+- **🎯 Problema real:** Todo knowledge worker com >3 reuniões/semana sofre isso
+- **💸 Custo:** $0 vs $100-200/ano (Otter/Fireflies)
+- **⚡ Velocidade:** Zero setup — instala via brew, não precisa conectar calendário nem integrar
+
+### TAM
+- 300M+ knowledge workers globalmente com reuniões regulares
+- Mercado de meeting intelligence: ~$3B em 2025
+- Freemium → teams → enterprise: modelo provado (Otter faz $100M+ ARR)
+
+### Modelo de Negócio
+- Open-core: versão local grátis, cloud sync + team features pagos
+- Enterprise: compliance, SSO, admin console
+
+### Esforço para Produtizar: Baixo-Médio
+App Tauri pronto, UX polida, falta Windows/Linux + team features
+
+### Combinações
+- + meeting-minutes (#144): engine Rust para transcrição + Hyprnote como UI/UX layer
+- + open-notebook (#142): resumos de meeting → knowledge base pessoal

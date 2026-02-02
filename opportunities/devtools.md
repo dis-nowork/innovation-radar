@@ -76,3 +76,79 @@ Extração documental, geração de código, TTS, MCP tooling, coding agents.
 **Modelo de negócio:** Enterprise (caching privado, audit trails, compliance), CI/CD integration pricing
 **Esforço:** Baixo-Médio — já é funcional, precisa maturar edge cases e enterprise features
 **Combinações:** Zerobrew + CI/CD platforms = setup 20x mais rápido em pipelines. Modelo "uv for everything" expandível para outros OS
+
+---
+
+## pranshuparmar/witr ⭐ 12.3k
+**Link:** https://github.com/pranshuparmar/witr
+**Eixos:** 🎯💎⚡
+
+### Problema Real
+Devs e sysadmins gastam horas debugando "por que esse processo está rodando?". Hoje correlacionam manualmente ps, top, lsof, ss, systemctl, docker ps — cada ferramenta mostra estado, mas nenhuma explica causalidade.
+
+### Como Resolve
+- Responde "Why is this running?" com uma cadeia de causalidade completa
+- Mostra de onde veio (supervisor, container, shell, service), como foi iniciado
+- Output human-readable em vez de tabelas crípticas
+- Single static binary — Linux, macOS, FreeBSD, Windows
+- Homebrew, Conda, instalação via script
+
+### Por que é 5-10x Melhor
+- **🎯 Problema real:** Todo dev/sysadmin/SRE debugou processos misteriosos
+- **💎 Qualidade:** Causalidade explícita vs inferência manual entre 5+ ferramentas
+- **⚡ Velocidade:** 1 comando vs 15min correlacionando outputs de múltiplas tools
+
+### TAM
+- 30M+ devs/sysadmins/SREs globalmente
+- Mercado de observabilidade/debugging: $20B+
+- Pode ser base de produto de debugging/observabilidade mais amplo
+
+### Modelo de Negócio
+- CLI open-source como acquisition
+- SaaS: versão web/cloud para fleet debugging
+- Enterprise: integração com observability stacks (Datadog, Grafana)
+
+### Esforço para Produtizar: Médio
+CLI maduro, falta web UI e integração com stacks de observabilidade
+
+### Combinações
+- + observabilidade tools: witr como camada de "explicabilidade" sobre Prometheus/Grafana
+- + AI: "witr + LLM" = debugging assistant que não só mostra causalidade mas sugere fix
+
+---
+
+## sagekit/magnitude ⭐ 3.9k
+**Link:** https://github.com/sagekit/magnitude
+**Eixos:** 🎯💎⚡
+
+### Problema Real
+Browser automation é frágil — seletores CSS/XPath quebram, manutenção de testes é um pesadelo, e integrar apps sem API requer scraping. Playwright/Selenium resolvem parcialmente mas precisam de código muito específico.
+
+### Como Resolve
+- **Vision-first**: usa modelos visuais (Claude Sonnet 4) para "ver" a interface
+- **94% no WebVoyager** — state-of-the-art em browser benchmarks
+- **API intuitiva**: `agent.act("Create a task", { data: {...} })`
+- **Test runner built-in** com visual assertions ("a página parece correta?")
+- **Extração estruturada** com schemas Zod
+
+### Por que é 5-10x Melhor
+- **🎯 Problema real:** Browser testing/automation é dor universal em eng
+- **💎 Qualidade:** 94% accuracy vs ~60-70% de agents baseados em DOM
+- **⚡ Velocidade:** Natural language vs CSS selectors = 10x menos código de manutenção
+
+### TAM
+- Mercado de test automation: $25B+ em 2025
+- RPA (browser automation): $15B+
+- Data extraction/scraping: $5B+
+
+### Modelo de Negócio
+- Open-core: SDK grátis, cloud execution pago
+- Enterprise: CI/CD integration, parallelism, team management
+- API: browser automation as a service
+
+### Esforço para Produtizar: Médio
+SDK funcional, precisa cloud infra e dashboard de test results
+
+### Combinações
+- + browser-use (#1): magnitude como test/verification layer sobre browser-use automations
+- + witr (#153): debug de processos + browser agent = full stack observability/automation

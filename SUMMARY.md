@@ -176,6 +176,12 @@
 | 150 | Dataherald/dataherald | 3.6k | AI/Data Analysis | NL-to-SQL enterprise — fine-tuning contínuo, contexto organizacional, API REST | 🎯💎⚡ |
 | 151 | frappe/books | 4.1k | Fintech/Contabilidade | Contabilidade desktop open-source — offline-first, bonito, pra PMEs (Frappe ecosystem) | 🎯💸 |
 
+| 152 | zai-org/Open-AutoGLM | 23.0k | AI/Mobile Agent | Phone Agent open-source — controla Android/HarmonyOS via NL, modelo 9B multilingual, ADB automation | 🎯⚡🚀💎 |
+| 153 | pranshuparmar/witr | 12.3k | DevTools/Debug | "Why is this running?" — explica causalidade de processos/serviços, elimina correlação manual entre ps/lsof/systemctl | 🎯💎⚡ |
+| 154 | Anionex/banana-slides | 11.4k | Creative Tools/PPT | AI PPT nativo com geração por imagem — upload de template arbitrário, modificação por voz, export PPTX editável | 🎯💎🚀 |
+| 155 | fastrepl/hyprnote | 7.6k | Produtividade/Meetings | Notepad AI local-first p/ reuniões — sem bot na call, transcrição real-time, resumo pós-meeting, 100% offline | 🎯💸⚡ |
+| 156 | sagekit/magnitude | 3.9k | AI/Browser Agent | Browser agent vision-first — 94% WebVoyager, extração estruturada, test runner com visual assertions | 🎯💎⚡ |
+
 ---
 
-**Total:** 151 repos | **32 categorias** | Ordenado por ⭐ stars
+**Total:** 156 repos | **32 categorias** | Ordenado por ⭐ stars

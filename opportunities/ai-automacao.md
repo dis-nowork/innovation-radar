@@ -164,3 +164,47 @@ Agentes, automação de browser, workflows inteligentes.
 **Esforço:** Alto — jovem (559 stars), arquitetura sólida, precisa crescer
 
 ---
+
+---
+
+## zai-org/Open-AutoGLM ⭐ 23.0k
+**Link:** https://github.com/zai-org/Open-AutoGLM
+**Eixos:** 🎯⚡🚀💎 (4 eixos!)
+
+### Problema Real
+Bilhões de pessoas usam smartphones mas dependem de toque manual para tudo. Automação mobile hoje é caro (Appium é complexo), frágil (coordenadas fixas), e requer dev skills. Assistentes como Siri/Google Assistant fazem muito pouco — abrem apps, não executam tarefas complexas.
+
+### Como Resolve
+- **Phone Agent** que controla Android e HarmonyOS via linguagem natural
+- Modelo 9B especializado (multilingual: chinês + inglês)
+- Usa ADB para controle — screen understanding multimodal
+- "Abre Xiaohongshu e busca receitas" → executa automaticamente
+- Confirmação de segurança em ações sensíveis
+- Suporte remoto via WiFi ADB
+- Integração com Midscene.js para iOS/Android automation SDK
+
+### Por que é 5-10x Melhor
+- **🎯 Problema real:** 5B+ smartphones, automação mobile é universalmente desejada
+- **⚡ Velocidade:** Linguagem natural vs 20 toques manuais por tarefa
+- **🚀 Escala:** De "só devs automatizam phones" para "qualquer pessoa automatiza"
+- **💎 Qualidade:** Modelo especializado em phone UI > general purpose LLM + prompt
+
+### TAM
+- 5B+ smartphones globalmente
+- Mercado de RPA mobile: $5B+ e crescendo 30%/ano
+- Accessibility market: $10B+ (idosos, PCD)
+- Enterprise mobile automation: $8B+
+
+### Modelo de Negócio
+- Open-source modelo base, cloud API premium
+- Enterprise: fleet management, compliance, auditoria
+- Consumer: "AI assistant pro" subscription
+- Accessibility: parcerias com governos/ONGs
+
+### Esforço para Produtizar: Alto
+Modelo funcional mas focado em ecossistema chinês. Precisa: suporte iOS nativo, UX consumer-friendly, app distribution (Play Store), cloud inference
+
+### Combinações
+- + VibeVoice (#76): voice command → phone automation = hands-free phone control
+- + browser-use (#1): phone agent + browser agent = automação cross-platform total
+- + Hyprnote (#155): durante meeting no phone, agent toma notas e executa follow-ups

@@ -472,3 +472,37 @@ Assim como Twenty (#5, 39k⭐) e Chatwoot (#7, 27k⭐) provaram que CRM/atendime
 - Lago: billing usage-based se vender SaaS/API
 
 Custo: $0/mês self-hosted vs $300-5000/mês pagando QuickBooks + Tableau + Stripe Billing.
+
+## 🔮 Insight #24 — O Triângulo da Automação Total: Phone + Browser + Voice
+
+Três repos que, combinados, criam o assistente pessoal definitivo:
+
+| Camada | Repo | O que faz |
+|---|---|---|
+| 📱 Mobile | Open-AutoGLM (#152, 23k⭐) | Controla qualquer app no smartphone via NL |
+| 🌐 Browser | Magnitude (#156, 3.9k⭐) / browser-use (#1, 77k⭐) | Controla qualquer site via vision AI |
+| 🎙️ Voice | VibeVoice (#76, 23k⭐) | Input/output por voz em 50+ idiomas |
+
+**A convergência:** Imagine dizer "Agenda a reunião com o João para terça às 15h, manda um WhatsApp confirmando, e prepara um slide com os resultados do Q4".
+
+O voice agent captura → o phone agent agenda e manda WhatsApp → o browser agent puxa dados → banana-slides (#154) gera o PPT.
+
+**Por que agora:** Modelos de phone automation (AutoGLM 9B) e browser vision (Magnitude 94% accuracy) atingiram precisão suficiente para uso real. Voice AI (VibeVoice) processa 60min em um passe. As peças estão prontas — falta o orquestrador.
+
+**TAM combinado:** Assistentes pessoais AI: $30B+ em 2027 (estimativa). Quem montar esse stack primeiro captura mercado de $100-500/mês per user.
+
+## 🔮 Insight #25 — "Explain, Don't Just Show": a era da causalidade em ferramentas dev
+
+witr (#153, 12.3k⭐) sinaliza uma tendência profunda: devs não querem mais dashboards — querem **explicações**.
+
+Ferramentas tradicionais mostram *estado* (CPU 80%, 42 processos, porta 8080 ocupada). A nova onda mostra *por quê*:
+- **witr**: "Este processo existe porque systemd o iniciou via docker-compose que foi triggered por um deploy hook"
+- **Magnitude**: "O teste falhou porque o botão mudou de posição após o redesign"
+- **Graphiti (#91)**: "O agente tomou essa decisão porque o knowledge graph associou X com Y"
+
+**O padrão emergente:** Toda categoria de tooling vai ganhar uma camada de **explicabilidade causal**:
+- Monitoring → "Why is this slow?" (não "what is slow")
+- Security → "Why did this happen?" (não "what happened")
+- Data → "Why did this metric change?" (não "metric changed")
+
+**Oportunidade:** Criar um framework de "causal explanations" genérico que qualquer ferramenta de observabilidade/debugging pode plugar. O witr é CLI-only hoje, mas a abstração de causalidade é universalmente aplicável.
