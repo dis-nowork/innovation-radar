@@ -259,6 +259,14 @@
 | 226 | Gururagavendra/gmail-cleaner | 1.7k | Produtividade/Email | Gmail bulk cleanup 100% local — unsubscribe em massa, delete por sender, labels, export CSV, privacy-first | 🎯💸⚡ |
 | 227 | firecrawl/open-scouts | 1.2k | Monitoramento/AI | Scouts AI que monitoram a web 24/7 — busca contínua + alertas por email, Firecrawl + pgvector, by Firecrawl team | 🎯⚡🚀 |
 
+| 228 | antvis/Infographic | 4.2k | Creative Tools/Data Viz | Framework de infográficos AI — NL→infográfico profissional, ~200 templates, SVG, streaming, editor built-in (AntV ecosystem) | 🎯⚡💸🚀 |
+| 229 | HKUDS/RAG-Anything | 12.5k | AI/RAG Multimodal | RAG all-in-one — text+images+tables+equations+charts num pipeline unificado, VLM Enhanced Query, built on LightRAG | 🎯💎⚡ |
+| 230 | Tencent/WeKnora | 12.7k | AI/Knowledge Enterprise | Document understanding + RAG enterprise by Tencent — Agent mode ReACT, MCP tools, web search, multi-tenant, auth nativo | 🎯💎🚀 |
+| 231 | KeygraphHQ/shannon | 4.2k | Security/AI Pentest | AI pentester autônomo — 96.15% XBOW benchmark, 2FA/TOTP, PoCs reais, Keygraph compliance platform (SOC2/HIPAA) | 🎯💎⚡ |
+| 232 | growchief/growchief | 3.3k | Marketing/Outreach | Social media outreach automation — LinkedIn/X, API-first, n8n node, PhantomBuster/Expandi killer ($100-400/mês→$0) | 🎯💸🚀 |
+| 233 | deta/surf | 3.1k | Produtividade/Research | AI notebook pessoal — @-mention arquivos/web/PDF/YouTube, citations com deeplinks, applet gen, Svelte+Rust, local-first | 🎯💎 |
+| 234 | hellodigua/ChatLab | 4.1k | AI/Personal Data | Análise de histórico de chat local-first — SQL + AI Agents, WeChat/Telegram/WhatsApp, visualizações de padrões sociais | 🎯💸 |
+
 ---
 
-**Total:** 227 repos | **50 categorias** | Ordenado por ⭐ stars
+**Total:** 234 repos | **51 categorias** | Ordenado por ⭐ stars

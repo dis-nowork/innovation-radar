@@ -920,3 +920,86 @@ SparkyFitness (2.1k⭐, fitness para famílias) + Colanode (#206, 4.5k⭐, Slack
 **O insight econômico:** Uma família de 4 com MyFitnessPal ($320/ano) + Notion ($480/ano) + iCloud+ ($120/ano) gasta >$900/ano em SaaS. Self-hosted equivalente: $5-10/mês no servidor ($60-120/ano). Economia de 7-8x.
 
 **O gap:** Ninguém construiu o "Family Server OS" — uma plataforma que empacota fitness tracking + wiki/notes + file sync + photo backup numa instalação única otimizada para famílias. Think Umbrel/CasaOS mas focado em consumo familiar, não em crypto/homelab nerd.
+
+---
+
+## 2026-02-02 — Content Intelligence, Social Automation & Knowledge Synthesis
+
+### Insight #36: "Infographic-as-a-Service" é o next Canva vertical
+AntV Infographic (4.2k⭐, by Ant Group) prova que infográficos podem ser gerados programaticamente com NL + templates. A importância disso vai além de "mais um design tool":
+
+**O insight central:** Infográficos são a **interface visual da inteligência de dados**. Toda pipeline de BI/analytics termina com "apresentar dados bonitos para stakeholders". Hoje isso requer Canva Pro ($13/mês) + habilidade de design + horas de trabalho manual. Amanhã: `query → data → infographic`, automático.
+
+**Combinação killer que ninguém montou:**
+1. **WrenAI** (#148) — NL → SQL → dados
+2. **AntV Infographic** (#228) — dados → infográfico profissional
+3. **Evidence** (#149) — infraestrutura de BI-as-code
+4. **BillionMail** (#87) — distribuição por email
+
+Pipeline: "Gere relatório semanal de vendas" → query automática → infográfico bonito → email para stakeholders. **Zero intervenção humana.** Hoje isso leva 2-4 horas/semana de um analista. Automação = 🎯⚡💸🚀 — 4 eixos.
+
+**TAM vertical:** Só o mercado de "automated reporting" é $4B+. Infographics como layer visual multiplica o TAM para $8B+.
+
+### Insight #37: RAG Multimodal está matando o "text-only RAG" — e o mercado não percebeu
+RAG-Anything (12.5k⭐) e WeKnora (12.7k⭐, Tencent) mostram que **RAG text-only é a versão "feature phone" do retrieval**. Documentos reais têm 40-60% de conteúdo em tabelas, figuras e gráficos. Text-only RAG simplesmente ignora metade da informação.
+
+**O padrão emergente:**
+- **2024:** RAG = chunking de texto + vector similarity → Pinecone, Chroma, etc.
+- **2025:** RAG multimodal = text + images + tables + equations em pipeline unificado → RAG-Anything, WeKnora
+- **2026:** RAG agentic = multimodal + reasoning + tools + web search → WeKnora Agent mode
+
+**Implicação para negócios:** Todo SaaS que vendeu "RAG solution" com text-only está obsoleto. Empresas com docs ricos (finance, healthcare, legal, engineering) precisam de multimodal RAG como baseline.
+
+**A convergência letal:** RAG-Anything (multimodal retrieval) + WeKnora (enterprise features: auth, multi-tenant, MCP) + Docling (#89, universal parser) = **Enterprise RAG Platform** que compete com $1M+ implementations de consulting firms. Preço: self-hosted grátis ou managed a $1-5k/mês vs $100-500k de projetos customizados.
+
+**Quem sofre:** Consulting firms que cobram $200-500/hora para implementar RAG customizado. O mercado vai do "projeto de 6 meses" para "deploy em 1 dia".
+
+### Insight #38: "Social Graph Intelligence" — o ChatLab/ScreenPipe pattern
+ChatLab (4.1k⭐) cristaliza algo novo: **seus dados sociais são o dataset mais valioso que você tem, e ninguém ajuda você a extrair valor deles**.
+
+Pense no que existe nas suas conversas de chat:
+- Quem são seus contatos mais frequentes (social graph real, não LinkedIn connections)
+- Que assuntos são discutidos com quem (knowledge routing)
+- Padrões emocionais e de atividade (quando você responde mais/menos)
+- Decisões tomadas e commitments feitos (accountability)
+
+**A convergência com memória AI:**
+- **ChatLab** (analisa chat history) + **ScreenPipe** (#86, grava tela) + **Memvid/Supermemory** (#123/#200, memória persistente) = **Personal Intelligence Engine** que sabe tudo sobre suas interações digitais, 100% local.
+
+**Modelo de negócio:** Este é um play de infraestrutura, não de app consumer:
+- **API layer:** "Query your digital life" — devs integram para criar apps de produtividade
+- **Enterprise:** "Employee communication analytics" — compliance, produtividade, sentiment
+- **Consumer:** "Digital memory assistant" — "o que o João me pediu na terça passada?"
+
+**TAM combinado:** Personal productivity ($10B) + enterprise communication analytics ($5B) + compliance ($3B) = **$18B+**
+
+### Insight #39: A "Outreach Automation Stack" open-source está se consolidando
+GrowChief (3.3k⭐) se junta a Postiz (#8, 26k⭐) e Mautic (#24, 9.1k⭐) para formar a primeira stack completa de growth marketing open-source:
+
+| Camada | Incumbente | OS Alternative | Preço incumbente |
+|--------|-----------|---------------|-----------------|
+| Social Scheduling | Buffer/Hootsuite | Postiz (26k⭐) | $15-100/mês |
+| Outreach/DM | PhantomBuster/Expandi | GrowChief (3.3k⭐) | $56-400/mês |
+| Email Marketing | Mailchimp/ActiveCampaign | BillionMail (#87)/Mautic | $50-500/mês |
+| Forms/Surveys | Typeform/SurveyMonkey | HeyForm (#61)/Formbricks (#25) | $25-100/mês |
+| Analytics | Mixpanel/Amplitude | Rybbit (#20)/OpenPanel (#40) | $25-2000/mês |
+
+**Custo total incumbente:** $171-3100/mês = **$2052-37200/ano**
+**Custo total open-source:** $5-15/mês de servidor = **$60-180/ano**
+
+**Economia: 10-200x.** Isso não é otimização — é mudança de categoria. PMEs e solopreneurs que antes não podiam pagar growth tools agora podem. O mercado endereçável CRESCE porque o custo caiu.
+
+**O gap:** Ninguém construiu o **"Growth OS" unificado** que integra scheduling + outreach + email + forms + analytics numa UI. Cada tool é um silo. Quem fizer a integração tem o próximo HubSpot open-source. TAM: $20B+.
+
+### Insight #40: "Research Notebooks" são o novo IDE — e vão redefinir knowledge work
+Deta Surf (3.1k⭐), Open Notebook (#75, 19.1k⭐), e Khoj (#77, 32.4k⭐) estão convergindo para uma nova categoria: **AI-native research environment**. A analogia: IDEs transformaram coding ao integrar editor + terminal + debugger + git. Research notebooks estão integrando notas + fontes + AI + citations.
+
+**O que Surf faz diferente:**
+- @-mention funciona para QUALQUER mídia (PDF, YouTube, tweet, arquivo local)
+- Citations com deeplinks (timestamp de vídeo, página de PDF, seção de webpage)
+- Applet generation (cria mini-apps dentro do notebook)
+- Local-first, open data formats (SFFS)
+
+**A mega-oportunidade:** Quem construir o "VS Code of Research" — extensível, com marketplace de plugins, community-driven — captura o mercado de knowledge workers ($500B TAM global). A diferença entre Surf e chatbots (ChatGPT, Claude) é que **Surf mantém o humano no centro do raciocínio**, usando AI como assistente contextual, não como substituto.
+
+**Combinação:** Surf (research UI) + RAG-Anything (#229, multimodal retrieval) + Graphiti (#91, knowledge graph) + AntV Infographic (#228, visualization) = **Research Platform** onde buscar, ler, sintetizar, visualizar e publicar acontece num único ambiente. Nenhuma universidade, think tank ou consulting firm tem isso hoje.
