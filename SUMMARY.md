@@ -334,6 +334,11 @@
 | 295 | blinkospace/blinko | 9.3k | AI/Notas | AI note-taking self-hosted — quick capture, semantic search, AI summaries, timeline-based, Ollama support | 🎯💸💎 |
 | 296 | originalankur/maptoposter | 8.8k | Creative Tools/Print | Gerador de map posters minimalistas — 15+ temas, qualquer cidade, alta resolução, OpenStreetMap, MIT | 🎯💸🚀 |
 | 297 | rainxchzed/Github-Store | 6.0k | Distribuição/App Store | App store p/ GitHub releases — descoberta+install one-click, cross-platform (Android+Desktop), Apache-2.0 | 🎯💎🚀 |
+| 298 | sansan0/TrendRadar | 45.3k | Inteligência/Monitoramento | AI trend monitor & social listening — multi-platform aggregation, RSS, MCP, smart alerts, Docker, 10+ push channels | 🎯💸⚡🚀 |
+| 299 | 666ghj/BettaFish | 35.2k | Inteligência/Monitoramento | Multi-agent public opinion analysis — 30+ social platforms, multimodal, forum debate mechanism, GraphRAG reports | 🎯💎⚡🚀 |
+| 300 | TecharoHQ/anubis | 16.6k | Security/Infra | Web AI Firewall — proof-of-work challenges to stop AI crawlers, reverse proxy, bot policy definitions, Go | 🎯💸🚀 |
+| 301 | Zackriya-Solutions/meeting-minutes | 9.6k | Produtividade/Meeting AI | Privacy-first AI meeting assistant — local Whisper/Parakeet transcription, speaker diarization, Ollama summaries, Rust | 🎯💸💎 |
+| 302 | feder-cr/Jobs_Applier_AI_Agent_AIHawk | 29.3k | Automação/Carreira | AI job application agent — automated tailored applications, featured in TechCrunch/Wired/Verge, Python | 🎯⚡🚀 |
 
 ---
 

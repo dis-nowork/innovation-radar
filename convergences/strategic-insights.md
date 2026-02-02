@@ -1279,3 +1279,30 @@ Osaurus (3.2k⭐) cristaliza um padrão emergente: **o valor não está no app d
 Quem dominar o runtime de desktop AI será o "Docker de AI" — infrastructure invisível mas onipresente. O modelo de negócio: grátis para individual, pago para fleet management enterprise ($10-50/device/mês).
 
 **TAM:** 1.5B+ desktops × eventual 30%+ penetração AI × $5-50/mês = mercado de $27-270B/ano. Mesmo capturando 1% = $270M-2.7B.
+
+### Insight #60: "Intelligence Stack" — a camada de inteligência que toda empresa vai precisar
+TrendRadar (45.3k⭐) e BettaFish (35.2k⭐) revelam um padrão massivo: **monitoramento de informação está se commoditizando via AI**. O que custava $50k/ano em Brandwatch/Meltwater agora roda em Docker grátis.
+
+**O stack de inteligência emergente:**
+1. **Capture Layer** (TrendRadar): Agrega dados de 30+ plataformas em real-time
+2. **Analysis Layer** (BettaFish): Multi-agent deep analysis com debate e GraphRAG
+3. **Action Layer** (não existe ainda): Trigger automático de ações baseado em insights
+
+**O gap matador:** Ninguém conectou capture → analysis → action num produto integrado. Imagine: TrendRadar detecta crise de reputação → BettaFish analisa profundidade → automaticamente aciona equipe de PR via Chatwoot + gera draft de resposta. Esse "Intelligence-to-Action" pipeline é o negócio mais óbvio não-construído em PR/marketing.
+
+**Paralelo:** É o mesmo padrão de observabilidade de infra (Prometheus capture → Grafana visualize → PagerDuty action), mas para **inteligência de negócios em tempo real**.
+
+**TAM combinado:** Social listening ($6B) + brand management ($8B) + crisis management ($5B) = $19B+ mercado com incumbentes caros e lentos.
+
+### Insight #61: "AI Defense Layer" está se tornando infra obrigatória
+Anubis (16.6k⭐, criado em março 2025) cresceu explosivamente porque resolve uma dor urgente: **AI crawlers estão matando a internet aberta**. SafeLine WAF (20.5k⭐) complementa no lado de ataques tradicionais.
+
+**A bifurcação que está acontecendo:**
+- **Anti-humano:** WAFs tradicionais (ModSecurity, SafeLine) — contra hackers
+- **Anti-AI:** Nova categoria (Anubis, robots.txt enforcement) — contra crawlers de AI
+
+Essas são preocupações DIFERENTES que precisam de soluções DIFERENTES. Quem integrar ambas num produto unificado — "Complete Web Defense" — captura dois mercados.
+
+**O insight não-óbvio:** O custo de NOT ter proteção anti-AI-crawler está crescendo exponencialmente. Sites como Wikipedia e StackOverflow já sentem o impacto. Para a "small internet" (blogs, fóruns, wikis), é existencial. O mercado potencial são os **200M+ de websites ativos** que precisarão dessa proteção nos próximos 2-3 anos.
+
+**Combinação explosiva:** Anubis (anti-AI) + SafeLine (anti-attack) + Coolify/Dokploy (PaaS) = "Fortified Hosting" — plataforma de hosting que vem com defense built-in. Esse é o próximo Cloudflare, mas self-hosted.
