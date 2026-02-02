@@ -1031,3 +1031,37 @@ daily_stock_analysis (#246) roda inteiramente no GitHub Actions + Gemini free ti
 **Padrão emergente:** Repos como gmail-cleaner (#226, 100% local), qmd (#247, all local GGUF), e agora daily_stock_analysis estão provando que **infra-free SaaS** é viável para certas categorias. O modelo de negócio muda: em vez de cobrir custos de servidor, monetiza conveniência, features premium, e enterprise support.
 
 **Implicação estratégica:** Qualquer SaaS cujo core processing pode rodar em CI/CD gratuito (GitHub Actions, Cloudflare Workers free tier) ou no device do usuário está vulnerável a ser disruptado por um projeto open-source zero-cost. As categorias mais expostas: analytics pessoais, monitoring simples, automações periódicas, geração de relatórios.
+
+### Insight #44: MCP é o "USB-C do AI" — e quem domina o middleware ganha o ecossistema
+O ecossistema MCP explodiu silenciosamente: Context7 (#252, 44.4k⭐), FastMCP (#253, 22.5k⭐), Serena (#254, 19.6k⭐), Figma-Context-MCP (#255, 12.9k⭐), genai-toolbox (#256, 12.7k⭐). Cada um resolve uma faceta diferente do mesmo problema: **como conectar LLMs ao mundo real**.
+
+**O padrão histórico:** Quem controlou a camada de integração ganhou o ecossistema:
+- Stripe controlou payments → billing → commerce
+- Twilio controlou messaging → communications platform
+- Zapier controlou automação → workflow platform
+
+**MCP está fazendo o mesmo para AI.** Mas diferente dos anteriores (centralizados), MCP é um protocolo aberto. Isso cria oportunidade para múltiplos winners em camadas diferentes:
+- **Infra layer:** FastMCP (framework), genai-toolbox (databases)
+- **Knowledge layer:** Context7 (docs), Serena (code understanding)
+- **Interface layer:** Figma-MCP (design), mcp-chrome (browser), playwright-mcp (testing)
+
+**Oportunidade de negócio:** Ninguém construiu ainda o **"MCP App Store"** — um registry + marketplace onde empresas publicam MCPs certificados e cobram por uso. O modelcontextprotocol/registry (6.3k⭐) é comunitário e grátis. O primeiro a fazer um registry COMERCIAL (com billing, SLAs, security audit) captura o middleware tax do ecossistema AI inteiro.
+
+### Insight #45: O "AI Testing Gap" é o próximo mercado de $10B+
+Shortest (#257, 5.5k⭐) revelou algo profundo: **testes escritos em linguagem natural são inevitáveis**. Mas o mercado está nascendo e fragmentado.
+
+**O gap:** Existem 3 categorias de testing AI que ninguém unificou:
+1. **E2E Testing** (Shortest, Playwright-MCP): Testa UI via linguagem natural
+2. **Code Review** (kodus-ai, 890⭐): Analisa PRs com AI
+3. **Visual Testing** (Figma-MCP → compare design vs implementation): Pixel-diff AI
+
+**Ninguém construiu o "AI QA Platform" completo** que faz os 3. Imagine: dev faz PR → AI revisa código → AI roda testes E2E em linguagem natural → AI compara visual com Figma design → aprovação automática se tudo passa. Isso elimina 80% do trabalho de QA humano.
+
+**TAM:** QA market é $50B+. DevOps testing tools (Datadog Synthetics, BrowserStack, LambdaTest) cobram $100-2000/mês. Uma plataforma AI-native que faz tudo seria 5x mais barata e 10x mais rápida.
+
+### Insight #46: "Vertical SaaS" open-source NÃO funciona — mas "Horizontal tools + vertical templates" SIM
+A pesquisa por alternativas open-source a software vertical (property management, restaurant, legal, construction) revelou um padrão claro: **repos verticais morrem**. O melhor de property management tem 925⭐. Restaurant POS tem 9⭐. Legal practice: 0⭐.
+
+**Por que:** Software vertical precisa de domain expertise profundo + suporte + compliance específico. Open-source não entrega isso. Mas a COMBINAÇÃO de ferramentas horizontais (Twenty CRM + Lago billing + ActivePieces automação) com **templates verticais** (pré-configurações para cada indústria) funciona.
+
+**Oportunidade:** Em vez de construir um "Restaurant SaaS open-source", construa um **"Industry Template Marketplace"** que combina repos horizontais já maduros (20+ no nosso radar com 5k+ ⭐) e vende templates de configuração por indústria. Custo marginal zero, escala infinita.

@@ -282,6 +282,15 @@
 | 248 | Maxteabag/sqlit | 3.5k | Dev Tools/Database TUI | "lazygit de SQL databases" — TUI Python, 20+ databases, Docker discovery, SSH tunnels, vim keybinds, autocomplete, keyring seguro, MIT | 🎯💸💎⚡ |
 | 249 | pranshuparmar/witr | 12.3k | Dev Tools/Observability | "Why is this running?" — explica causalidade de processos (não só estado), cross-platform Go binary, resposta única human-readable, Apache-2.0 | 🎯💎⚡ |
 
+| 250 | OpenCut-app/OpenCut | 45.4k | Creative Tools | Editor de vídeo open-source (CapCut killer) — web+desktop+mobile, timeline, multi-track, sem watermark, Next.js | 🎯💸💎🚀 |
+| 251 | sansan0/TrendRadar | 45.3k | Inteligência/Monitoring | Monitor AI de tendências e opinião pública — multi-plataforma, RSS, MCP, push Telegram/WeChat/Slack, Docker, self-hosted | 🎯💸📈🚀 |
+| 252 | upstash/context7 | 44.4k | MCP/DevTools | Docs atualizados em tempo real pra LLMs via MCP — elimina alucinações de API, version-specific, integra Cursor/Claude Code | 🎯💎⚡ |
+| 253 | jlowin/fastmcp | 22.5k | MCP/Framework | Framework Pythônico pra criar MCP servers+clients — rapid prototyping, composable, mounting de sub-servers | 🎯⚡🚀 |
+| 254 | oraios/serena | 19.6k | MCP/Coding | Toolkit IDE-like pra coding agents via MCP — retrieval semântico por symbol, edição precisa, economiza tokens 10x | 🎯💎⚡💸 |
+| 255 | GLips/Figma-Context-MCP | 12.9k | MCP/Design-to-Code | MCP que traduz layouts Figma pra AI coding agents — one-shot UI implementation, metadata simplificado | 🎯⚡💎🚀 |
+| 256 | googleapis/genai-toolbox | 12.7k | MCP/Database | MCP server pra databases (20+ engines) — connection pooling, auth, observability, Google-backed | 🎯⚡💸 |
+| 257 | antiwork/shortest | 5.5k | DevTools/Testing | QA via linguagem natural — testes E2E escritos em inglês, Anthropic Claude + Playwright, callbacks pra DB validation | 🎯⚡🚀 |
+
 ---
 
-**Total:** 249 repos | **55 categorias** | Ordenado por ⭐ stars
+**Total:** 257 repos | **57 categorias** | Ordenado por ⭐ stars
