@@ -408,7 +408,7 @@
 
 ---
 
-**Total:** 368 repos | **95 categorias** | Ordenado por ⭐ stars
+**Total:** 393 repos | **97 categorias** | Ordenado por ⭐ stars
 
 | 362 | eigent-ai/eigent | 11.9k | AI/Workforce | Cowork desktop open-source — multi-agent workforce, MCP, parallel execution, SSO, local deploy, CAMEL-AI powered, Apache-2.0 | 🎯💸🚀💎 |
 | 363 | rednote-hilab/dots.ocr | 7.1k | AI/Document Parsing | OCR+layout VLM unificado 1.7B — SOTA em OmniDocBench, multilíngue, prompts switcham tasks, RedNote (Xiaohongshu), MIT | 🎯💎⚡💸 |
@@ -437,3 +437,9 @@
 | 385 | ruvnet/wifi-densepose | 5.5k | IoT/Sensing | Human pose estimation via WiFi — sem câmera, through walls, 54K fps (Rust), 10 pessoas simultâneas, fall detection, healthcare/fitness/smart home | 🎯💎⚡🚀 |
 | 386 | oceanbase/seekdb | 2.3k | AI/Database | AI-native search DB embeddable — unifica vector+text+structured+JSON+GIS, hybrid search, in-database AI workflows, C++, by OceanBase/Ant Group | 🎯💎⚡💸 |
 | 387 | Mirix-AI/MIRIX | 3.5k | AI/Agent Memory | Multi-agent memory system — 6 tipos de memória (Core/Episodic/Semantic/Procedural/Resource/Knowledge), screen tracking, PostgreSQL BM25+vector, paper publicado | 🎯💎🚀 |
+| 388 | Universal-Commerce-Protocol/ucp | 2.2k | E-Commerce/Protocol | Protocolo aberto p/ comércio agentic — discovery, checkout, pagamento, identidade, transport-agnostic (REST/MCP/A2A), SDKs, Apache-2.0 | 🎯🚀📈 |
+| 389 | z-libs/Zen-C | 3.7k | Languages/Systems | Linguagem moderna que compila p/ C — type inference, pattern matching, generics, traits, async/await, RAII, 100% ABI-compatible, LSP+REPL, MIT | 💎⚡💸 |
+| 390 | FezVrasta/cafe-hass | 1.1k | IoT/Smart Home | Visual flow editor p/ Home Assistant — Node-RED power sem engine externo, transpila p/ YAML nativo, zero overhead, trace integration, HACS, MIT | 🎯💎💸 |
+| 391 | likaia/nginxpulse | 1.9k | Infra/Observabilidade | Nginx log analytics lightweight — real-time stats, IP geolocation, PV filter, client parsing, mobile UI, Go+Vue3+PostgreSQL, Docker, MIT | 🎯💸⚡ |
+| 392 | x011/smtp-tunnel-proxy | 1.3k | Security/Privacy | Tunnel TCP disfarçado de SMTP — bypassa DPI firewalls, TLS 1.2+, SOCKS5 proxy, multi-user, multiplexing, auto-reconnect, Python, GPL-3.0 | 🎯💎🚀 |
+| 393 | invoicerr-app/invoicerr | 608 | Produtividade/Freelancer | App de faturamento p/ freelancers — quotes→invoices, assinaturas digitais, PDF gen, SMTP emails, plugin system, React+NestJS+Prisma, AGPL-3.0 | 🎯💸 |

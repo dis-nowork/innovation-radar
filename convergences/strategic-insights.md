@@ -1902,3 +1902,31 @@ UnoPim (#384, 8.5k⭐) expõe o maior gap do ecossistema open-source: **ferramen
 **O gap é ENORME.** E-commerce movimenta $6.3 trillion/ano e o backend é dominado por Shopify (hosting lock-in), SAP/Oracle (enterprise), ou planilhas Excel (PMEs). Um "E-Commerce Operations OS" open-source que combine UnoPim (catálogo) + InvenTree (#311, inventário) + Fleetbase (#54, logística) + Lago (#68, billing) teria TAM de $15B+.
 
 **A oportunidade para LATAM é particularmente rica:** O e-commerce brasileiro cresce 20%+ ao ano, mas PMEs dependem de Bling/Tiny (limitados) ou sistemas manuais. UnoPim + integrações com MercadoLivre, Shopee, Magalu, B2W = killer app regional.
+
+### Insight #50: "Agentic Commerce" precisa de um protocolo — e UCP é o candidato mais sério
+O Universal Commerce Protocol (#388, 2.2k⭐) é o sinal mais claro de que **comércio agentic está saindo do hype para infraestrutura**. O padrão que está emergindo:
+- **MCP** (Anthropic) padronizou como agents usam ferramentas
+- **A2A** (Google) padronizou como agents falam entre si
+- **UCP** padroniza como agents **compram e vendem**
+
+A tríade MCP + A2A + UCP é para AI agents o que HTTP + SMTP + FTP foi para a web. Cada um resolve um eixo de comunicação diferente. O timing é perfeito: AI agents já navegam (browser-use), já acessam APIs (MCP), mas ainda não têm protocolo para transações comerciais.
+
+**Oportunidade concreta:** Quem criar o **primeiro "Stripe for Agentic Commerce"** — uma plataforma que implementa UCP + payments + fulfillment para AI agents — captura o middleware layer de um mercado de $6T+.
+
+**Combinação explosiva:** UCP (#388) + UnoPim (#384, catálogo) + Lago (#68, billing) + semantic-router (#383, routing) = **e-commerce stack autônomo onde agents compram entre si sem intervenção humana.**
+
+### Insight #51: "O Freelancer Stack" — a oportunidade de $10B que ninguém montou
+Freelancers são 1.5B pessoas pagando $200-600/ano em ferramentas fragmentadas: faturamento (FreshBooks $264/ano), scheduling (Calendly $144/ano), contracts (Bonsai $300/ano), project management (Monday $108/ano), etc. **Total: ~$800/ano por freelancer em SaaS.**
+
+Os repos open-source que substituem cada peça já existem:
+- **Invoicerr** (#393) — faturamento
+- **Cal.com** — scheduling
+- **Docuseal** — contracts/assinaturas
+- **Huly** — project management
+- **NoteDiscovery** (#242) — knowledge base
+
+**O que falta:** Ninguém integrou tudo num **"Freelancer OS"** — um único app self-hosted (ou hosted barato) que combina invoicing + scheduling + contracts + PM + CRM. O freelancer médio não quer 5 apps; quer 1.
+
+**Modelo:** $9/mês all-in-one vs $60+/mês pagando separado = **6x mais barato**. TAM: 1.5B freelancers × $108/ano = **$162B endereçável**, mesmo capturando 1% = $1.6B ARR.
+
+**LATAM amplifica:** Brasil tem 38M+ MEIs/freelancers, muitos usando WhatsApp pra tudo. Um "Freelancer OS" com integração WhatsApp + PIX + Nota Fiscal = **killer app regional sem concorrência séria.**
