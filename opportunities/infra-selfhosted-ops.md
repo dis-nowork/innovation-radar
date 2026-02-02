@@ -261,3 +261,24 @@ Produto funcional e focado. Gap: enterprise features (SCIM, directory sync, comp
 - **Pocket-ID + Pangolin (#216):** Auth passwordless + VPN identity-aware = zero-trust passwordless completo
 - **Pocket-ID + Beszel (#215):** SSO leve para monitoring multi-user
 - **Pocket-ID + voidauth (#214):** Pocket-ID como backend + voidauth como camada de management = auth stack completo
+
+---
+
+### [databasus/databasus](https://github.com/databasus/databasus) ⭐ 5.3k | 🎯💸💎
+
+**Backup de databases com UI profissional e segurança enterprise**
+
+**Problema:** DB backups são "aquela tarefa que todo mundo sabe que deveria fazer direito mas ninguém faz". Soluções existentes: scripts bash frágeis, AWS Backup ($$$), ou ferramentas enterprise (Veeam ~$1k+/ano). Para PMEs e startups, não existe meio-termo entre "cron + pg_dump" e soluções enterprise.
+
+**O que faz:** Tool self-hosted com UI polida para backup de PostgreSQL (12-18), MySQL (5.7-9), MariaDB (10-11) e MongoDB (4-8). Multi-storage (S3, GDrive, FTP, Cloudflare R2, NAS, Dropbox, SFTP, Rclone). Criptografia AES-256-GCM. Scheduling flexível. Notificações (Email, Telegram, Slack, Discord). Workspaces multi-team com RBAC. Audit logs.
+
+**Eixos:**
+- 🎯 Todo time de dev precisa de backups confiáveis
+- 💸 $0 vs Veeam $1k+/ano ou AWS Backup fees
+- 💎 UI designer-polished, dark/light mode, mobile adaptive — muito acima de scripts CLI
+
+**TAM:** $7B (backup & recovery market). Segmento PME sub-atendido.
+
+**Modelo:** Open-core — free self-hosted, paid cloud com managed backups, enterprise com SLA e suporte.
+
+**Esforço:** Baixo — já está polido e funcional.

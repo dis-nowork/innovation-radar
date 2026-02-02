@@ -887,3 +887,36 @@ Email é o último grande vendor lock-in que a maioria aceita sem questionar. Ma
 
 **Gap de mercado:** Ninguém construiu o "Resend.com open-source" — API developer-friendly de email com DX excelente. BillionMail é voltado para marketers, não devs. Há espaço para um produto que combine a infraestrutura do BillionMail com a DX do Resend.
 
+
+### Insight #33: "Billing Middleware" é a próxima categoria open-source explosiva
+Autumn (2.3k⭐, YC) e Flowglad (1.7k⭐, YC) — ambos YC-backed, ambos atacando o mesmo gap: **a camada entre Stripe e seu app é dolorosamente complexa e ninguém deveria reconstruí-la do zero**.
+
+**Por que agora?** A explosão de micro-SaaS (AI wrappers, vibe-coded apps, solopreneurs) criou demanda massiva por billing plug-and-play. Esses devs não têm bandwidth para implementar metering, usage limits, upgrade/downgrade flows. Stripe é payment rail, não billing logic.
+
+**O padrão emergente:**
+- Auth: resolvido (Clerk, Auth0, Supabase Auth, Pocket-ID)
+- Billing: **categoria nascente** — Autumn, Flowglad, Lago, Orb
+- Analytics: resolvido (Umami, PostHog, Plausible)
+- Email: resolvido (Resend, BillionMail)
+
+Billing é o último "pillar of SaaS" sem um vencedor open-source claro. Quem vencer aqui será o "Clerk do billing" — potencial de $1B+ company.
+
+**Gap de oportunidade:** Nenhum combina billing + feature flags + A/B testing de pricing. Quem integrar billing (Autumn/Flowglad) + feature flags (PostHog/Flipt) + pricing experiments cria uma categoria nova: **"Revenue Engineering Platform"**.
+
+### Insight #34: O "Bloomberg Terminal para mortais" está se montando em peças open-source
+Dexter (9.6k⭐, financial research agent) + OpenStock (8.1k⭐, market data platform) + NoFx (10.3k⭐, AI trading) mostram que o mercado financeiro está sendo democratizado peça por peça.
+
+**A convergência que ninguém montou:**
+- **Dados:** OpenStock (preços real-time, alertas)
+- **Análise:** Dexter (research profunda com AI)
+- **Execução:** NoFx (trading multi-exchange)
+- **Billing:** Autumn/Flowglad (monetização)
+
+Stack completa = Bloomberg Terminal ($24k/ano) por <$100/mês. O TAM de retail investors + small funds é de >$5B. A peça que falta: uma **UI unificada** que integre data + research + execution num único dashboard.
+
+### Insight #35: "Family-first" apps estão virando categoria — e ninguém percebeu
+SparkyFitness (2.1k⭐, fitness para famílias) + Colanode (#206, 4.5k⭐, Slack+Notion local-first) + PandaWiki (#193, 9k⭐, wiki AI) revelam um padrão: **apps "multi-user família" self-hosted estão crescendo como alternativa a subscriptions per-seat**.
+
+**O insight econômico:** Uma família de 4 com MyFitnessPal ($320/ano) + Notion ($480/ano) + iCloud+ ($120/ano) gasta >$900/ano em SaaS. Self-hosted equivalente: $5-10/mês no servidor ($60-120/ano). Economia de 7-8x.
+
+**O gap:** Ninguém construiu o "Family Server OS" — uma plataforma que empacota fitness tracking + wiki/notes + file sync + photo backup numa instalação única otimizada para famílias. Think Umbrel/CasaOS mas focado em consumo familiar, não em crypto/homelab nerd.

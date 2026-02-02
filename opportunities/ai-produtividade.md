@@ -96,3 +96,47 @@ App Tauri pronto, UX polida, falta Windows/Linux + team features
 ### Combinações
 - + meeting-minutes (#144): engine Rust para transcrição + Hyprnote como UI/UX layer
 - + open-notebook (#142): resumos de meeting → knowledge base pessoal
+
+---
+
+### [Gururagavendra/gmail-cleaner](https://github.com/Gururagavendra/gmail-cleaner) ⭐ 1.7k | 🎯💸⚡
+
+**Gmail bulk cleanup tool — 100% local, privacy-first**
+
+**Problema:** Email clutter é universal. Unsubscribing de newsletters é tedioso (um por um). Clean Email cobra $30/ano, Unroll.me vende seus dados. Pessoas com 10k+ emails não lidos precisam de bulk actions.
+
+**O que faz:** Web GUI local para cleanup de Gmail — bulk unsubscribe, delete por sender (mostra quem manda mais), mark as read em massa, archive, labels, export CSV. Usa Gmail API com batch requests (100 emails/call). Docker ready. 100% local, zero data collection.
+
+**Eixos:**
+- 🎯 Todo mundo com Gmail sofre de email clutter
+- 💸 $0 vs Clean Email $30/ano ou SaneBox $36/ano
+- ⚡ Batch requests = processa milhares de emails em minutos
+
+**TAM:** $2B (email management tools). 1.8B Gmail users.
+
+**Modelo:** Open-source base + premium features (scheduled cleaning, AI categorization, multi-account). SaaS wrapper.
+
+**Esforço:** Baixo — já funcional. Adicionar AI categorization + scheduled runs = produto premium.
+
+---
+
+### [firecrawl/open-scouts](https://github.com/firecrawl/open-scouts) ⭐ 1.2k | 🎯⚡🚀
+
+**Scouts AI que monitoram a web 24/7 e enviam alertas**
+
+**Problema:** Monitorar mudanças na web é trabalho manual. Google Alerts é fraco. Ferramentas de social listening (Mention $41/mês, Brand24 $79/mês) são caras e limitadas. Quem precisa monitorar concorrentes, vagas, preços, notícias de nicho não tem ferramenta acessível.
+
+**O que faz:** Plataforma onde você cria "scouts" — tarefas AI que rodam em schedule, buscam na web (via Firecrawl), usam pgvector para semantic search, e enviam alertas por email quando encontram algo relevante. By Firecrawl team (credibilidade técnica alta).
+
+**Eixos:**
+- 🎯 Monitoramento web é necessidade de todo negócio (competitors, leads, market intel)
+- ⚡ 24/7 automático vs verificação manual diária
+- 🚀 De "eu checo manualmente" para "scouts fazem por mim em qualquer escala"
+
+**TAM:** $8B (web monitoring & competitive intelligence). Segmento SMB sub-atendido.
+
+**Modelo:** Freemium (X scouts grátis) + Pro (mais scouts, mais frequência, mais canais de notificação). API para integrações.
+
+**Combinação:** Open Scouts + LLM local = competitive intelligence platform privacy-first. Ideal para consultorias, VCs, e-commerces monitorando preços.
+
+**Esforço:** Médio — depende de Firecrawl/OpenAI APIs. Self-hosted completo precisaria de alternativas locais.

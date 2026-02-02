@@ -79,3 +79,27 @@ Billing, finanças pessoais, gestão financeira.
 **Modelo de negócio:** Protocol standard (Coinbase lucra com ecosystem crypto), facilitator services, enterprise integration
 **Esforço:** Médio — SDKs prontos, mas adoção depende de mass market crypto awareness
 **Combinações:** x402 + AI agents (browser-use, activepieces) = agents que pagam por recursos autonomamente. x402 + APIs = monetização de qualquer endpoint em 1 linha
+
+---
+
+### [virattt/dexter](https://github.com/virattt/dexter) ⭐ 9.6k | 🎯💎⚡🚀
+
+**Agente autônomo de pesquisa financeira profunda**
+
+**Problema:** Análise financeira profunda requer horas de pesquisa manual — ler balanços, comparar empresas, cruzar dados de mercado. Bloomberg Terminal custa $24k/ano. Analistas juniores passam semanas em due diligence que um agente poderia fazer em minutos.
+
+**O que faz:** "Claude Code para finanças" — recebe perguntas financeiras complexas, decompõe em plano de pesquisa, executa com dados reais (income statements, balance sheets, cash flow), auto-valida resultados, e itera até ter resposta confiável. Task planning + self-reflection + safety features (loop detection).
+
+**Eixos:**
+- 🎯 Todo investidor/analista precisa de pesquisa financeira profunda
+- 💎 Qualidade de research comparável a analista júnior, mas sem vieses humanos
+- ⚡ Horas de pesquisa → minutos
+- 🚀 De "contratar analista" para "rodar agente"
+
+**TAM:** $30B+ (financial data & analytics). Bloomberg sozinha fatura $12B/ano.
+
+**Modelo:** API/SaaS para hedge funds e asset managers. Freemium para retail investors. Enterprise para IBs e consultorias.
+
+**Combinação killer:** Dexter (research agent) + OpenStock (#93, dashboard visual) + Autumn (#223, billing) = plataforma completa de research financeiro com monetização built-in. Think "Bloomberg Terminal para mortais" a $29-99/mês.
+
+**Esforço:** Médio — precisa de mais data sources e validação de accuracy para uso profissional.

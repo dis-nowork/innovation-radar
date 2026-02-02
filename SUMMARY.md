@@ -251,7 +251,14 @@
 | 218 | Billionmail/BillionMail | 13.4k | Marketing/Email | Mail server + email marketing self-hosted — envio ilimitado, analytics, templates, $0/mês | 🎯💸📈 |
 | 219 | crbnos/carbon | 1.8k | Manufatura/ERP | ERP+MES+QMS open-source para manufatura — API-first, TypeScript, Supabase, job shops | 🎯💸💎 |
 | 220 | pocket-id/pocket-id | 6.4k | Infra/Auth | OIDC provider com passkeys — autenticação passwordless para self-hosters, BSD-2 license | 🎯⚡💎 |
+| 221 | virattt/dexter | 9.6k | Fintech/AI Research | Agente autônomo de pesquisa financeira — task planning, self-reflection, dados de mercado real-time, "Claude Code para finanças" | 🎯💎⚡🚀 |
+| 222 | databasus/databasus | 5.3k | Infra/Backup | Backup de DBs (Postgres/MySQL/MongoDB) com UI polida — multi-storage (S3/GDrive/FTP), AES-256, workspaces multi-team, notificações | 🎯💸💎 |
+| 223 | useautumn/autumn | 2.3k | Billing/SaaS Infra | Pricing & billing open-source entre Stripe e seu app — subscriptions, credits, usage-based, zero webhooks, YC-backed | 🎯💸⚡🚀 |
+| 224 | flowglad/flowglad | 1.7k | Billing/SaaS Infra | Payment provider zero webhooks — stateless billing, full-stack SDK (React+Node), pricing rotation sem redeploy, YC-backed | 🎯💸⚡ |
+| 225 | CodeWithCJ/SparkyFitness | 2.1k | Saúde/Fitness | MyFitnessPal self-hosted — nutrição, exercícios, hidratação, medidas, AI coach via chat/imagem, multi-user família | 🎯💸💎 |
+| 226 | Gururagavendra/gmail-cleaner | 1.7k | Produtividade/Email | Gmail bulk cleanup 100% local — unsubscribe em massa, delete por sender, labels, export CSV, privacy-first | 🎯💸⚡ |
+| 227 | firecrawl/open-scouts | 1.2k | Monitoramento/AI | Scouts AI que monitoram a web 24/7 — busca contínua + alertas por email, Firecrawl + pgvector, by Firecrawl team | 🎯⚡🚀 |
 
 ---
 
-**Total:** 220 repos | **49 categorias** | Ordenado por ⭐ stars
+**Total:** 227 repos | **50 categorias** | Ordenado por ⭐ stars
