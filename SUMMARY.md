@@ -354,6 +354,12 @@
 | 313 | opensourcepos/opensourcepos | 4.0k | Varejo/POS | PDV web-based — estoque, vendas, clientes, barcode, gift cards, rewards, mesas restaurante, multi-user, reporting, multilíngue, MIT | 🎯💸🚀 |
 | 314 | Grashjs/cmms | 496 | Manutenção/CMMS | Atlas CMMS — "Jira p/ técnicos", work orders, preventive maintenance, equipment tracking, inventory peças, purchase orders, analytics, Docker, web+mobile | 🎯💸🚀 |
 
+| 315 | czlonkowski/n8n-mcp | 13.1k | Meta-Automation/MCP | MCP que permite AI agents criar workflows n8n automaticamente — "descreva automação" → workflow pronto | 🎯⚡🚀 |
+| 316 | iflytek/astron-agent | 9.2k | AI/Enterprise Agents | Plataforma enterprise de agent workflows (iFlytek) — RAG, multi-agent, visual designer, complementa astron-rpa | 🎯💸🚀 |
+| 317 | github/copilot-sdk | 6.6k | AI/SDK | SDK multi-plataforma p/ integrar GitHub Copilot Agent em qualquer app — coding AI embeddable, MIT | 🎯⚡💎 |
+| 318 | 666ghj/MiroFish | 3.4k | AI/Prediction | Engine universal de swarm intelligence — múltiplos agents deliberam p/ previsão de qualquer coisa | 🎯💎🚀 |
+| 319 | mixedbread-ai/mgrep | 3.1k | DevTools/Search | Semantic grep — busca por significado em código, imagens, PDFs, CLI-native, embeddings locais | 🎯💎⚡ |
+
 ---
 
-**Total:** 314 repos | **75 categorias** | Ordenado por ⭐ stars
+**Total:** 319 repos | **77 categorias** | Ordenado por ⭐ stars

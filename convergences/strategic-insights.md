@@ -1377,3 +1377,41 @@ O Brasil tem peculiaridades que criam oportunidades únicas:
 **Gap:** Nenhum dos repos open-source globais tem integração brasileira nativa (NF-e, PIX, SEFAZ, LGPD). Quem criar um **fork localizado** ou **layer de integração brasileira** sobre esses repos captura um mercado de R$5B+ praticamente sem concorrência open-source.
 
 **Playbook:** Fork QloApps + adiciona NF-e + PIX + integração Booking.com BR = "PousadaPMS" — domina o mercado de pousadas brasileiras.
+
+### Insight #66: "Meta-Automation" — Agents que constroem automações para outros agents
+O surgimento do n8n-mcp (13.1k⭐) marca um ponto de inflexão: **AI agents não apenas executam workflows, mas os CRIAM**. Isso é "meta-automation" — automação da própria automação.
+
+**Por que isso é 10x:**
+- **Antes:** Humano mapeia processo → desenha workflow → configura triggers → testa → deploya (horas/dias)
+- **Depois:** Humano descreve intenção → Agent gera workflow completo → deploya (minutos)
+
+**A cadeia de valor emergente:**
+1. **Plataformas de workflow** (n8n, Activepieces) = infraestrutura
+2. **MCP bridges** (n8n-mcp) = interface entre AI e plataformas
+3. **Agent platforms** (Coze Studio, Astron-Agent) = orquestração
+4. **Business process AI** = camada de intenção ("automatize meu onboarding de clientes")
+
+**A oportunidade de $20B+:** Quem construir o "**Business Process Copilot**" — descreva seu negócio e ele gera TODAS as automações — captura o mercado de BPM/workflow que hoje é dominado por ServiceNow ($200B market cap), Salesforce ($250B), e SAP.
+
+**Playbook:** n8n-MCP + Chatwoot + Evolution API + Lago = "Descreva sua empresa" → CRM + atendimento WhatsApp + billing automático gerados por AI em minutos.
+
+### Insight #67: "Embeddable AI" — De produto a SDK, o novo moat
+GitHub lançou o Copilot SDK (6.6k⭐), sinalizando que **o futuro dos AI products é ser embeddable, não standalone**.
+
+**O padrão:**
+- **Fase 1:** AI como produto standalone (ChatGPT, Copilot, Claude)
+- **Fase 2:** AI como API (OpenAI API, Anthropic API)
+- **Fase 3 (agora):** AI como SDK com experiência completa (Copilot SDK, Serena MCP)
+
+**Implicação estratégica:** Repos que oferecem **capacidades AI embeddáveis** (não apenas APIs) terão valuations 5-10x maiores que wrappers standalone. Isso porque:
+1. **Lock-in é mais profundo** — SDK integrado é harder to replace que API
+2. **Revenue per seat multiplica** — cada app que integra = novo canal de monetização
+3. **Data flywheel** — cada integração gera dados que melhoram o modelo
+
+**Repos best-positioned:**
+- Serena (19.6k⭐) = semantic code intelligence como SDK
+- Pipecat (10.1k⭐) = voice AI como SDK
+- CocoIndex (6k⭐) = data transformation como SDK
+- mgrep (3.1k⭐) = semantic search como SDK
+
+**O gap:** Ninguém construiu um **"AI Capability Marketplace"** onde devs busquem SDKs de AI por funcionalidade (search, voice, code, docs) com pricing transparente e integração one-click. Isso é o equivalente a um "npm para AI capabilities" — TAM de $5B+.
