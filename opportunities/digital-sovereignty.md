@@ -144,3 +144,31 @@
 **Esforço pra produtizar:** Médio — conceito sólido, precisa integração profunda com IDEs e CI/CD.
 
 **Criado:** Jan 2025 → 21.5k stars = validação massiva da tese de "context engineering"
+
+---
+
+### [docmost/docmost](https://github.com/docmost/docmost) ⭐ 18.9k | 🎯💸💎
+**Problema:** Confluence custa $5.75-11/user/mês. Notion similar. Empresas pagam $1000+/mês pra documentação colaborativa. Dados ficam em cloud de terceiros — compliance/GDPR é nightmare.
+**Solução:** Wiki/docs colaborativa open-source com real-time editing, Excalidraw/Draw.io/Mermaid, spaces, permissions, comments, page history, search, file attachments. Self-hosted.
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** Toda equipe precisa de wiki/docs — mercado de 100M+ knowledge workers
+- 💸 **Custo:** $0 vs $5-11/user/mês. Empresa de 100 pessoas economiza $7000-13000/ano
+- 💎 **Qualidade:** UX limpa, real-time collab, diagramas integrados — paridade com Notion/Confluence em features core
+**TAM:** $10B+ (collaboration/knowledge management market)
+**Modelo de negócio:** Cloud managed, enterprise features (SSO, audit logs, advanced permissions), suporte premium
+**Esforço:** Baixo-Médio — 18.9k stars, projeto maduro com AGPL license, Docker deploy
+**Combinações:** Docmost + Colanode (#114) = Notion+Slack completo. Docmost + Khoj (#77) = docs com AI search nativo
+
+---
+
+### [better-auth/better-auth](https://github.com/better-auth/better-auth) ⭐ 25.8k | 🎯💸💎
+**Problema:** Auth0 cobra $23-240/mês por features avançadas. Clerk similar. NextAuth/Lucia são incompletos — 2FA, multi-tenant, RBAC requerem centenas de linhas extras. Auth é o maior time-sink de todo novo projeto.
+**Solução:** Framework de auth TypeScript mais completo. Plugin ecosystem: 2FA, multi-tenant, organizations, passkeys, social login, RBAC. Framework-agnostic (Next, Nuxt, Svelte, Hono, Express). MIT license.
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** Todo app precisa de auth — é o primeiro feature de 100% dos projetos
+- 💸 **Custo:** $0 vs $23-240/mês (Auth0/Clerk). Sem vendor lock-in
+- 💎 **Qualidade:** Plugin system = 2FA, multi-tenant, passkeys com 3 linhas. Comparado com NextAuth que requer 200+ linhas pra mesma coisa
+**TAM:** $8B+ (identity & access management market, growing 12% YoY)
+**Modelo de negócio:** Open-source core (MIT) + managed service (Better Auth Cloud) + enterprise plugins + consulting
+**Esforço:** Baixo — npm install, TypeScript nativo, docs excelentes, 25.8k stars = comunidade ativa
+**Combinações:** Better-auth + Supabase = BaaS completo. Better-auth + qualquer SaaS starter = auth resolvido em 10 min

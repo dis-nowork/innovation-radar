@@ -51,3 +51,31 @@ Billing, finanças pessoais, gestão financeira.
 **Combinações:** OpenStock + TrendRadar (#90) = sinais de mercado + sentiment analysis AI = alpha
 
 ---
+
+---
+
+### [bigcapitalhq/bigcapital](https://github.com/bigcapitalhq/bigcapital) ⭐ 3.5k | 🎯💸🚀
+**Problema:** QuickBooks cobra $30-200/mês. Xero idem. PMEs no mundo todo precisam de contabilidade mas pagam caro por SaaS fechado. Contadores usam planilhas porque é mais barato.
+**Solução:** Software de contabilidade open-source com relatórios inteligentes. Double-entry, invoices, expenses, API headless pra integração. Self-hosted com Docker.
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** Toda empresa precisa de contabilidade — mercado universal
+- 💸 **Custo:** $0 vs $30-200/mês (QuickBooks/Xero). Economia de $360-2400/ano por empresa
+- 🚀 **Escala:** API headless = embedding em qualquer sistema. White-label pra contadores
+**TAM:** $15B+ (accounting software market, cloud segment growing 10%+ YoY)
+**Modelo de negócio:** Cloud managed ($X/mês), enterprise features, white-label para contadores, marketplace de integrações
+**Esforço:** Médio — projeto funcional, Node.js + React, precisa polish para competir com UX de QuickBooks
+**Combinações:** Bigcapital + Lago (billing) = financial OS completo. Bigcapital + TaxHacker (AI receipts) = contabilidade automatizada com AI
+
+---
+
+### [coinbase/x402](https://github.com/coinbase/x402) ⭐ 5.4k | 🎯⚡🚀
+**Problema:** Pagamentos online são complexos — Stripe cobra 2.9%+30¢/transação, setup leva dias, micropagamentos são inviáveis ($0.01 paga $0.31 de fee). AI agents não conseguem pagar por APIs — tudo requer human-in-the-loop.
+**Solução:** Protocolo de pagamentos HTTP-native. 1 linha no server (middleware), 1 função no client. Crypto + fiat agnostic. Open standard da Coinbase. SDK em TypeScript, Python, Go. Facilitator model = zero gas/RPC knowledge necessário.
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** AI agents precisam pagar por recursos (APIs, dados, compute) — mercado de $100B+ emergindo
+- ⚡ **Velocidade:** 1-line integration vs semanas com Stripe. Pagamento inline no HTTP request, sem redirect
+- 🚀 **Escala:** De micropagamentos ($0.001) a transações grandes. Agnostic: funciona com stablecoins, tokens, fiat
+**TAM:** $50B+ (payments infrastructure + AI agent economy — mercado que está nascendo agora)
+**Modelo de negócio:** Protocol standard (Coinbase lucra com ecosystem crypto), facilitator services, enterprise integration
+**Esforço:** Médio — SDKs prontos, mas adoção depende de mass market crypto awareness
+**Combinações:** x402 + AI agents (browser-use, activepieces) = agents que pagam por recursos autonomamente. x402 + APIs = monetização de qualquer endpoint em 1 linha

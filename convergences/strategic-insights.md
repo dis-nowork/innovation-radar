@@ -364,3 +364,33 @@ Vibe-Kanban (#130) revela um padrão emergente: **o humano virou o orquestrador,
 **O gap:** Ninguém ainda fez o **"Jira for AI-first teams"** — onde tasks são escritas para agents, não humanos. Onde o "sprint" é 30 minutos, não 2 semanas. Onde "deploy" acontece em cada task completada.
 
 Quem construir isso captura o workflow inteiro do engenheiro de 2026-2027. **TAM: $5B+ (developer productivity, project management tools).**
+
+---
+
+## 🔮 Insight #18 — A "SaaS Tax Rebellion" está acelerando
+
+Pattern claro nos repos #133-139: **cada camada do stack SaaS tem agora uma alternativa open-source viável.**
+
+| Camada | Incumbente | Alternativa OS | Economia |
+|--------|-----------|---------------|----------|
+| Auth | Auth0/Clerk ($23-240/mês) | better-auth (25.8k⭐) | 100% |
+| Email | Resend/Sendgrid ($20-100/mês) | useSend (3.9k⭐) | 90%+ |
+| Docs/Wiki | Confluence/Notion ($5-11/user) | Docmost (18.9k⭐) | 100% |
+| Contabilidade | QuickBooks/Xero ($30-200/mês) | Bigcapital (3.5k⭐) | 100% |
+| Cloud Infra | AWS/GCP | Ubicloud (11.8k⭐) | 70-90% |
+| Pagamentos | Stripe (2.9%+30¢) | x402 (5.4k⭐) | 95%+ |
+
+**O gap:** Ninguém está fazendo o **"one-click SaaS stack"** — um bundled platform que deploya auth + email + docs + billing + analytics + infra em um clique. O empreendedor que montar isso captura a onda anti-SaaS-tax.
+
+**Oportunidade real:** Combinar Ubicloud (#135) + Coolify (#3) + better-auth (#133) + useSend (#138) + Docmost (#134) + Bigcapital (#139) = **infra completa de startup por $0/mês** vs $500-2000/mês em SaaS. TAM: todo pequeno negócio e startup do planeta.
+
+## 🔮 Insight #19 — Generative UI é a próxima revolução de UX
+
+Tambo (#136) + Google A2UI (#110) + Tambo templates mostram que **a interface estática morreu.** O padrão emergente:
+
+1. **Componentes são vocabulário** — registre-os com schema (Zod/JSON Schema)
+2. **Conversa é navegação** — NL substitui menus/clicks
+3. **Contexto é layout** — first-timer e power user veem UIs diferentes
+4. **Interactable > Generative** — componentes persistem e evoluem com a conversa
+
+Quem construir o **"Figma for Generative UI"** — onde designers criam component registries visuais que AI agents consomem — captura $15B+ em UI/UX tooling. **TAM combinado com voice AI (#66-67, #76): $25B+.**

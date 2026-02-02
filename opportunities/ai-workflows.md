@@ -33,3 +33,18 @@
 - + Twenty CRM = CRM com AI automation built-in
 
 ---
+
+---
+
+### [tambo-ai/tambo](https://github.com/tambo-ai/tambo) ⭐ 6.8k | 🎯⚡💎🚀
+**Problema:** UIs são estáticas — todo usuário vê a mesma interface independente do contexto. Dashboards complexos confundem iniciantes. Formulários longos frustram experts. O gap entre "o que o usuário quer" e "onde clicar" é enorme.
+**Solução:** Generative UI SDK para React. Registra componentes com Zod schemas, e a AI escolhe quais renderizar baseado em conversa NL. Componentes generativos (charts, summaries) + interactable (carts, boards). Self-hosted ou cloud.
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** UX adaptativa é o Santo Graal — todo SaaS quer mas ninguém tem
+- ⚡ **Velocidade:** "Show me sales by region" → chart renderizado instantaneamente, sem navegar menus
+- 💎 **Qualidade:** UI que se adapta ao contexto do usuário — first-timer vs power user veem interfaces diferentes
+- 🚀 **Escala:** SDK plugável em qualquer app React existente — não precisa reescrever
+**TAM:** $15B+ (UI/UX tooling + conversational AI interfaces — mercado emergente)
+**Modelo de negócio:** Cloud managed (Tambo Cloud grátis), enterprise self-hosted, component marketplace, SDK premium features
+**Esforço:** Médio — precisa integrar com apps existentes, mas `npx tambo create-app` funciona em 2 min
+**Combinações:** Tambo + qualquer dashboard (OpenPanel, Grafana) = interface conversacional. Tambo + Google A2UI (#110) = padrão de generative UI

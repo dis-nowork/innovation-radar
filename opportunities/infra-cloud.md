@@ -50,3 +50,18 @@ Deploy, monitoring, PaaS self-hosted.
 **Modelo de negócio:** Open-core (NVIDIA vende hardware + consulting), mas terceiros podem construir managed platforms em cima
 **Esforço:** Alto — requer expertise em GPU infra e distributed systems
 **Combinações:** Dynamo + qualquer modelo open-source = serving de produção. Dynamo + deepinfra/together model = competir com OpenAI em custo
+
+---
+
+### [ubicloud/ubicloud](https://github.com/ubicloud/ubicloud) ⭐ 11.8k | 🎯💸🚀📈
+**Problema:** AWS/Azure/GCP cobram 3-10x mais que o custo real de bare metal. Startups e médias empresas pagam premium por conveniência. Lock-in é brutal — migrar custa meses de trabalho.
+**Solução:** Cloud open-source que roda em bare metal (Hetzner, Leaseweb, AWS Bare Metal). Compute elástico, block storage, firewall, load balancer, managed Postgres, K8s, AI inference, IAM. Tudo self-hosted ou managed.
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** Todo negócio com infra cloud sofre com custos excessivos — é o pain point #1 de CTOs
+- 💸 **Custo:** 3-10x mais barato que AWS. Hetzner bare metal + Ubicloud = cloud completa a preço de VPS
+- 🚀 **Escala:** De um servidor a clusters completos, com K8s integrado
+- 📈 **Volume:** GitHub Actions integration = CI/CD 10x mais barato. AI inference nativo
+**TAM:** $500B+ (cloud infrastructure é um dos maiores mercados de tech)
+**Modelo de negócio:** Managed service (console.ubicloud.com) + enterprise features + suporte
+**Esforço:** Alto — infra é complexo, mas o projeto está maduro (Ruby, Docker, 11.8k stars)
+**Combinações:** Ubicloud + Coolify/Dokploy = PaaS self-hosted completo. Ubicloud + AI inference = GPU cloud 5x mais barato

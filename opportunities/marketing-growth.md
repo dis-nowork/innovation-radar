@@ -30,3 +30,16 @@ Social media, email marketing, automação de marketing.
 
 ---
 
+
+---
+
+### [usesend/useSend](https://github.com/usesend/useSend) ⭐ 3.9k | 🎯💸
+**Problema:** Resend cobra $20-100+/mês. Sendgrid/Postmark similar. Email transacional é commodity mas cobrado como premium. Startups pagam caro por dashboard bonito em cima de AWS SES ($0.10/1000 emails).
+**Solução:** Dashboard open-source em cima do AWS SES. Transactional + marketing emails, SMTP, REST API, webhooks, contact management, email editor visual. Next.js + Prisma + shadcn/ui.
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** Todo SaaS precisa de email transacional — é infraestrutura básica
+- 💸 **Custo:** SES pricing ($0.10/1000) vs Resend ($20/mês pra 5000 emails). 10-50x mais barato em volume
+**TAM:** $5B+ (email marketing + transactional email market)
+**Modelo de negócio:** Managed cloud (freemium), enterprise features, add-ons (SMS, push, WhatsApp na roadmap)
+**Esforço:** Médio — beta stage, precisa maturar. Stack moderna (Next.js, tRPC, Prisma)
+**Combinações:** useSend + Listmonk (bulk) = email stack completo. useSend + BillionMail = sending + server próprio

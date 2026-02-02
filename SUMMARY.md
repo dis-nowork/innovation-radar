@@ -154,6 +154,14 @@
 | 131 | ai-dynamo/dynamo | 6.0k | AI/Infra | NVIDIA Dynamo — serving framework datacenter-scale p/ LLMs com disaggregated prefill/decode, multi-engine | ⚡📈🚀💸 |
 | 132 | lucasgelfond/zerobrew | 4.8k | DevTools/Infra | Homebrew 5-20x mais rápido — content-addressable store, APFS clonefile, Rust. Drop-in replacement | ⚡💸 |
 
+| 133 | better-auth/better-auth | 25.8k | Auth/DevTools | Framework auth TypeScript mais completo — 2FA, multi-tenant, plugins, framework-agnostic | 🎯💸💎 |
+| 134 | docmost/docmost | 18.9k | Colaboração/Docs | Wiki/docs colaborativa open-source (Confluence/Notion killer) — real-time, Excalidraw, spaces | 🎯💸💎 |
+| 135 | ubicloud/ubicloud | 11.8k | Infra/Cloud | Open source AWS — compute, storage, Postgres, K8s, AI inference em bare metal Hetzner/Leaseweb | 🎯💸🚀📈 |
+| 136 | tambo-ai/tambo | 6.8k | AI/UI Framework | Generative UI SDK p/ React — AI escolhe componentes certos via NL, interactable + generative | 🎯⚡💎🚀 |
+| 137 | coinbase/x402 | 5.4k | Fintech/Payments | Protocolo de pagamentos HTTP-native — 1 linha server, 1 função client, crypto+fiat agnostic | 🎯⚡🚀 |
+| 138 | usesend/useSend | 3.9k | Marketing/Email | Resend/Sendgrid killer open-source — transactional + marketing + SMTP + webhooks via SES | 🎯💸 |
+| 139 | bigcapitalhq/bigcapital | 3.5k | Fintech/Contabilidade | QuickBooks/Xero killer open-source — contabilidade inteligente, API headless, relatórios | 🎯💸🚀 |
+
 ---
 
-**Total:** 132 repos | **29 categorias** | Ordenado por ⭐ stars
+**Total:** 139 repos | **30 categorias** | Ordenado por ⭐ stars
