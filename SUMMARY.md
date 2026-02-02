@@ -386,6 +386,13 @@
 | 341 | ZhuLinsen/daily_stock_analysis | 8.9k | FinTech/AI | Análise diária de ações com LLM — A/H/US stocks, Gemini grátis, dashboard decisório, push multi-canal, GitHub Actions zero-cost, MIT | 🎯💸🚀 |
 | 342 | chatfire-AI/huobao-drama | 6.9k | Creative/Video AI | Plataforma AI de curtas — script→personagem→storyboard→vídeo automatizado, Go+Vue3, DDD, text-to-video+image-to-video, CC-BY-NC-SA | 🎯⚡🚀💸 |
 
+| 343 | ag-ui-protocol/ag-ui | 11.7k | AI/Protocol | Protocolo aberto agent→frontend — ~16 event types, middleware flexível, SSE/WS/webhooks, by CopilotKit | 🎯⚡🚀💎 |
+| 344 | trycua/cua | 12.2k | AI/Infra | Infraestrutura p/ Computer-Use Agents — sandboxes isolados (Docker/QEMU/Apple VZ), SDK Python, multi-OS (macOS/Linux/Windows) | 🎯⚡🚀💎 |
+| 345 | cloudflare/vibesdk | 4.7k | AI/No-Code Platform | Plataforma vibe coding white-label — NL→app→deploy, full Cloudflare stack, SDK programático, one-click deploy da plataforma inteira | 🎯💸🚀⚡ |
+| 346 | openops-cloud/openops | ~1k | FinOps/Automação | FinOps automation no-code — workflows pré-built p/ otimizar cloud costs, tabelas Excel-like, analytics, HITL approvals, MCP server | 🎯💸🚀⚡ |
+| 347 | wiredoor/wiredoor | 1.5k | Infra/Networking | Ingress-as-a-service self-hosted — WireGuard+Nginx, expõe serviços locais p/ internet, ngrok/Cloudflare Tunnel killer | 🎯💸💎 |
+| 348 | ajnart/dcm | 1.3k | Infra/Docker | Docker Compose Maker — catálogo visual de containers, pick-click-generate compose files, self-hostable | 🎯⚡💸 |
+
 ---
 
-**Total:** 342 repos | **87 categorias** | Ordenado por ⭐ stars
+**Total:** 348 repos | **89 categorias** | Ordenado por ⭐ stars
