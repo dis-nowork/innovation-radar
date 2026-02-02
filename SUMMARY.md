@@ -449,3 +449,10 @@
 | 397 | memvid/memvid | 12.8k | AI/Memory | Memory layer single-file p/ AI agents — substitui RAG pipelines complexos, serverless, .mv2 format, Rust core, sub-ms retrieval, semantic search, offline-first | 🎯⚡💸 |
 | 398 | MemoriLabs/Memori | 12.0k | AI/Memory | SQL-native memory fabric p/ AI enterprise — LLM/datastore agnostic, knowledge graph automático, 1 linha de código, semantic search, schema migrations | 🎯⚡🚀 |
 | 399 | trycua/cua | 12.2k | AI/Infra | Infra open-source p/ Computer-Use Agents — sandboxes (macOS/Linux/Windows), SDKs, benchmarks, virtualização, desktop automation completa | 🎯⚡🚀 |
+
+| 400 | kurrier-org/kurrier | 821 | Produtividade/PIM | Google Workspace killer self-hosted — email+calendário+contatos+storage unificados, IMAP/CalDAV/CardDAV/WebDAV, UI moderna, multi-provider | 🎯💸💎 |
+| 401 | tursodatabase/agentfs | 2.2k | AI/Agent Infra | Filesystem p/ AI agents em SQLite — auditável, reproduzível, portátil, single-file state, FUSE mount, SDKs TS/Python/Rust, by Turso team | 🎯💎⚡ |
+| 402 | TNT-Likely/BeeCount | 1.1k | Fintech/Personal | Finance tracker AI privacy-first — OCR recibos, voz, screenshot auto, sync self-hosted (iCloud/Supabase/WebDAV/S3), iOS+Android+HarmonyOS | 🎯💸💎 |
+| 403 | Lissy93/networking-toolbox | 2.3k | DevTools/Network | 100+ networking tools offline-first numa UI — DNS, WHOIS, port scan, SSL, subnet calc, traceroute, Svelte, Docker, by Lissy93 (Dashy) | 🎯💸💎 |
+| 404 | karanhudia/borg-ui | 956 | Infra/Backup | Web UI bonita p/ BorgBackup — dashboard, scheduling visual, progresso real-time, browse+restore de arquivos, encryption, multi-repo, AGPL-3.0 | 🎯💎 |
+| 405 | 0xfurai/peekaping | 1.0k | Infra/Monitoring | Uptime Kuma alternative em Go — API-first, status pages, multi-DB (Postgres/MongoDB/SQLite), Terraform provider, leve e extensível, MIT | 🎯💎⚡ |

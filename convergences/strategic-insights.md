@@ -4,6 +4,19 @@ Padrões emergentes e gaps de mercado identificados nas análises.
 
 ---
 
+## 2026-02-02 — Self-Hosted Digital Sovereignty: O "De-SaaS" Movement Amadurece
+
+### Insight #1: "Unified PIM" é o próximo battleground — Google Workspace tem $0 de moat técnico
+Kurrier (821⭐) demonstra algo que parecia impossível há 2 anos: **uma única pessoa pode construir um Google Workspace competitivo** graças a protocolos abertos (IMAP/CalDAV/CardDAV/WebDAV). O moat do Google nunca foi técnico — é distribuição e conveniência. Agora que Docker + Let's Encrypt + Cloudflare Tunnels tornam self-hosting trivial, o gap de conveniência está fechando. **O padrão emergente:** ferramentas "unified" que agregam protocolos existentes numa UI moderna (Kurrier para PIM, Colanode para colaboração, Blinko para notas). Quem construir o **"one-click digital life stack"** — email+calendar+notes+files+chat self-hosted com setup de 5 minutos — captura o segmento de 50M+ "privacy-conscious professionals" dispostos a pagar $5-10/mês por soberania digital. Gap: ninguém integrou esses módulos num installer unificado com onboarding consumer-grade.
+
+### Insight #2: "Agent Infrastructure Layer" está se estratificando — filesystem, memory, e orchestration são mercados separados
+AgentFS (2.2k⭐, by Turso) escolheu a camada mais baixa: **filesystem**. Memvid (#123) e SimpleMem (#371) atacam **memory**. Gastown (#285) e Ralph (#283) atacam **orchestration**. Este padrão é idêntico ao que aconteceu com cloud infrastructure em 2010-2015 (compute → storage → networking → orchestration). **A oportunidade:** assim como AWS dominou empilhando layers, quem integrar AgentFS (storage) + memory layer (semantic) + orchestration (multi-agent) numa **"Agent Runtime Platform"** unificada terá o equivalente a Kubernetes para AI agents. O timing é crítico — o mercado ainda não convergiu num padrão. Turso tem vantagem por já ter infra de database distribuída. TAM projetado: $15-25B até 2028.
+
+### Insight #3: "Backup-as-UX" é um mercado dormindo — Borg/Restic têm 30k+ stars combinadas mas zero UX
+BorgBackup (12k⭐) e Restic (30k⭐) são tecnicamente superiores a qualquer backup SaaS, mas a barreira de adoção é 100% UX. Borg-UI (956⭐), Zerobyte (#170), e Databasus (#222) estão todos atacando o mesmo gap: **UI bonita para backup engines poderosos**. O mercado de backup ($12B/ano) está dominado por incumbentes caros (Veeam $2k+/servidor, Acronis $50-100/servidor). A convergência: Borg-UI (files) + Databasus (databases) + scheduling + alerting + multi-server = **"Veeam Open Source"**. Nenhum projeto fez essa integração ainda. Primeiro a unificar file + DB backup com UI enterprise-grade e multi-tenant captura o mercado MSP ($500M+ em backup management fees).
+
+---
+
 ## 2026-02-02 — Consumer Products & Distribution: Cruzando a Barreira Dev→Consumer
 
 ### Insight #1: "Map/Poster-as-a-Service" revela padrão maior — generative design commoditiza print-on-demand
