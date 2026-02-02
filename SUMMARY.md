@@ -340,6 +340,13 @@
 | 301 | Zackriya-Solutions/meeting-minutes | 9.6k | Produtividade/Meeting AI | Privacy-first AI meeting assistant — local Whisper/Parakeet transcription, speaker diarization, Ollama summaries, Rust | 🎯💸💎 |
 | 302 | feder-cr/Jobs_Applier_AI_Agent_AIHawk | 29.3k | Automação/Carreira | AI job application agent — automated tailored applications, featured in TechCrunch/Wired/Verge, Python | 🎯⚡🚀 |
 
+| 303 | Notifuse/notifuse | 1.7k | Marketing/Email Platform | Mailchimp/Brevo/Klaviyo killer open-source — drag-drop MJML builder, A/B testing, multi-provider (SES/Mailgun/Postmark/SMTP), transactional API, Go+React, multi-tenant | 🎯💸💎🚀 |
+| 304 | kyantech/Palmr | 2.3k | Infra/File Sharing | WeTransfer/SendGB killer open-source — upload/share com password protection, custom links, folders, S3 storage, SQLite, NextJS+Fastify, self-hosted, zero fees | 🎯💸🚀 |
+| 305 | raghavyuva/nixopus | 1.3k | DevOps/PaaS | Vercel/Heroku/Netlify killer open-source — one-click deploy, built-in terminal, file manager, auto SSL, GitHub CI/CD, Caddy proxy, monitoring, alerts (Slack/Discord/email) | 🎯💸💎🚀 |
+| 306 | amicalhq/amical | 704 | Produtividade/Ditado AI | AI dictation local-first — context-aware (detecta app ativo), Whisper+Ollama offline, voice notes→summaries, MCP integration planejado, macOS/cross-platform, MIT | 🎯💸💎⚡ |
+| 307 | 1Panel-dev/CordysCRM | 1.7k | CRM/AI | Salesforce killer open-source — L2C completo (leads→contratos→pagamento), MCP Server, BI integrado (DataEase+SQLBot), WeChat/DingTalk/Feishu, Docker, by FIT2CLOUD | 🎯💸🚀💎 |
+| 308 | eclaire-labs/eclaire | 766 | AI/Personal Data | AI assistant local-first p/ dados pessoais — unifica tasks+notes+docs+photos+bookmarks, OCR, classificação, semantic search, Ollama, SQLite/Postgres, extensível via API | 🎯💸💎🚀 |
+
 ---
 
-**Total:** 297 repos | **71 categorias** | Ordenado por ⭐ stars
+**Total:** 303 repos | **72 categorias** | Ordenado por ⭐ stars
