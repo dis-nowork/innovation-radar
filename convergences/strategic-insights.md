@@ -2096,3 +2096,23 @@ Nenhum SaaS faz isso de ponta a ponta. É 3 repos open-source combinados.
 **Oportunidade de $500M:** "Managed SyncKit" = Liveblocks killer. Open core + hosted sync servers + enterprise tier. Capture dos $2B+ que vão ser gastos em real-time collaboration infra nos próximos 5 anos.
 
 **Meta-padrão:** Junto com BoxLite (#426) como "sandbox-as-library" e Drift (#335) como "codebase-intelligence-as-library", estamos vendo uma nova geração de **infra primitives como bibliotecas embeddable** — não SaaS, não microservices, mas `npm install`. Isso é o futuro: infra que cabe em 3 linhas de código, roda no processo da sua app, sem deploy separado. Quem montar o "Vercel for embedded infra" (deploy BoxLite+SyncKit+Drift como stack unificado) tem um negócio de bilhão.
+
+---
+
+## 2026-02-02 (noite) — Insights: Design Token Economy & AI-Native Project Management
+
+### Insight #1: "Design Token Economy" — a monetização invisível do frontend
+**Padrão:** tweakcn (#430, 9.3k⭐) resolve um problema que parece cosmético mas é estrutural — personalização visual de componentes shadcn/ui. Junto com theme-factory, json-render (#420), e o ecossistema shadcn, está emergindo uma **economia de design tokens**: vender aparência como produto.
+
+**Por que importa:** shadcn/ui commoditizou componentes React. A próxima camada de valor é **personalização** — temas, variantes, estilos únicos. É o mesmo padrão que vimos com WordPress (themes = $1B+ market), mas para component libraries. tweakcn é a tooling layer que habilita isso.
+
+**Gap de mercado:** Ninguém tem um "Envato/ThemeForest para shadcn/ui" com preview visual, one-click install, e revenue sharing. Mercado de $100M+ esperando. Combinação: tweakcn (editor) + marketplace (distribuição) + AI theme gen (produção em escala).
+
+### Insight #2: "AI-Native Project Management" é a próxima categoria de $1B
+**Padrão:** Backlog.md (#432, 4.6k⭐) não é "mais um task manager" — é o primeiro PM tool **nativo para AI agents**. Markdown files = API implícita. Git = sync layer. Agents lêem/escrevem nativamente sem integrações. ai-dev-tasks (7.4k⭐) e spec-kit (67k⭐) apontam o mesmo padrão.
+
+**Por que importa:** Jira/Linear foram construídos para humanos. Quando 50%+ do código é gerado por AI agents, o PM tool precisa ser agent-first. Backlog.md é primitivo mas aponta a direção: **dados como arquivos, não como SaaS database**. O "file-over-app" philosophy aplicado a PM.
+
+**Combinação assassina:** Backlog.md + Claude Code + spec-kit = pipeline: spec→tasks→implementation→review, gerenciada por AI com human oversight. O primeiro "AI Project Manager" real. Quem transformar isso em produto SaaS (visual layer + file-based backend + multi-agent coordination) tem um negócio de $1B+.
+
+**Meta-padrão:** SnapDOM (#434, 7.5k⭐) + RapidRAW (#431, 4.6k⭐) confirmam que a era de "GPU-first" ferramentas web chegou. WebGPU/WGSL está habilitando apps desktop-quality no browser. O gap: ninguém montou a "platform" para GPU-first web apps (hosting, billing, marketplace). É o que Vercel foi para SSR — mas para GPU-heavy web apps.
