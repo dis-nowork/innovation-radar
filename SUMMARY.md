@@ -323,6 +323,13 @@
 | 286 | lukilabs/beautiful-mermaid | 5.3k | DevTools/Visualization | Mermaid renderer bonito — 15 temas, SVG+ASCII dual output, zero DOM deps, ultra-rápido, Shiki themes, by Craft.do | 🎯💎⚡ |
 | 287 | dinoki-ai/osaurus | 3.2k | AI/Edge Runtime | AI edge runtime p/ macOS — MLX local + cloud providers, MCP server compartilhado, plugins, personas, always-on, Apple Silicon otimizado | 🎯💸💎🚀 |
 
+| 288 | KartikLabhshetwar/better-shot | 1.4k | Creative Tools/Screenshot | CleanShot X killer open-source — captura/edição/anotação de screenshots, backgrounds, OCR, Tauri+React, macOS, grátis vs $29 | 🎯💸💎 |
+| 289 | hcavarsan/pipedash | 1.0k | DevOps/CI-CD | Dashboard multi-provider CI/CD — GitHub Actions+GitLab+Jenkins+Buildkite+ArgoCD em uma tela, trigger/re-run workflows, Tauri+Rust, self-hosted, iOS app | 🎯💎⚡💸 |
+| 290 | majcheradam/ocrbase | 802 | AI/Document OCR | PDF→MD/JSON API com PaddleOCR-VL — SDK TypeScript, React hooks, WebSocket real-time, queue-based p/ milhares de docs, self-hostable, MIT | 🎯⚡📈💸 |
+| 291 | obot-platform/obot | 585 | MCP/Platform | Plataforma MCP completa — hosting+registry+gateway+chat client, multi-LLM, OAuth 2.1, audit logs, Docker/K8s, enterprise-ready | 🎯💎🚀 |
+| 292 | the-momentum/open-wearables | 456 | Health/Wearables | Plataforma open-source p/ unificar dados de wearables — Garmin+Fitbit+Oura+Whoop+Strava via 1 API, AI health insights, self-hosted, FastAPI+React | 🎯💸🚀💎 |
+| 293 | tinykit-studio/tinykit | 358 | NoCode/App Builder | Lovable/v0/Replit killer self-hosted — AI app builder com PocketBase (realtime DB+storage), Svelte, time travel, multi-app em 1 servidor, BYOLLM | 🎯💸🚀 |
+
 ---
 
-**Total:** 287 repos | **68 categorias** | Ordenado por ⭐ stars
+**Total:** 293 repos | **69 categorias** | Ordenado por ⭐ stars

@@ -4,6 +4,19 @@ Padrões emergentes e gaps de mercado identificados nas análises.
 
 ---
 
+## 2026-02-02 — Self-Hosted Professional Tools & Platform Infrastructure
+
+### Insight #1: "SaaS Unbundling" acelera — ferramentas de $25-40/mês sendo substituídas por self-hosted BYOLLM
+O padrão é claro: Lovable ($40/mês) → tinykit (free), CleanShot X ($29) → better-shot (free), Screen Studio ($89) → openscreen (free). A diferença em 2026: essas alternativas não são mais inferiores — têm feature parity graças a Tauri+Rust (performance nativa), modelos open-weight (AI sem custo), e PocketBase/SQLite (zero infra). **O gap monetizável:** managed hosting desses tools. Quem hospedar tinykit/openscreen/better-shot como SaaS com onboarding 1-click cobra menos que o original mas escala mais.
+
+### Insight #2: "MCP Infrastructure" é o próximo "API Management" — mercado de $5B+ nascendo
+Obot (585 ⭐) é o primeiro a tratar MCP servers como cidadãos de primeira classe em enterprise: hosting, registry, gateway, audit. É exatamente o que Kong/Apigee fizeram pra REST APIs na década passada. Mas o mercado MCP está fragmentado — Cline Marketplace (753 ⭐), XPack Monetization (156 ⭐), obot (585 ⭐). **Quem consolidar hosting+marketplace+billing+observability** pra MCP servers tem o próximo "Stripe para AI tools". O timing é agora — MCP adoption está no joelho da curva S.
+
+### Insight #3: "Health Data Unification" é uma mina de ouro subestimada
+Open-wearables (456 ⭐) resolve um problema que Garmin/Fitbit/Oura deliberadamente NÃO resolvem (dados isolados = lock-in). O mercado de digital health está em $300B+ mas a interoperabilidade de dados ainda é primitiva. Combinação explosiva: open-wearables (dados) + AI health models (insights) + personal health dashboard (UI) = "Apple Health que funciona com tudo, é self-hosted, e tem AI". O público: coaches fitness, clínicas, healthtech startups, biohackers. HIPAA compliance é o moat.
+
+---
+
 ## 2026-02-01 — Creative Tools & Content Production
 
 ### Insight #1: "Video-as-Code" é a próxima fronteira
