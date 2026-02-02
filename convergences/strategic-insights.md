@@ -1170,3 +1170,27 @@ O gap é ENORME. PMEs manufatureiras pagam $50-500k/ano por ERPs que parecem sof
 **A barreira:** ERP de manufatura exige domain knowledge profundo (BOM, routing, QC). Mas quem resolver isso com AI (LLM que entende BOM + scheduling) + UX moderna captura um mercado quase virgem.
 
 **Combinação matadora:** Carbon + anomalib (#39) + Serena (#269 como coding agent p/ customizações) = "Manufacturing AI OS" que se auto-customiza. Enterprise dream.
+
+---
+
+## 2026-02-02 — AI Productivity Companions & Creative Automation
+
+### Insight #1: "Compounding Memory" é o moat do próximo killer app de produtividade
+A maioria das ferramentas AI faz retrieval cold-start: cada sessão reconstrói contexto do zero. Rowboat (4.3k⭐) inverte isso com **memória que compõe** — knowledge graph que CRESCE a cada email/meeting. Isso é fundamentalmente diferente de RAG/vector search.
+
+**O padrão emergente:** Vemos convergência entre:
+- **Rowboat** → memória composta local-first
+- **OpenMemory (#262)** → agent memory persistente
+- **memU (#235)** → memória para agentes 24/7
+- **ChatLab (#234)** → análise de padrões em histórico de chat
+
+**Gap de mercado:** Ninguém combinou memória composta + ações automatizadas + multi-source ingestion (email, Slack, calendar, CRM, docs) em um produto coeso. O mais próximo é Rewind/Limitless ($150M+ valuation), mas são cloud-first e caros. **O Rewind open-source local-first ainda não existe.** Quem construir isso com UX polida captura o mercado de "AI chief of staff" pessoal.
+
+### Insight #2: "Stealth AI" é vertical ignorada com TAM massivo
+Pluely (1.5k⭐) é open-source clone do Cluely ($15M raised). O mercado de "AI invisível" — assistentes que operam durante meetings, entrevistas, e conversas sem detecção — é controverso mas REAL.
+
+**Os números falam:** Cluely levantou $15M sendo basicamente um overlay + prompt. Pluely replica em 10MB com 100% local.
+
+**Combinação vertical:** Pluely (overlay invisível) + meeting-minutes (#144, transcrição local) + Hyprnote (#155, notes pós-meeting) + Rowboat (memória composta) = **"AI Meeting Intelligence Stack"** completa, local-first, zero cloud. Enterprise compliance teams adorariam isso.
+
+**Atenção:** O mercado de "stealth AI para entrevistas" tem riscos éticos/legais reais. Mas o mesmo tech aplicado a "meeting copilot para vendas/CS" é 100% legítimo e vale bilhões (Gong.io = $7.2B valuation).

@@ -308,6 +308,13 @@
 | 273 | crbnos/carbon | 1.8k | ERP/Manufatura | ERP + MES + QMS open-source p/ manufatura — API-first, TypeScript/React, Supabase | 🎯💸🚀 |
 | 274 | xpack-ai/XPack-MCP-Marketplace | 156 | AI/Marketplace | Marketplace open-source p/ monetizar MCP servers — billing per-call, Stripe, SEO, deploy em 10min | 🎯🚀💸 |
 
+| 275 | musistudio/claude-code-router | 27.1k | AI/DevTools | Roteador multi-modelo p/ Claude Code — switch providers on-the-fly, transformers, GitHub Actions, plugin system, $3/mês GLM plan | 🎯💸⚡🚀 |
+| 276 | apple/container | 23.9k | Infra/Containers | Linux containers no Mac via VMs leves — Swift, Apple Silicon otimizado, OCI-compatible, push/pull registries, macOS 26+ | 🎯💎⚡ |
+| 277 | duixcom/Duix-Avatar | 12.3k | Creative Tools/Avatar | Toolkit AI avatar open-source — clone aparência+voz offline, text/voice-driven, 8 idiomas, Windows, custo $1k vs $100k+ | 🎯💸🚀💎 |
+| 278 | rowboatlabs/rowboat | 4.3k | AI/Produtividade | AI coworker local-first com memória — ingere email+meetings, vault Obsidian-compatible, ações via shell/MCP, knowledge compounds | 🎯💸💎🚀 |
+| 279 | HKUDS/ViMax | 2.2k | Creative Tools/Video | Geração agêntica de vídeo all-in-one — Idea2Video, Novel2Video, Script2Video, AutoCameo, director+screenwriter+producer+generator | 🎯⚡🚀💎 |
+| 280 | iamsrikanthnani/pluely | 1.5k | AI/Stealth Assistant | Cluely killer open-source — AI invisível em meetings/entrevistas, 10MB (27x menor), Tauri, 100% local, indetectável em video calls | 🎯💸⚡💎 |
+
 ---
 
-**Total:** 274 repos | **64 categorias** | Ordenado por ⭐ stars
+**Total:** 280 repos | **66 categorias** | Ordenado por ⭐ stars
