@@ -245,6 +245,13 @@
 | 213 | operacle/checkcle | 2.3k | Observabilidade/Infra | Monitoring full-stack self-hosted — HTTP/DNS/Ping/TCP/SSL, server metrics, incident mgmt, status pages, multi-channel alerts | 🎯💸💎 |
 | 214 | voidauth/voidauth | 1.8k | Infra/Auth | SSO open-source p/ self-hosted universe — OIDC, ForwardAuth proxy, passkeys, user invitation, self-registration, encryption-at-rest | 🎯💸💎 |
 
+| 215 | henrygd/beszel | 19.1k | Infra/Monitoring | Server monitoring ultralight — Docker stats, alertas, multi-user, histórico, PocketBase backend | 🎯💸⚡ |
+| 216 | fosrl/pangolin | 18.5k | Infra/Networking | VPN + reverse proxy identity-aware — WireGuard, zero-trust, OIDC, Cloudflare Tunnel killer | 🎯💸🚀 |
+| 217 | Zackriya-Solutions/meeting-minutes | 9.6k | AI/Produtividade | Meetily: AI meeting assistant 100% local — Parakeet/Whisper, diarização, Rust, privacy-first | 🎯💸⚡ |
+| 218 | Billionmail/BillionMail | 13.4k | Marketing/Email | Mail server + email marketing self-hosted — envio ilimitado, analytics, templates, $0/mês | 🎯💸📈 |
+| 219 | crbnos/carbon | 1.8k | Manufatura/ERP | ERP+MES+QMS open-source para manufatura — API-first, TypeScript, Supabase, job shops | 🎯💸💎 |
+| 220 | pocket-id/pocket-id | 6.4k | Infra/Auth | OIDC provider com passkeys — autenticação passwordless para self-hosters, BSD-2 license | 🎯⚡💎 |
+
 ---
 
-**Total:** 214 repos | **48 categorias** | Ordenado por ⭐ stars
+**Total:** 220 repos | **49 categorias** | Ordenado por ⭐ stars
