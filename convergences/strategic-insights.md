@@ -506,3 +506,40 @@ Ferramentas tradicionais mostram *estado* (CPU 80%, 42 processos, porta 8080 ocu
 - Data → "Why did this metric change?" (não "metric changed")
 
 **Oportunidade:** Criar um framework de "causal explanations" genérico que qualquer ferramenta de observabilidade/debugging pode plugar. O witr é CLI-only hoje, mas a abstração de causalidade é universalmente aplicável.
+
+---
+
+## 🔮 Insight #26 — "The $73 LLM": Treinamento Custom como Commodity
+
+nanochat (#157, 41.3k⭐) de Karpathy mostra que treinar um LLM GPT-2-level agora custa $73 em 3 horas. Em 2019 custava $50K. Redução de **700x em 7 anos**.
+
+**Implicação estratégica:** O moat de "ter um modelo" está evaporando. Qualquer empresa pode treinar um modelo especializado no seu domínio (jurídico, médico, financeiro) por menos que uma pizza por mês.
+
+**O novo moat é o pipeline completo:**
+1. **Dados proprietários** (o ativo mais valioso agora)
+2. **DeepSeek-OCR (#161)** digitaliza documentos → texto
+3. **LangExtract (#158)** estrutura o texto em dados limpos
+4. **nanochat (#157)** treina modelo customizado nos dados
+5. **VibeVoice (#159)** dá voz ao modelo
+6. **TOON (#160)** otimiza os prompts economizando 40% em tokens
+
+**Oportunidade concreta:** Plataforma "Custom AI Pipeline" — empresa faz upload de documentos, pipeline OCR→Extract→Train→Deploy→Voice roda automaticamente. Preço: $500-5000/mês vs $50K+ de consultoria AI tradicional. TAM: $10B+ em vertical AI.
+
+---
+
+## 🔮 Insight #27 — "Token Economics": A Nova Fronteira de Otimização de Custo
+
+TOON (#160, 22.4k⭐) sinaliza uma tendência que vai se intensificar: **otimização de tokens como disciplina**.
+
+Com contextos crescendo (1M+ tokens) e custos por token caindo mas volume explodindo, a economia de tokens vira vantagem competitiva real:
+- **TOON**: -40% tokens em dados estruturados
+- **DeepSeek-OCR**: Compressão óptica contextual reduz output de OCR
+- **VibeVoice ASR**: 60min de áudio → transcrição compacta em single-pass
+
+**O padrão:** Cada camada do stack AI vai ganhar sua "compressão inteligente":
+- Dados → TOON/schemas compactos
+- Documentos → OCR contextual (não OCR burro)
+- Áudio → ASR eficiente (7.5Hz tokenizer)
+- Imagens → Representações compactas (vision encoders otimizados)
+
+**Oportunidade:** "Token Budget Manager" — middleware que analisa prompts/contextos e aplica compressões inteligentes automaticamente antes de enviar pra LLM APIs. Empresas que gastam $10K+/mês em APIs LLM economizariam 30-50%. SaaS B2B com ROI imediato e mensurável.

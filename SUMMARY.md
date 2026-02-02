@@ -182,6 +182,14 @@
 | 155 | fastrepl/hyprnote | 7.6k | Produtividade/Meetings | Notepad AI local-first p/ reuniões — sem bot na call, transcrição real-time, resumo pós-meeting, 100% offline | 🎯💸⚡ |
 | 156 | sagekit/magnitude | 3.9k | AI/Browser Agent | Browser agent vision-first — 94% WebVoyager, extração estruturada, test runner com visual assertions | 🎯💎⚡ |
 
+| 157 | karpathy/nanochat | 41.3k | AI/Training Infra | Treinar seu próprio ChatGPT por $73 em 3h — tokenização→pretrain→finetune→chat UI, single GPU node | 🎯💸⚡🚀 |
+| 158 | google/langextract | 23.9k | AI/Data Extraction | Extração estruturada de textos não-estruturados com LLMs — source grounding preciso, visualização interativa, multi-provider | 🎯💎⚡🚀 |
+| 159 | microsoft/VibeVoice | 22.8k | Voice AI | Voice AI frontier open-source — TTS 90min multi-speaker, ASR 60min single-pass, real-time 0.5B, 50+ idiomas | 🎯💸💎🚀 |
+| 160 | toon-format/toon | 22.4k | AI/Infra | Token-Oriented Object Notation — JSON→TOON reduz ~40% tokens com 74% accuracy (vs 70% JSON), TypeScript SDK | ⚡💸📈 |
+| 161 | deepseek-ai/DeepSeek-OCR | 22.3k | AI/OCR | OCR via compressão óptica contextual — extrai texto de imagens/PDFs com alta fidelidade, vLLM nativo, 2500 tokens/s | 🎯⚡💎 |
+| 162 | firecrawl/open-lovable | 23.9k | AI/No-Code | Clona e recria qualquer website como React app em segundos — scrape→generate→deploy, open-source Lovable | 🎯⚡🚀 |
+| 163 | aureuserp/aureuserp | 9.0k | ERP/Business | ERP open-source completo em Laravel+FilamentPHP — modular, finance/HR/inventory/CRM, SME→enterprise | 🎯💸🚀 |
+
 ---
 
-**Total:** 156 repos | **32 categorias** | Ordenado por ⭐ stars
+**Total:** 163 repos | **34 categorias** | Ordenado por ⭐ stars
