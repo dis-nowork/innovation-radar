@@ -162,6 +162,13 @@
 | 138 | usesend/useSend | 3.9k | Marketing/Email | Resend/Sendgrid killer open-source — transactional + marketing + SMTP + webhooks via SES | 🎯💸 |
 | 139 | bigcapitalhq/bigcapital | 3.5k | Fintech/Contabilidade | QuickBooks/Xero killer open-source — contabilidade inteligente, API headless, relatórios | 🎯💸🚀 |
 
+| 140 | OpenCut-app/OpenCut | 45.4k | Creative Tools | Editor de vídeo open-source (CapCut killer) — web, desktop, mobile, sem watermark | 🎯💸🚀 |
+| 141 | usestrix/strix | 19.6k | Security | AI hackers autônomos que encontram e validam vulnerabilidades com PoCs reais | 🎯💎⚡ |
+| 142 | lfnovo/open-notebook | 19.1k | AI/PKM | NotebookLM open-source — 16+ providers, podcasts multi-speaker, 100% local | 🎯💸💎 |
+| 143 | dyad-sh/dyad | 19.5k | AI/DevTools | AI app builder local (v0/Lovable/Bolt killer) — privado, sem vendor lock-in | 🎯💸⚡ |
+| 144 | Zackriya-Solutions/meeting-minutes | 9.6k | Produtividade | AI meeting assistant 100% local — transcrição 4x mais rápida, Rust, diarização | 🎯💸⚡ |
+| 145 | Billionmail/BillionMail | 13.4k | Marketing | Mail server + email marketing self-hosted — envio ilimitado, zero custo mensal | 🎯💸📈 |
+
 ---
 
-**Total:** 139 repos | **30 categorias** | Ordenado por ⭐ stars
+**Total:** 145 repos | **31 categorias** | Ordenado por ⭐ stars
