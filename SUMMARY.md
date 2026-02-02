@@ -347,6 +347,13 @@
 | 307 | 1Panel-dev/CordysCRM | 1.7k | CRM/AI | Salesforce killer open-source — L2C completo (leads→contratos→pagamento), MCP Server, BI integrado (DataEase+SQLBot), WeChat/DingTalk/Feishu, Docker, by FIT2CLOUD | 🎯💸🚀💎 |
 | 308 | eclaire-labs/eclaire | 766 | AI/Personal Data | AI assistant local-first p/ dados pessoais — unifica tasks+notes+docs+photos+bookmarks, OCR, classificação, semantic search, Ollama, SQLite/Postgres, extensível via API | 🎯💸💎🚀 |
 
+| 309 | Qloapps/QloApps | 11.9k | Hospitalidade/PMS | Hotel management+booking engine open-source — PMS completo, website, reservas diretas (elimina 15-25% comissão OTA), marketplace addons, Docker, multi-idioma | 🎯💸🚀 |
+| 310 | traccar/traccar | 6.9k | Logística/Fleet | GPS tracking server — 200+ protocolos de rastreadores, geofencing, alertas, mobile apps, manutenção de veículos, 15+ anos dev, Apache-2.0 | 🎯💸📈 |
+| 311 | inventree/InvenTree | 6.3k | Manufatura/Inventário | Inventory management completo — BOM, lotes/serial, fornecedores, REST API, mobile app, plugin system, React+Django, MIT, one-line install | 🎯💸💎🚀 |
+| 312 | openemr/openemr | 4.7k | Saúde/EHR | EHR open-source mais popular — prontuário eletrônico, agendamento, faturamento, FHIR API, portal paciente, telemedicina, ONC certified, 40+ países | 🎯💸📈 |
+| 313 | opensourcepos/opensourcepos | 4.0k | Varejo/POS | PDV web-based — estoque, vendas, clientes, barcode, gift cards, rewards, mesas restaurante, multi-user, reporting, multilíngue, MIT | 🎯💸🚀 |
+| 314 | Grashjs/cmms | 496 | Manutenção/CMMS | Atlas CMMS — "Jira p/ técnicos", work orders, preventive maintenance, equipment tracking, inventory peças, purchase orders, analytics, Docker, web+mobile | 🎯💸🚀 |
+
 ---
 
-**Total:** 303 repos | **72 categorias** | Ordenado por ⭐ stars
+**Total:** 314 repos | **75 categorias** | Ordenado por ⭐ stars
