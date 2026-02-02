@@ -379,7 +379,13 @@
 | 334 | PhialsBasement/LibreCrawl | 414 | SEO/Marketing | Screaming Frog killer open-source — SEO crawler web-based, multi-tenant, JS rendering, PageSpeed Insights, issue detection, export CSV/JSON/XML, Docker | 🎯💸🚀 |
 | 335 | dadbodgeoff/drift | 623 | DevTools/AI Context | Codebase intelligence p/ AI — detecta patterns/conventions automaticamente, Cortex memory (substitui AGENTS.md estático), call graphs, MCP server, offline CLI | 🎯💎⚡ |
 | 336 | ronitsingh10/FineTune | 2.0k | macOS/Audio | Per-app volume control macOS — multi-device output, audio routing, 10-band EQ, menu bar, free vs SoundSource $39, GPL-3.0 | 🎯💸💎 |
+| 337 | toon-format/toon | 22.4k | AI/Infra | Token-Oriented Object Notation — formato compacto p/ LLM prompts, lossless JSON→TOON, economia 30-60% tokens em arrays, spec+SDK TypeScript, MIT | ⚡💸📈 |
+| 338 | deepseek-ai/DeepSeek-OCR | 22.3k | AI/OCR | Context Optical Compression — OCR state-of-art gratuito, 2500 tok/s em A100, suporta vLLM, PDF batch, mata serviços OCR pagos ($$$), MIT | 🎯💸⚡💎 |
+| 339 | HKUDS/DeepTutor | 9.9k | EdTech/AI | Tutor AI personalizado — upload docs/papers, RAG multi-agent, quiz generator, visualização interativa, deep research, mata tutoria particular $50-100/h | 🎯💸💎🚀 |
+| 340 | vercel-labs/json-render | 9.8k | AI/Frontend | AI→JSON→UI framework — catálogo de componentes guardrailed, streaming progressivo, actions declarativas, resolve UI generation seguro em produção | 🎯💎⚡ |
+| 341 | ZhuLinsen/daily_stock_analysis | 8.9k | FinTech/AI | Análise diária de ações com LLM — A/H/US stocks, Gemini grátis, dashboard decisório, push multi-canal, GitHub Actions zero-cost, MIT | 🎯💸🚀 |
+| 342 | chatfire-AI/huobao-drama | 6.9k | Creative/Video AI | Plataforma AI de curtas — script→personagem→storyboard→vídeo automatizado, Go+Vue3, DDD, text-to-video+image-to-video, CC-BY-NC-SA | 🎯⚡🚀💸 |
 
 ---
 
-**Total:** 336 repos | **85 categorias** | Ordenado por ⭐ stars
+**Total:** 342 repos | **87 categorias** | Ordenado por ⭐ stars

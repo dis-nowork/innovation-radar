@@ -1542,3 +1542,40 @@ ChartGPU (#333) é sinal de uma mudança estrutural: WebGPU está maduro o sufic
 **Por que é timing perfeito:** WebGPU atingiu suporte em Chrome, Edge e Safari (experimental). A adoção vai crescer exponencialmente em 2026-2027. Quem construir a stack de visualização GPU-native agora terá vantagem de 2 anos sobre quem esperar.
 
 **Padrão meta:** Toda vez que uma capability de hardware fica acessível via web API (WebGL→Three.js, WebRTC→video chat, WebGPU→visualization), surge um unicórnio. WebGPU é a próxima onda.
+
+### Insight #75: "Token Economics como Infraestrutura Invisível" — Quem Otimiza o Input Ganha
+
+**Data:** 2026-02-02
+
+TOON (#337) com 22.4k stars em poucos meses revela uma verdade: **todo mundo está pagando demais por tokens**. JSON verboso em prompts é dinheiro queimado. Mas TOON é só a ponta do iceberg:
+
+- **TOON** (formato compacto) economiza 30-60% tokens em arrays
+- **DeepSeek-OCR** (#338) faz OCR por zero custo vs $1.50/1000 páginas
+- **Beads** (#14.2k) compacta memória de agentes via "semantic decay"
+
+**O padrão emergente:** A próxima camada de infraestrutura AI não é sobre modelos melhores — é sobre **input optimization**. Quem comprimir, filtrar e formatar melhor os dados ANTES de enviar ao LLM ganha em custo, velocidade e qualidade de output.
+
+**A oportunidade:** Um "token optimizer middleware" que faz TOON encoding + context pruning + semantic compression automaticamente entre qualquer app e qualquer LLM API. Cobrar % da economia gerada. TAM: todo call de API para LLM = $100B+.
+
+### Insight #76: "AI Democratizando Produção de Mídia Vertical" — Script-to-Screen em Horas
+
+**Data:** 2026-02-02
+
+Huobao Drama (#342, 6.9k stars) é o sinal mais claro de uma revolução: **produção de vídeo profissional está sendo comprimida de semanas para horas**. O pipeline é:
+1. Uma frase → Script completo (LLM)
+2. Script → Personagens visuais (image gen)
+3. Personagens + cenas → Storyboard (image gen)
+4. Storyboard → Vídeo (video gen)
+5. Vídeo → Composição final (FFmpeg)
+
+**Por que isso é 10x e não incremental:**
+- Custo: $5-50k → quase $0
+- Tempo: semanas → horas
+- Skill: equipe de 10+ pessoas → 1 pessoa com prompt
+
+**Combinações explosivas:**
+- Huobao + PersonaPlex (#330, voice) = dramas com vozes naturais diversas
+- Huobao + json-render (#340) = editor visual onde usuário descreve mudanças
+- Huobao + daily_stock_analysis (#341) = "market recap" em formato de short drama (engagement 10x vs texto)
+
+**O gap:** Ninguém fez isso para **educação** ainda. Imagine: upload PDF do livro didático → DeepTutor (#339) gera roteiro educativo → Huobao produz vídeo-aula automaticamente. O "Khan Academy generator" para qualquer conteúdo. TAM: $340B (mercado global de e-learning).
