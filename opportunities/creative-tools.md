@@ -56,3 +56,47 @@ Ferramentas que democratizam a criação profissional de conteúdo visual, víde
 **Modelo:** Freemium cloud + self-hosted. Enterprise: SSO, custom domains, white-label.
 **Esforço:** Baixo — produto funcional, precisa polish para enterprise.
 **Combinações:** HeyForm + Chatwoot = captura → atendimento. HeyForm + Twenty CRM = formulário → pipeline de vendas.
+
+---
+
+### [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) ⭐ 6.8k | 🎯💸
+**Problema:** Screen Studio cobra $29/mês para screen recordings bonitos com zoom, crop e efeitos. Criadores de conteúdo, devs e product managers gastam centenas/ano em ferramentas de recording.
+**Solução:** App Electron open-source: grava tela/apps, zooms manuais customizáveis, crop, motion blur, annotations (texto, setas, imagens), trim, export em múltiplos aspect ratios e resoluções. MIT license — livre p/ uso comercial.
+**Por que é superior:** 💸 $0 vs $29/mês (Screen Studio) ou $99/ano (OBS+plugins). 🎯 Todo dev/creator/PM precisa de screen recording profissional.
+**TAM:** $2B+ (screen recording/capture market — Loom, Screen Studio, OBS ecosystem).
+**Modelo:** Open-source core + potencial Pro tier (cloud sharing, collaboration). Sponsorships.
+**Esforço:** Médio — beta, precisa polish. Mas funcional. Combinado com cloud hosting/sharing vira produto completo.
+**Combinações:** OpenScreen + Cap (#99, Loom killer) = stack completo de recording + sharing. OpenScreen + Remotion = recordings que viram vídeos editados automaticamente.
+
+---
+
+### [presenton/presenton](https://github.com/presenton/presenton) ⭐ 3.9k | 🎯💸⚡🚀
+**Problema:** Gamma ($8-15/mês), Beautiful.ai ($12-40/mês), Decktopus ($7-20/mês) cobram para gerar apresentações com AI. PowerPoint/Google Slides são manuais e demorados.
+**Solução:** Gerador de apresentações com AI totalmente open-source e local. Suporta OpenAI, Gemini, Claude, Ollama (modelos locais). Upload PPTX como template → gera on-brand. Export PPTX/PDF. Templates customizáveis com HTML+Tailwind. Built-in MCP Server p/ integrar com agents.
+**Por que é superior:** 💸 $0 vs $15-40/mês (Gamma/Beautiful.ai). ⚡ Prompt → apresentação completa em minutos. 🚀 API mode permite gerar em batch/escala. 🎯 Todo profissional faz apresentações — mercado universal.
+**TAM:** $5B+ (presentation software market — PowerPoint, Keynote, Gamma, Canva Presentations).
+**Modelo:** Open-source self-hosted + Presenton Cloud (managed). Enterprise: custom deployments, API access.
+**Esforço:** Baixo-Médio — Docker ready, multi-provider. Precisa mais templates e polish para competir com Gamma em UX.
+**Combinações:** Presenton + Penpot = design → presentation pipeline. Presenton + Open Notebook = research → slides automáticos. Presenton + MCP = agents que geram decks como parte de workflows.
+
+---
+
+### [11cafe/jaaz](https://github.com/11cafe/jaaz) ⭐ 5.8k | 🎯💸💎🚀
+**Problema:** Canva Pro custa $13/mês. Ferramentas AI de design (Midjourney, DALL-E) são cloud-only e caras. Nenhuma combina canvas de design + AI generativa + vídeo numa plataforma local-first.
+**Solução:** Creative assistant multimodal open-source: canvas tipo Canva com AI nativa. Gera imagens (Stable Diffusion, Flux, ComfyUI), cria vídeos, edita com linguagem natural. Funciona 100% local (Electron) com privacidade total. Enterprise edition com deploy privado.
+**Por que é superior:** 💸 $0 vs $13/mês Canva + $10-30/mês AI tools. 💎 AI multimodal integrada no canvas (não é "AI bolted-on"). 🚀 De "designer precisa de skills" → "qualquer pessoa cria conteúdo profissional". 🎯 Todo negócio precisa de design.
+**TAM:** $15B+ (design tools market — Canva $26B valuation, Adobe Creative Cloud).
+**Modelo:** Open-source community + Enterprise Cloud "Full" Edition (Docker/source, commercial license).
+**Esforço:** Médio — funcional mas UI precisa catch-up com Canva. Potencial enorme quando AI local amadurecer.
+**Combinações:** Jaaz + Remotion/Revideo = design → video pipeline. Jaaz + Presenton = design → presentation. Jaaz + BillionMail = criar visual → distribuir por email.
+
+---
+
+### [superdesigndev/superdesign](https://github.com/superdesigndev/superdesign) ⭐ 5.8k | 🎯⚡💎
+**Problema:** Devs usando AI coding tools (Cursor, Claude Code) não conseguem visualizar o que estão construindo. Vão do prompt ao código sem ver mockup. Resultado: UI genérica, retrabalho constante.
+**Solução:** AI Design Agent que roda dentro do IDE (Cursor, Windsurf, VS Code, Claude Code). Gera mockups, componentes UI e wireframes a partir de prompts em linguagem natural. Fork & iterate designs. Copy prompt direto pro IDE. Chrome Extension p/ clonar qualquer site.
+**Por que é superior:** 🎯 Resolve a dor #1 de AI coding: "prompt → código feio". ⚡ Mockup em segundos vs horas no Figma. 💎 Multiple design options ("Why design one when you can explore ten?"). Integra no workflow existente (não é tool separada).
+**TAM:** $3B+ (design-to-code tools — Figma dev mode, Locofy, Anima).
+**Modelo:** Open-source extension + freemium cloud (model hosting). Enterprise: self-hosted com modelos privados.
+**Esforço:** Baixo — extension funcional, boa DX. Precisa expandir templates e conectar com design systems.
+**Combinações:** SuperDesign + Penpot = mockup AI → design refinado → código. SuperDesign + open-lovable = mock → clone → deploy. SuperDesign + Onlook = design → visual editing → production.

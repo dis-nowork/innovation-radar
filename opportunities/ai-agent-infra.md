@@ -178,3 +178,38 @@ $30B+ (se se tornar padrão para agent UIs). Cada chatbot/agent que precisa most
 - + Coze Studio (#107) = agents criados visualmente que geram UIs ricas
 - + Claude/GPT = "descreva o que quer ver" → A2UI JSON → UI renderizada
 - + MCP = agents que retornam UIs ao invés de texto
+
+---
+
+## 123. memvid/memvid ⭐ 12.7k
+**Link:** https://github.com/memvid/memvid
+**Forks:** 1.1k | **Licença:** MIT | **Lang:** Rust | **Criado:** Mai 2025
+
+### Problema Real
+AI agents e apps de RAG dependem de infraestrutura pesada: vector databases (Pinecone $70+/mês), embedding pipelines, servidores de busca. Para agentes que precisam de memória persistente, o setup é complexo e caro. Empresas gastam semanas configurando RAG pipelines que são frágeis e difíceis de debugar.
+
+### Solução
+Memory layer single-file para AI agents. Inspirado em codecs de vídeo, organiza memória como "Smart Frames" — unidades imutáveis append-only com timestamps, checksums e metadata. Tudo num único arquivo `.mv2`: dados + embeddings + índice de busca + metadata. Retrieval <5ms local. Sem banco de dados, sem servidor.
+
+### Eixos de Inovação: 🎯💸⚡💎
+- **🎯** Todo agent AI precisa de memória persistente — é infraestrutura fundamental
+- **💸** $0 de infra (single-file) vs $70-500/mês em vector DB managed
+- **⚡** <5ms de retrieval local vs 50-200ms de round-trip para cloud vector DB
+- **💎** Append-only + imutável = crash-safe, auditável, versionável. Time-travel debugging é diferencial único
+
+### TAM
+$8B+ (vector database + RAG infrastructure market — Pinecone $750M valuation, Weaviate, Chroma)
+
+### Modelo de Negócio
+- Open-source core (Rust) com SDKs multi-linguagem
+- Cloud: managed "Sandbox" environment
+- Enterprise: capsule sharing, team features, premium codecs
+
+### Esforço para Produtizar: **Baixo-Médio**
+Core em Rust é sólido. Precisa de SDKs maduros e integrações com frameworks de agents (LangChain, CrewAI).
+
+### Combinações
+- + Graphiti (#91) = memória estruturada (graph) + memória portátil (memvid) — dual-layer memory system
+- + Claude Code / Cursor = coding agents com memória cross-session sem cloud
+- + Screenpipe (#86) = memória visual compactada em arquivo único transportável
+- + MCP = memory-as-a-service via MCP server — qualquer agent acessa memória com zero setup

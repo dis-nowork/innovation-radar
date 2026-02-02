@@ -302,3 +302,29 @@ Magic/dtyq (4.5k⭐) está tentando ser Slack+Notion+Zapier+ChatGPT numa platafo
 **Mas o killer feature não é bundling — é AI nativo.** A diferença entre "5 ferramentas coladas" e "1 plataforma com AI em tudo" é que na segunda, o AI entende TODO o contexto: suas conversas, docs, workflows, dados. Isso é impossível com ferramentas separadas.
 
 **Quem vai ganhar:** Não o mais completo, mas o que tiver o melhor **AI context layer**. Magic tem vantagem por ter IM + Workflow + Agent num codebase. Combinado com MCP Apps (ext-apps), transforma o IM em app platform. 🎯💸🚀 — 3 eixos.
+
+---
+
+## 2026-02-01 — Creative Tools AI-Native & Agent Memory Infrastructure
+
+### Insight #21: O "Design-to-Production" pipeline está convergindo — e AI é o catalisador
+Cinco repos desta rodada (Jaaz 5.8k, SuperDesign 5.8k, Presenton 3.9k, OpenScreen 6.8k, Penpot 44k) mostram que **ferramentas criativas open-source estão ganhando AI como diferencial competitivo**, não apenas feature. O padrão:
+
+- **Canva/Figma model (2020):** Humano desenha, tool renderiza. AI = addon.
+- **AI-native model (2025+):** Humano descreve intenção, AI gera, humano refina. O canvas é interface de refinamento, não de criação.
+
+**Jaaz** é o exemplo mais radical: canvas estilo Canva onde você desenha setas e rabiscos e a AI interpreta e gera. SuperDesign faz o mesmo no IDE. Presenton faz em slides. A abstração é a mesma: **linguagem natural + contexto visual → output profissional**.
+
+**O mega-gap:** Ninguém integrou esses 3 tipos (design estático + apresentações + vídeo) numa plataforma unificada AI-native. Quem construir o **"Creative Suite AI-native"** que faça design (Jaaz) + apresentações (Presenton) + screen recording (OpenScreen) + vídeo (OpenCut) numa UI coesa tem o próximo Canva. Custo: $0 self-hosted vs $50-100/mês em SaaS combinados. 🎯💸💎🚀 — 4 eixos.
+
+### Insight #22: "Serverless AI Memory" vai matar o vector database como serviço
+Memvid (12.7k ⭐) não é "mais um vector DB" — é uma **mudança arquitetural**. A analogia: SQLite não competiu com PostgreSQL no espaço de servers. Criou um novo mercado: apps que precisam de DB mas não podem/querem rodar um servidor. Memvid faz o mesmo para AI memory.
+
+**Implicações:**
+1. **Agents portáteis:** Um agent pode carregar toda sua memória como um único arquivo `.mv2`. Muda de máquina, cloud, ou dono — a memória vai junto. Nenhum vector DB managed permite isso sem export/import complexo.
+2. **Edge AI:** Dispositivos IoT, mobile, e embedded que precisam de retrieval não podem rodar Pinecone client. Memvid roda em qualquer lugar com Rust.
+3. **Privacy by default:** Memória fica no dispositivo do usuário. Sem cloud, sem data residency issues.
+
+**O padrão histórico:** SQLite → apps mobile dominaram. Memvid → agents descentralizados dominam. **Quem construir o "framework de agents" que usa Memvid como primitiva de memória** (ao invés de integrar Pinecone/Weaviate como afterthought) terá agents mais rápidos, baratos e portáteis.
+
+**Combinação letal:** Memvid (memória local) + MCP (tools) + Chatterbox TTS (voz) + ElatoAI (hardware) = **agent embarcado com memória persistente que fala e age** — zero cloud. Custo de operação: ~$0 após deploy. Isso é 💸⚡💎🚀 — 4 eixos.

@@ -142,6 +142,12 @@
 | 121 | nguyenphutrong/quotio | 3.3k | DevTools/AI | macOS AI quota manager — unifica Claude/Gemini/OpenAI, failover automático, proxy local | 🎯💸⚡ |
 | 122 | modelcontextprotocol/ext-apps | 1.2k | MCP/UI | MCP Apps standard — UIs interativas inline em chatbots via MCP servers (spec oficial) | 🎯🚀💎 |
 
+| 123 | memvid/memvid | 12.7k | AI/Infra | Memory layer single-file p/ AI agents — substitui RAG pipelines complexos | 🎯⚡💸💎 |
+| 124 | siddharthvaddem/openscreen | 6.8k | Creative Tools | Screen Studio killer — screen recording open-source sem watermark, comercial | 🎯💸 |
+| 125 | 11cafe/jaaz | 5.8k | Creative Tools/AI | Canva AI killer — multimodal creative assistant local-first, vídeo + design | 🎯💸💎🚀 |
+| 126 | superdesigndev/superdesign | 5.8k | DevTools/Design | AI Design Agent p/ IDE — gera mockups/wireframes/componentes com NL no Cursor/VSCode | 🎯⚡💎 |
+| 127 | presenton/presenton | 3.9k | Creative Tools/AI | AI Presentation Generator (Gamma/Decktopus killer) — local, MCP Server, multi-provider | 🎯💸⚡🚀 |
+
 ---
 
-**Total:** 122 repos | **28 categorias** | Ordenado por ⭐ stars
+**Total:** 127 repos | **28 categorias** | Ordenado por ⭐ stars
