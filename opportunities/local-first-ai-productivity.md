@@ -98,3 +98,52 @@
 - **Modelo de negócio:** Desktop app freemium + premium (mais integrações, team features). Enterprise: shared organizational memory.
 - **Esforço pra produtizar:** Médio — macOS app funcional, precisa Windows/Linux. Core é sólido (Obsidian vault = portabilidade infinita).
 - **Combinações:** + Meetily (#406) como source de meeting notes. + Inbox Zero (#408) como source de email intelligence. + Blinko (#409) como note capture layer. = **"AI Chief of Staff" que conhece tudo do seu trabalho**.
+
+---
+
+### [run-llama/notebookllama](https://github.com/run-llama/notebookllama) ⭐ 1.8k | 🎯💸💎
+
+**O que é:** Alternativa open-source ao Google NotebookLM. Upload docs, faz perguntas com citações. Backed by LlamaCloud. By LlamaIndex team.
+
+**Problema real:** NotebookLM é proprietário do Google, dados vão pro Google, sem customização, e pode ser descontinuado a qualquer momento. Researchers e empresas querem RAG notebook privado.
+
+**Eixos de inovação:**
+- 🎯 **Problema real:** NotebookLM lock-in — seus documentos no Google sem portabilidade
+- 💸 **Custo:** Self-hostable, use seu próprio LLM (Ollama), $0 vs Google lock-in
+- 💎 **Qualidade:** LlamaIndex RAG pipeline é state-of-art, citações com source grounding
+
+**TAM:** Knowledge management software = $645B by 2030. NotebookLM segment (research + learning) = $5-10B
+
+**Modelo de negócio:**
+- Open-core: self-host grátis, LlamaCloud managed = paid tier
+- Enterprise: SSO, audit, compliance, fine-tuned models
+- API: embed notebook-as-a-service em outros produtos
+
+**Esforço para produtizar:** Baixo — by LlamaIndex (empresa established), já tem produto managed
+
+---
+
+### [RICHQAQ/PasteMD](https://github.com/RICHQAQ/PasteMD) ⭐ 3.9k | 🎯💎⚡
+
+**O que é:** Tray app que resolve o problema #1 de quem usa AI: copiar respostas do ChatGPT/DeepSeek para Word/Excel sem quebrar formatação. Markdown→DOCX via Pandoc, one-click paste.
+
+**Problema real:** TODO MUNDO que usa AI para trabalho sofre isso. Fórmulas LaTeX viram lixo, tabelas quebram, headers somem. Afeta milhões de knowledge workers diariamente.
+
+**Eixos de inovação:**
+- 🎯 **Problema real:** Friction #1 entre AI output e ferramentas de trabalho (Word/Excel/WPS)
+- 💎 **Qualidade:** Smart detection (HTML, Markdown, LaTeX), auto-fix de fórmulas, app extensions por janela
+- ⚡ **Velocidade:** One-click vs reformatar manualmente (5-30min por documento)
+
+**TAM:** ~1B knowledge workers usando AI × $5-10/ano tool = $5-10B
+
+**Modelo de negócio:**
+- Freemium: paste básico grátis, templates/batch/enterprise = paid
+- OEM: integrar em AI chatbots como feature (Jasper, Copy.ai)
+- Enterprise: policy controls, approved formatting
+
+**Esforço para produtizar:** Baixo — já funciona, precisa apenas SaaS wrapper e cross-platform (atualmente Windows-focused)
+
+**Combinações:**
+- + BentoPDF → pipeline AI→formatação→PDF completo
+- + Obsidian/Notion plugins → markdown-first workflow
+

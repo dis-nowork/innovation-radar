@@ -2033,3 +2033,22 @@ Rowboat faz diferente:
 4. Prepara briefing para a próxima meeting com base em todo histórico
 
 Nenhum SaaS faz isso de ponta a ponta. É 3 repos open-source combinados.
+
+---
+
+## 2026-02-02 — Insights: Browser-as-OS e a Ponte AI↔Office
+
+### Insight #1: Browser se torna o OS dos AI agents
+**Padrão emergente:** BrowserOS (9.1k⭐), ChromeDevTools MCP (23k⭐), agent-browser (Vercel, 12k⭐) — três projetos independentes convergindo para o mesmo ponto: o browser como runtime de AI agents.
+
+**Por que importa:** O browser já é onde 80%+ do trabalho acontece. Ao invés de criar "AI assistants" separados, a jogada certa é fazer o browser VIRAR o AI assistant. BrowserOS entendeu isso — é um Chromium fork com agents nativos, MCP server, workflows visuais e scheduled tasks. Isso é o conceito de "agentic OS" materializado.
+
+**Gap de mercado:** Ninguém está fazendo isso para MOBILE (Chrome Android fork com agents). Quem fizer primeiro captura o mercado mobile-first de automação.
+
+### Insight #2: A "Last Mile" entre AI e Office Documents é um mercado bilionário escondido
+**Padrão:** PasteMD (3.9k⭐ em 3 meses!) resolve um problema que literalmente todo knowledge worker enfrenta: copiar output de ChatGPT/Claude para Word sem quebrar. É tão específico que parece pequeno, mas a dor é universal.
+
+**Por que importa:** A indústria focou em fazer AI GERAR conteúdo melhor, mas negligenciou a ENTREGA desse conteúdo nos formatos que o mundo real usa (Word, Excel, PowerPoint, PDF). PasteMD + BentoPDF + presenton + banana-slides formam uma stack completa de "AI Output → Professional Documents".
+
+**Oportunidade de combinação (4 eixos: 🎯💎⚡💸):** Um único produto que captura AI output de qualquer fonte (ChatGPT, Claude, Gemini) e entrega como documento profissional formatado (Word, PPT, PDF, Excel) seria um unicorn. Think: "Grammarly, but for document formatting of AI outputs."
+

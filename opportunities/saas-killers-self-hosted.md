@@ -137,3 +137,54 @@ Personal knowledge management: $2B. Personal AI assistants: $15B (2028).
 
 ### Esforço: Médio-Alto
 Pre-release. Vite+TanStack Router frontend, Python backend. SQLite+Postgres. Needs maturation.
+
+---
+
+### [HoshinoSuzumi/chronoframe](https://github.com/HoshinoSuzumi/chronoframe) ⭐ 1.6k | 🎯💸💎
+
+**O que é:** Gallery de fotos pessoal self-hosted. Suporta Live/Motion Photos, EXIF parsing, geocoding reverso, explore map. Nuxt 4 + Drizzle ORM + S3.
+
+**Problema real:** Google Photos cobra storage, Apple Photos é Apple-only, Immich é pesado/complexo para quem quer algo leve. Fotógrafos e famílias querem gallery bonita sem vendor lock-in.
+
+**Eixos de inovação:**
+- 🎯 **Problema real:** Google Photos storage limits ($2.99-9.99/mês) + privacy concerns
+- 💸 **Custo:** Self-hosted + S3 barato = fração do custo de Google/iCloud
+- 💎 **Qualidade:** UI moderna (Nuxt 4), Live/Motion Photos nativos, explore map com geocoding
+
+**TAM:** Cloud photo storage = $4.5B by 2028. Self-hosted segment growing 25%+ CAGR.
+
+**Modelo de negócio:**
+- Cloud hosted: managed chronoframe = $5-15/mês (competes com Google Photos)
+- Enterprise/family: multi-user, shared albums, advanced storage
+- Photography: portfolio features, client galleries
+
+**Esforço para produtizar:** Médio — Docker ready, precisa polimento UX e mobile app
+
+---
+
+### [KittenML/KittenTTS](https://github.com/KittenML/KittenTTS) ⭐ 9.6k | ⚡💸💎🚀
+
+**O que é:** TTS state-of-art em menos de 25MB. Ultra-compacto, roda em edge/mobile, qualidade competitiva com modelos 10-100x maiores.
+
+**Problema real:** TTS models (ElevenLabs, Azure, Google) são caros ($0.015-0.030/1k chars) e requerem cloud. Edge devices (IoT, mobile, embedded) precisam de TTS que rode localmente sem GPU.
+
+**Eixos de inovação:**
+- ⚡ **Velocidade:** Edge inference sem GPU, latência sub-100ms
+- 💸 **Custo:** <25MB model = roda em qualquer device, $0 ongoing cost vs cloud TTS
+- 💎 **Qualidade:** SoTA em seu weight class, competitivo com modelos 100x maiores
+- 🚀 **Escala:** Habilita TTS em devices que antes não podiam (IoT, wearables, low-end phones)
+
+**TAM:** TTS market = $5.4B by 2030. Edge AI = $14B. Intersection = $2-4B.
+
+**Modelo de negócio:**
+- SDK licensing: embed em produtos hardware/software
+- Enterprise: custom voices, fine-tuning, support
+- API: para quem quer hosted mas barato
+
+**Esforço para produtizar:** Médio — model pronto, precisa SDKs por plataforma (iOS, Android, WASM)
+
+**Combinações:**
+- + Dia/Chatterbox → pipeline TTS: KittenTTS para edge, Dia/Chatterbox para cloud quality
+- + Open-AutoGLM → phone agent com voz local
+- + Amical → dictation+TTS bidirectional em offline
+

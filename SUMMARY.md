@@ -462,3 +462,9 @@
 | 409 | blinkospace/blinko | 9.3k | Local-First AI | Personal AI note tool self-hosted — quick capture, RAG sobre notas, multimodal, Docker 1-click, TypeScript, GPL-3.0 | 🎯💸💎 |
 | 410 | colanode/colanode | 4.6k | Local-First Collab | Slack + Notion + Drive local-first — CRDTs via Yjs, SQLite local, self-hosted, real-time collab, Apache-2.0 | 🎯💸🚀 |
 | 411 | rowboatlabs/rowboat | 4.3k | AI Productivity | AI coworker local-first com memória — ingere email+meetings, vault Obsidian-compatible, knowledge compounds, Apache-2.0 | 🎯💎🚀 |
+| 412 | browseros-ai/BrowserOS | 9.1k | AI/Browser | Browser agentic open-source (Chromium fork) — AI agents nativos no browser, MCP server (31 tools), workflows visuais, scheduled tasks, LLM Hub multi-modelo, Ollama local, ad blocker 10x, AGPL-3.0 | 🎯💎🚀💸 |
+| 413 | HKUDS/AI-Trader | 10.9k | Fintech/AI Trading | Arena de AI trading agents competitivos — NASDAQ 100, SSE 50, crypto, live leaderboard, hourly trading, reasoning display, submit-your-strategy, MIT (HKU) | 🎯💎🚀📈 |
+| 414 | run-llama/notebookllama | 1.8k | AI/Knowledge | NotebookLM open-source — LlamaCloud backend, upload docs→AI notebook com citações, fully open-source, by LlamaIndex team, MIT | 🎯💸💎 |
+| 415 | HoshinoSuzumi/chronoframe | 1.6k | Self-Hosted/Photo | Gallery pessoal self-hosted — Live/Motion Photos, EXIF, geocoding reverso, explore map, S3/local, Nuxt 4+Drizzle, Docker, MIT | 🎯💸💎 |
+| 416 | RICHQAQ/PasteMD | 3.9k | Produtividade/Office | Markdown→Word/Excel one-click — resolve formatação quebrada de AI (ChatGPT/DeepSeek) no Office, LaTeX math, tabelas, HTML rich text, tray app Python, MIT | 🎯💎⚡ |
+| 417 | KittenML/KittenTTS | 9.6k | Voice AI/TTS | TTS state-of-art em <25MB — ultra-compacto, roda em edge/mobile, qualidade competitiva com modelos 10-100x maiores, Apache-2.0 | ⚡💸💎🚀 |

@@ -103,3 +103,31 @@ Billing, finanças pessoais, gestão financeira.
 **Combinação killer:** Dexter (research agent) + OpenStock (#93, dashboard visual) + Autumn (#223, billing) = plataforma completa de research financeiro com monetização built-in. Think "Bloomberg Terminal para mortais" a $29-99/mês.
 
 **Esforço:** Médio — precisa de mais data sources e validação de accuracy para uso profissional.
+
+---
+
+### [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader) ⭐ 10.9k | 🎯💎🚀📈
+
+**O que é:** Arena competitiva de AI trading agents. Múltiplos AI agents competem em NASDAQ 100, SSE 50 e crypto markets com zero input humano. Live leaderboard em ai4trade.ai.
+
+**Problema real:** Quant trading é dominado por hedge funds com equipes de PhDs. Retail traders não têm acesso a estratégias AI competitivas. Plataformas existentes (QuantConnect, Alpaca) requerem coding expertise.
+
+**Eixos de inovação:**
+- 🎯 **Problema real:** Democratiza AI trading — submit sua strategy e compete
+- 💎 **Qualidade:** Live leaderboard com reasoning display transparente (mostra POR QUE o AI decidiu)
+- 🚀 **Escala:** De pesquisa acadêmica para trading real com hourly execution
+- 📈 **Volume:** Multi-market (US, China, crypto), hourly trading (não só daily)
+
+**TAM:** Retail trading software = $2.4B (2024), growing 12% CAGR. AI trading segment = $18B by 2030.
+
+**Modelo de negócio:**
+- Marketplace de strategies (revenue share)
+- Premium data feeds + compute
+- White-label para brokerages
+- API para fund managers
+
+**Esforço para produtizar:** Médio — pesquisa HKU sólida, precisa UX/compliance layer
+
+**Combinações:**
+- + OpenStock → real-time market data + AI trading execution
+- + QuantDinger → local backtesting + cloud competition
