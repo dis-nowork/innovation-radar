@@ -129,6 +129,13 @@
 | 109 | thedotmack/claude-mem | 16.3k | AI/DevTools | Memory plugin p/ Claude Code — captura, comprime e injeta contexto entre sessões | 🎯💎⚡ |
 | 110 | google/A2UI | 10.9k | AI/UX | Agent-to-User Interface — formato declarativo p/ agents gerarem UIs ricas e seguras | 🎯💎🚀 |
 
+| 111 | unclecode/crawl4ai | 59.3k | AI/Data Infra | Web crawler LLM-friendly — async, caching, Markdown output p/ RAG e agents | 🎯⚡📈💸 |
+| 112 | AsyncFuncAI/deepwiki-open | 14.0k | DevTools/AI | Wiki generator automático p/ repos GitHub/GitLab/BitBucket com diagramas | 🎯⚡🚀 |
+| 113 | DearVa/Everywhere | 5.4k | AI/Desktop | AI assistant context-aware p/ desktop — lê tela, MCP tools, multi-LLM | 🎯💎⚡ |
+| 114 | colanode/colanode | 4.5k | Colaboração | Slack+Notion local-first open-source — chat, pages, databases, files | 🎯💸💎 |
+| 115 | CaviraOSS/PageLM | 1.2k | Educação/AI | NotebookLM open-source — PDFs→quizzes, flashcards, podcasts, notas | 🎯💸🚀 |
+| 116 | 1Panel-dev/CordysCRM | 1.8k | CRM/AI | CRM AI open-source (Salesforce killer chinês) — 1Panel ecosystem | 🎯💸 |
+
 ---
 
-**Total:** 110 repos | **25 categorias** | Ordenado por ⭐ stars
+**Total:** 116 repos | **27 categorias** | Ordenado por ⭐ stars

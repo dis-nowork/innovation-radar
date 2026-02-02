@@ -250,3 +250,29 @@ Strix (19.6k ⭐) não é apenas "mais um scanner". É um **pentester autônomo*
 O insight: esses dois mercados parecem iguais mas têm necessidades opostas. Real-time precisa de latência <200ms. Long-form precisa de accuracy e escala. **Quem dominar ambos com um produto unificado** (gravar call → transcrever → analisar → responder em real-time) captura o mercado de "conversation intelligence" inteiro (Gong, Chorus = $2-5B+).
 
 **Stack convergente:** VibeVoice ASR (transcrever) + Chatterbox Turbo (responder) + Mem0 (memória persistente) = **agente de vendas/suporte que lembra de tudo e melhora ao longo do tempo**. Nenhum incumbente tem isso open-source.
+
+---
+
+## 2026-02-01 — AI Productivity, Web Extraction & Local-First Collaboration (Rodada Noturna #2)
+
+### Insight #16: O "Data Layer" para AI está se commoditizando — e isso é ENORME
+Crawl4ai (59k ⭐) prova um padrão: a infraestrutura para alimentar LLMs com dados está ficando commodity open-source. Três camadas estão convergindo:
+1. **Aquisição:** crawl4ai (web), docling (documentos), screenpipe (tela)
+2. **Estruturação:** graphiti (knowledge graphs), cocoindex (transformação incremental)
+3. **Consumo:** MCP servers, context7 (docs p/ LLMs)
+
+**Implicação:** O valor está migrando de "ter dados" para "orquestrar dados em tempo real". Quem construir o **"data orchestration layer"** que conecta essas 3 camadas com zero-config captura o mercado de "AI data infrastructure" inteiro. Pense: **Fivetran para AI** — mas open-source e 10x mais barato. Isso é 🎯💸⚡📈 — 4 eixos.
+
+**Stack concreto:** crawl4ai (crawl) → docling (parse) → cocoindex (transform) → graphiti (store) → MCP server (serve to agents). Hoje cada pedaço existe isolado. Amanhã, quem colar = unicórnio.
+
+### Insight #17: "Context-Aware Desktop AI" é o próximo OS layer
+Everywhere (5.4k ⭐), screenpipe (16.6k), e o modelo de agentes MCP (10k+) estão convergindo para algo maior: um **AI layer que roda sobre qualquer OS**, entendendo contexto visual + ferramentas + memória.
+
+A diferença fundamental vs chatbots tradicionais: esses tools leem sua tela, lembram seu histórico, e agem em suas ferramentas — sem você mudar de contexto. É a transição de "eu vou até a AI" para "a AI está comigo o tempo todo".
+
+**Gap:** Ninguém combinou: contexto visual (Everywhere) + memória persistente (screenpipe/Mem0) + ação em ferramentas (MCP) + voice (Chatterbox/Pipecat) num produto unificado. Quem fizer isso constrói o **"Jarvis real"** — e o TAM é literalmente "todo knowledge worker do planeta" ($500B+). 
+
+### Insight #18: Local-first está virando requisito, não diferencial
+Colanode (4.5k), Reor (8.5k), Ghostfolio (7.6k), Dawarich (7.9k) — o padrão é claro: a nova geração de apps open-source é **local-first por default**. Não é mais "nice to have"; é expectativa baseline do público técnico.
+
+**Por que importa para empreendedores:** Apps local-first têm custo operacional ~0 (o user hospeda). Modelo de negócio: managed cloud para quem não quer self-host (margem altíssima porque a maioria paga por conveniência). É o **GitLab model** aplicado a qualquer vertical.
