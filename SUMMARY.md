@@ -487,3 +487,9 @@
 | 433 | apple/embedding-atlas | 4.6k | AI/Data Viz | Visualização interativa de embeddings (Apple) — clustering automático, density contours, WebGPU, milhões de pontos, Python+JS+Svelte+React, MIT | 🎯💎⚡ |
 | 434 | zumerlab/snapdom | 7.5k | DevTools/Rendering | DOM capture engine ultra-rápido — converte DOM→SVG/PNG/JPG/WebP/Canvas, zero deps, pseudo-elements, fonts embeddadas, plugin system, MIT | 🎯⚡💎 |
 | 435 | PennyroyalTea/gibberlink | 4.8k | AI/Protocol | Protocolo de comunicação AI-to-AI via áudio — agents detectam outro AI e trocam p/ protocolo sonoro eficiente (ggwave), viral, 11labs+a16z hackathon winner, MIT | 🎯⚡📈 |
+| 436 | funstory-ai/BabelDOC | 7.6k | Docs/Translation | Tradutor de PDFs científicos com layout preservado — equações, tabelas, bilíngue lado-a-lado, Immersive Translate integration, multi-LLM, Python API+CLI | 🎯💸💎⚡ |
+| 437 | droidrun/droidrun | 7.6k | Mobile/Automation | Automação de Android/iOS via NL — multi-LLM (OpenAI/Anthropic/Gemini/Ollama), planning multi-step, screenshot analysis, CLI+Python API, MIT | 🎯⚡🚀 |
+| 438 | useplunk/plunk | 4.8k | Marketing/Email | Plataforma email open-source (SendGrid killer) — transacional + campaigns + automations + segmentation, sobre AWS SES, AGPL-3.0 | 🎯💸🚀 |
+| 439 | opencloud-eu/opencloud | 4.7k | Infra/Soberania | File management soberano — Go backend sem database (filesystem), sharing+collab, OpenID Connect, Nextcloud-killer leve, Apache-2.0 | 🎯💸💎 |
+| 440 | oomol-lab/pdf-craft | 4.8k | Docs/OCR | Scanned book PDF → Markdown/EPUB — DeepSeek OCR, tabelas+equações+footnotes, TOC automático, GPU-accelerated, 100% local, MIT | 🎯💎⚡💸 |
+| 441 | farmOS/farmOS | 1.2k | AgTech/Farm | Farm management open-source — record keeping, planejamento, API, IoT, backed por Cornell/USDA/Vermont, Drupal-based, GPL-2.0 | 🎯💸🚀 |

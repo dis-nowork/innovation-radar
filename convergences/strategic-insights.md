@@ -2116,3 +2116,21 @@ Nenhum SaaS faz isso de ponta a ponta. É 3 repos open-source combinados.
 **Combinação assassina:** Backlog.md + Claude Code + spec-kit = pipeline: spec→tasks→implementation→review, gerenciada por AI com human oversight. O primeiro "AI Project Manager" real. Quem transformar isso em produto SaaS (visual layer + file-based backend + multi-agent coordination) tem um negócio de $1B+.
 
 **Meta-padrão:** SnapDOM (#434, 7.5k⭐) + RapidRAW (#431, 4.6k⭐) confirmam que a era de "GPU-first" ferramentas web chegou. WebGPU/WGSL está habilitando apps desktop-quality no browser. O gap: ninguém montou a "platform" para GPU-first web apps (hosting, billing, marketplace). É o que Vercel foi para SSR — mas para GPU-heavy web apps.
+
+---
+
+## 2026-02-02 (noite #2) — Insights: Software de Trilhões & Document Processing Pipeline
+
+### Insight #1: "Software de Trilhões" — as indústrias que GitHub ignora são as maiores oportunidades
+**Padrão:** Agricultura ($10T), construção ($13T), imobiliário ($3.6T) — juntas >$25 trilhões. No GitHub, os melhores repos dessas áreas têm 500-1200 stars. farmOS (#441, 1.2k⭐) endereça $4B+ market. microrealestate (1.0k⭐) endereça $30B+. Compare com yet-another-todo-app frameworks com 10k+.
+
+**Por que importa:** O gap entre tamanho do mercado e atenção dos developers é absurdo. Qualquer startup que pegue um desses repos + UX moderna + AI features + mobile app tem vantagem de 5-10 anos. Ninguém está combinando AI + vertical software para estas indústrias.
+
+**Gap MASSIVO:** farmOS + satellite imagery AI + weather + yield optimization = "Precision Farm OS" ($1B+). microrealestate + AI tenant screening + smart pricing + maintenance prediction = "Smart Landlord OS" ($1B+). A receita é simples: vertical OSS + AI + mobile = unicórnio.
+
+### Insight #2: "Document Processing Pipeline" está se completando — de scan a knowledge
+**Padrão:** pdf-craft (#440) scan→text. BabelDOC (#436) traduz. LEANN (#195) indexa. DeepTutor (#419) responde. dots.ocr (#363) faz layout parsing. Cada um resolve um pedaço. Pipeline completa: **Scanned Book → OCR → Translate → Index → AI Tutor**.
+
+**Por que importa:** Democratiza acesso ao conhecimento global. Estudante brasileiro pode pegar textbook japonês escaneado → EPUB → português → RAG pessoal → tutor AI com citações. Custo: $0.
+
+**Oportunidade de $10B:** Quem montar este pipeline como produto ("upload PDF → conhecimento pronto em seu idioma") captura educação + pesquisa + treinamento corporativo. É a "Netflix do conhecimento técnico" — acesso a qualquer livro/paper em qualquer idioma, com AI tutor incluído.
