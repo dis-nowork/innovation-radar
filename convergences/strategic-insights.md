@@ -1099,3 +1099,39 @@ Três repos nesta rodada revelam o mesmo padrão: **trazer dados do mundo físic
 **A cadeia completa:** Foto/scan → chandra (OCR) → DeepAnalyze (análise) → json-render (dashboard). Zero intervenção humana do papel ao insight. Para cada indústria vertical (saúde, legal, contabilidade, real estate), essa cadeia vale bilhões.
 
 **Gap não explorado:** Ninguém construiu o **orquestrador** dessa cadeia. Cada repo faz seu pedaço. O "glue layer" que conecta OCR → análise → visualização → ação é o produto real.
+
+---
+
+## 2026-02-02 — SDD Ecosystem + Infrastructure Stealth + AI-Native Business Tools
+
+### Insight #50: Spec-Driven Development é o "DevOps moment" da era AI coding
+Dois projetos massivos (spec-kit 67k⭐, OpenSpec 22k⭐) mais o ecossistema satélite (spec-workflow-mcp 3.8k⭐, get-shit-done 10.7k⭐, agent-os 3.7k⭐) revelam uma **mudança de paradigma iminente**: specs se tornam o artefato primário, código vira output derivado.
+
+**Por que isso importa para negócios:**
+- Empresas que vendem "AI coding" hoje vendem velocidade de geração. SDD vende **previsibilidade de resultado** — muito mais valioso para enterprise.
+- O playbook é idêntico ao DevOps: primeiro era "push to prod and pray", depois CI/CD trouxe governança. SDD = CI/CD para AI coding.
+- **Oportunidade:** SDD-as-a-Service para enterprises. Governance layer: quem aprovou a spec? Qual modelo implementou? Audit trail completo. Compliance teams vão EXIGIR isso.
+
+**Combinação multiplicadora:** OpenSpec + PAL MCP (#265) → specs revisadas por consenso multi-modelo antes de implementação. Qualidade × previsibilidade = enterprise gold.
+
+### Insight #51: "Stealth Infrastructure" é o novo premium tier
+HeadlessX (#268) prova um padrão: **infraestrutura que se esconde é mais valiosa que infraestrutura que funciona**. 0% detection vale 10x mais que 67% detection para qualquer empresa de scraping/automation.
+
+Esse padrão se repete em:
+- **Browsers:** HeadlessX (0% detection)
+- **AI Agents:** Camoufox patches em nível binário C++
+- **Privacy Tools:** VPNs, stealth proxies
+- **Email:** deliverability (inbox vs spam)
+
+**A meta-oportunidade:** "Stealth-as-a-Service" — camada que faz qualquer automação parecer humana. Não é o scraper, não é o bot — é o **invisibility layer** entre eles e o mundo. Pricing por sessão/request com SLA de indetectabilidade.
+
+### Insight #52: CRM open-source finalmente chegou ao "good enough" com AI
+Por 20 anos, open-source CRMs (SuiteCRM, vtiger) foram feios e limitados. Agora CordysCRM (#267) **substituiu Salesforce real em empresa real** (7 anos de uso). A diferença? AI-native com MCP + BI integrado.
+
+**A janela de oportunidade:** PMEs no Brasil e LATAM pagam R$50-500/usuário/mês por CRMs mid-market (RD Station, HubSpot, Pipedrive). Um CordysCRM localizado para LATAM com:
+- Integração WhatsApp nativa (não WeChat)
+- Notas fiscais brasileiras
+- AI em português
+- Deploy em 1 click
+
+...captura um mercado de milhões de PMEs mal-servidas. O esforço é localização + integrações, não construir do zero.

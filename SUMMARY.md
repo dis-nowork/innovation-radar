@@ -295,7 +295,13 @@
 | 260 | datalab-to/chandra | 4.7k | AI/OCR | OCR para docs complexos — tabelas com merge cells, formulários, caligrafia, equações LaTeX, 40+ idiomas, layout-aware com bboxes, Apache-2.0 | 🎯💎⚡ |
 | 261 | ruc-datalab/DeepAnalyze | 3.6k | AI/Data Science | LLM agêntico para data science autônomo — pipeline completo (prep→análise→modelagem→visualização→relatório), modelo 8B open-source + 500K dataset, MIT | 🎯💎⚡🚀 |
 | 262 | CaviraOSS/OpenMemory | 3.1k | AI/Agent Memory | Memória persistente cognitiva para LLMs — não é RAG nem vector DB, Python+Node SDKs, integra LangChain/CrewAI/AutoGen/MCP/VS Code, traces explicáveis, Apache-2.0 | 🎯💎🚀 |
+| 263 | github/spec-kit | 66.9k | DevTools/SDD | Spec-Driven Development toolkit oficial do GitHub — specs executáveis geram código, CLI Python (specify), integra Claude/Codex/Gemini, MIT | 🎯💎⚡🚀 |
+| 264 | Fission-AI/OpenSpec | 21.7k | DevTools/SDD | Framework SDD leve e fluido — artifact-guided workflow, /opsx commands, 20+ AI assistants, brownfield-friendly, npm, MIT | 🎯⚡💎 |
+| 265 | BeehiveInnovations/pal-mcp-server | 11.0k | MCP/Multi-Model | Orquestrador multi-modelo via MCP — Claude+Gemini+Codex+GPT trabalhando juntos, CLI-to-CLI bridge (clink), consensus debates, conversation threading | 🎯💎⚡🚀 |
+| 266 | nicotsx/zerobyte | 5.2k | Infra/Backup | Backup automation self-hosted — UI web moderna, restic engine, scheduling, encryption, multi-protocol (NFS/SMB/SFTP/WebDAV), Docker, AGPL-3.0 | 🎯💸💎 |
+| 267 | 1Panel-dev/CordysCRM | 1.8k | Business/CRM | CRM open-source AI (Salesforce killer) — L2C completo, MCP Server, integra DataEase BI + MaxKB AI agents, WeChat/DingTalk/Feishu, Docker, Java | 🎯💸🚀💎 |
+| 268 | saifyxpro/HeadlessX | 1.6k | Infra/Browser Automation | Browser automation indetectável — Camoufox (Firefox C++ patched), 0% detection rate, CAPTCHA solving AI, API endpoints, self-hosted, MIT | 🎯💎⚡ |
 
 ---
 
-**Total:** 262 repos | **59 categorias** | Ordenado por ⭐ stars
+**Total:** 268 repos | **62 categorias** | Ordenado por ⭐ stars
