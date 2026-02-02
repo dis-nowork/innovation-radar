@@ -189,7 +189,14 @@
 | 161 | deepseek-ai/DeepSeek-OCR | 22.3k | AI/OCR | OCR via compressão óptica contextual — extrai texto de imagens/PDFs com alta fidelidade, vLLM nativo, 2500 tokens/s | 🎯⚡💎 |
 | 162 | firecrawl/open-lovable | 23.9k | AI/No-Code | Clona e recria qualquer website como React app em segundos — scrape→generate→deploy, open-source Lovable | 🎯⚡🚀 |
 | 163 | aureuserp/aureuserp | 9.0k | ERP/Business | ERP open-source completo em Laravel+FilamentPHP — modular, finance/HR/inventory/CRM, SME→enterprise | 🎯💸🚀 |
+| 164 | tw93/Mole | 32.8k | Mac/Utilities | CleanMyMac+AppCleaner+DaisyDisk+iStatMenus em um único CLI — limpeza profunda, desinstalador inteligente, monitor sistema | 🎯💸💎 |
+| 165 | index-tts/index-tts | 18.4k | Voice AI/TTS | TTS industrial zero-shot com controle emocional e de duração — dubbing preciso, by Bilibili, SOTA em WER/similaridade | 🎯💎⚡🚀 |
+| 166 | MotiaDev/motia | 14.5k | Backend Framework | Backend unificado: APIs+jobs+queues+workflows+AI agents em um primitivo (Step) — React do backend, multi-language | 🎯⚡🚀 |
+| 167 | VectifyAI/PageIndex | 12.0k | AI/RAG | RAG sem vetores — tree index + reasoning LLM, 98.7% accuracy em FinanceBench, elimina chunking e vector DB | 🎯💎⚡ |
+| 168 | QwenLM/Qwen3-TTS | 6.5k | Voice AI/TTS | TTS Alibaba/Qwen — 10 idiomas, voice clone, voice design por texto, streaming ultra-low-latency, 0.6B/1.7B params | 🎯💸💎🚀 |
+| 169 | iflytek/astron-rpa | 6.2k | RPA/Automação | RPA enterprise open-source com AI agent nativo — 300+ componentes, visual designer, UiPath/AA killer | 🎯💸🚀 |
+| 170 | nicotsx/zerobyte | 5.2k | Infra/Backup | Backup automation self-hosted com UI moderna — restic-based, multi-protocolo, criptografia E2E, scheduling visual | 🎯💸💎 |
 
 ---
 
-**Total:** 163 repos | **34 categorias** | Ordenado por ⭐ stars
+**Total:** 170 repos | **35 categorias** | Ordenado por ⭐ stars

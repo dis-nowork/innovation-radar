@@ -71,3 +71,29 @@ Processamento de documentos, extração de dados, pipelines de transformação c
 **Modelo de negócio:** Managed OCR API (pay-per-page), on-prem enterprise, vertical solutions (healthcare records, legal discovery)
 **Esforço:** Alto — requer GPU infra, mas vLLM integration já resolve serving
 **Combinações:** DeepSeek-OCR + LangExtract (#128) = scan→OCR→extração estruturada. DeepSeek-OCR + Unstract (#94) = document processing pipeline completo
+
+---
+
+### [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) ⭐ 12.0k | 🎯💎⚡
+
+**O que faz:** RAG sem vetores — constrói índice hierárquico em árvore de documentos e usa LLMs para reasoning-based retrieval. Inspirado no AlphaGo. Alcançou **98.7% accuracy no FinanceBench** (vs ~70-80% de vector RAG). Chat platform, MCP server e API disponíveis.
+
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** Vector RAG falha em documentos profissionais longos (contratos, relatórios financeiros, papers médicos) — similaridade ≠ relevância
+- 💎 **98.7% accuracy** vs ~75% de vector RAG em benchmarks financeiros — salto qualitativo
+- ⚡ **Sem chunking, sem embedding, sem vector DB** — pipeline drasticamente mais simples
+
+**TAM:** $15B+ (enterprise search + document intelligence) — todo setor regulado (legal, financeiro, saúde)
+
+**Modelo de negócio:** 
+- SaaS: chat.pageindex.ai (já funcional)
+- API/MCP: integração em workflows existentes
+- Enterprise: on-prem para setores regulados (compliance)
+- Vertical solutions: FinTech, LegalTech, HealthTech
+
+**Esforço:** Baixo — self-host com código open-source, cloud já disponível
+
+**Combinações:** 
+- PageIndex + DeepSeek-OCR (#161) = scan→index→reasoning retrieval p/ documentos físicos
+- PageIndex + Motia (#166) = backend workflow com RAG frontier embutido
+- PageIndex + LangExtract (#158) = extração + retrieval reasoning = análise documental end-to-end

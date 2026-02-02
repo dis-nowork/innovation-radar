@@ -152,3 +152,31 @@ SDK funcional, precisa cloud infra e dashboard de test results
 ### Combinações
 - + browser-use (#1): magnitude como test/verification layer sobre browser-use automations
 - + witr (#153): debug de processos + browser agent = full stack observability/automation
+
+---
+
+### [MotiaDev/motia](https://github.com/MotiaDev/motia) ⭐ 14.5k | 🎯⚡🚀
+
+**O que faz:** Framework backend unificado que elimina fragmentação de runtime. APIs, background jobs, queues, workflows, streaming, AI agents e observabilidade — tudo com um único primitivo: o **Step**. Multi-language (TS/JS/Python). Backed by Vercel OSS program.
+
+### Problema Real
+Backend moderno exige costurar 6+ ferramentas: Express p/ API, Bull p/ queues, cron p/ schedulers, Temporal p/ workflows, LangChain p/ AI agents. Cada um com sua config, deploy e debugging. Motia unifica tudo com auto-discovery de arquivos.
+
+### Eixos de Inovação
+- 🎯 **Problema real:** Todo backend team sofre com fragmentação — Motia é o "React do backend"
+- ⚡ **5-10x mais rápido p/ entregar:** Um Step = um arquivo com config + handler, auto-wired
+- 🚀 **5-10x mais escala:** De protótipo a produção sem trocar framework — observabilidade built-in
+
+### TAM: $15B+ (backend frameworks + workflow automation)
+
+### Modelo de Negócio
+- Motia Cloud (hosted Steps com auto-scaling)
+- Enterprise: team management, audit, compliance
+- Marketplace de Steps pré-construídos
+
+### Esforço para Produtizar: Baixo-Médio
+Framework funcional, `npx motia create` já funciona. Precisa de cloud offering.
+
+### Combinações
+- + Supabase (DB) + Motia (backend logic) = full-stack serverless sem vendor lock-in
+- + browser-use (automação) como Step = workflows de scraping/automação com observabilidade

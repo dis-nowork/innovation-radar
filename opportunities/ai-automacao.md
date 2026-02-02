@@ -208,3 +208,27 @@ Modelo funcional mas focado em ecossistema chinês. Precisa: suporte iOS nativo,
 - + VibeVoice (#76): voice command → phone automation = hands-free phone control
 - + browser-use (#1): phone agent + browser agent = automação cross-platform total
 - + Hyprnote (#155): durante meeting no phone, agent toma notas e executa follow-ups
+
+---
+
+### [iflytek/astron-rpa](https://github.com/iflytek/astron-rpa) ⭐ 6.2k | 🎯💸🚀
+
+**O que faz:** Suite RPA enterprise-grade da iFlytek (gigante chinesa de AI) com designer visual, 300+ componentes pré-construídos, integração nativa com AI agents (Astron Agent). Cobre Windows desktop + web. Suporta WPS, Office, Kingdee, YonYou, browsers. Inclui excellence center, marketplace de componentes e robot teams.
+
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** UiPath custa $420/mês/user, Automation Anywhere similar. PMEs não conseguem pagar RPA enterprise.
+- 💸 **Open-source completo** vs $5k-50k+/ano de UiPath/AA/BluePrism
+- 🚀 **AI agent nativo** — bi-direcional: RPA chama agents e agents chamam RPA. Nenhum concorrente open-source tem isso.
+
+**TAM:** $13B+ (RPA market, crescendo 20%+ ao ano)
+
+**Modelo de negócio:**
+- Enterprise: excellence center features, scheduling, monitoring premium
+- Marketplace: componentes e templates de workflows
+- Managed cloud: RPA-as-a-Service
+
+**Esforço:** Médio — Windows-only é limitação. Precisa de localização (UI em chinês) e documentation em inglês
+
+**Combinações:**
+- + browser-use (#1): RPA desktop + browser AI agent = automação desktop-to-web completa
+- + Open-AutoGLM (#152): RPA desktop + mobile agent = automação cross-device

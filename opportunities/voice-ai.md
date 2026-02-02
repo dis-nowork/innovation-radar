@@ -68,3 +68,49 @@
 **Combinações:** + Supabase para backend + ElevenLabs para voz = produto consumer completo
 
 ---
+
+## 4. index-tts/index-tts ⭐ 18.4k
+**Link:** https://github.com/index-tts/index-tts
+
+**O que faz:** IndexTTS2 — sistema TTS zero-shot de nível industrial desenvolvido pela Bilibili. Primeira TTS autoregressiva com controle preciso de duração de síntese + desacoplamento emoção/timbre. Suporta dois modos: duração controlada (p/ dubbing) e geração livre (prosódia natural). Fine-tune de Qwen3 para controle emocional por texto.
+
+**Problema real:** Dubbing de vídeo profissional custa $50-200/minuto com voice actors. Ferramentas TTS existentes não controlam duração (dessincronizam com vídeo) nem emoção independentemente do timbre.
+
+**Eixos de inovação:**
+- 🎯 Dubbing automático preciso — enorme demanda de criadores YouTube, streamers, empresas de localização
+- 💎 SOTA em WER, similaridade de speaker e fidelidade emocional — supera CosyVoice, XTTS
+- ⚡ Controle de duração que nenhum concorrente autoregressivo oferece
+- 🚀 Zero-shot: clona qualquer voz com poucos segundos de referência
+
+**TAM:** $8B+ (localization/dubbing market) + $30B+ (content creation tools)
+
+**Modelo de negócio:** API comercial (já tem email p/ licensing), self-hosted freemium, integração em plataformas de edição de vídeo
+
+**Esforço:** Baixo-Médio — modelo pronto, precisa de wrapper API + UI
+
+**Combinações:** + OpenCut (editor vídeo) + DeepSeek-OCR (legendas) = pipeline completo de localização de conteúdo automático
+
+---
+
+## 5. QwenLM/Qwen3-TTS ⭐ 6.5k
+**Link:** https://github.com/QwenLM/Qwen3-TTS
+
+**O que faz:** Série TTS do Alibaba/Qwen com modelos 0.6B e 1.7B. Suporta voice clone, voice design por NL (descreva a voz desejada em texto), streaming ultra-low-latency com arquitetura Dual-Track. 10 idiomas (incluindo português), múltiplos dialetos. Codebook LM end-to-end sem DiT.
+
+**Problema real:** TTS de qualidade é dominado por ElevenLabs ($5-330/mês) e PlayHT. Modelos open-source até agora tinham latência alta ou qualidade limitada.
+
+**Eixos de inovação:**
+- 🎯 Voice design por texto natural — "voz masculina grave, confiante, sotaque brasileiro" → gera voz
+- 💸 Open-source completo vs ElevenLabs: custo zero de API, roda local
+- 💎 Qualidade comparável a ElevenLabs com modelo 1.7B
+- 🚀 Streaming nativo com latência ultra-baixa, ideal p/ aplicações real-time
+
+**TAM:** $5B+ (TTS market) — crescendo 15% ao ano
+
+**Modelo de negócio:** DashScope API (Alibaba Cloud), self-hosted freemium, fine-tuning services
+
+**Esforço:** Baixo — modelos HuggingFace prontos, Gradio UI inclusa, vLLM suportado
+
+**Combinações:** + Pipecat (voice AI framework) + LiveKit (WebRTC) = plataforma completa de voice agents com TTS frontier
+
+---

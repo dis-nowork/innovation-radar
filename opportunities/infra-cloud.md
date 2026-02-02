@@ -65,3 +65,51 @@ Deploy, monitoring, PaaS self-hosted.
 **Modelo de negócio:** Managed service (console.ubicloud.com) + enterprise features + suporte
 **Esforço:** Alto — infra é complexo, mas o projeto está maduro (Ruby, Docker, 11.8k stars)
 **Combinações:** Ubicloud + Coolify/Dokploy = PaaS self-hosted completo. Ubicloud + AI inference = GPU cloud 5x mais barato
+
+---
+
+### [tw93/Mole](https://github.com/tw93/Mole) ⭐ 32.8k | 🎯💸💎
+
+**O que faz:** CLI all-in-one para limpeza e otimização de Mac — substitui CleanMyMac ($40/ano), AppCleaner, DaisyDisk ($13), iStat Menus ($12). Limpeza profunda (caches, logs, browser data), desinstalador inteligente (remove remnants ocultos), análise de disco visual, monitor de sistema real-time, purge de build artifacts. Homebrew install, Vim keybinds, dry-run mode.
+
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** Todo Mac user acumula dezenas de GB em caches/logs. CleanMyMac é o app mais popular mas custa $40/ano
+- 💸 **Grátis e open-source** vs $65+/ano combinado (CleanMyMac+DaisyDisk+iStatMenus)
+- 💎 **4 ferramentas em 1** — CLI elegante com UX pensada (Vim bindings, dry-run, whitelists, operation log)
+
+**TAM:** $2B+ (Mac utility software) — 100M+ Mac users ativos
+
+**Modelo de negócio:**
+- Freemium: CLI grátis, GUI app pro paga
+- Enterprise: fleet management, MDM integration
+- Sponsorship/donations (já tem BuyMeACoffee)
+
+**Esforço:** Baixo — já funcional, `brew install mole`. Oportunidade em GUI wrapper e versão Windows
+
+**Combinações:**
+- Standalone — já é produto completo
+- + Zerobyte (#170): clean + backup = maintenance suite completa p/ self-hosters
+
+---
+
+### [nicotsx/zerobyte](https://github.com/nicotsx/zerobyte) ⭐ 5.2k | 🎯💸💎
+
+**O que faz:** Automação de backup self-hosted com UI web moderna. Built on Restic. Suporta NFS, SMB, WebDAV, SFTP, local. Criptografia E2E, compressão, retention policies, scheduling visual. Docker deploy.
+
+**Por que é 5-10x melhor:**
+- 🎯 **Problema real:** Self-hosters precisam de backup confiável. Restic é poderoso mas CLI-only. Synology/QNAP cobram por hardware proprietário
+- 💸 **Grátis** vs Veeam ($400+/ano), Acronis ($50+/ano), ou NAS proprietário
+- 💎 **UI moderna sobre Restic** — scheduling visual, monitoring, multi-protocolo num clique
+
+**TAM:** $10B+ (backup & recovery market)
+
+**Modelo de negócio:**
+- Managed cloud: hosted Zerobyte com storage incluso
+- Enterprise: multi-node management, compliance reports, alerting
+- Premium features: dedup analytics, disaster recovery testing
+
+**Esforço:** Baixo-Médio — já funcional (v0.25), precisa maturar (v0.x)
+
+**Combinações:**
+- + Coolify/Dokploy: self-hosted PaaS + backup = stack completa
+- + Mole (#164): cleanup + backup = lifecycle management de dados
