@@ -427,3 +427,48 @@ Strix (#141) provou que **AI agents podem fazer pentest real** — não SAST/DAS
 O gap: **ninguém combinou AI security testing + AI auto-fix + compliance reporting** em uma plataforma unificada. Strix encontra, mas o fix ainda é manual. Quem fechar esse loop (scan → validate → fix → verify → report) captura enterprise contracts de $100k+/ano.
 
 **Combinação:** Strix (#141) + opencode (94.8k⭐) para auto-fix + compliance templates = **Security Operations Platform** que substitui equipes inteiras de AppSec.
+
+## 🔮 Insight #22 — "Perguntar ao Banco" é o novo BI: a era GenBI
+
+A convergência de 5 repos (PandasAI 23.1k⭐, Vanna 22.5k⭐, WrenAI 13.6k⭐, Evidence 5.9k⭐, Dataherald 3.6k⭐) revela que **o BI tradicional está morto para 90% dos casos de uso**. O padrão emergente:
+
+1. **Semantic layer + NL → SQL** substitui analistas de dados para perguntas rotineiras (WrenAI, Vanna)
+2. **Conversational data analysis** elimina a curva de aprendizado de SQL/Python (PandasAI)
+3. **BI-as-code** trata dashboards como software — git, CI/CD, review (Evidence)
+4. **Fine-tuning contextual** resolve o problema de accuracy em schemas complexos (Dataherald, Vanna RAG)
+
+**O gap gigante:** Nenhum player juntou tudo. Hoje o mercado é fragmentado:
+- PandasAI: lib Python (devs only)
+- WrenAI: app self-hosted (precisa deploy)
+- Vanna: widget embeddable (precisa integrar)
+- Evidence: reports estáticos (não conversacional)
+
+**A mega-oportunidade:** Quem criar o **"Notion of Data"** — uma plataforma onde qualquer pessoa (de CEO a estagiário) abre uma tela, pergunta em português/inglês/qualquer idioma, e recebe tabela + gráfico + insight em 3 segundos, com:
+- 🔐 Row-level security (cada pessoa vê apenas seus dados)
+- 📊 Auto-dashboard que se monta sozinho
+- 🧠 Aprende com cada pergunta (fine-tuning contínuo)
+- 💬 Compartilhável como link/embed
+- 💸 Self-hosted grátis
+
+**TAM combinado:** $30B+ (BI) + $15B (embedded analytics) + $5B (data team tooling) = **$50B+**
+
+**Combinação matadora:** WrenAI (#148) como semantic engine + Vanna (#147) como chat widget + Evidence (#149) como report generator + PandasAI (#146) como Python SDK = **Full-stack GenBI platform** que substitui Tableau + Looker + Metabase + data analysts.
+
+**Por que agora:** LLMs ficaram baratos (GPT-4.1-mini), preciso (RAG melhorou 10x em 2025), e rápido (streaming). O Tableau tem 40% de churn anual em PMEs por complexidade. O timing é perfeito.
+
+## 🔮 Insight #23 — Contabilidade Open-Source: a próxima onda pós-CRM
+
+Assim como Twenty (#5, 39k⭐) e Chatwoot (#7, 27k⭐) provaram que CRM/atendimento open-source têm mercado massivo, **contabilidade e finanças** são o próximo domínio a ser disrupted:
+
+| Incumbente | Preço | Alternativa OS | Gap |
+|---|---|---|---|
+| QuickBooks | $30-200/mês | Bigcapital (3.5k⭐), Frappe Books (4.1k⭐) | UI madura, integrações bancárias |
+| Xero | $15-78/mês | Bigcapital (3.5k⭐) | Multi-moeda, payroll |
+| Tableau/Power BI | $70-5000/mês | WrenAI (13.6k⭐), Evidence (5.9k⭐) | Enterprise governance |
+
+**O combo killer:** Bigcapital (#139) + WrenAI (#148) + Lago (#68) = **Financial OS completo** para PMEs:
+- Bigcapital: contabilidade e relatórios
+- WrenAI: "pergunte qualquer coisa sobre suas finanças"
+- Lago: billing usage-based se vender SaaS/API
+
+Custo: $0/mês self-hosted vs $300-5000/mês pagando QuickBooks + Tableau + Stripe Billing.

@@ -169,6 +169,13 @@
 | 144 | Zackriya-Solutions/meeting-minutes | 9.6k | Produtividade | AI meeting assistant 100% local — transcrição 4x mais rápida, Rust, diarização | 🎯💸⚡ |
 | 145 | Billionmail/BillionMail | 13.4k | Marketing | Mail server + email marketing self-hosted — envio ilimitado, zero custo mensal | 🎯💸📈 |
 
+| 146 | sinaptik-ai/pandas-ai | 23.1k | AI/Data Analysis | Chat com databases/CSV/parquet em linguagem natural — análise de dados conversacional via LLMs + RAG | 🎯⚡💸🚀 |
+| 147 | vanna-ai/vanna | 22.5k | AI/Data Analysis | Text-to-SQL enterprise-ready — web component embeddable, row-level security, streaming, audit logs | 🎯💎⚡🚀 |
+| 148 | Canner/WrenAI | 13.6k | AI/BI | GenBI open-source — NL→SQL→Charts→Reports, semantic layer MDL, embed via API, multi-database | 🎯💸⚡🚀 |
+| 149 | evidence-dev/evidence | 5.9k | BI/Data | BI como código — SQL+Markdown→sites interativos com charts, git-versionado, dev-first | 🎯💸💎 |
+| 150 | Dataherald/dataherald | 3.6k | AI/Data Analysis | NL-to-SQL enterprise — fine-tuning contínuo, contexto organizacional, API REST | 🎯💎⚡ |
+| 151 | frappe/books | 4.1k | Fintech/Contabilidade | Contabilidade desktop open-source — offline-first, bonito, pra PMEs (Frappe ecosystem) | 🎯💸 |
+
 ---
 
-**Total:** 145 repos | **31 categorias** | Ordenado por ⭐ stars
+**Total:** 151 repos | **32 categorias** | Ordenado por ⭐ stars
