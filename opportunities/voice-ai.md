@@ -114,3 +114,39 @@
 **Combinações:** + Pipecat (voice AI framework) + LiveKit (WebRTC) = plataforma completa de voice agents com TTS frontier
 
 ---
+
+## Dia — TTS Dialogue Ultra-Realista
+- **Repo:** [nari-labs/dia](https://github.com/nari-labs/dia)
+- **Stars:** 19.1k ⭐ | **Forks:** 1.7k | **Criado:** Abr 2025
+- **Eixos:** 🎯💎⚡
+
+**O que faz:** Modelo TTS de 1.6B parâmetros que gera diálogos ultra-realistas entre 2 speakers em um único passe. Suporta nonverbal communications (risada, tosse, suspiro, etc.) e voice cloning.
+
+**Por que 5-10x melhor:**
+- **💎 Qualidade:** Gera diálogos com 2 speakers naturalmente — outros TTS geram 1 speaker por vez
+- **⚡ Velocidade:** Um único passe gera o diálogo completo (vs pipeline multi-step)
+- **🎯 Problema:** Criar podcasts, audiobooks, conteúdo educacional com vozes realistas é caro ($0.10-0.30/min em ElevenLabs)
+
+**Diferencial vs competidores:**
+- vs ElevenLabs: Open-source, zero custo por minuto, voice cloning incluído
+- vs Chatterbox: Foco em DIÁLOGO (2 speakers), não só TTS single-speaker
+- vs Qwen3-TTS: Mais leve (1.6B), dialogue-native
+- Dia2 já lançado (Nov 2025) com melhorias
+
+**Use cases:**
+- Podcast generation (Open Notebook #142 → roteiro → Dia → áudio com 2 speakers)
+- Audiobooks com narrador + personagens
+- Conteúdo educacional (professor + aluno)
+- Customer service training (simulação de calls)
+- Voice-over para vídeos com diálogo natural
+
+**TAM:** $8B+ (content creation) + $3B+ (e-learning audio)
+
+**Modelo de negócio:** Open-weights (CC-BY-NC), managed API, enterprise licensing
+
+**Combinações:**
+- Dia + Open Notebook (#142) = podcasts AI gerados automaticamente de qualquer fonte
+- Dia + OpenCut (#171) = vídeos com narração dialogue-style
+- Dia + LEANN (#195) = RAG que responde em voz com 2 speakers discutindo o tema
+
+---

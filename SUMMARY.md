@@ -223,6 +223,15 @@
 | 193 | chaitin/PandaWiki | 9.0k | Knowledge/AI | Wiki AI-powered open-source — AI creation, AI Q&A, AI search, integra chatbots (DingTalk, Lark, WeChat) | 🎯💸🚀 |
 | 194 | airweave-ai/airweave | 5.6k | AI/Data Infra | Context retrieval layer unificada p/ AI agents — 50+ integrações, sync contínuo, MCP + REST + SDKs | 🎯⚡🚀 |
 
+| 195 | yichuan-w/LEANN | 9.8k | AI/RAG Infra | Vector index 97% menor — RAG on Everything (emails, browser, chat, docs) 100% local, MCP nativo, 60M docs em 6GB | 🎯💸⚡💎 |
+| 196 | microsoft/magentic-ui | 9.6k | AI/Web Agent | Web agent human-centered da Microsoft — co-planning, action guards, plan learning, parallel tasks, monitoring | 🎯💎🚀 |
+| 197 | nari-labs/dia | 19.1k | Voice AI/TTS | TTS dialogue ultra-realista em 1 passe — 2 speakers, nonverbal (risada, tosse), voice cloning, 1.6B params | 🎯💎⚡ |
+| 198 | NoFxAiOS/nofx | 10.3k | Fintech/Trading | AI Trading OS — multi-AI debate, multi-exchange (crypto/stocks/forex/metals), Strategy Studio visual, backtesting | 🎯⚡🚀 |
+| 199 | alam00000/bentopdf | 11.0k | Produtividade/Docs | PDF toolkit privacy-first 100% client-side — 50+ tools, merge/split/edit/convert/sign, self-hosted, zero upload | 🎯💸💎 |
+| 200 | supermemoryai/supermemory | 16.1k | AI/Memory Infra | Memory API universal p/ AI — MCP nativo, browser ext, Raycast, integra Notion/GDrive/OneDrive, chat c/ memórias | 🎯⚡🚀 |
+| 201 | scanopy/scanopy | 4.0k | Infra/Network | Network topology auto-discovery — 200+ services, Docker, multi-VLAN, diagramas interativos, zero manual upkeep | 🎯💸⚡ |
+| 202 | tonyantony300/alt-sendme | 5.3k | Privacidade/Transfer | File transfer P2P sem cloud — E2E encrypted (QUIC+TLS 1.3), sem conta, qualquer tamanho, resumable, multi-gigabit | 🎯💸💎 |
+
 ---
 
-**Total:** 194 repos | **43 categorias** | Ordenado por ⭐ stars
+**Total:** 202 repos | **45 categorias** | Ordenado por ⭐ stars
