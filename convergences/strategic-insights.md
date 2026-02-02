@@ -1777,3 +1777,34 @@ A evolução:
 **Combinação matadora:** dots.ocr (#363, parsing) + docling (#89, conversão multi-formato) + Unstract (#94, no-code extraction) = **full document intelligence stack** com 1 VLM no core em vez de 10 modelos. Custo: 90% menor. Accuracy: SOTA. Setup: horas em vez de meses.
 
 **Previsão:** Em 18 meses, "multi-model document pipeline" será visto como legacy architecture, assim como "LAMP stack" é visto hoje.
+
+---
+
+## Insight #42 — A Era do "Zero-Dependency AI" (Feb 2, 2026)
+
+**Padrão:** antirez/flux2.c (#370) demonstra um padrão emergente: reimplementar modelos AI inteiros em C/Rust puro, eliminando Python runtime, CUDA toolkit, e todo o ML stack. O resultado é 10-100x menor footprint com performance comparável.
+
+**Por que importa:** Existe um mercado MASSIVO de devices que querem rodar AI mas NÃO PODEM instalar Python/PyTorch:
+- Desktop apps que querem image gen nativa (Electron? não. Native binary? sim.)
+- IoT/edge devices com 4-16GB RAM
+- Ambientes regulados onde Python dependencies são security risk
+- Mobile apps que querem AI on-device sem frameworks
+
+**Gap de mercado:** Quem construir um "llama.cpp for everything" (imagens, voz, vídeo) em binários estáticos zero-dep vai capturar o edge AI market que vale $5-10B. flux2.c + pocket-tts (#350) + mermaid-rs-renderer (#355) são os sinais.
+
+**Combinação:** flux2.c (imagem) + pocket-tts (voz) + Qwen3-ASR (speech recognition) — todos cabem em CPU consumer. Stack completo multimodal em C/Rust, zero Python. Inimaginável 2 anos atrás.
+
+---
+
+## Insight #43 — Memory é o Novo Moat para Agents (Feb 2, 2026)
+
+**Padrão:** 3 repos de agent memory nas últimas semanas com abordagens distintas: SimpleMem (#371, semantic compression), vestige (#360, FSRS spaced repetition), Engram (#331, conditional N-gram lookup). Todos resolvem o mesmo problema de formas complementares.
+
+**Por que importa:** O "agent memory problem" está se fragmentando em sub-problemas especializados:
+1. **Compression** (SimpleMem): Como guardar mais com menos tokens
+2. **Retrieval** (vestige): Como lembrar no momento certo (spaced repetition para AI)
+3. **Architecture** (Engram): Como integrar memory no próprio modelo
+
+**Oportunidade:** Ninguém oferece uma **memory stack unificada** que combine os 3. Assim como databases têm cache (Redis) + storage (Postgres) + search (Elastic), agents precisam de uma stack de memória com camadas especializadas.
+
+**Previsão:** Em 12 meses, "agent memory" será uma categoria de infraestrutura tão fundamental quanto "vector database" é hoje. O vencedor será quem integrar compression + retrieval + persistence em um SDK drop-in.

@@ -417,3 +417,10 @@
 | 366 | francescopace/espectre | 6.2k | IoT/Smart Home | Motion detection via Wi-Fi (CSI) — sem câmera/microfone, ESP32 €10, Home Assistant nativo, matemática pura, 10-15min setup, GPL-3.0 | 🎯💸⚡🚀 |
 | 367 | Wan-Video/Wan2.2 | 14.0k | AI/Video Generation | Video gen frontier MoE — cinematic aesthetics, text+image→video 720P@24fps, 5B model roda em 4090, Alibaba/DAMO, Apache-2.0 | 🎯💎🚀 |
 | 368 | MeiGen-AI/InfiniteTalk | 4.7k | AI/Talking Video | Talking video unlimited-length — audio-driven dubbing, image→video, video continuation, Meituan research, Apache-2.0 | 🎯💎⚡🚀 |
+| 369 | Tongyi-MAI/Z-Image | 9.8k | AI/Image Generation | Image gen foundation model 6B — #1 open-source no Artificial Analysis, sub-second H800, 16GB VRAM consumer, text render bilíngue, gen+edit variants, Alibaba | 🎯💎⚡💸 |
+| 370 | antirez/flux2.c | 1.6k | AI/Image Inference | Flux 2 em C puro zero deps — roda em 8GB RAM onde Python não cabe, MPS Metal match PyTorch speed, mmap weights, text encoder integrado, antirez | ⚡💸💎 |
+| 371 | aiming-lab/SimpleMem | 2.6k | AI/Agent Memory | Memória lifelong p/ agents — semantic compression 3-stage, F1 43.24% com ~550 tokens (top trade-off), MCP server, Claude Skill, pip install, MIT | 🎯💎⚡💸 |
+| 372 | accomplish-ai/accomplish | 3.0k | AI/Desktop Agent | AI coworker desktop open-source — file management + docs + browser automation, local-first, BYOK (OpenAI/Anthropic/Ollama), custom skills, MIT | 🎯💸🚀 |
+| 373 | tldev/posturr | 1.8k | Saúde/Ergonomia | App macOS que blura tela quando slouch — camera Vision ou AirPods motion sensors, multi-display, 100% local, zero account, Homebrew, open-source | 🎯💸💎 |
+| 374 | Robbyant/lingbot-world | 2.1k | AI/World Models | World simulator open-source — high-fidelity multi-environment (realismo/cartoon/sci), minute-level horizon com consistência, <1s latency 16fps, camera pose control | 🎯💎🚀 |
+| 375 | hicccc77/WeFlow | 2.6k | Social/Data Export | WeChat chat export + annual report — 100% local, real-time chat viewing, analytics, group portraits, HTML export, Electron, WeChat 4.0+ | 🎯💸💎 |
