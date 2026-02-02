@@ -4,6 +4,16 @@ Padrões emergentes e gaps de mercado identificados nas análises.
 
 ---
 
+## 2026-02-02 — Consumer Products & Distribution: Cruzando a Barreira Dev→Consumer
+
+### Insight #1: "Map/Poster-as-a-Service" revela padrão maior — generative design commoditiza print-on-demand
+MapToPoster (8.8k ⭐) gera posters bonitos de qualquer cidade com um script Python. O insight: **design generativo está destruindo o custo marginal de produtos de decoração**. Mapiful cobra $50-150/poster por algo que custa centavos em compute. O mesmo padrão vale pra: word art, genealogy trees, star maps, architectural blueprints, topographic art. Quem buildear uma **plataforma de "generative design → print-on-demand"** (combinar MapToPoster + Printful API + web UI) tem um negócio de margem altíssima. Gap: ninguém unificou generative design engines + fulfillment + marketplace num produto consumer-ready. O timing é perfeito — Etsy sellers já vendem variações manuais desse conceito.
+
+### Insight #2: "GitHub como plataforma de distribuição consumer" é um mercado latente de bilhões
+Github-Store (6.0k ⭐) trata GitHub como app store. O problema real: **100M+ repos no GitHub, mas zero UX de discovery para não-devs**. F-Droid tentou, mas com UX de 2005. A convergência: apps open-source atingiram qualidade comercial (Termix 10.1k, Blinko 9.3k, BentoPDF 11k), mas **não têm canal de distribuição consumer**. Quem resolver discovery + one-click install + auto-updates para software open-source tem o equivalente a "App Store for the open web". O moat está em curadoria e trust signals (segurança, reviews, compatibility). Modelo: freemium + featured listings + enterprise catalog.
+
+---
+
 ## 2026-02-02 — Self-Hosted Professional Tools & Platform Infrastructure
 
 ### Insight #1: "SaaS Unbundling" acelera — ferramentas de $25-40/mês sendo substituídas por self-hosted BYOLLM

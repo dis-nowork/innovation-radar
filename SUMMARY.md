@@ -330,6 +330,11 @@
 | 292 | the-momentum/open-wearables | 456 | Health/Wearables | Plataforma open-source p/ unificar dados de wearables — Garmin+Fitbit+Oura+Whoop+Strava via 1 API, AI health insights, self-hosted, FastAPI+React | 🎯💸🚀💎 |
 | 293 | tinykit-studio/tinykit | 358 | NoCode/App Builder | Lovable/v0/Replit killer self-hosted — AI app builder com PocketBase (realtime DB+storage), Svelte, time travel, multi-app em 1 servidor, BYOLLM | 🎯💸🚀 |
 
+| 294 | Termix-SSH/Termix | 10.1k | Infra/Server Mgmt | All-in-one server management web-based — SSH, tunnels, Docker, file manager, stats (Termius killer, forever-free) | 🎯💸💎 |
+| 295 | blinkospace/blinko | 9.3k | AI/Notas | AI note-taking self-hosted — quick capture, semantic search, AI summaries, timeline-based, Ollama support | 🎯💸💎 |
+| 296 | originalankur/maptoposter | 8.8k | Creative Tools/Print | Gerador de map posters minimalistas — 15+ temas, qualquer cidade, alta resolução, OpenStreetMap, MIT | 🎯💸🚀 |
+| 297 | rainxchzed/Github-Store | 6.0k | Distribuição/App Store | App store p/ GitHub releases — descoberta+install one-click, cross-platform (Android+Desktop), Apache-2.0 | 🎯💎🚀 |
+
 ---
 
-**Total:** 293 repos | **69 categorias** | Ordenado por ⭐ stars
+**Total:** 297 repos | **71 categorias** | Ordenado por ⭐ stars
