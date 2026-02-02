@@ -814,3 +814,34 @@ Carbon (#207, 1.8k⭐) é o primeiro sinal de mudança real — API-first, stack
 **Por que importa:** Manufacturing representa 16% do PIB global ($16 trillion). PMEs manufatureiras (30k+ só nos EUA) gastam $5k-50k/ano em software ERP. A maioria usa planilhas porque ERP é caro demais. Um ERP moderno, open-source, API-first a $0-50/user/mês abre um mercado de $4B+ de PMEs que hoje não podem pagar incumbentes.
 
 **Combinação killer:** Carbon + AI (previsão de demanda, otimização de estoque, qualidade preditiva) = "Smart Factory OS" para PMEs. TAM expandido: $12B+.
+
+---
+
+## 2026-02-02 — Self-Hosted SaaS Replacement & Edge AI
+
+### Insight #16: "The Self-Hosted SaaS Stack" está convergindo para viabilidade
+Pela primeira vez, existe um repo open-source competitivo para CADA camada da stack de uma empresa digital:
+- **Auth:** VoidAuth (passkeys, OIDC, ForwardAuth)
+- **Anti-bot:** Cap (proof-of-work CAPTCHA, 20KB)
+- **Monitoring:** CheckCle (full-stack, status pages)
+- **Email:** BillionMail / cloud-mail
+- **CRM:** Relaticle
+- **Onboarding:** Usertour (tours, checklists, surveys)
+
+Individualmente, cada um economiza $50-500/mês. **Juntos**, uma empresa de 50 pessoas pode economizar $3-8k/mês em SaaS. O gap: **ninguém empacotou isso como "Self-Hosted Business OS"** — um Kubernetes chart ou Docker Compose que sobe toda a stack com SSO integrado via VoidAuth.
+
+**Por que importa:** O movimento "degrowth SaaS" está acelerando. Empresas pagam $1,000-10,000/mês em SaaS que poderiam self-hostar. Com containers e managed hosting como Coolify/Hetzner, o custo de infra caiu 90%. A soma das partes (repos individuais) é menos que o todo (stack integrada).
+
+**Produto potencial:** "OpenStack for Business" — template que sobe VoidAuth + Cap + CheckCle + BillionMail + Relaticle + Usertour com 1 comando. Cobra $49-99/mês pelo hosting gerenciado. TAM: 28M SMBs globais × $600/ano = $16.8B.
+
+### Insight #17: "Nano AI Models" abrem o mercado de edge/embedded
+KittenTTS (15M params, <25MB) prova que modelos nano podem atingir qualidade state-of-the-art em tarefas específicas. Isso muda fundamentalmente quem pode usar AI:
+- **Raspberry Pi / IoT:** TTS/ASR em dispositivos de $35
+- **Mobile offline:** Assistentes que funcionam sem internet
+- **Países em desenvolvimento:** AI sem cloud = AI sem custo recorrente
+
+O padrão emergente: modelos especializados nano (TTS, OCR, classificação) > modelos generalistas gigantes para tarefas específicas em edge. Combinado com LEANN (#195, RAG em 6GB para 60M docs), temos um **full AI stack que roda num laptop de $300**.
+
+**Gap de mercado:** Ninguém construiu o "edge AI platform" — um framework que empacota modelos nano otimizados (TTS + ASR + RAG + classificação) para deploy em edge devices com uma API unificada. Quem fizer isso domina IoT, assistentes pessoais offline, e mercados emergentes.
+
+**Combinação killer:** KittenTTS + LEANN + DeepTutor = **Tutor AI offline completo** que roda em laptop barato. Impacto: 500M+ estudantes em regiões com internet instável.

@@ -238,6 +238,13 @@
 | 207 | crbnos/carbon | 1.8k | ERP/Manufatura | ERP open-source p/ manufatura — MES+QMS, API-first, job shops, assembly complexa, Supabase+React, extensível c/ apps custom | 🎯💸🚀 |
 | 208 | dtyq/magic | 4.5k | AI Produtividade | Plataforma all-in-one AI — AI Agent generalista + IM enterprise + Workflow visual (Magic Flow) + office colaborativo, 100x produtividade | 🎯⚡🚀 |
 
+| 209 | HKUDS/DeepTutor | 9.9k | EdTech/AI | Tutor AI personalizado — RAG massivo + visualização interativa + geração de exercícios + deep research, multi-agent, self-hosted | 🎯💎⚡💸 |
+| 210 | KittenML/KittenTTS | 9.6k | Voice AI/TTS | TTS state-of-the-art em 15M params (<25MB) — roda sem GPU, pip install, 8 vozes, qualidade comparável a modelos 100x maiores | 🎯💸⚡💎 |
+| 211 | tiagozip/cap | 4.8k | Infra/Security | CAPTCHA privacy-first proof-of-work — 250x menor que hCaptcha (20KB), zero tracking, invisible mode, M2M friendly, Apache 2.0 | 🎯💸⚡💎 |
+| 212 | usertour/usertour | 1.9k | SaaS/Onboarding | Plataforma de onboarding in-app open-source — tours, checklists, surveys, multi-environment, version control, Appcues/Userflow killer | 🎯💸🚀 |
+| 213 | operacle/checkcle | 2.3k | Observabilidade/Infra | Monitoring full-stack self-hosted — HTTP/DNS/Ping/TCP/SSL, server metrics, incident mgmt, status pages, multi-channel alerts | 🎯💸💎 |
+| 214 | voidauth/voidauth | 1.8k | Infra/Auth | SSO open-source p/ self-hosted universe — OIDC, ForwardAuth proxy, passkeys, user invitation, self-registration, encryption-at-rest | 🎯💸💎 |
+
 ---
 
-**Total:** 208 repos | **47 categorias** | Ordenado por ⭐ stars
+**Total:** 214 repos | **48 categorias** | Ordenado por ⭐ stars
