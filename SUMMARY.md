@@ -365,6 +365,12 @@
 | 322 | bluewave-labs/Checkmate | 9.0k | Observabilidade/Monitoring | Server monitoring + uptime + hardware com visualizações bonitas — Better Uptime killer self-hosted | 🎯💸💎 |
 | 323 | certimate-go/certimate | 8.1k | Infra/SSL | SSL certificate lifecycle management visual — issuance, deploy, renewal automático, multi-cloud | 🎯⚡💸🚀 |
 
+| 324 | pixlcore/xyops | 1.8k | Ops/Automação | Workflow automation + monitoring + alerting + ticketing unificados — substitui Rundeck+Grafana+PagerDuty+Jira, BSD, Node.js | 🎯💸💎 |
+| 325 | adenhq/hive | 4.4k | AI/Agent Framework | Framework de agents auto-evolutivos — goal-driven, falha→adapta via coding agent, node graph dinâmico, YC-backed, self-hosted | 🎯💎🚀 |
+| 326 | IliasHad/edit-mind | 1.2k | Creative Tools/Video AI | Indexador de vídeo com AI — object detection, face recognition, transcrição, busca semântica NL, 100% local, Docker | 🎯💸⚡💎 |
+| 327 | rustmailer/bichon | 1.2k | Infra/Email Archive | Arquivador de email Rust high-perf — IMAP sync, full-text search, dedup, WebUI, multi-account, zero deps externas, 18 idiomas | 🎯💸⚡ |
+| 328 | bestruirui/octopus | 1.3k | AI/LLM Infra | Hub pessoal de LLMs — agrega múltiplos providers (OpenAI/Anthropic/Google/local) numa API unificada, self-hosted | 🎯💸⚡ |
+
 ---
 
-**Total:** 323 repos | **79 categorias** | Ordenado por ⭐ stars
+**Total:** 328 repos | **82 categorias** | Ordenado por ⭐ stars
