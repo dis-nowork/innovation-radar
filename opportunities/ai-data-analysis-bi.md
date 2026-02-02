@@ -86,3 +86,32 @@ Ferramentas que democratizam acesso a dados — qualquer pessoa pergunta em ling
 **Modelo:** Desktop gratuito + cloud sync premium + marketplace de extensões
 **Esforço:** Médio — precisa de integrações bancárias regionais (Pix, boleto pra BR)
 **Combinações:** + Bigcapital (#139) como backend API + WrenAI (#148) pra perguntas em linguagem natural = "Contabilidade inteligente"
+
+---
+
+### [ruc-datalab/DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) ⭐ 3.6k | 🎯💎⚡🚀
+**Forks:** 521 | **License:** MIT | **Criado:** Out 2025 | **Lang:** Python
+
+**Problema Real:** Data science é o gargalo de toda empresa data-driven. Cientistas de dados custam $120-200k/ano e o backlog de análises é infinito. PMEs e times de produto querem insights dos seus dados mas não sabem SQL/Python. Ferramentas como Tableau ($70/user/mês) e Looker são caras e exigem modelagem manual.
+
+**Eixos de Inovação:**
+- 🎯 **Problema real:** 80% das empresas têm dados mas não conseguem extrair insights. Data science talent gap é 3M+ globalmente.
+- 💎 **5-10x qualidade:** Primeiro LLM agêntico treinado especificamente para data science — modelo 8B + 500K dataset de instrução. Não é GPT genérico fazendo pandas.
+- ⚡ **5-10x velocidade:** Upload CSV → relatório profissional com visualizações em minutos vs dias/semanas com analista humano.
+- 🚀 **5-10x escala:** Modelo open-source (HuggingFace) permite deploy local. Suporta structured, semi-structured e unstructured data.
+
+**TAM:** Business intelligence market: $33B em 2025, crescendo 10%/ano. Data science platforms: $20B+.
+
+**Modelo de Negócio:**
+- SaaS cloud: $49-299/mês por volume de análises
+- API: pay-per-analysis para integração em plataformas
+- Enterprise on-prem: $50-200k/ano para dados sensíveis
+- Vertical templates: análise financeira, marketing, supply chain
+
+**Esforço:** Médio — modelo funciona, mas UX precisa de polish. API already available.
+
+**Combinações:**
+- DeepAnalyze + chandra (#260) = documentos físicos → dados → análise automática
+- DeepAnalyze + ChartGPU = análise + visualização WebGPU em tempo real
+- DeepAnalyze + daily_stock_analysis (#246) = análise financeira profunda automatizada
+- DeepAnalyze + json-render (#258) = análise → dashboard interativo gerado por AI

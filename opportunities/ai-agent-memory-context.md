@@ -185,3 +185,30 @@
   - 🚀 Integra chatbots (DingTalk, Lark, WeChat) — de docs para multi-canal
 - **TAM:** $3B+ (knowledge management tools)
 - **Modelo:** Open-source + cloud managed. By Chaitin (empresa de segurança chinesa com $$ e credibilidade).
+
+---
+
+### [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) ⭐ 3.1k | 🎯💎🚀
+**Forks:** 364 | **License:** Apache-2.0 | **Criado:** Out 2025 | **Lang:** TypeScript
+
+**Problema Real:** Agents AI são amnésicos. Cada sessão começa do zero. RAG não é memória — é busca. Vector DBs são infraestrutura low-level que developers não querem gerenciar. Toda aplicação AI precisa de memória persistente e ninguém oferece isso como primitive.
+
+**Eixos de Inovação:**
+- 🎯 **Problema real:** Memória é o gap #1 de UX em AI apps. "Por que ChatGPT esqueceu o que eu disse ontem?" é a reclamação universal.
+- 💎 **5-10x qualidade:** Não é RAG — é cognitive memory engine. Traces explicáveis (mostra POR QUE algo foi lembrado). Python + Node SDKs. Integra tudo: LangChain, CrewAI, AutoGen, MCP, VS Code.
+- 🚀 **5-10x escala:** De one-liner (`mem.add("user prefers dark mode")`) a org-wide server. SQLite local ou Postgres multi-user. Sources: GitHub, Notion, Google Drive, OneDrive.
+
+**TAM:** AI infrastructure market: $25B+ em 2025, crescendo 40%/ano. Memory/context é horizontal — toda AI app precisa.
+
+**Modelo de Negócio:**
+- OSS SDK gratuito + hosted memory-as-a-service premium
+- Enterprise: org-wide memory with RBAC, audit, compliance
+- Pay-per-operation: armazenamento + busca + sync
+- Platform tax: integrations premium (Salesforce, HubSpot, etc.)
+
+**Esforço:** Baixo — SDKs prontos, one-click deploy (Railway/Render/Vercel).
+
+**Combinações:**
+- OpenMemory + json-render (#258) = UI que lembra preferências do usuário entre sessões
+- OpenMemory + DeepAnalyze (#261) = data science agent que lembra análises anteriores
+- OpenMemory + memU (#235) = camadas complementares (memU=24/7 agent, OpenMemory=multi-app)

@@ -37,3 +37,31 @@ Stream processing, no-code enterprise, feature stores, event-sourcing.
 
 ---
 
+
+---
+
+### [vercel-labs/json-render](https://github.com/vercel-labs/json-render) ⭐ 9.8k | 🎯💎⚡🚀
+**Forks:** 529 | **License:** Apache-2.0 | **Criado:** Jan 2026 | **Lang:** TypeScript
+
+**Problema Real:** AI gera texto bem, mas gerar UI é perigoso — output imprevisível, XSS, layouts quebrados. Empresas querem deixar usuários finais criar dashboards/widgets via prompts mas precisam de guardrails. Hoje: ou constroem custom (caro) ou usam no-code builders (limitados, não-AI).
+
+**Eixos de Inovação:**
+- 🎯 **Problema real:** O gap entre "AI gera texto" e "AI gera UI segura" é o blocker #1 de AI-powered internal tools.
+- 💎 **5-10x qualidade:** Guardrailed — AI só usa componentes do catálogo definido. JSON validado por schema Zod. Zero chance de UI quebrada.
+- ⚡ **5-10x velocidade:** Streaming progressivo — renderiza conforme o modelo responde. Prompt → UI em segundos.
+- 🚀 **5-10x escala:** Catalog pattern escala infinitamente — defina 10 ou 10,000 componentes. Vercel-backed, React-native.
+
+**TAM:** Low-code/no-code market: $30B+ em 2025, crescendo 25%/ano. Internal tools market: $15B+.
+
+**Modelo de Negócio:**
+- OSS framework gratuito + hosted platform premium (ala Vercel)
+- Component marketplace: bibliotecas de catálogos pré-prontos por indústria
+- Enterprise: catálogos privados, SSO, audit logs
+- Embedding fee: empresas embutem json-render em seus produtos
+
+**Esforço:** Baixo — npm install, API clara, Vercel ecosystem. Precisa de catálogos prontos pra diferentes use cases.
+
+**Combinações:**
+- json-render + DeepAnalyze (#261) = dados → análise → dashboard AI-generated guardrailed
+- json-render + ChartGPU = catálogo com charts WebGPU de alta performance
+- json-render + OpenMemory (#262) = dashboards que lembram preferências do usuário

@@ -1065,3 +1065,37 @@ A pesquisa por alternativas open-source a software vertical (property management
 **Por que:** Software vertical precisa de domain expertise profundo + suporte + compliance específico. Open-source não entrega isso. Mas a COMBINAÇÃO de ferramentas horizontais (Twenty CRM + Lago billing + ActivePieces automação) com **templates verticais** (pré-configurações para cada indústria) funciona.
 
 **Oportunidade:** Em vez de construir um "Restaurant SaaS open-source", construa um **"Industry Template Marketplace"** que combina repos horizontais já maduros (20+ no nosso radar com 5k+ ⭐) e vende templates de configuração por indústria. Custo marginal zero, escala infinita.
+
+### Insight #47: A "AI Content Factory" está nascendo em open-source
+Huobao Drama (#259, 6.9k⭐) é o primeiro sinal de uma tendência irreversível: **produção de conteúdo end-to-end via AI**. Não é "AI ajuda humano a editar" (OpenCut), é "AI faz TUDO — roteiro, personagens, cenas, vídeo final".
+
+**O stack completo agora existe em open-source:**
+1. **Roteiro/Script:** LLMs (qualquer um)
+2. **Personagens/Imagens:** Nano Banana Pro, Flux, SDXL
+3. **Voz/Narração:** Qwen3-TTS (#168), index-tts
+4. **Vídeo:** HunyuanVideo 1.5, image-to-video models
+5. **Edição/Composição:** OpenCut (#250), huobao-drama (#259)
+6. **Legendas:** omnilingual-asr, Whisper
+
+**A oportunidade:** Quem monta o "Canva for AI Video" — uma plataforma onde qualquer pessoa (não técnica) digita uma frase e recebe um vídeo pronto para TikTok/Reels/YouTube Shorts — captura um mercado de $100B+. O stack open-source está pronto. Falta UX, falta o produto consumer.
+
+### Insight #48: "Guardrailed AI Generation" é o padrão de 2026
+json-render (#258, 9.8k⭐, Vercel-backed) revelou o padrão dominante: **AI não gera output livre — gera dentro de um vocabulário constrito definido pelo developer.** Isso resolve o problema #1 de AI em produção (output imprevisível) e vale para TUDO:
+
+- **UI:** json-render (catálogo de componentes)
+- **Workflows:** MCP (catálogo de tools)
+- **Documents:** Templates + AI fill
+- **Emails:** Brand-safe AI com template constraints
+
+**A meta-oportunidade:** Framework genérico de "constrained AI generation" — define schema, AI gera dentro dele, QUALQUER domínio. Quem constrói isso captura o "guardrails middleware" de toda aplicação AI.
+
+### Insight #49: O pipeline "Physical World → AI Intelligence" está convergindo
+Três repos nesta rodada revelam o mesmo padrão: **trazer dados do mundo físico para AI processar autonomamente**.
+
+1. **chandra (#260):** Documento físico → OCR layout-aware → dados estruturados
+2. **TaxHacker (#103):** Receipt foto → AI → contabilidade
+3. **DeepAnalyze (#261):** Dados brutos → análise + relatório automático
+
+**A cadeia completa:** Foto/scan → chandra (OCR) → DeepAnalyze (análise) → json-render (dashboard). Zero intervenção humana do papel ao insight. Para cada indústria vertical (saúde, legal, contabilidade, real estate), essa cadeia vale bilhões.
+
+**Gap não explorado:** Ninguém construiu o **orquestrador** dessa cadeia. Cada repo faz seu pedaço. O "glue layer" que conecta OCR → análise → visualização → ação é o produto real.

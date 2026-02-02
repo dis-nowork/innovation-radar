@@ -290,7 +290,12 @@
 | 255 | GLips/Figma-Context-MCP | 12.9k | MCP/Design-to-Code | MCP que traduz layouts Figma pra AI coding agents — one-shot UI implementation, metadata simplificado | 🎯⚡💎🚀 |
 | 256 | googleapis/genai-toolbox | 12.7k | MCP/Database | MCP server pra databases (20+ engines) — connection pooling, auth, observability, Google-backed | 🎯⚡💸 |
 | 257 | antiwork/shortest | 5.5k | DevTools/Testing | QA via linguagem natural — testes E2E escritos em inglês, Anthropic Claude + Playwright, callbacks pra DB validation | 🎯⚡🚀 |
+| 258 | vercel-labs/json-render | 9.8k | AI/UI Framework | AI → JSON → UI — framework pra gerar dashboards/widgets/apps via prompts com catálogo de componentes guardrailed, streaming progressivo, Vercel-backed | 🎯💎⚡🚀 |
+| 259 | chatfire-AI/huobao-drama | 6.9k | Creative Tools/Video | Plataforma AI de geração de curtas-metragens — uma frase gera roteiro completo + personagens + storyboard + vídeo final, Go+Vue3, DDD | 🎯⚡🚀💸 |
+| 260 | datalab-to/chandra | 4.7k | AI/OCR | OCR para docs complexos — tabelas com merge cells, formulários, caligrafia, equações LaTeX, 40+ idiomas, layout-aware com bboxes, Apache-2.0 | 🎯💎⚡ |
+| 261 | ruc-datalab/DeepAnalyze | 3.6k | AI/Data Science | LLM agêntico para data science autônomo — pipeline completo (prep→análise→modelagem→visualização→relatório), modelo 8B open-source + 500K dataset, MIT | 🎯💎⚡🚀 |
+| 262 | CaviraOSS/OpenMemory | 3.1k | AI/Agent Memory | Memória persistente cognitiva para LLMs — não é RAG nem vector DB, Python+Node SDKs, integra LangChain/CrewAI/AutoGen/MCP/VS Code, traces explicáveis, Apache-2.0 | 🎯💎🚀 |
 
 ---
 
-**Total:** 257 repos | **57 categorias** | Ordenado por ⭐ stars
+**Total:** 262 repos | **59 categorias** | Ordenado por ⭐ stars

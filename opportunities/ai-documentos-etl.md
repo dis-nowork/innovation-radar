@@ -97,3 +97,29 @@ Processamento de documentos, extração de dados, pipelines de transformação c
 - PageIndex + DeepSeek-OCR (#161) = scan→index→reasoning retrieval p/ documentos físicos
 - PageIndex + Motia (#166) = backend workflow com RAG frontier embutido
 - PageIndex + LangExtract (#158) = extração + retrieval reasoning = análise documental end-to-end
+
+---
+
+### [datalab-to/chandra](https://github.com/datalab-to/chandra) ⭐ 4.7k | 🎯💎⚡
+**Forks:** 533 | **License:** Apache-2.0 | **Criado:** Out 2025 | **Lang:** Python
+
+**Problema Real:** OCR existente (Tesseract, Google Vision, AWS Textract) falha em documentos complexos: tabelas com células mescladas, formulários preenchidos à mão, equações matemáticas, layouts multi-coluna. Hospitais, cartórios, escritórios de advocacia e contabilidade processam milhões desses docs por dia e sofrem com extração ruim.
+
+**Eixos de Inovação:**
+- 🎯 **Problema real:** Handwriting + tables + forms é o gap #1 de OCR comercial. Textract cobra $1.50/1000 páginas e erra em caligrafia.
+- 💎 **5-10x qualidade:** Benchmarks mostram SOTA em olmocr bench. Lida com doctor notes, 10K filings, formulários de locação, jornais.
+- ⚡ **5-10x velocidade:** vLLM server mode para throughput de produção. HuggingFace mode para prototipagem.
+
+**TAM:** Document processing/OCR market: $15B+ em 2025, crescendo 18%/ano. Healthcare document processing sozinho é $3B+.
+
+**Modelo de Negócio:**
+- Hosted API (já existe em datalab.to) — pay per page
+- On-prem enterprise: $10-50k/ano para hospitais, legal, finance
+- Vertical bundles: OCR + classificação + extração por indústria
+
+**Esforço:** Baixo — pip install, API hosted pronta, Apache-2.0
+
+**Combinações:**
+- chandra + TaxHacker (#103) = scan receipt/invoice → OCR perfeito → contabilidade automática
+- chandra + DeepAnalyze (#261) = documentos físicos → dados estruturados → análise autônoma
+- chandra + Docling (#1 nesta lista) = pipeline completo de document intelligence

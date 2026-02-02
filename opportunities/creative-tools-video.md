@@ -31,3 +31,38 @@ Stack moderna (Next.js + Zustand), mas edição de vídeo no browser tem limita�
 - **+ index-tts ou Qwen3-TTS:** Auto-narração de vídeos
 - **+ banana-slides:** Pipeline completo: slides → vídeo → edição
 - **+ Handy (STT):** Legendas automáticas offline
+
+---
+
+## chatfire-AI/huobao-drama ⭐ 6.9k
+**Link:** https://github.com/chatfire-AI/huobao-drama
+**Forks:** 1,272 | **License:** CC BY-NC-SA 4.0
+**Criado:** Jan 2026 | **Stack:** Go + Vue3
+
+### Problema Real
+Short dramas/curtas são o conteúdo de maior crescimento em plataformas (TikTok, Reels, Kuaishou). Produzir um curta-metragem exige roteirista + designer + animator + editor — semanas de trabalho e milhares de dólares. Creators individuais e pequenas agências de marketing ficam de fora.
+
+### Eixos de Inovação
+- 🎯 **Problema real:** Produção de vídeo narrativo é cara e lenta. Agências cobram $5-50k por curta.
+- ⚡ **5-10x mais rápido:** Uma frase → roteiro + personagens + storyboard + vídeo final. Minutos vs semanas.
+- 💸 **5-10x menor custo:** Self-hosted, paga só API do LLM + modelo de imagem/vídeo.
+- 🚀 **5-10x mais escala:** Permite produção em massa de conteúdo narrativo. Uma pessoa faz o que um estúdio faz.
+
+### TAM
+- Short-form video market: $100B+ (TikTok alone ~$20B receita/ano)
+- AI video generation: $2B+ em 2025, crescendo 35%/ano
+- Mercado de marketing content: $400B+ global
+
+### Modelo de Negócio
+- **SaaS cloud:** $29-199/mês por volume de produção
+- **Enterprise/White-label:** Agências de marketing embutem na própria plataforma
+- **Marketplace:** Templates de estilos visuais e gêneros de drama
+- **API:** Pay-per-video para integrações
+
+### Esforço para Produtizar: Médio
+Arquitetura DDD bem feita (Go backend, Vue3 frontend). Precisa de UX polish e mais modelos de vídeo. A licença CC BY-NC-SA limita uso comercial direto — precisaria licença dual ou fork.
+
+### Combinações
+- **+ OpenCut:** Edição pós-produção do vídeo gerado
+- **+ Qwen3-TTS:** Narração AI nos idiomas locais
+- **+ chandra (OCR):** Importar roteiros físicos/impressos e gerar drama direto
