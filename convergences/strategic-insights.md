@@ -1415,3 +1415,46 @@ GitHub lançou o Copilot SDK (6.6k⭐), sinalizando que **o futuro dos AI produc
 - mgrep (3.1k⭐) = semantic search como SDK
 
 **O gap:** Ninguém construiu um **"AI Capability Marketplace"** onde devs busquem SDKs de AI por funcionalidade (search, voice, code, docs) com pricing transparente e integração one-click. Isso é o equivalente a um "npm para AI capabilities" — TAM de $5B+.
+
+### Insight #68: "The Self-Hosted Stack" — 2026 é o ano da consolidação
+Olhando o ecossistema de repos self-hosted em Fev/2026, emerge um padrão claro: **já existe um repo open-source de qualidade para praticamente toda categoria de SaaS**. A tabela completa:
+
+| Necessidade | SaaS Incumbente ($/mês) | Open-Source (⭐) | Economia/ano |
+|---|---|---|---|
+| Dashboard/Feeds | Feedly $6 | Glance (31.6k) | $72 |
+| Bookmarks/PKM | Raindrop $5.50 | Karakeep (23.1k) | $66 |
+| Analytics | Google Analytics $0* | Rybbit (11.1k) / Umami (35k) | Privacidade |
+| CRM | Salesforce $25+ | Twenty (39.1k) | $300+ |
+| Docs/Wiki | Confluence $6/user | Docmost (18.9k) | $72/user |
+| Monitoring | Better Uptime $20 | Checkmate (9k) / Beszel (19.1k) | $240 |
+| SSL | DigiCert $200/ano | Certimate (8.1k) | $200 |
+| Email Marketing | Mailchimp $20+ | BillionMail (13.4k) / Listmonk (18.9k) | $240+ |
+| Agendamento | Calendly $12 | EasyAppointments (4k) | $144 |
+| Hosting/PaaS | Vercel $20+ | Dokploy (29.7k) / Coolify (50.1k) | $240+ |
+| Chat/Atendimento | Intercom $74+ | Chatwoot (27.1k) | $888+ |
+| Assinatura Digital | DocuSign $15+ | DocuSeal (11.3k) | $180+ |
+| File Sharing | WeTransfer Pro $12 | Palmr (2.4k) | $144 |
+| VPN/Proxy | Cloudflare Tunnel $0* | Pangolin (18.5k) | Controle |
+| Meeting Notes | Otter.ai $17+ | Meeting-Minutes (9.6k) | $204+ |
+
+**Total savings p/ uma startup de 10 pessoas:** ~$30-50k/ano.
+
+**A oportunidade:** Não é criar MAIS repos. É criar o **"Self-Hosted App Store"** — one-click deploy de todo esse stack via Docker Compose, com UI de gestão unificada, updates automáticos, e backup centralizado. 1Panel (#71) e Dokploy (#6) estão mais perto, mas nenhum oferece a experiência "App Store" completa.
+
+**TAM:** $5B+ (managed hosting de OSS stack para PMEs). Preço: $50-200/mês para todo o stack managed (vs. $500-2k/mês em SaaS separados).
+
+### Insight #69: "Knowledge Infrastructure" — O próximo wave de AI products
+A combinação de Karakeep (23.1k), Glance (31.6k), Docmost (18.9k) e Crawl4AI (59.3k) revela um gap: **ninguém conectou consumo de informação → organização → conhecimento → ação** num pipeline único.
+
+**O pipeline ideal:**
+1. **Consumo:** Glance agrega feeds → Crawl4AI extrai conteúdo completo
+2. **Captura:** Karakeep salva com AI tagging → Kreuzberg extrai de PDFs/docs
+3. **Organização:** Docmost estrutura em wiki → AI gera conexões entre notas
+4. **Ação:** AI sugere próximos passos baseado no conhecimento acumulado
+
+**Por que ninguém fez isso ainda:**
+- Cada repo resolve 1 pedaço do pipeline
+- Integração entre eles requer glue code
+- Nenhum tem "knowledge graph" que conecta tudo
+
+**O produto "Knowledge OS":** Quem unificar esses 4 steps num produto coeso cria o successor do Notion — com a diferença que ENTENDE seu conhecimento ao invés de apenas ARMAZENÁ-lo. TAM conservador: $10B+.

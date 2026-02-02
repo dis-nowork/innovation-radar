@@ -360,6 +360,11 @@
 | 318 | 666ghj/MiroFish | 3.4k | AI/Prediction | Engine universal de swarm intelligence — múltiplos agents deliberam p/ previsão de qualquer coisa | 🎯💎🚀 |
 | 319 | mixedbread-ai/mgrep | 3.1k | DevTools/Search | Semantic grep — busca por significado em código, imagens, PDFs, CLI-native, embeddings locais | 🎯💎⚡ |
 
+| 320 | glanceapp/glance | 31.6k | Produtividade/Dashboard | Dashboard self-hosted que agrega RSS, Reddit, YouTube, weather, stocks, monitoring num painel visual lindo | 🎯💸💎🚀 |
+| 321 | karakeep-app/karakeep | 23.1k | Knowledge/Bookmarks | Bookmark-everything + AI auto-tagging + full-text search — Raindrop.io/Pocket killer self-hosted | 🎯💸💎🚀 |
+| 322 | bluewave-labs/Checkmate | 9.0k | Observabilidade/Monitoring | Server monitoring + uptime + hardware com visualizações bonitas — Better Uptime killer self-hosted | 🎯💸💎 |
+| 323 | certimate-go/certimate | 8.1k | Infra/SSL | SSL certificate lifecycle management visual — issuance, deploy, renewal automático, multi-cloud | 🎯⚡💸🚀 |
+
 ---
 
-**Total:** 319 repos | **77 categorias** | Ordenado por ⭐ stars
+**Total:** 323 repos | **79 categorias** | Ordenado por ⭐ stars
