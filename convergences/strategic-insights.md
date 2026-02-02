@@ -770,3 +770,47 @@ Três repos desta rodada (BentoPDF 11k⭐, AltSendme 5.3k⭐, LEANN 9.8k⭐) com
 **A oportunidade mega:** Um **"Privacy OS"** — instalador/dashboard que orquestra todas essas ferramentas num bundle coeso. Imagine: `curl install-privacy-stack.sh | bash` e em 30 minutos você tem toda a stack acima rodando no seu hardware. Modelo de negócio: managed hosting para quem não quer self-host ($29-99/mês, ainda 3-5x mais barato que SaaS combined).
 
 **Por que agora:** GDPR acumulou €5.88B em multas. LGPD no Brasil está aplicando multas crescentes. Empresas reguladas (saúde, jurídico, governo) PRECISAM de soluções que não enviam dados para cloud. A Privacy Stack não é mais hobby de cypherpunks — é compliance requirement. TAM: $50B+.
+
+---
+
+### Insight #27: A "Meeting Intelligence" está se bifurcando — e ambos os lados vencem
+
+Dois padrões distintos emergem no espaço de meeting AI:
+
+**Caminho A: Modelos Foundation (VibeVoice, #203 — 22.8k⭐)**
+Microsoft lançou modelos frontier de voz que processam 60min em single-pass com diarização nativa. É a "commoditização do ASR" — qualquer dev pode buildar um Otter.ai competitor agora.
+
+**Caminho B: Apps Local-First (Meetily #204, Hyprnote #205)**
+Apps end-user que rodam 100% local, com UX polida. Meetily já tem modelo freemium/PRO. Hyprnote inovou ao capturar áudio do sistema (sem bot na call).
+
+**A convergência inevitável:** Dentro de 6-12 meses, VibeVoice-ASR será integrado dentro de Meetily/Hyprnote. Resultado: ASR de qualidade Microsoft rodando 100% local, grátis. Isso **mata** Otter.ai, Fathom, e Fireflies (que cobram $17-19/mês e dependem de cloud).
+
+**Oportunidade:** Quem fizer essa integração primeiro (VibeVoice + UX polida + local) captura o mercado de profissionais que não podem enviar dados pra cloud (advogados, médicos, consultores de defesa). TAM: $6B+.
+
+---
+
+### Insight #28: "All-in-One" é a nova guerra — mas só vence quem tem AI nativa
+
+Três tendências convergindo:
+1. **Colanode (#206):** Slack + Notion em um produto local-first
+2. **Magic (#208):** IM + AI Agent + Workflow + Office em um produto
+3. **Repos anteriores:** Twenty (CRM), Actual (finance), Meetily (meetings)
+
+**O padrão:** Cada nicho SaaS está sendo "all-in-one-ificado" por open source. Mas a diferença em 2026 é: **os que integram AI nativamente vencem**, os que apenas clonam features existentes ficam para trás.
+
+Colanode sem AI = clone de Slack+Notion (bom mas não revolucionário).
+Colanode COM AI agents embutidos = plataforma de trabalho do futuro.
+
+**Gap identificado:** Ninguém ainda combinou **local-first + all-in-one + AI agents** em um produto coeso para SMBs. Magic tenta mas é complexo demais e cloud-first. A oportunidade é um "Magic para PMEs" que rode local.
+
+---
+
+### Insight #29: Manufacturing ERP é o "último grande mercado" sem disrupção open-source real
+
+Olhando o radar: temos open-source maturo para CRM (Twenty), Marketing (Mautic/Listmonk), Finance (Actual/Lago), Collaboration (Colanode/AppFlowy), DevOps (Coolify/Dokploy). Mas **ERP de manufatura** ainda é dominado por SAP/Oracle/Epicor cobrando $150-300/user/mês.
+
+Carbon (#207, 1.8k⭐) é o primeiro sinal de mudança real — API-first, stack moderna, foco em job shops. Comparado com ERPNext (genérico e monolítico) ou SAP (legado e caro), Carbon é 5-10x mais acessível e extensível.
+
+**Por que importa:** Manufacturing representa 16% do PIB global ($16 trillion). PMEs manufatureiras (30k+ só nos EUA) gastam $5k-50k/ano em software ERP. A maioria usa planilhas porque ERP é caro demais. Um ERP moderno, open-source, API-first a $0-50/user/mês abre um mercado de $4B+ de PMEs que hoje não podem pagar incumbentes.
+
+**Combinação killer:** Carbon + AI (previsão de demanda, otimização de estoque, qualidade preditiva) = "Smart Factory OS" para PMEs. TAM expandido: $12B+.

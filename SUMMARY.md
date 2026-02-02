@@ -231,7 +231,13 @@
 | 200 | supermemoryai/supermemory | 16.1k | AI/Memory Infra | Memory API universal p/ AI — MCP nativo, browser ext, Raycast, integra Notion/GDrive/OneDrive, chat c/ memórias | 🎯⚡🚀 |
 | 201 | scanopy/scanopy | 4.0k | Infra/Network | Network topology auto-discovery — 200+ services, Docker, multi-VLAN, diagramas interativos, zero manual upkeep | 🎯💸⚡ |
 | 202 | tonyantony300/alt-sendme | 5.3k | Privacidade/Transfer | File transfer P2P sem cloud — E2E encrypted (QUIC+TLS 1.3), sem conta, qualquer tamanho, resumable, multi-gigabit | 🎯💸💎 |
+| 203 | microsoft/VibeVoice | 22.8k | Voice AI/ASR+TTS | Família de modelos frontier de voz — ASR 60min single-pass c/ speakers+timestamps, TTS 90min multi-speaker, Realtime 0.5B streaming, 50+ idiomas, finetunable | 🎯💎⚡🚀 |
+| 204 | Zackriya-Solutions/meeting-minutes | 9.6k | Meeting AI | Meetily — AI meeting assistant 100% local, transcrição Parakeet/Whisper 4x mais rápida, diarização, summarization Ollama, zero cloud, GDPR-ready | 🎯💸⚡💎 |
+| 205 | fastrepl/hyprnote | 7.6k | Meeting AI/Notepad | AI notepad p/ meetings — escuta áudio do sistema (sem bot na call), transcrição realtime, memos → summaries, offline c/ Ollama/LM Studio | 🎯💸💎 |
+| 206 | colanode/colanode | 4.5k | Colaboração Local-First | Slack+Notion local-first — chat realtime, pages rich-text, databases customizáveis, CRDTs (Yjs), sync offline, self-hosted, Apache 2.0 | 🎯💸🚀 |
+| 207 | crbnos/carbon | 1.8k | ERP/Manufatura | ERP open-source p/ manufatura — MES+QMS, API-first, job shops, assembly complexa, Supabase+React, extensível c/ apps custom | 🎯💸🚀 |
+| 208 | dtyq/magic | 4.5k | AI Produtividade | Plataforma all-in-one AI — AI Agent generalista + IM enterprise + Workflow visual (Magic Flow) + office colaborativo, 100x produtividade | 🎯⚡🚀 |
 
 ---
 
-**Total:** 202 repos | **45 categorias** | Ordenado por ⭐ stars
+**Total:** 208 repos | **47 categorias** | Ordenado por ⭐ stars
