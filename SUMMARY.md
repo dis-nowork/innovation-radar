@@ -408,4 +408,12 @@
 
 ---
 
-**Total:** 361 repos | **93 categorias** | Ordenado por ⭐ stars
+**Total:** 368 repos | **95 categorias** | Ordenado por ⭐ stars
+
+| 362 | eigent-ai/eigent | 11.9k | AI/Workforce | Cowork desktop open-source — multi-agent workforce, MCP, parallel execution, SSO, local deploy, CAMEL-AI powered, Apache-2.0 | 🎯💸🚀💎 |
+| 363 | rednote-hilab/dots.ocr | 7.1k | AI/Document Parsing | OCR+layout VLM unificado 1.7B — SOTA em OmniDocBench, multilíngue, prompts switcham tasks, RedNote (Xiaohongshu), MIT | 🎯💎⚡💸 |
+| 364 | boson-ai/higgs-audio | 7.9k | Voice AI/Foundation | TTS foundation model 10M+ horas — 75.7% win rate vs GPT-4o-mini-tts, multi-speaker dialogue, music+speech, live translation, Apache-2.0 | 🎯💎🚀 |
+| 365 | JerryZLiu/Dayflow | 5.7k | Produtividade/Time Tracking | Timeline automática do dia no Mac — screen watching + AI summarization, 100% local, 25MB/<1% CPU, Gemini/Ollama/Claude, MIT | 🎯💸💎 |
+| 366 | francescopace/espectre | 6.2k | IoT/Smart Home | Motion detection via Wi-Fi (CSI) — sem câmera/microfone, ESP32 €10, Home Assistant nativo, matemática pura, 10-15min setup, GPL-3.0 | 🎯💸⚡🚀 |
+| 367 | Wan-Video/Wan2.2 | 14.0k | AI/Video Generation | Video gen frontier MoE — cinematic aesthetics, text+image→video 720P@24fps, 5B model roda em 4090, Alibaba/DAMO, Apache-2.0 | 🎯💎🚀 |
+| 368 | MeiGen-AI/InfiniteTalk | 4.7k | AI/Talking Video | Talking video unlimited-length — audio-driven dubbing, image→video, video continuation, Meituan research, Apache-2.0 | 🎯💎⚡🚀 |

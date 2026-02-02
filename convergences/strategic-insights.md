@@ -1703,3 +1703,77 @@ PageIndex (#167, 12k⭐) elimina vectors com tree indexing + reasoning. SAG (#35
 OpenPCC (#358, 908⭐) é o primeiro framework open-source de "provably private AI inference". Isso é o equivalente ao Let's Encrypt para AI: transforma privacidade de feature premium em commodity. Regulação (EU AI Act, HIPAA) está empurrando nessa direção.
 
 **Timing:** Empresas de saúde, jurídico e financeiro que HOJE não usam AI por medo de data leak (estimativa: 40% das Fortune 500) vão adotar AI quando existir um selo "OpenPCC Certified" que prove matematicamente que dados não vazam. Isso é um mercado de **$20B+** que está bloqueado por falta de infraestrutura de trust. OpenPCC + hardware attestation + OHTTP = a infraestrutura.
+
+---
+
+## 2026-02-02 — AI Workforce Desktop, Frontier Video & WiFi-as-Sensor
+
+### Insight #40: O "AI Video Production Pipeline" Open-Source Está Completo — E Ninguém Integrou
+Pela primeira vez, existe stack open-source COMPLETA para produção de vídeo profissional end-to-end:
+
+| Etapa | Repo | O que faz |
+|-------|------|-----------|
+| 🎬 Geração | Wan2.2 (#367, 14k⭐) | Text/Image→Video 720P cinematic, MoE, roda em 4090 |
+| 🗣️ Voz | Higgs-Audio (#364, 7.9k⭐) | TTS expressivo 75% > GPT-4o-mini, multi-speaker dialogue, music+speech |
+| 👄 Dubbing | InfiniteTalk (#368, 4.7k⭐) | Lip-sync unlimited-length, audio→vídeo, foto→talking head |
+| ✂️ Edição | OpenCut (#83, 45k⭐) | Editor multi-track, sem watermark |
+| 📝 Transcrição | dots.ocr (#363, 7.1k⭐) / VibeVoice ASR | OCR de legendas / transcrição de áudio |
+| 🌍 Tradução | LLM qualquer | Traduz script/legendas |
+
+**O mega-gap:** Ninguém juntou essas 6 peças em um produto. Um criador de conteúdo hoje usa 5-8 ferramentas separadas. A empresa que construir o **"Video Production AI Studio"** que conecta geração→voz→dubbing→edição→publicação em uma UI unificada tem o próximo Canva for Video.
+
+**Modelo de negócio:** Freemium (exporta com marca d'água) + Pro ($19/mês, sem limites) + Enterprise (API, white-label).
+
+**Por que agora:** Wan2.2 é o primeiro modelo open-source que gera vídeo com qualidade comparável a Sora/Runway E roda em hardware consumer. InfiniteTalk resolve o problema de duração ilimitada que TODOS os outros modelos falham (>30s = degradação). Higgs-Audio V2.5 condensou tudo em 1B params. As peças técnicas amadureceram simultaneamente.
+
+**TAM combinado:** Video creation ($10B) + Localization/Dubbing ($8B) + E-learning video ($5B) = **$23B+**
+
+Combinação de eixos: 🎯💸💎⚡🚀 — **5 eixos simultâneos**. Quando um stack acerta 5 eixos, é sinal de disrupção iminente.
+
+### Insight #41: "WiFi-as-a-Sensor" É Uma Plataforma, Não Um Produto
+ESPectre (#366, 6.2k⭐) prova que WiFi CSI (Channel State Information) é uma tecnologia de plataforma com aplicações muito além de motion detection:
+
+**Aplicações emergentes:**
+1. **Eldercare monitoring:** Detecta quedas, padrões de atividade, sem câmeras invasivas. Mercado de $15B+.
+2. **Retail analytics:** Conta pessoas, detecta zonas de interesse em lojas, sem câmeras (GDPR-friendly). Mercado de $5B+.
+3. **Smart office:** Detecta ocupação de salas sem sensores dedicados (cada AP WiFi vira sensor). Mercado de $3B+.
+4. **Sleep monitoring:** Detecta respiração via perturbação WiFi, sem wearable. Mercado de $2B+.
+5. **Security perimeter:** Detecção de intrusão sem câmeras externas. Mercado de $10B+.
+
+**Por que é disruptivo:** O custo marginal é ZERO — WiFi já existe em todo lugar. ESP32 a €10 adiciona a capacidade de sensing a qualquer ambiente. Não precisa de infraestrutura nova, não invade privacidade, e escala com cada ponto de acesso existente.
+
+**O gap:** Ninguém está construindo a **"plataforma de WiFi sensing"** — um SDK que abstrai CSI analysis para qualquer vertical. ESPectre faz motion detection. Mas o mesmo princípio matemático serve para: gesture recognition, people counting, activity classification, respiratory monitoring. Quem construir a abstração genérica e empacotar verticais específicas captura um mercado de **$35B+ combinado**.
+
+### Insight #42: "Cowork/Workforce AI" É o Novo SaaS — E Abriu Para Open-Source
+Eigent (#362, 11.9k⭐) sinaliza que o conceito de "AI workforce" (múltiplos agents trabalhando em paralelo como funcionários virtuais) está se comoditizando na velocidade do open-source:
+
+| Player | Modelo | Custo | Local? |
+|--------|--------|-------|--------|
+| Anthropic Cowork | Cloud | $25/user/mês | ❌ |
+| Cluely | Cloud | $280/mês | ❌ |
+| Eigent | Self-hosted/Cloud | $0 | ✅ |
+| openwork (#92) | Self-hosted | $0 | ✅ |
+
+**O padrão é idêntico ao CRM (Salesforce→Twenty) e Helpdesk (Zendesk→Chatwoot):** cloud incumbents com preço premium estão sendo desafiados por open-source com feature parity.
+
+**A oportunidade de $10B+:** Quem combinar Eigent (orchestration) + MCP ecosystem (500+ tools) + Dayflow (#365, time tracking) = plataforma de "Virtual Employee Management" onde empresas:
+1. Criam agents por departamento (finance agent, marketing agent, HR agent)
+2. Cada agent tem MCP tools específicos do departamento
+3. Dayflow-like tracking mostra ROI: "Agent de finanças economizou 40h esta semana"
+4. Dashboard de workforce: quais agents estão rodando, o que fizeram, qual o custo
+
+Isso é **o futuro do trabalho** empacotado como software. E está open-source agora.
+
+### Insight #43: O "Document Intelligence" Convergiu Para VLMs Únicos
+dots.ocr (#363, 7.1k⭐) representa uma mudança arquitetural fundamental: **pipelines multi-model de document processing estão morrendo**.
+
+A evolução:
+- **2020:** OCR engine (Tesseract) + layout detector (YOLO) + table parser (custom) + formula OCR (LaTeX converter) = 4 modelos, 4 pontos de falha
+- **2023:** Pipeline melhorado (DocTR + DETR + TableFormer + LaTeXOCR) = mais preciso, ainda 4 modelos
+- **2025:** dots.ocr = 1 modelo VLM de 1.7B faz tudo com prompt switching, SOTA
+
+**Implicação:** Toda a infraestrutura de document processing (Textract, ABBYY, Kofax) está construída sobre a premissa de pipelines especializados. Um modelo unificado que é MELHOR e MAIS BARATO torna essa infraestrutura obsoleta.
+
+**Combinação matadora:** dots.ocr (#363, parsing) + docling (#89, conversão multi-formato) + Unstract (#94, no-code extraction) = **full document intelligence stack** com 1 VLM no core em vez de 10 modelos. Custo: 90% menor. Accuracy: SOTA. Setup: horas em vez de meses.
+
+**Previsão:** Em 18 meses, "multi-model document pipeline" será visto como legacy architecture, assim como "LAMP stack" é visto hoje.
