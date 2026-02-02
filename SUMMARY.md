@@ -468,3 +468,10 @@
 | 415 | HoshinoSuzumi/chronoframe | 1.6k | Self-Hosted/Photo | Gallery pessoal self-hosted — Live/Motion Photos, EXIF, geocoding reverso, explore map, S3/local, Nuxt 4+Drizzle, Docker, MIT | 🎯💸💎 |
 | 416 | RICHQAQ/PasteMD | 3.9k | Produtividade/Office | Markdown→Word/Excel one-click — resolve formatação quebrada de AI (ChatGPT/DeepSeek) no Office, LaTeX math, tabelas, HTML rich text, tray app Python, MIT | 🎯💎⚡ |
 | 417 | KittenML/KittenTTS | 9.6k | Voice AI/TTS | TTS state-of-art em <25MB — ultra-compacto, roda em edge/mobile, qualidade competitiva com modelos 10-100x maiores, Apache-2.0 | ⚡💸💎🚀 |
+
+| 418 | zai-org/Open-AutoGLM | 23.0k | AI/Phone Agent | Phone agent open-source (Android+iOS+HarmonyOS) — controla celular via NL, modelo 9B multimodal, ADB/HDC/WebDriverAgent, confirmação p/ ops sensíveis, WiFi remote, by Zhipu AI | 🎯🚀💸💎 |
+| 419 | HKUDS/DeepTutor | 9.9k | EdTech/AI | AI tutor personalizado — upload docs/papers→Q&A com citações, visualizações interativas, gerador de exercícios, deep research, multi-agent RAG+web+code, Docker, MIT (HKU) | 🎯💎🚀 |
+| 420 | vercel-labs/json-render | 9.9k | AI/UI Infra | AI→JSON→UI guardrailed — catálogo de componentes constrangido, streaming progressivo, validação built-in, ações ricas, conditional visibility, auth-aware, by Vercel | 🎯💎⚡🚀 |
+| 421 | chatfire-AI/huobao-drama | 7.0k | AI/Video Content | Plataforma end-to-end de curtas AI — 1 frase→roteiro→personagens→storyboard→vídeo, DDD Go+Vue3, multi-provider (OpenAI/Doubao), FFmpeg, SQLite, CC-BY-NC-SA | 🎯⚡🚀💸 |
+| 422 | ZhuLinsen/daily_stock_analysis | 8.9k | Fintech/AI Analysis | Análise de ações AI diária — A/H/US stocks, dashboard decisório com buy/sell/stop-loss, multi-data (AkShare/YFinance), multi-push (Telegram/WeChat/Feishu), GitHub Actions zero-cost, MIT | 🎯💸⚡🚀 |
+| 423 | pixlcore/xyops | 1.8k | Infra/Ops Automation | Job scheduling+monitoring+alerting+ticketing unificado — workflow editor visual, server snapshots, fleet management, incident response integrado, Docker 1-liner, BSD | 🎯💎💸 |
