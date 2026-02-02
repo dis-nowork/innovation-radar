@@ -203,6 +203,13 @@
 | 175 | Snouzy/workout-cool | 6.9k | Fitness/SaaS | Plataforma fitness open-source — planos de treino, tracking, base de exercícios com vídeo, revival do workout.lol | 🎯💸 |
 | 176 | OpenCut-app/OpenCut | 45.4k | Creative Tools/Video | Editor de vídeo open-source web/desktop/mobile — CapCut killer, timeline multi-track, sem watermark, privacy-first | 🎯💸🚀💎 |
 
+| 177 | usestrix/strix | 19.6k | AI/Security | AI pentest agents autônomos — rodam código, validam com PoC real, CI/CD nativo, substitui pentests manuais de $20-100k | 🎯💸⚡🚀 |
+| 178 | permissionlesstech/bitchat | 24.9k | Comunicação/P2P | Chat mesh Bluetooth+Nostr — sem conta, sem servidor, E2E encrypted, funciona offline, emergency wipe | 🎯💎🚀 |
+| 179 | ChromeDevTools/chrome-devtools-mcp | 23.0k | DevTools/MCP | Chrome DevTools completo p/ AI agents via MCP — debug, perf traces, automação Puppeteer, multi-agent | 🎯⚡💎 |
+| 180 | stan-smith/FossFLOW | 17.1k | Creative Tools/Diagrams | Diagramas isométricos de infra open-source — PWA offline, Cloudcraft killer ($199/mo→$0), export PNG/SVG | 🎯💸💎 |
+| 181 | Snapchat/Valdi | 16.3k | Mobile/Cross-Platform | UI framework cross-platform nativo (não WebView) — TypeScript→native views, 8 anos em produção no Snap, view recycling | ⚡💎🚀 |
+| 182 | coze-dev/coze-studio | 19.7k | AI/Agent Platform | Plataforma visual p/ criar AI agents — prompt+RAG+plugins+workflows, by ByteDance, open-source completo, Chat SDK | 🎯💸🚀 |
+
 ---
 
-**Total:** 176 repos | **37 categorias** | Ordenado por ⭐ stars
+**Total:** 182 repos | **40 categorias** | Ordenado por ⭐ stars

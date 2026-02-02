@@ -615,3 +615,25 @@ DevPush (4.4k⭐) se junta a Coolify (35k+), Dokku, e CapRover na onda de "repat
 **Número que importa:** Um time de 5 devs gasta ~$500-1000/mês em Vercel/Render. Um Hetzner CX31 custa $15/mês e roda DevPush com capacidade de sobra. É literalmente **50-70x mais barato**.
 
 **Tendência:** Com Hetzner, OVH, e provedores europeus oferecendo VPS de alta qualidade por preços baixos, a demanda por PaaS self-hosted vai explodir. Especialmente com regulações de dados (GDPR, LGPD) empurrando empresas para infraestrutura própria.
+
+
+### Insight #22: AI Security — O Pentest Vai Virar Commodity
+Strix (19.6k⭐ em 6 meses) é o sinal mais claro: **pentesting manual está morrendo**. Quando um AI agent consegue rodar código, encontrar vulns, e gerar PoCs reais em horas (vs semanas humanas), o mercado de $12B+ de AppSec se reestrutura completamente.
+
+**O padrão:** Mesma disrupção que AI trouxe para código (Copilot), design (Midjourney), e escrita (ChatGPT) — agora chega em segurança. A diferença é que segurança é *high-stakes* e *high-trust*, então quem provar confiabilidade primeiro captura o mercado enterprise inteiro.
+
+**Combinação matadora:** Strix (scan AI) + chrome-devtools-mcp (visual debugging) + CI/CD integration = **security-as-code** onde cada PR é pentest-tested automaticamente. Custo marginal por scan → $0. Isso democratiza segurança para as 99% de empresas que nunca fizeram um pentest.
+
+**Gap:** Nenhum player open-source resolve **compliance automation** (SOC2, ISO 27001, LGPD) de ponta a ponta. Quem combinar scan de vulns + geração automática de evidências de compliance + dashboard de posture management cria uma Vanta ($1.6B valuation) open-source.
+
+### Insight #23: O Retorno do Offline-First — Mesh, Local, Soberano
+Bitchat (25k⭐), Handy (STT offline), reuniões locais (hyprnote, meeting-minutes)... Um padrão claro emerge: **a próxima onda não é mais cloud, é soberania digital**.
+
+Três forças convergem:
+1. **Regulação** (GDPR, LGPD, AI Act) empurrando para processamento local
+2. **Desastres** (cada vez mais frequentes) expondo dependência de internet
+3. **AI on-device** (modelos 1-9B rodando em celular) tornando offline viável
+
+**Oportunidade:** Uma "Swiss Army knife" de comunicação que funciona em QUALQUER cenário: Bluetooth mesh → WiFi Direct → Nostr → Internet convencional. Bitchat faz isso parcialmente (BLE+Nostr), mas o produto vencedor vai integrar texto, voz, e localização em um pacote que governos compram para disaster preparedness.
+
+**Mercado ignorado:** 1.7 bilhões de pessoas vivem em áreas com internet instável. Apps que funcionam offline-first com sync inteligente têm TAM massivo em mercados emergentes (Índia, África, América Latina, Sudeste Asiático).
