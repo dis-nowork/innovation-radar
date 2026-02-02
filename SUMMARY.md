@@ -456,3 +456,9 @@
 | 403 | Lissy93/networking-toolbox | 2.3k | DevTools/Network | 100+ networking tools offline-first numa UI — DNS, WHOIS, port scan, SSL, subnet calc, traceroute, Svelte, Docker, by Lissy93 (Dashy) | 🎯💸💎 |
 | 404 | karanhudia/borg-ui | 956 | Infra/Backup | Web UI bonita p/ BorgBackup — dashboard, scheduling visual, progresso real-time, browse+restore de arquivos, encryption, multi-repo, AGPL-3.0 | 🎯💎 |
 | 405 | 0xfurai/peekaping | 1.0k | Infra/Monitoring | Uptime Kuma alternative em Go — API-first, status pages, multi-DB (Postgres/MongoDB/SQLite), Terraform provider, leve e extensível, MIT | 🎯💎⚡ |
+| 406 | Zackriya-Solutions/meeting-minutes | 9.6k | Local-First AI | Meeting assistant 100% local — Parakeet/Whisper transcrição, diarization, sumarização Ollama, zero cloud, Rust, MIT | 🎯💸💎 |
+| 407 | fastrepl/hyprnote | 7.6k | Local-First AI | AI notepad p/ meetings — captura áudio sem bot na call, transcrição real-time, summaries, offline com Ollama, GPL-3.0 | 🎯💎💸 |
+| 408 | elie222/inbox-zero | 10.0k | AI Productivity | AI email assistant — organiza inbox, pre-draft replies, bulk unsubscribe, cold blocker, "Cursor Rules for email", Next.js | 🎯💸🚀 |
+| 409 | blinkospace/blinko | 9.3k | Local-First AI | Personal AI note tool self-hosted — quick capture, RAG sobre notas, multimodal, Docker 1-click, TypeScript, GPL-3.0 | 🎯💸💎 |
+| 410 | colanode/colanode | 4.6k | Local-First Collab | Slack + Notion + Drive local-first — CRDTs via Yjs, SQLite local, self-hosted, real-time collab, Apache-2.0 | 🎯💸🚀 |
+| 411 | rowboatlabs/rowboat | 4.3k | AI Productivity | AI coworker local-first com memória — ingere email+meetings, vault Obsidian-compatible, knowledge compounds, Apache-2.0 | 🎯💎🚀 |
