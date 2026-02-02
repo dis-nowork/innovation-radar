@@ -583,3 +583,35 @@ Motia (14.5k⭐, backed by Vercel) propõe o Step como primitivo universal do ba
 - Astron-RPA: Automação visual (mas Windows-only)
 
 **Oportunidade:** O mercado precisa de um "Vercel for Backend Logic" — deploy de Steps com auto-scaling, observabilidade, e marketplace de Steps pré-construídos. Se Motia capturar a developer experience que Vercel capturou pro frontend, é um negócio de $1B+.
+
+---
+
+### Insight #19: A Guerra da Memória AI — Três Paradigmas Competindo
+Identificamos 3 abordagens distintas para resolver o mesmo problema (memória persistente para AI agents):
+
+1. **Arquivo único portátil** — Memvid (12.8k⭐): Smart Frames inspirados em video encoding. Zero infra.
+2. **SQL nativo** — Memori (12.0k⭐): Uma linha de código, roda em SQLite ou Postgres. Knowledge graph built-in.
+3. **OS completo** — MemOS (4.9k⭐): Abstração de alto nível, multi-modal, enterprise-focused.
+
+**Por que importa:** TODO AI agent precisa de memória. Quem vencer esta batalha se torna o "AWS S3 da memória AI" — infraestrutura invisível mas onipresente. O mercado é horizontal (atende QUALQUER aplicação de AI agents).
+
+**O gap real:** Nenhum deles resolve o problema de **memória compartilhada entre agents de diferentes frameworks** (LangChain, CrewAI, AutoGen). Quem criar o "protocolo universal de memória AI" (como HTTP é para web) captura o mercado inteiro. É MCP mas para estado persistente.
+
+**Combinação explosiva:** Memvid (portabilidade) + Memori (SQL query) + MemOS (orquestração) = plataforma completa de memória.
+
+### Insight #20: CapCut é o Novo Photoshop — E o Open Source Está Pronto
+OpenCut (45.4k⭐ em poucos meses!) mostra que o apetite para um editor de vídeo gratuito é ENORME. Padrão histórico:
+- Photoshop → GIMP (demorou 20 anos) → Photopea (web, rápido)
+- Premiere → Kdenlive/Shotcut (nunca decolaram, UX ruim)
+- CapCut → **OpenCut** (pode ser o primeiro a acertar porque foca em simplicidade, não em features)
+
+**Convergência com AI:** OpenCut + Handy (STT offline) + Index-TTS/Qwen3-TTS = pipeline completo de produção de vídeo onde voz, legendas e edição são automáticos. Para criadores de conteúdo que produzem 5-10 vídeos/semana, isso economiza **10-20 horas/semana**.
+
+**Modelo explosivo:** Marketplace de templates + efeitos AI-powered + cloud rendering = receita recorrente com base gratuita enorme.
+
+### Insight #21: Self-Hosted PaaS — O Segundo Ato do Cloud
+DevPush (4.4k⭐) se junta a Coolify (35k+), Dokku, e CapRover na onda de "repatriação do cloud". Mas o diferencial agora é **DX de nível Vercel** com **custo de VPS**.
+
+**Número que importa:** Um time de 5 devs gasta ~$500-1000/mês em Vercel/Render. Um Hetzner CX31 custa $15/mês e roda DevPush com capacidade de sobra. É literalmente **50-70x mais barato**.
+
+**Tendência:** Com Hetzner, OVH, e provedores europeus oferecendo VPS de alta qualidade por preços baixos, a demanda por PaaS self-hosted vai explodir. Especialmente com regulações de dados (GDPR, LGPD) empurrando empresas para infraestrutura própria.

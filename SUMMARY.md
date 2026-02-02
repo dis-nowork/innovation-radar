@@ -196,7 +196,13 @@
 | 168 | QwenLM/Qwen3-TTS | 6.5k | Voice AI/TTS | TTS Alibaba/Qwen — 10 idiomas, voice clone, voice design por texto, streaming ultra-low-latency, 0.6B/1.7B params | 🎯💸💎🚀 |
 | 169 | iflytek/astron-rpa | 6.2k | RPA/Automação | RPA enterprise open-source com AI agent nativo — 300+ componentes, visual designer, UiPath/AA killer | 🎯💸🚀 |
 | 170 | nicotsx/zerobyte | 5.2k | Infra/Backup | Backup automation self-hosted com UI moderna — restic-based, multi-protocolo, criptografia E2E, scheduling visual | 🎯💸💎 |
+| 171 | OpenCut-app/OpenCut | 45.4k | Creative Tools/Video | Editor de vídeo open-source web/desktop/mobile — CapCut killer, timeline multi-track, sem watermark, privacy-first | 🎯💸🚀💎 |
+| 172 | memvid/memvid | 12.8k | AI/Memory Infra | Memória persistente em arquivo único p/ AI agents — substitui RAG+vector DB, serverless, portátil, append-only | 🎯💎⚡💸 |
+| 173 | cjpais/Handy | 13.8k | Produtividade/STT | Speech-to-text desktop 100% offline — Whisper+Parakeet, cross-platform (Tauri), push-to-talk, privacy total | 🎯💸💎 |
+| 174 | hunvreus/devpush | 4.4k | DevOps/PaaS | Vercel/Render open-source self-hosted — git push deploy, multi-language, zero-downtime, SSL auto, RBAC | 🎯💸🚀 |
+| 175 | Snouzy/workout-cool | 6.9k | Fitness/SaaS | Plataforma fitness open-source — planos de treino, tracking, base de exercícios com vídeo, revival do workout.lol | 🎯💸 |
+| 176 | OpenCut-app/OpenCut | 45.4k | Creative Tools/Video | Editor de vídeo open-source web/desktop/mobile — CapCut killer, timeline multi-track, sem watermark, privacy-first | 🎯💸🚀💎 |
 
 ---
 
-**Total:** 170 repos | **35 categorias** | Ordenado por ⭐ stars
+**Total:** 176 repos | **37 categorias** | Ordenado por ⭐ stars
