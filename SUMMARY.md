@@ -430,3 +430,10 @@
 | 379 | bellard/mquickjs | 5.4k | Runtime/Embedded | JS engine em 10KB RAM + 100KB ROM — roda em microcontroladores, speed~QuickJS, tracing GC, UTF-8, bytecode persistence, cross-compile 32/64bit, by Fabrice Bellard | ⚡💸🚀 |
 | 380 | apple/ml-sharp | 7.4k | AI/3D Vision | 1 foto → 3D Gaussian Splat em <1s — SOTA zero-shot, LPIPS -25-34% vs best prior, escala métrica absoluta, real-time rendering, Apple Research | 🎯💎⚡🚀 |
 | 381 | stoolap/stoolap | 538 | Infra/Database | Embedded SQL DB em Rust com superpowers — MVCC + time-travel (AS OF) + cost-based optimizer + parallel exec + semantic cache, features de PostgreSQL em zero-deps | 💎⚡💸 |
+
+| 382 | DayuanJiang/next-ai-draw-io | 20.5k | DevTools/Diagramming | AI-powered draw.io — NL→diagramas profissionais (AWS/GCP/Azure icons, animações, flowcharts), MCP server, desktop app, multi-provider, Apache-2.0 | 🎯⚡💎💸 |
+| 383 | vllm-project/semantic-router | 3.1k | AI/Infra Routing | Router inteligente p/ Mixture-of-Models — semantic caching, hallucination detection, LoRA routing, jailbreak defense, NeurIPS 2025, by vLLM team | 🎯⚡💸📈 |
+| 384 | unopim/unopim | 8.5k | E-Commerce/PIM | Product Information Management open-source — 10M+ products, AI content gen, multi-channel, REST API, Laravel, Akeneo/Salsify killer ($0 vs $50k+/ano) | 🎯💸🚀📈 |
+| 385 | ruvnet/wifi-densepose | 5.5k | IoT/Sensing | Human pose estimation via WiFi — sem câmera, through walls, 54K fps (Rust), 10 pessoas simultâneas, fall detection, healthcare/fitness/smart home | 🎯💎⚡🚀 |
+| 386 | oceanbase/seekdb | 2.3k | AI/Database | AI-native search DB embeddable — unifica vector+text+structured+JSON+GIS, hybrid search, in-database AI workflows, C++, by OceanBase/Ant Group | 🎯💎⚡💸 |
+| 387 | Mirix-AI/MIRIX | 3.5k | AI/Agent Memory | Multi-agent memory system — 6 tipos de memória (Core/Episodic/Semantic/Procedural/Resource/Knowledge), screen tracking, PostgreSQL BM25+vector, paper publicado | 🎯💎🚀 |

@@ -1839,3 +1839,66 @@ A evolução:
 **O timing é perfeito:** Apple publicou ml-sharp (provável integração no Vision Pro/ARKit), enquanto 3DGS (Gaussian Splatting) se consolidou como formato padrão. O ecosystem está pronto.
 
 **Previsão:** "Photo-to-3D API" será commodity em 12 meses. O valor estará nos verticais — quem construir o "Shopify plugin" ou "Zillow integration" primeiro captura o mercado.
+
+---
+
+## 2026-02-02 — AI-Native Professional Tools & Intelligent Infrastructure
+
+### Insight #46: "AI Diagramming" é a ponta do iceberg — NL→visual é a próxima interface universal
+next-ai-draw-io (20.5k⭐ e crescendo rápido) prova que **natural language → visual output** é um paradigma emergente que vai além de diagramas. O mesmo pattern aparece em:
+- **Diagramas:** next-ai-draw-io (#382), FossFLOW (#108), beautiful-mermaid (#286)
+- **Infográficos:** AntV Infographic (#228)
+- **Slides:** banana-slides (#154), Paper2Slides (#377), presenton (#127)
+- **Vídeo:** huobao-drama (#259), OpenCut (#250)
+- **3D:** ml-sharp (#380)
+
+**O padrão unificador:** Em cada categoria, o workflow está mudando de "humano manipula canvas" para "humano descreve intenção → AI gera → humano refina". A implicação estratégica: **canvas tools que não adotarem NL como input primário vão morrer em 2-3 anos.** Figma, Canva, draw.io, Mermaid — todos precisam de uma camada de AI-first interaction.
+
+**A mega-oportunidade não capturada:** Um **"Universal Visual AI"** — uma única plataforma onde NL gera qualquer tipo de visual (diagrama, infográfico, slide, poster, vídeo, 3D). Hoje cada vertical tem sua ferramenta. Quem unificar o engine por trás (similar a como Canva unificou design gráfico) captura um TAM combinado de $30B+.
+
+**A peça que falta:** MCP servers especializados em output visual. next-ai-draw-io já tem MCP server — imagine se cada tool visual expusesse um MCP: coding agents poderiam gerar documentação + diagramas + slides + vídeo demo como output natural de um sprint. **Documentação automática como side-effect do desenvolvimento.**
+
+### Insight #47: O "Middleware Layer" entre LLMs e o mundo real está se cristalizando em 3 categorias
+Três repos desta rodada revelam as 3 camadas do middleware AI emergente:
+
+1. **Routing Intelligence** — vllm-project/semantic-router (#383): *Qual modelo usar?* Classifica requests, roteia para modelo ideal, cacheia semânticamente, detecta alucinações. É a "CDN inteligente" dos LLMs.
+
+2. **Data Intelligence** — oceanbase/seekdb (#386): *Que dados servir?* Unifica vector+text+structured numa engine, hybrid search, in-database AI workflows. É o "banco de dados que nasceu pra AI agents".
+
+3. **Memory Intelligence** — Mirix-AI/MIRIX (#387): *O que lembrar?* 6 tipos de memória cognitiva, multi-agent, screen tracking→structured memories. É o "cérebro" dos agents.
+
+**A convergência inevitável:** Routing (qual modelo) × Data (que dados) × Memory (que contexto) = **a tríade do "agent OS"**. Quem integrar as 3 camadas num SDK coeso cria a plataforma definitiva de AI agents.
+
+**Paralelo histórico exato:**
+- 2000s: **Web stack** = Load Balancer (routing) + Database (data) + Session Store (state/memory)
+- 2020s: **AI stack** = Semantic Router (routing) + seekdb/hybrid DB (data) + MIRIX/Memori (memory)
+
+A analogia é perfeita — e assim como AWS dominou ao integrar o web stack (ELB + RDS + ElastiCache), quem integrar o AI stack domina a próxima era. **TAM combinado: $30B+ em 2028.**
+
+### Insight #48: "Invisible Sensing" é a próxima revolução de IoT — e WiFi é o enabler
+wifi-densepose (#385, 5.5k⭐) é o sinal mais forte de uma tendência profunda: **sensing sem hardware dedicado**. O padrão:
+- **WiFi CSI → human pose:** wifi-densepose — roteador existente vira sensor de presença e postura
+- **WiFi CSI → motion detection:** espectre (#366) — ESP32 de €10 detecta movimento
+- **Audio → context:** Handy (#173), Meetily (#204) — microfone vira transcritor
+- **Screen → memory:** ScreenPipe (#86), Mirix (#387) — tela vira input de memória
+
+**O insight profundo:** A "inteligência ambiente" não vai vir de novos devices (como previam smart home evangelists). Vai vir de **sensores que já existem sendo reprogramados com AI**. Todo roteador WiFi, todo microfone, toda tela, todo smartphone já é um sensor — falta software.
+
+**Oportunidade de $10B+:** Um "Ambient Intelligence Platform" que unifica WiFi sensing + audio context + screen memory + smartphone sensors numa camada de "awareness" para AI agents. O agent que sabe onde você está (WiFi), o que está dizendo (audio), o que está vendo (screen), e o que está fazendo (phone) — sem nenhum hardware novo — é o assistente pessoal definitivo.
+
+**Por que agora:** Modelos nano (<100M params) rodam em edge. WiFi CSI está disponível em roteadores comuns. A computação necessária cabe num Raspberry Pi. A barreira era software, não hardware — e wifi-densepose + espectre + MIRIX são o software.
+
+### Insight #49: PIM é o "sleeper hit" do e-commerce open-source
+UnoPim (#384, 8.5k⭐) expõe o maior gap do ecossistema open-source: **ferramentas de e-commerce backend**. Temos:
+- ✅ CRM: Twenty (39k⭐)
+- ✅ Marketing: Postiz, Mautic, BillionMail
+- ✅ Billing: Lago, Autumn
+- ✅ Analytics: Rybbit, OpenPanel
+- ❌ **PIM (Product Information):** UnoPim é basicamente o ÚNICO player sério
+- ❌ **OMS (Order Management):** zero repos relevantes
+- ❌ **WMS (Warehouse):** open-wes (256⭐) é o melhor — triste
+- ❌ **Returns/Exchanges:** nada
+
+**O gap é ENORME.** E-commerce movimenta $6.3 trillion/ano e o backend é dominado por Shopify (hosting lock-in), SAP/Oracle (enterprise), ou planilhas Excel (PMEs). Um "E-Commerce Operations OS" open-source que combine UnoPim (catálogo) + InvenTree (#311, inventário) + Fleetbase (#54, logística) + Lago (#68, billing) teria TAM de $15B+.
+
+**A oportunidade para LATAM é particularmente rica:** O e-commerce brasileiro cresce 20%+ ao ano, mas PMEs dependem de Bling/Tiny (limitados) ou sistemas manuais. UnoPim + integrações com MercadoLivre, Shopee, Magalu, B2W = killer app regional.
