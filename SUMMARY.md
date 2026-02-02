@@ -399,7 +399,13 @@
 | 353 | QwenLM/Qwen3-ASR | 1.1k | AI/Speech | ASR multilíngue 52 idiomas — 0.6B/1.7B params, language detection, timestamp prediction, streaming, forced alignment, state-of-art open-source, Apache-2.0 | 🎯💎🚀💸 |
 | 354 | smittix/intercept | 1.1k | SIGINT/Security | Plataforma SIGINT open-source — pager decode, ADS-B, AIS, ACARS, WiFi/BT scan, Meshtastic, satellite tracking, remote agents, offline mode, MIT | 🎯💸🚀💎 |
 | 355 | 1jehuang/mermaid-rs-renderer | 749 | DevTools/Rendering | Mermaid renderer 500-1600x mais rápido — Rust puro, zero browser, font cache, flowchart/class/state/sequence, CLI, MIT | ⚡💸💎 |
+| 356 | facebookresearch/omnilingual-asr | 2.6k | AI/Speech | ASR 1600+ idiomas — zero-shot p/ idiomas nunca cobertos, CER <10 em 78% das línguas, dataset CC-BY-4.0, 7B LLM-ASR, pipeline completo | 🎯💎🚀📈 |
+| 357 | Zleap-AI/SAG | 1.1k | AI/RAG/KG | SQL-driven RAG engine — constrói knowledge graph dinamicamente na query (não pré-computa), 3-stage search (Recall→Expand→Rerank), Docker, MIT | 🎯💎⚡💸 |
+| 358 | openpcc/openpcc | 908 | AI/Privacy Infra | Private Cloud Compute open-source — inference AI verificavelmente privada, OHTTP relay, hardware attestation, inspirado no Apple PCC, Go, Apache-2.0 | 🎯💎🚀 |
+| 359 | Ryandonofrio3/osgrep | 1.0k | DevTools/Search | Semantic grep p/ coding agents — busca conceitual local (não string), call graph tracing, role detection, 100% local ONNX, plugin Claude Code, Apache-2.0 | 🎯⚡💸💎 |
+| 360 | samvallad33/vestige | 324 | AI/Agent Memory | Memória cognitiva MCP server — FSRS-6 spaced repetition, spreading activation, synaptic tagging, 100% local, Rust, dual MIT/Apache-2.0 | 🎯💎💸 |
+| 361 | Ami3466/tomcp | 171 | MCP/Tooling | Qualquer website/doc → MCP server — transforma docs/sites em ferramentas MCP automaticamente, zero config, Apache-2.0 | 🎯⚡🚀 |
 
 ---
 
-**Total:** 355 repos | **91 categorias** | Ordenado por ⭐ stars
+**Total:** 361 repos | **93 categorias** | Ordenado por ⭐ stars

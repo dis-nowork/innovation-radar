@@ -1678,3 +1678,28 @@ Mermaid-rs-renderer (#355, 749⭐) consegue 500-1600x speedup simplesmente elimi
 Intercept (#354, 1.1k⭐) + Situation Monitor (#351, 2.4k⭐) são duas metades do mesmo produto: **uma plataforma de intelligence que combina sinais físicos (rádio, ADS-B, WiFi) com sinais digitais (news, markets, social)**. Hoje essas ferramentas são separadas — Palantir cobra $millions, Bloomberg $24k/ano, e ferramentas SIGINT são fragmentadas.
 
 **Combinação potente:** Intercept (physical signals) + Situation Monitor (digital signals) + AI analysis (classificação automática + correlação) = **"Palantir for the rest of us"**. O timing é perfeito: SDR hardware custa <$30, LLMs locais classificam sinais, e tudo roda self-hosted. Nichos: jornalismo investigativo, maritime security, disaster response, defense contractors menores. Se empacotar como appliance (Raspberry Pi + SDR + software) a $500, com subscription de $50/mês para premium feeds + AI analysis = $100M+ ARR é viável em 3-5 anos.
+
+---
+
+## 2026-02-02 — A Corrida Pela Memória Cognitiva & O Fim do RAG Burro
+
+### Insight #37: "Cognitive Memory" Está Substituindo "Vector Store" Como Primitiva de AI
+Vestige (#360, 324⭐) implementa FSRS-6 (spaced repetition), spreading activation, e synaptic tagging — conceitos de 130 anos de neurociência — para memória de agentes AI. Não é mais "salvar embedding e buscar por cosine similarity". É **memória que esquece, reforça, e prevê** como cérebro humano. memU (#235, 7k⭐) vai na mesma direção com proactive memory. Supermemory (#200, 16k⭐) oferece a API universal.
+
+**O padrão emergente:** A stack de memória para AI agents está se estratificando:
+1. **Working memory** (contexto da sessão) — built-in nos LLMs
+2. **Episodic memory** (fatos + preferências) — Vestige, memU
+3. **Semantic memory** (knowledge graphs) — SAG, PageIndex
+4. **Procedural memory** (skills, workflows) — AgentSkills, MCP servers
+
+Quem construir o **"unified memory layer"** que integra os 4 tipos num único SDK/API terá o equivalente a um "database for AI agents" — primitiva tão fundamental quanto PostgreSQL foi para web apps. TAM estimado: $5-10B em 3-5 anos.
+
+### Insight #38: RAG Está Bifurcando — Vectorless vs Graph-First, E Ambos Matam Chunks
+PageIndex (#167, 12k⭐) elimina vectors com tree indexing + reasoning. SAG (#357, 1.1k⭐) elimina chunks com event atomization + dynamic graph. Ambos rejeitam o paradigma "corta em chunks → embedding → cosine similarity" que 95% dos sistemas RAG usam.
+
+**A aposta:** Em 12-18 meses, "chunk-based RAG" será visto como o "jQuery of AI" — funcionou, mas era a abordagem errada. Empresas que apostaram em Pinecone/Weaviate terão que migrar. O gap: não existe ainda uma **plataforma de migração de vector RAG → reasoning RAG**. Quem construir esse "Rails for RAG migration" captura o mercado de transição.
+
+### Insight #39: "Verifiable Privacy" É O Novo SSL — E Vai Ser Obrigatório
+OpenPCC (#358, 908⭐) é o primeiro framework open-source de "provably private AI inference". Isso é o equivalente ao Let's Encrypt para AI: transforma privacidade de feature premium em commodity. Regulação (EU AI Act, HIPAA) está empurrando nessa direção.
+
+**Timing:** Empresas de saúde, jurídico e financeiro que HOJE não usam AI por medo de data leak (estimativa: 40% das Fortune 500) vão adotar AI quando existir um selo "OpenPCC Certified" que prove matematicamente que dados não vazam. Isso é um mercado de **$20B+** que está bloqueado por falta de infraestrutura de trust. OpenPCC + hardware attestation + OHTTP = a infraestrutura.
