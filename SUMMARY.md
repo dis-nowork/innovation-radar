@@ -78,6 +78,12 @@
 | 69 | aureuserp/aureuserp | 9.0k | ERP | ERP completo open-source (Laravel/Filament) | 🎯💸🚀 |
 | 70 | ElatoAI/ElatoAI | 1.4k | Voice AI/IoT | Voice AI agents em ESP32 (toys, companions) | 🎯⚡🚀💎 |
 | 71 | 1Panel-dev/1Panel | 33.1k | Infra/MCP | Painel web p/ servers Linux + MCP Server nativo | 🎯💸🚀 |
+| 72 | OpenCut-app/OpenCut | 45.4k | Creative Tools | Editor de vídeo open-source (CapCut killer) | 🎯💸🚀 |
+| 73 | resemble-ai/chatterbox | 22.1k | Voice AI | TTS SoTA open-source (ElevenLabs killer) | 💸💎⚡ |
+| 74 | usestrix/strix | 19.6k | Security | AI hackers autônomos p/ pentest de apps | 🎯💸⚡🚀 |
+| 75 | lfnovo/open-notebook | 19.1k | Knowledge/Research | NotebookLM open-source, multi-model, local | 🎯💸💎 |
+| 76 | microsoft/VibeVoice | 22.7k | Voice AI | Voice AI frontier: TTS + ASR 60min em 1 passe | 💸💎📈 |
+| 77 | dyad-sh/dyad | 19.5k | AI Builder | AI app builder local (Lovable/v0/Bolt killer) | 🎯💸 |
 | 72 | jlowin/fastmcp | 22.5k | DevTools/MCP | Framework Pythonic p/ criar MCP servers e clients | 🎯⚡🚀 |
 | 73 | activepieces/activepieces | 20.6k | Automação | AI Workflow Automation + ~400 MCP servers (n8n killer) | 🎯💸⚡🚀 |
 | 74 | oraios/serena | 19.6k | DevTools/AI | Coding agent toolkit — IDE-like tools via MCP | 🎯⚡💎 |

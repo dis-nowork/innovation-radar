@@ -220,3 +220,33 @@ Combinado com FossFLOW (17.1k) para infra visual e Coze Studio (19.7k) para agen
 
 **Quem sofre:** Agências web tradicionais, freelancers que vendem "fazer site".
 **Quem ganha:** Quem construir o "one-click clone + customize + deploy" com billing.
+
+---
+
+## 2026-02-01 — Content Creation, Security AI & Research Tools (Rodada Noturna)
+
+### Insight #13: O "Content Creator Stack" open-source está convergindo
+Pela primeira vez, é possível montar uma pipeline completa de criação de conteúdo 100% open-source:
+- **Edição:** OpenCut (45k ⭐) — cortar, montar, multi-track
+- **Voz/Narração:** Chatterbox TTS (22k ⭐) — zero-shot cloning, 23+ idiomas
+- **Legendas:** Whisper — transcrição automática
+- **Pesquisa/Roteiro:** Open Notebook (19k ⭐) — pesquisa AI + geração de podcasts
+
+**O mega-gap:** Ninguém integrou isso. Um criador hoje usa 5-8 ferramentas separadas. Quem construir o **"Creator Studio" open-source** que conecta pesquisa → roteiro → narração → edição → publicação numa UI unificada, tem o próximo Canva/CapCut. Custo: ~$0 (self-hosted) vs $50-200/mês em assinaturas combinadas. Isso é 🎯💸⚡🚀 — 4 eixos.
+
+**Stack concreto:** Open Notebook (pesquisar tema) → LLM (gerar roteiro) → Chatterbox (narrar) → OpenCut (editar + legendas) → publish. Hoje precisa de 5 tabs. Amanhã pode ser 1 clique.
+
+### Insight #14: "Security-as-CI" é a democratização definitiva de pentesting
+Strix (19.6k ⭐) não é apenas "mais um scanner". É um **pentester autônomo** que roda PoCs reais, não falsos positivos. Integra direto no GitHub Actions. Isso muda o modelo mental de "security = evento trimestral caro" para "security = pipeline contínuo barato".
+
+**Implicação econômica:** Uma startup que contratava 1 pentest/ano a $15-30k agora pode rodar Strix em cada PR por ~$0.50-2.00 de custo de LLM. Isso é uma redução de **1000x+ no custo por teste**. Quando custo cai 1000x, categorias inteiras de empresas que NUNCA fizeram pentest passam a fazer.
+
+**Combinação letal:** Strix + Serena (code understanding semântico) = scanner que entende o **contexto do código**, não apenas patterns sintáticos. Reduz falsos positivos de 50%+ para <10%. Isso é 💎⚡💸 — 3 eixos combinados.
+
+### Insight #15: Voice AI bifurcou em dois mercados — e ambos estão open-sourcificando
+1. **Real-time conversational** (agents, assistentes): Chatterbox Turbo (350M, baixa latência), LiveKit Agents, Pipecat
+2. **Long-form processing** (transcrição, análise): VibeVoice ASR (60min single-pass), Whisper
+
+O insight: esses dois mercados parecem iguais mas têm necessidades opostas. Real-time precisa de latência <200ms. Long-form precisa de accuracy e escala. **Quem dominar ambos com um produto unificado** (gravar call → transcrever → analisar → responder em real-time) captura o mercado de "conversation intelligence" inteiro (Gong, Chorus = $2-5B+).
+
+**Stack convergente:** VibeVoice ASR (transcrever) + Chatterbox Turbo (responder) + Mem0 (memória persistente) = **agente de vendas/suporte que lembra de tudo e melhora ao longo do tempo**. Nenhum incumbente tem isso open-source.
