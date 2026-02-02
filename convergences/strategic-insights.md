@@ -1194,3 +1194,65 @@ Pluely (1.5k⭐) é open-source clone do Cluely ($15M raised). O mercado de "AI 
 **Combinação vertical:** Pluely (overlay invisível) + meeting-minutes (#144, transcrição local) + Hyprnote (#155, notes pós-meeting) + Rowboat (memória composta) = **"AI Meeting Intelligence Stack"** completa, local-first, zero cloud. Enterprise compliance teams adorariam isso.
 
 **Atenção:** O mercado de "stealth AI para entrevistas" tem riscos éticos/legais reais. Mas o mesmo tech aplicado a "meeting copilot para vendas/CS" é 100% legítimo e vale bilhões (Gong.io = $7.2B valuation).
+
+---
+
+## 2026-02-02 — Multi-Agent Orchestration, Financial AI & Dev Infra
+
+### Insight #56: O "Multi-Agent Stack" está se cristalizando em 3 camadas — e cada uma é um negócio de $1B+
+Cinco repos desta rodada (LLM Council 14k⭐, Gastown 7.5k⭐, Ralph 9.1k⭐, PAL MCP #265, VoltAgent #272) revelam que **multi-agent não é um feature — é uma arquitetura com camadas distintas**:
+
+1. **Camada de Deliberação** (LLM Council) — Múltiplos modelos deliberam sobre a mesma questão. Output: resposta de consenso validada. Mercado: decisões de alto risco (medicine, legal, finance).
+2. **Camada de Orquestração** (Gastown, Ralph) — Coordenação de agentes trabalhando em paralelo. Output: projetos completados autonomamente. Mercado: development, operations, automation.
+3. **Camada de Observabilidade** (VoltAgent) — Monitoring, evals, guardrails de agents em produção. Output: confiabilidade enterprise. Mercado: compliance, governance, SRE.
+
+**O insight não-óbvio:** Cada camada é *independente* e *composável*. Você pode usar LLM Council (deliberação) DENTRO de Gastown (orquestração) MONITORADO por VoltAgent (observabilidade). Ninguém montou esse stack completo ainda.
+
+**Paralelo histórico:**
+- Web stack: Server (Apache/Nginx) → App Framework (Rails/Django) → Monitoring (Datadog/NewRelic)
+- Agent stack: Deliberation (Council) → Orchestration (Gastown) → Observability (VoltAgent)
+
+Cada camada do web stack gerou empresas de $1-50B. O agent stack vai fazer o mesmo. **TAM combinado: $30B+ em 2028.**
+
+**Gap de mercado:** O "Vercel for Multi-Agent" — plataforma que integra deliberação + orquestração + observabilidade com deploy one-click — é provavelmente o negócio mais óbvio não-construído no ecossistema AI.
+
+### Insight #57: "Autonomous Development Loops" vão redefinir pricing de software
+Ralph (9.1k⭐) demonstra que **um loop autônomo pode implementar um PRD inteiro sem intervenção humana**. O custo marginal de implementar uma feature está convergindo para ~$5-20 em tokens de LLM.
+
+**Implicação explosiva para o mercado:**
+- Se implementar software custa $5 em vez de $5,000-50,000 (dev team), TODO software custom se torna economicamente viável
+- Micro-SaaS que antes não justificava o investimento agora pode ser "gerado sob demanda" para cada cliente
+- Agencies que cobram $10k-100k por projeto competem com "digite seu PRD e espere 2 horas"
+
+**A combinação matadora:** Ralph (loop autônomo) + Gastown (escala 20-30 agents) + spec-kit (#263, specs como interface) = **"Software Factory"** onde input é spec em linguagem natural e output é repo funcionando com testes, CI/CD e docs. Isso não é ficção — cada peça já existe.
+
+**Quem sofre:** Agências de software tradicionais, bootcamps que ensinam "como programar" (o skill agora é "como especificar"), devs juniores que fazem tasks repetitivas.
+**Quem ganha:** Product managers, designers, domain experts que sabem O QUE construir.
+
+### Insight #58: "Financial AI" bifurcou — Research vs Execution são mercados diferentes
+ValueCell (8.8k⭐) + NoFx (#198, 10.3k⭐) + Dexter (#221, 9.6k⭐) + daily_stock_analysis (#246, 8.8k⭐) mostram dois mercados distintos:
+
+1. **AI Financial Research** (Dexter, daily_stock_analysis): Análise + insights + recomendações. Regulação leve. Foco em acurácia e explicabilidade.
+2. **AI Financial Execution** (ValueCell, NoFx): Trading automático + execução de strategies. Regulação pesada. Foco em latência e confiabilidade.
+
+**O gap:** Ninguém combinou research + execution num produto que seja **compliance-ready**. O problema regulatório é real — FINRA, SEC, CVM proíbem "recomendações automatizadas" sem disclaimers e controles. Quem resolver compliance de forma elegante (human-in-the-loop à la Magentic-UI #196) para financial AI captura o mercado inteiro.
+
+**Combinação explosiva:** ValueCell (execution) + LLM Council (#281, deliberação multi-modelo) + Magentic-UI (#196, human gates) = **"AI Wealth Manager com Guardrails"** — AI agents fazem research, deliberam entre modelos, humano aprova trades. Isso seria regulatório-friendly e 10x mais barato que wealth managers tradicionais (1-2% AUM → 0.1-0.2%).
+
+### Insight #59: "AI Edge Runtime" é a camada invisível que vai ganhar a guerra de AI desktop
+Osaurus (3.2k⭐) cristaliza um padrão emergente: **o valor não está no app de AI, está na PLATAFORMA que alimenta todos os apps**. Mesma lógica do Docker: não importa qual app você roda, Docker é o runtime.
+
+**O que Osaurus faz que ninguém mais faz:**
+- Unifica modelos locais (MLX) + remotos (API) num único endpoint
+- MCP server compartilhado = tools disponíveis para QUALQUER app no Mac
+- Personas/plugins = customização sem reescrever código
+- Always-on = inference disponível instantaneamente (sem startup de 5-10s do Ollama)
+
+**A batalha que está começando:**
+- **macOS:** Osaurus (MLX-native)
+- **Linux/Windows:** Ollama (Go, cross-platform)
+- **Cloud:** vLLM, TGI (server-side)
+
+Quem dominar o runtime de desktop AI será o "Docker de AI" — infrastructure invisível mas onipresente. O modelo de negócio: grátis para individual, pago para fleet management enterprise ($10-50/device/mês).
+
+**TAM:** 1.5B+ desktops × eventual 30%+ penetração AI × $5-50/mês = mercado de $27-270B/ano. Mesmo capturando 1% = $270M-2.7B.

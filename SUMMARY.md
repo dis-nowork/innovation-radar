@@ -315,6 +315,14 @@
 | 279 | HKUDS/ViMax | 2.2k | Creative Tools/Video | Geração agêntica de vídeo all-in-one — Idea2Video, Novel2Video, Script2Video, AutoCameo, director+screenwriter+producer+generator | 🎯⚡🚀💎 |
 | 280 | iamsrikanthnani/pluely | 1.5k | AI/Stealth Assistant | Cluely killer open-source — AI invisível em meetings/entrevistas, 10MB (27x menor), Tauri, 100% local, indetectável em video calls | 🎯💸⚡💎 |
 
+| 281 | karpathy/llm-council | 14.1k | AI/Multi-Model | "LLM Council" — múltiplos LLMs deliberam, revisam e rankeiam respostas anonimamente, Chairman compila resposta final (by Karpathy) | 🎯💎⚡ |
+| 282 | vercel-labs/agent-browser | 12.2k | AI/Browser Automation | CLI headless browser p/ AI agents — Rust core, accessibility tree com refs, snapshot-first, drop-in p/ qualquer coding agent (by Vercel) | 🎯⚡💎🚀 |
+| 283 | snarktank/ralph | 9.1k | AI/Autonomous Dev | Loop autônomo que roda coding agents até completar PRD — fresh context cada iteração, memória via git+progress.txt, suporta Amp/Claude Code | 🎯⚡🚀 |
+| 284 | ValueCell-ai/valuecell | 8.8k | Fintech/AI Trading | Plataforma multi-agent p/ finanças — DeepResearch agent + Strategy agent + News agent, trading live (Binance/OKX/HyperLiquid), dados 100% locais | 🎯💸🚀💎 |
+| 285 | steveyegge/gastown | 7.5k | AI/Multi-Agent Orchestration | Multi-agent workspace p/ Claude Code — escala 20-30 agents, git-backed persistent hooks, mailboxes, work tracking (Beads ledger), by Steve Yegge | 🎯⚡🚀💎 |
+| 286 | lukilabs/beautiful-mermaid | 5.3k | DevTools/Visualization | Mermaid renderer bonito — 15 temas, SVG+ASCII dual output, zero DOM deps, ultra-rápido, Shiki themes, by Craft.do | 🎯💎⚡ |
+| 287 | dinoki-ai/osaurus | 3.2k | AI/Edge Runtime | AI edge runtime p/ macOS — MLX local + cloud providers, MCP server compartilhado, plugins, personas, always-on, Apple Silicon otimizado | 🎯💸💎🚀 |
+
 ---
 
-**Total:** 280 repos | **66 categorias** | Ordenado por ⭐ stars
+**Total:** 287 repos | **68 categorias** | Ordenado por ⭐ stars
