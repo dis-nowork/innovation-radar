@@ -443,3 +443,9 @@
 | 391 | likaia/nginxpulse | 1.9k | Infra/Observabilidade | Nginx log analytics lightweight — real-time stats, IP geolocation, PV filter, client parsing, mobile UI, Go+Vue3+PostgreSQL, Docker, MIT | 🎯💸⚡ |
 | 392 | x011/smtp-tunnel-proxy | 1.3k | Security/Privacy | Tunnel TCP disfarçado de SMTP — bypassa DPI firewalls, TLS 1.2+, SOCKS5 proxy, multi-user, multiplexing, auto-reconnect, Python, GPL-3.0 | 🎯💎🚀 |
 | 393 | invoicerr-app/invoicerr | 608 | Produtividade/Freelancer | App de faturamento p/ freelancers — quotes→invoices, assinaturas digitais, PDF gen, SMTP emails, plugin system, React+NestJS+Prisma, AGPL-3.0 | 🎯💸 |
+| 394 | MotiaDev/motia | 14.5k | Framework/Backend | Unified backend framework — APIs, jobs, queues, workflows, streams, AI agents num único primitivo (Step), multi-language (TS/Python), observability built-in, Vercel-backed | 🎯⚡🚀 |
+| 395 | crbnos/carbon | 1.8k | Manufatura/ERP | ERP + MES + QMS open-source p/ manufatura — complex assembly, job shops, API-first, MCP client/server, Supabase+Remix, configurator, traceability | 🎯💸💎 |
+| 396 | snarktank/ralph | 9.2k | AI/DevTools | Loop autônomo de AI coding agent — roda Amp/Claude Code repetidamente até completar PRD, fresh context por iteração, memória via git+progress.txt | 🎯⚡🚀 |
+| 397 | memvid/memvid | 12.8k | AI/Memory | Memory layer single-file p/ AI agents — substitui RAG pipelines complexos, serverless, .mv2 format, Rust core, sub-ms retrieval, semantic search, offline-first | 🎯⚡💸 |
+| 398 | MemoriLabs/Memori | 12.0k | AI/Memory | SQL-native memory fabric p/ AI enterprise — LLM/datastore agnostic, knowledge graph automático, 1 linha de código, semantic search, schema migrations | 🎯⚡🚀 |
+| 399 | trycua/cua | 12.2k | AI/Infra | Infra open-source p/ Computer-Use Agents — sandboxes (macOS/Linux/Windows), SDKs, benchmarks, virtualização, desktop automation completa | 🎯⚡🚀 |
