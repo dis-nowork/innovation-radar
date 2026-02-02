@@ -371,6 +371,15 @@
 | 327 | rustmailer/bichon | 1.2k | Infra/Email Archive | Arquivador de email Rust high-perf — IMAP sync, full-text search, dedup, WebUI, multi-account, zero deps externas, 18 idiomas | 🎯💸⚡ |
 | 328 | bestruirui/octopus | 1.3k | AI/LLM Infra | Hub pessoal de LLMs — agrega múltiplos providers (OpenAI/Anthropic/Google/local) numa API unificada, self-hosted | 🎯💸⚡ |
 
+| 329 | xai-org/x-algorithm | 14.3k | AI/Recommendation | Algoritmo "For You" do X open-source — Grok-based transformer ranking, Thunder (in-network) + Phoenix (out-of-network), zero hand-engineered features, Apache-2.0 | 🎯💎🚀 |
+| 330 | NVIDIA/personaplex | 4.5k | AI/Voice | Full-duplex speech-to-speech com persona control — voz + role via text prompts, 7B params, real-time conversational, múltiplas vozes naturais, NVIDIA research | 🎯💎⚡ |
+| 331 | deepseek-ai/Engram | 3.5k | AI/Architecture | Conditional Memory via N-gram lookup — novo eixo de sparsity p/ LLMs, O(1) knowledge retrieval, Engram-27B supera MoE baselines, offload p/ host memory | 🎯💎⚡📈 |
+| 332 | VibiumDev/vibium | 2.5k | AI/Browser Automation | Browser automation AI-native — single 10MB Go binary, MCP server built-in, WebDriver BiDi (não proprietário), zero-config, auto-wait, JS+Python clients | 🎯💎⚡💸 |
+| 333 | ChartGPU/ChartGPU | 2.4k | DevTools/Visualization | Charting library WebGPU-accelerated — line/area/bar/scatter/pie/candlestick, streaming updates, density heatmaps, 60fps com milhões de pontos, TypeScript | ⚡📈💎 |
+| 334 | PhialsBasement/LibreCrawl | 414 | SEO/Marketing | Screaming Frog killer open-source — SEO crawler web-based, multi-tenant, JS rendering, PageSpeed Insights, issue detection, export CSV/JSON/XML, Docker | 🎯💸🚀 |
+| 335 | dadbodgeoff/drift | 623 | DevTools/AI Context | Codebase intelligence p/ AI — detecta patterns/conventions automaticamente, Cortex memory (substitui AGENTS.md estático), call graphs, MCP server, offline CLI | 🎯💎⚡ |
+| 336 | ronitsingh10/FineTune | 2.0k | macOS/Audio | Per-app volume control macOS — multi-device output, audio routing, 10-band EQ, menu bar, free vs SoundSource $39, GPL-3.0 | 🎯💸💎 |
+
 ---
 
-**Total:** 328 repos | **82 categorias** | Ordenado por ⭐ stars
+**Total:** 336 repos | **85 categorias** | Ordenado por ⭐ stars

@@ -1508,3 +1508,37 @@ O salto de "AI agents" para "AI agents que evoluem" é tão grande quanto o salt
 - **Trading:** Agent que adapta estratégias a regime changes (vs backtesting com dados históricos)
 
 Quem construir a "plataforma de agents auto-evolutivos pra vertical X" tem vantagem compounding — o agent fica melhor todo dia, e quem entra depois está sempre atrás.
+
+### Insight #73: "O Colapso da Camada de Contexto Estático" — De AGENTS.md para Living Memory
+
+**Data:** 2026-02-02
+
+A explosão de AI coding agents criou um problema meta: como dar contexto ao agente sobre seu próprio codebase? A solução inicial foi arquivos estáticos (AGENTS.md, CLAUDE.md, .cursorrules). Mas esses arquivos ficam obsoletos no momento em que são escritos.
+
+Drift (#335) representa a primeira geração de **contexto dinâmico auto-gerado**: escaneia código, detecta padrões com confidence scoring, e mantém "Cortex Memory" que aprende de correções. Isso mata a abordagem estática.
+
+**O stack emergente para "codebase intelligence":**
+1. **Pattern detection** (Drift) — o que o código FAZ vs. o que deveria fazer
+2. **Semantic search** (mgrep #319, grepai) — busca por significado, não string
+3. **Call graph** (Drift) — quem chama quem, impacto de mudanças
+4. **Living memory** (Drift Cortex, Supermemory) — aprende de cada interação
+
+**Quem combinar esses 4** em um produto integrado terá o "GitHub Copilot para entender código" — não gerar, mas COMPREENDER. TAM: todo dev usando AI assistants (50M+), $25B+ market.
+
+**Gap massivo:** Ninguém faz isso para **non-code** (design systems, infra configs, business processes). Imagine Drift para Terraform, para Figma, para business rules.
+
+### Insight #74: "WebGPU como Nova Commodity Layer" — Visualização Entrando na Era GPU
+
+**Data:** 2026-02-02
+
+ChartGPU (#333) é sinal de uma mudança estrutural: WebGPU está maduro o suficiente para bibliotecas de charting production-ready. Isso muda completamente o jogo para:
+- **Financial terminals** — Bloomberg-quality charts no browser, sem instalar nada
+- **IoT dashboards** — milhões de data points em tempo real, smooth 60fps
+- **Scientific visualization** — datasets massivos interativos na web
+
+**A combinação killer que ninguém montou:**
+- ChartGPU (rendering) + OpenStock (#93, dados) + daily_stock_analysis (#246, AI insights) = **"Bloomberg Terminal open-source"** que roda no browser com AI analysis incluso.
+
+**Por que é timing perfeito:** WebGPU atingiu suporte em Chrome, Edge e Safari (experimental). A adoção vai crescer exponencialmente em 2026-2027. Quem construir a stack de visualização GPU-native agora terá vantagem de 2 anos sobre quem esperar.
+
+**Padrão meta:** Toda vez que uma capability de hardware fica acessível via web API (WebGL→Three.js, WebRTC→video chat, WebGPU→visualization), surge um unicórnio. WebGPU é a próxima onda.
