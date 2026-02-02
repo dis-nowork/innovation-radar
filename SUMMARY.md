@@ -301,7 +301,13 @@
 | 266 | nicotsx/zerobyte | 5.2k | Infra/Backup | Backup automation self-hosted — UI web moderna, restic engine, scheduling, encryption, multi-protocol (NFS/SMB/SFTP/WebDAV), Docker, AGPL-3.0 | 🎯💸💎 |
 | 267 | 1Panel-dev/CordysCRM | 1.8k | Business/CRM | CRM open-source AI (Salesforce killer) — L2C completo, MCP Server, integra DataEase BI + MaxKB AI agents, WeChat/DingTalk/Feishu, Docker, Java | 🎯💸🚀💎 |
 | 268 | saifyxpro/HeadlessX | 1.6k | Infra/Browser Automation | Browser automation indetectável — Camoufox (Firefox C++ patched), 0% detection rate, CAPTCHA solving AI, API endpoints, self-hosted, MIT | 🎯💎⚡ |
+| 269 | oraios/serena | 19.6k | AI/DevTools | IDE-like semantic code tools p/ coding agents via MCP — symbol-level retrieval/editing, 10x menos tokens que grep | 🎯💎⚡💸 |
+| 270 | BeehiveInnovations/pal-mcp-server | 11.0k | AI/DevTools | Multi-model orchestration p/ coding CLIs — consensus debates, CLI-to-CLI bridge, role specialization | 🎯💎⚡🚀 |
+| 271 | antiwork/shortest | 5.5k | AI/QA | Testes E2E via linguagem natural com Anthropic Claude + Playwright — QA sem código | 🎯⚡🚀 |
+| 272 | VoltAgent/voltagent | 5.4k | AI/Plataforma | AI Agent Engineering Platform — framework TypeScript + VoltOps Console (observabilidade, deploys, evals) | 🎯💎⚡🚀 |
+| 273 | crbnos/carbon | 1.8k | ERP/Manufatura | ERP + MES + QMS open-source p/ manufatura — API-first, TypeScript/React, Supabase | 🎯💸🚀 |
+| 274 | xpack-ai/XPack-MCP-Marketplace | 156 | AI/Marketplace | Marketplace open-source p/ monetizar MCP servers — billing per-call, Stripe, SEO, deploy em 10min | 🎯🚀💸 |
 
 ---
 
-**Total:** 268 repos | **62 categorias** | Ordenado por ⭐ stars
+**Total:** 274 repos | **64 categorias** | Ordenado por ⭐ stars
