@@ -1003,3 +1003,31 @@ Deta Surf (3.1k⭐), Open Notebook (#75, 19.1k⭐), e Khoj (#77, 32.4k⭐) estã
 **A mega-oportunidade:** Quem construir o "VS Code of Research" — extensível, com marketplace de plugins, community-driven — captura o mercado de knowledge workers ($500B TAM global). A diferença entre Surf e chatbots (ChatGPT, Claude) é que **Surf mantém o humano no centro do raciocínio**, usando AI como assistente contextual, não como substituto.
 
 **Combinação:** Surf (research UI) + RAG-Anything (#229, multimodal retrieval) + Graphiti (#91, knowledge graph) + AntV Infographic (#228, visualization) = **Research Platform** onde buscar, ler, sintetizar, visualizar e publicar acontece num único ambiente. Nenhuma universidade, think tank ou consulting firm tem isso hoje.
+
+### Insight #41: Phone Agents são o próximo "browser-use" — e o mercado é 10x maior
+Open-AutoGLM (#244, 23k⭐) faz para smartphones o que browser-use fez para navegadores web. Mas o mercado é dramaticamente maior: existem 6.8B smartphones vs ~2B desktop browsers. A capacidade de controlar um celular por linguagem natural abre 3 mercados simultâneos:
+
+1. **QA Mobile Automation** ($50B): Substitui farms de testadores manuais
+2. **Acessibilidade Digital**: Idosos e PCDs que não conseguem navegar UIs complexas — governos e ONGs pagam por isso
+3. **RPA para apps mobile**: Automatizar tarefas repetitivas em apps que NÃO têm API
+
+**O gap crítico:** Browser-use (#1, 77.5k⭐) e Open-AutoGLM são mundos separados. Ninguém construiu o **"Universal Agent"** que controla web + mobile + desktop de forma unificada. Quem fizer isso cria a camada de automação universal. O mais próximo é o framework Midscene.js que já integrou com AutoGLM.
+
+**Timing:** Modelos VLM estão ficando bons o suficiente para screen understanding confiável. 2026 é o ano em que phone agents saem do lab para produção.
+
+### Insight #42: A "explicabilidade de sistemas" é um mercado invisível e gigante
+witr (#249, 12.3k⭐) revelou algo que ninguém articulava: ferramentas de observabilidade mostram ESTADO (o que está rodando) mas não CAUSALIDADE (por que está rodando). Essa é uma distinção fundamental.
+
+**Aplicações além de DevOps:**
+- **Security/forensics:** "Por que esse processo está rodando?" é a pergunta #1 em incident response
+- **Compliance:** Auditorias precisam provar a cadeia de responsabilidade de cada processo
+- **Cost optimization:** "Por que estou pagando por isso?" (containers órfãos, serviços esquecidos)
+
+**O padrão maior:** Estamos vendo ferramentas que vão de "mostrar dados" para "explicar dados". daily_stock_analysis (#246) faz isso para finanças (não só mostra preço — EXPLICA o que fazer). DeepTutor (#245) faz para educação (não só mostra conteúdo — EXPLICA com adaptação). **Explicabilidade como feature é o novo premium.**
+
+### Insight #43: "Zero-cost infrastructure" está criando uma nova classe de produtos SaaS
+daily_stock_analysis (#246) roda inteiramente no GitHub Actions + Gemini free tier = custo ZERO de infraestrutura. Isso é revolucionário porque inverte o modelo: em vez de cobrar para cobrir custos de infra, o produto pode ser genuinamente freemium.
+
+**Padrão emergente:** Repos como gmail-cleaner (#226, 100% local), qmd (#247, all local GGUF), e agora daily_stock_analysis estão provando que **infra-free SaaS** é viável para certas categorias. O modelo de negócio muda: em vez de cobrir custos de servidor, monetiza conveniência, features premium, e enterprise support.
+
+**Implicação estratégica:** Qualquer SaaS cujo core processing pode rodar em CI/CD gratuito (GitHub Actions, Cloudflare Workers free tier) ou no device do usuário está vulnerável a ser disruptado por um projeto open-source zero-cost. As categorias mais expostas: analytics pessoais, monitoring simples, automações periódicas, geração de relatórios.

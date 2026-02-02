@@ -266,7 +266,22 @@
 | 232 | growchief/growchief | 3.3k | Marketing/Outreach | Social media outreach automation — LinkedIn/X, API-first, n8n node, PhantomBuster/Expandi killer ($100-400/mês→$0) | 🎯💸🚀 |
 | 233 | deta/surf | 3.1k | Produtividade/Research | AI notebook pessoal — @-mention arquivos/web/PDF/YouTube, citations com deeplinks, applet gen, Svelte+Rust, local-first | 🎯💎 |
 | 234 | hellodigua/ChatLab | 4.1k | AI/Personal Data | Análise de histórico de chat local-first — SQL + AI Agents, WeChat/Telegram/WhatsApp, visualizações de padrões sociais | 🎯💸 |
+| 235 | NevaMind-AI/memU | 7.0k | AI/Agent Memory | Memória persistente para agentes 24/7 (openclaw/clawdbot) — long-term memory layer, proactive agent support, Python | 🎯⚡🚀 |
+| 236 | Blaizzy/mlx-audio | 5.8k | AI/Audio | TTS + STT + STS no Apple Silicon via MLX — inferência local rápida, múltiplos modelos, MIT license | 🎯💎⚡ |
+| 237 | MoonshotAI/kimi-cli | 5.7k | Dev Tools/AI Agent | Kimi Code CLI — coding agent chinês (Moonshot AI), terminal-native, Apache-2.0 | 🎯⚡ |
+| 238 | badlogic/pi-mono | 5.2k | Dev Tools/AI Toolkit | AI agent toolkit monorepo — coding CLI + unified LLM API + TUI/web UI + Slack bot + vLLM pods, TypeScript | 🎯⚡💎 |
+| 239 | getarcaneapp/arcane | 4.3k | Infra/Docker | Docker management moderno — UI polida (SvelteKit+Go), compose support, self-hosted, BSD-3 license | 🎯💸💎 |
+| 240 | timelinize/timelinize | 3.3k | Data/Personal Archive | Timeline pessoal de todos seus dados — importa de múltiplas contas/devices, data archiving, Go, AGPL-3.0 | 🎯💎 |
+| 241 | murtaza-nasir/speakr | 2.8k | Produtividade/Transcrição | Transcrição de áudio self-hosted — webapp pessoal, Python, AGPL-3.0, privacy-first | 🎯💸 |
+| 242 | gamosoft/NoteDiscovery | 2.2k | Produtividade/Knowledge | Knowledge base self-hosted — Notion/Obsidian alternative, markdown, Docker, zettelkasten, MIT license | 🎯💸💎 |
+| 243 | steipete/Peekaboo | 1.7k | Dev Tools/MCP | macOS screenshot CLI + MCP server — AI agents capturam telas de apps, VQA local/remoto, Swift, MIT | 🎯⚡ |
+| 244 | zai-org/Open-AutoGLM | 23.0k | AI/Phone Agent | Framework open-source de phone agent — modelo 9B controla Android/HarmonyOS via ADB, VLM screen understanding, multilingual, Apache-2.0 (Zhipu AI) | 🎯💎🚀 |
+| 245 | HKUDS/DeepTutor | 9.9k | EdTech/AI Tutor | Tutor AI personalizado — upload docs, dual-loop RAG + web search + code exec, knowledge graphs interativos, quiz gen, AGPL-3.0 | 🎯💎⚡💸 |
+| 246 | ZhuLinsen/daily_stock_analysis | 8.8k | Fintech/Stock Analysis | Análise diária de ações via LLM — A/H/US stocks, Gemini grátis, dashboard decisório, push multi-canal, zero-cost via GitHub Actions, MIT | 🎯💸⚡🚀 |
+| 247 | tobi/qmd | 5.5k | Dev Tools/Search | Search engine local para docs/notes/meetings — BM25 + vector + LLM reranking, MCP server, agentic-ready, tudo local via GGUF | 🎯💎⚡ |
+| 248 | Maxteabag/sqlit | 3.5k | Dev Tools/Database TUI | "lazygit de SQL databases" — TUI Python, 20+ databases, Docker discovery, SSH tunnels, vim keybinds, autocomplete, keyring seguro, MIT | 🎯💸💎⚡ |
+| 249 | pranshuparmar/witr | 12.3k | Dev Tools/Observability | "Why is this running?" — explica causalidade de processos (não só estado), cross-platform Go binary, resposta única human-readable, Apache-2.0 | 🎯💎⚡ |
 
 ---
 
-**Total:** 234 repos | **51 categorias** | Ordenado por ⭐ stars
+**Total:** 249 repos | **55 categorias** | Ordenado por ⭐ stars
