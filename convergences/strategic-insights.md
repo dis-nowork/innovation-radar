@@ -1808,3 +1808,34 @@ A evolução:
 **Oportunidade:** Ninguém oferece uma **memory stack unificada** que combine os 3. Assim como databases têm cache (Redis) + storage (Postgres) + search (Elastic), agents precisam de uma stack de memória com camadas especializadas.
 
 **Previsão:** Em 12 meses, "agent memory" será uma categoria de infraestrutura tão fundamental quanto "vector database" é hoje. O vencedor será quem integrar compression + retrieval + persistence em um SDK drop-in.
+
+---
+
+## Insight #44 — O "Video Generation Unlock" está acontecendo agora (Feb 2, 2026)
+
+**Padrão:** TurboDiffusion (#378) reduz custo/tempo de video gen em 100-200x. Isso não é incremental — é uma mudança de categoria. Wan2.2 (#367) + LTX-2 (#349) + InfiniteTalk (#368) fornecem qualidade. TurboDiffusion fornece viabilidade econômica.
+
+**O cálculo muda completamente:**
+- Antes: 1 vídeo de 5s = 3min GPU = ~$0.50 → impraticável para milhões de vídeos
+- Depois: 1 vídeo de 5s = 2s GPU = ~$0.003 → viável para e-commerce, ads, social
+- Interatividade: preview em 2s permite UX iterativa (edit→preview→edit)
+
+**Gap de mercado:** Ninguém ainda empacotou "fast video gen" como produto SaaS acessível. Todos os players (Runway $15-115/mês, Kling, Pika) cobram por segundo gerado. Com 100x menos custo de inference, alguém pode oferecer "unlimited video gen" por $10/mês e destruir incumbentes.
+
+**Combinação multiplicadora:** TurboDiffusion (aceleração) + Wan2.2 (qualidade) + banana-slides (UX de criação) = **plataforma de conteúdo visual real-time** onde qualquer pessoa cria vídeos profissionais instantaneamente.
+
+---
+
+## Insight #45 — "Single Image → Everything" é o novo paradigma 3D (Feb 2, 2026)
+
+**Padrão:** apple/ml-sharp (#380) faz 1 foto → 3D em <1s. Combine com Z-Image (#369) que gera imagens fotorrealistas, e lingbot-world (#374) que simula mundos 3D interativos. O pipeline completo é: **texto → imagem → 3D → mundo interativo**, tudo em segundos.
+
+**Por que isso importa AGORA:**
+1. **E-commerce:** 200M+ produtos no Amazon sem 3D view. Uma foto do produto → 3D spin view. Shopify sozinho tem 2M+ merchants esperando isso.
+2. **Real estate:** Foto do imóvel → tour 3D virtual. Elimina fotógrafos 3D ($200-500/sessão).
+3. **Gaming:** Assets 3D a partir de concept art. Reduz custos de produção 10x.
+4. **Insurance:** Foto do dano → modelo 3D para avaliação. Automation do claim processing.
+
+**O timing é perfeito:** Apple publicou ml-sharp (provável integração no Vision Pro/ARKit), enquanto 3DGS (Gaussian Splatting) se consolidou como formato padrão. O ecosystem está pronto.
+
+**Previsão:** "Photo-to-3D API" será commodity em 12 meses. O valor estará nos verticais — quem construir o "Shopify plugin" ou "Zillow integration" primeiro captura o mercado.
