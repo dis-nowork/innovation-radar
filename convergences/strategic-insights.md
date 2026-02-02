@@ -662,3 +662,39 @@ Pulse (AI Patrol + chat sobre infra) e Beszel (alertas inteligentes) mostram que
 Datadog cobra $23/host/mês por dashboards estáticos. Beszel + LLM local (Ollama) pode fazer tudo isso por $0. A diferença de preço é tão brutal que enterprise monitoring vai comoditizar em 2-3 anos.
 
 **Gap:** Nenhuma solução open-source combina monitoring + AI remediation + compliance reporting. Quem juntar Beszel (dados) + Ollama (inferência) + compliance templates = **AI SRE as a Service** para PMEs que não podem contratar DevOps.
+
+### Insight #26: A Guerra da Memória de Agentes — 4 Abordagens Competem, Nenhuma Venceu
+Seis repos nesta rodada (Graphiti 22.5k⭐, Memvid 12.8k⭐, Memori 12.0k⭐, PageIndex 12.0k⭐, Airweave 5.6k⭐, CocoIndex 6.0k⭐) revelam que **memória para AI agents é o problema #1 não-resolvido** da era agentiva. Quatro abordagens competem:
+
+1. **Knowledge Graphs Temporais** (Graphiti/Zep) — para relações complexas que mudam
+2. **Memória Portátil em Arquivo** (Memvid) — serverless, sem dependências
+3. **Memória SQL-Native** (Memori) — usa infra que devs já conhecem
+4. **RAG por Raciocínio** (PageIndex) — sem vetores, sem chunking
+
+**Nenhuma é universalmente melhor.** O mercado vai se fragmentar por caso de uso:
+- **Agents simples** (chatbots, assistentes) → Memori (5 linhas, SQLite)
+- **Agents portáteis** (edge, offline, mobile) → Memvid (arquivo único)
+- **Agents enterprise** (CRM, suporte, vendas) → Graphiti (relações + tempo)
+- **Agents de documentos** (legal, auditoria, compliance) → PageIndex (accuracy 98.7%)
+
+**Oportunidade:** Quem construir uma **"camada de abstração de memória"** — tipo ORM, mas para memória de agents — que deixe trocar backend (graph/SQL/file/reasoning) sem mudar código, captura TODO o mercado. Hoje cada switch de memória exige reescrever o agent.
+
+**TAM estimado:** $15-20B em 2027. Toda empresa que usa AI agents (100% das Fortune 500 até 2027) vai precisar de memory infrastructure.
+
+### Insight #27: O "Full Local Agent" Matou a Desculpa do Custo — AgenticSeek e Suna Definem o Novo Piso
+AgenticSeek (24.9k⭐, 100% local) e Suna (19.3k⭐, plataforma completa) mostram que **construir AI agents potentes já não exige APIs caras**:
+
+- AgenticSeek roda modelos locais (DeepSeek, Llama) → custo = eletricidade
+- Suna oferece browser automation + file management + web crawling → tudo open-source
+
+Isso significa que o **piso de entrada para AI agents caiu para ~$0**. A barreira não é mais tecnológica — é **orquestração, memória e dados**. Exatamente onde Graphiti, Airweave e Motia operam.
+
+**Padrão emergente:** A stack vencedora de 2026-2027 será:
+- **Plataforma** → Suna/Coze Studio (agent builder)
+- **Backend** → Motia (orquestração unificada)
+- **Memória** → Graphiti/Memori (persistência + relações)
+- **Dados** → Airweave + CocoIndex (ingestão + transformação)
+- **Retrieval** → PageIndex (documentos) + Memvid (portabilidade)
+- **Modelo** → Local (DeepSeek/Llama) ou API (Claude/GPT)
+
+**Gap crítico:** Ninguém montou esse bundle ainda. O "Vercel for AI Agents" — deploy em 1 click de agent com memória, dados e orquestração — é provavelmente a oportunidade de $1B+ mais óbvia do mercado AI atual.

@@ -216,6 +216,13 @@
 | 187 | allinssl/allinssl | 3.3k | Infra/SSL | Gestão completa ciclo de vida SSL — multi-CA, deploy automático CDN/WAF/cloud, monitoramento, auto-renovação | 🎯⚡💸 |
 | 188 | Relaticle/relaticle | 1.1k | CRM/Business | CRM next-gen open-source — Laravel 12+Filament 4, custom fields no-code, multi-tenant, self-hosted | 🎯💸💎 |
 
+| 189 | Fosowl/agenticSeek | 24.9k | AI/Local Agent | Manus AI 100% local — voice, web browsing, coding, multi-agent, zero cloud, custo = eletricidade | 🎯💸🚀💎 |
+| 190 | kortix-ai/suna | 19.3k | AI/Agent Platform | Plataforma completa p/ criar AI agents autônomos — browser, files, APIs, crawling, agent builder visual | 🎯⚡🚀 |
+| 191 | MemoriLabs/Memori | 12.0k | AI/Memory Infra | Memory layer SQL-native (SQLite/Postgres) — intercepta LLM calls, extrai fatos, knowledge graph relacional | 🎯💸⚡ |
+| 192 | booklore-app/booklore | 9.7k | Casa/Biblioteca | Biblioteca digital self-hosted — smart shelves, metadata auto, Kobo sync, OPDS, reader built-in | 🎯💸💎 |
+| 193 | chaitin/PandaWiki | 9.0k | Knowledge/AI | Wiki AI-powered open-source — AI creation, AI Q&A, AI search, integra chatbots (DingTalk, Lark, WeChat) | 🎯💸🚀 |
+| 194 | airweave-ai/airweave | 5.6k | AI/Data Infra | Context retrieval layer unificada p/ AI agents — 50+ integrações, sync contínuo, MCP + REST + SDKs | 🎯⚡🚀 |
+
 ---
 
-**Total:** 188 repos | **42 categorias** | Ordenado por ⭐ stars
+**Total:** 194 repos | **43 categorias** | Ordenado por ⭐ stars
