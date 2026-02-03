@@ -2294,3 +2294,36 @@ Mas enquanto todos focam no "agent engine", o valor real está migrando para a *
 
 **Oportunidade imediata:** Uma "meta-layer" que funcione com QUALQUER coding agent (Crush, Claude Code, Codex...) e forneça knowledge persistence + prompt optimization + orchestration. Archon está mais perto disso, mas ainda é focused demais em RAG.
 
+
+---
+
+## 🧠 Insight #49 — "The Agent Infrastructure Stack is Stratifying" (Feb 2, 2026)
+
+**Observação:** Os repos desta rodada revelam que a infra de AI agents está se organizando em camadas distintas, similar à evolução do cloud computing (IaaS → PaaS → SaaS):
+
+| Camada | Repo | Função |
+|--------|------|--------|
+| **Memory Layer** | Memori (12k⭐), Rowboat (4.3k⭐) | Persistência de contexto e conhecimento |
+| **Orchestration** | PAL MCP (11k⭐), Ralph (9.2k⭐) | Multi-model routing e autonomous loops |
+| **Browser/World** | Agent Browser (12.2k⭐), MCP Chrome (10.2k⭐) | Interação com o mundo real via browser |
+
+**O gap massivo:** Ninguém integrou essas 3 camadas. Hoje, cada developer cola esses pedaços manualmente. Quem construir o "Agent Operating System" — memory + orchestration + world interaction como produto integrado — captura o mercado mais valioso de AI infra.
+
+**Analogia:** É como 2008-2010 no cloud: EC2, S3, e Lambda existiam separados. AWS ganhou quando integrou tudo. O "AWS for AI agents" ainda não existe.
+
+**Sizing:** Memory layer sozinha = $5-15B. Orchestration = $8-20B. Browser automation = $5-12B. Integrado = $30-50B+ (maior que a soma das partes).
+
+---
+
+## 🧠 Insight #50 — "Browser as the Agent's Body" (Feb 2, 2026)
+
+**Observação:** Dois approaches fundamentalmente diferentes para "AI + browser" estão competindo:
+
+1. **Clean room** (Agent Browser/Playwright): Browser novo, isolado, controlado programaticamente
+2. **Parasitic** (MCP Chrome): Usa o browser REAL do usuário, com login states, cookies, extensões
+
+**A tensão:** Clean room é melhor para automação enterprise (repeatable, auditable). Parasitic é melhor para produtividade pessoal (sem re-login, sem setup).
+
+**Previsão:** Os dois vão coexistir, mas o approach "parasitic" tem TAM maior porque resolve o problema de ONBOARDING — zero friction, zero setup. É o mesmo padrão que fez Slack vencer (bottom-up adoption) vs tools enterprise top-down.
+
+**Oportunidade:** Um product que oferece AMBOS approaches — parasitic para pessoal, clean room para enterprise — com a mesma API. Ninguém faz isso hoje. Agent Browser + MCP Chrome como product unificado seria killer.
