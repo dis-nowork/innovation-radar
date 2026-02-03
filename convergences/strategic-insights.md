@@ -2218,3 +2218,38 @@ O Asterisk-AI-Voice-Agent resolve isso com pipeline modular (swap providers de S
 
 **Combinação:** Asterisk AI + Step 3.5 Flash (reasoning local) + CordysCRM = **call center AI completo, self-hosted, com CRM integrado, a 1/10 do custo de soluções enterprise**. TAM: $18B contact center AI market.
 
+
+---
+
+## Insight #94 — A Pilha Financeira Open-Source Está Completa (Mas Ninguém Montou) (2 fev 2026)
+
+Pela primeira vez, existe uma stack financeira completa open-source para SMBs:
+
+| Camada | Repo | Substitui |
+|--------|------|-----------|
+| Contabilidade | Akaunting (9.6k⭐) | QuickBooks ($30-200/mês) |
+| Receipts/AI | TaxHacker (1.1k⭐) | Expensify/Dext ($18-36/mês) |
+| Finanças pessoais | ezbookkeeping (4.1k⭐) | YNAB ($15/mês) |
+| Billing | Lago (9.2k⭐) | Stripe Billing ($0.5-0.8%) |
+| Invoicing | Invio (722⭐) | FreshBooks ($17-55/mês) |
+| Investimentos | Ghostfolio (7.6k⭐) | Personal Capital |
+| Assinatura digital | Docuseal (8k⭐) | DocuSign ($10-65/mês) |
+
+**A oportunidade:** Quem integrar 3-4 desses numa plataforma unificada (Akaunting + TaxHacker + Lago + Docuseal) cria um **"Financial OS" para SMBs** que custa $0-50/mês vs $200-500/mês de ferramentas SaaS separadas. O TAM é enorme: 400M+ SMBs globais, 60M+ freelancers.
+
+**Por que ninguém fez:** Cada repo tem stack/linguagem diferente (Laravel, Python, Go, Node). Integrar requer API gateway + SSO + unified dashboard. Quem resolver a "cola" entre essas ferramentas captura o mercado.
+
+---
+
+## Insight #95 — O Gap "Middle Market" em Operações Físicas (2 fev 2026)
+
+Software enterprise (SAP, Oracle, Manhattan) custa $100k-1M+ e atende empresas de 1000+ funcionários. Software grátis (Excel, planilhas) atende micro-negócios. O **middle market** (10-500 funcionários, especialmente em logística, manufatura, construção) está mal servido:
+
+- **WMS:** GreaterWMS é o único open-source sério (4.2k⭐), mas precisa modernização
+- **ERP all-in-one:** Ever Gauzy tenta resolver tudo mas sofre de "ambição excessiva"
+- **Fleet/logistics:** Fleetbase (1.7k⭐) é o único open-source
+
+**A oportunidade killer:** Combinar GreaterWMS + InvenTree + Fleetbase + Akaunting numa **"Operations OS" para empresas de logística/e-commerce de médio porte**. Essas empresas gastam $10-50k/mês em software operacional. Uma solução integrada a $500-2000/mês capturaria um mercado de $20B+ que nenhum open-source endereça adequadamente.
+
+**O timing é perfeito:** E-commerce global cresce 10%/ano. Cada novo vendedor online precisa de WMS + inventory + billing. A reescrita do GreaterWMS em Rust (Bomiot) pode ser o catalisador técnico.
+
