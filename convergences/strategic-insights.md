@@ -2327,3 +2327,44 @@ Mas enquanto todos focam no "agent engine", o valor real está migrando para a *
 **Previsão:** Os dois vão coexistir, mas o approach "parasitic" tem TAM maior porque resolve o problema de ONBOARDING — zero friction, zero setup. É o mesmo padrão que fez Slack vencer (bottom-up adoption) vs tools enterprise top-down.
 
 **Oportunidade:** Um product que oferece AMBOS approaches — parasitic para pessoal, clean room para enterprise — com a mesma API. Ninguém faz isso hoje. Agent Browser + MCP Chrome como product unificado seria killer.
+
+---
+
+## 🧠 Insight #51 — "The Great SaaS Unbundling via Open-Source" (Feb 2, 2026)
+
+**Observação:** Esta rodada revela um padrão massivo: ferramentas proprietárias que paywallaram features básicos estão sendo substituídas por open-source de qualidade FRONTIER em velocidade recorde.
+
+| Proprietário | Open-Source Killer | Stars | Tempo p/ crescer |
+|---|---|---|---|
+| CapCut ($7.99/mês) | OpenCut | 45.5k | 7 meses |
+| ElevenLabs ($5-330/mês) | Chatterbox | 22.2k | 9 meses |
+| Google NotebookLM | Open Notebook | 19.1k | 16 meses |
+| Mailchimp ($13-350/mês) | BillionMail | 13.4k | 12 meses |
+| CloudConvert ($8-25/mês) | VERT | 13.7k | 15 meses |
+| Pentesting ($10k-100k) | Strix | 19.6k | 6 meses |
+
+**O padrão:** O ciclo é: (1) SaaS popular → (2) paywall/enshittification → (3) open-source clone cresce exponencialmente → (4) clone alcança paridade → (5) SaaS forçado a competir com "grátis". O tempo médio do ciclo caiu de 3-5 anos (era WordPress/Drupal) para 6-18 meses (era AI).
+
+**Por que agora:** AI acelerou TUDO. Um dev com Claude/Copilot produz o que antes precisava de equipe de 10. LLMs também viraram features (TTS, search, automation) que antes exigiam PhDs.
+
+**A oportunidade estratégica:** Identificar QUAL SaaS vai ser paywalled/enshittified nos próximos 6 meses e criar o clone ANTES. Candidatos: Canva (já cobrou mais), Notion (pricing subindo), Figma (Adobe influence). Penpot (#59) e Twenty (#64) já estão nesse caminho.
+
+**Sizing:** O mercado total de "SaaS replacement by open-source" é difícil de sizing, mas cada tool substitui $10-350/mês por $5-20/mês de hosting. Com milhões de usuários potenciais, o managed hosting alone é um negócio de $1-10B+.
+
+---
+
+## 🧠 Insight #52 — "Voice AI: The Three-Horse Race" (Feb 2, 2026)
+
+**Observação:** Três modelos open-source de TTS explodiram simultaneamente, cada um com um approach diferente:
+
+| Modelo | Abordagem | Força | Fraqueza |
+|---|---|---|---|
+| **VibeVoice** (Microsoft) | Research-grade, LLM backbone | 60min long-form, 50+ idiomas, ASR+TTS unificado | Mais pesado, mais complexo |
+| **Chatterbox** (Resemble AI) | Developer-first, production-ready | Paralinguistic tags, zero-shot clone, Turbo 350M | Inglês primarily no Turbo |
+| **CSM/Sesame** (#477) | Conversational, emotional | Naturalidade "uncanny valley", contexto de conversa | Early stage, menos languages |
+
+**A implicação:** ElevenLabs está sendo cercada por 3 lados. O moat deles era qualidade — agora é latência + reliability + developer experience. Em 12 meses, TTS quality será commoditizada.
+
+**O produto que falta:** Um **"TTS gateway"** que roteia entre esses 3 modelos (+ local Whisper/Parakeet para ASR) baseado em use case — Chatterbox Turbo para agents (latência), VibeVoice para long-form (qualidade+60min), Sesame para chatbots (naturalidade). Ninguém integra os três. Primeiro a fazer = captura o mercado de voice AI self-hosted.
+
+**Sizing:** Voice AI market projetado $25B+ em 2027. Self-hosted voice = 15-20% disso = $4-5B.
