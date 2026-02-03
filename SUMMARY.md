@@ -586,3 +586,10 @@
 | 523 | logtide-dev/logtide | 314 | Observability/Logs | Datadog/ELK/Splunk killer open-source — GDPR-first (EU cloud ou self-hosted), TimescaleDB+Fastify (leve vs Java stacks), distributed tracing, error groups, SIEM dashboard, alertas, Fluent Bit, Docker 5min setup, MIT | 🎯💸⚡🚀 |
 | 524 | mnemosyne-artificial-intelligence/doppelganger | 237 | Automation/Scraping | Plataforma self-hosted de browser automation — visual block editor, Task API+CLI, proxy rotation, captures (screenshots/recordings), audit trails, Playwright, Docker, MIT | 🎯💎💸🚀 |
 | 525 | hellodigua/ChatLab | 4.1k | AI/Social Analytics | Análise local-first de chat history — SQL queries sobre conversas, AI Agent p/ insights, reviver memórias sociais, Electron desktop, privacidade total (nada sai do dispositivo), MIT | 🎯💎💸 |
+
+| 526 | alam00000/bentopdf | 11.1k | Produtividade/PDF | Toolkit PDF privacy-first 100% client-side — 50+ tools (merge, split, OCR, sign, convert), WASM, air-gapped, Docker, dual-license, Adobe Acrobat killer | 🎯💸💎 |
+| 527 | snarktank/ralph | 9.2k | AI/Dev Automation | Loop autônomo que roda AI coding tools até completar PRD — fresh context por iteração, memória via git, progress tracking, Amp+Claude Code | 🎯⚡🚀 |
+| 528 | saifyxpro/HeadlessX | 1.6k | AI/Browser Automation | Browser automation indetectável — Camoufox (Firefox C++ patched), 0% detection rate, context pooling, self-hosted, scraping enterprise-grade | 🎯⚡💸 |
+| 529 | kurrier-org/kurrier | 821 | Produtividade/Workspace | Google Workspace self-hosted — email IMAP/SMTP/SES + CalDAV + CardDAV + WebDAV/S3 storage, UI moderna Next.js, multi-provider, multi-domain | 🎯💸🚀 |
+| 530 | IliasHad/edit-mind | 1.2k | Creative Tools/Video | AI video indexer — object detection, face recognition, emotion analysis, semantic search NL, export scenes, 100% local Docker, ChromaDB+Whisper+Gemini | 🎯💸💎 |
+| 531 | TNT-Likely/BeeCount | 1.1k | Fintech/Personal Finance | Finance tracker open-source com AI bookkeeping — iCloud/Supabase/WebDAV/S3 sync, cross-platform, categorização inteligente, privacy-first | 🎯💸 |
