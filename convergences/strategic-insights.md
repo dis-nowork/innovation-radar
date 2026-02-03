@@ -4,6 +4,16 @@ Padrões emergentes e gaps de mercado identificados nas análises.
 
 ---
 
+## 2026-02-02 — Agent Ecosystems, Vision AI & The "Product vs Framework" Inflection
+
+### Insight #1: "Agent Products" vs "Agent Frameworks" — a bifurcação definitiva de 2026
+O padrão mais claro desta rodada: o mercado de AI agents está se dividindo em duas camadas incompatíveis. **Frameworks** (LangChain/DeepAgents 8.8k, Dify, n8n) servem devs que querem montar. **Products** (JoyAgent-JDGenie 11.3k, Eigent 11.9k) servem users que querem resultado. JD.com provou com JoyAgent que um query "faça análise de tendência USD/ouro" gera relatório completo sem configuração — algo que nenhum framework faz out-of-box. O benchmark fala: GAIA 75.15% validation superando CAMEL, HuggingFace e OpenManus. **A oportunidade:** quem empacota um framework como produto vertical (agent pra advogados, agent pra contadores, agent pra doctors) captura margens 10x maiores que vender infra. O modelo é "Salesforce" (produto) vs "AWS" (infra) — ambos bilionários, mas caminhos muito diferentes. Gap: quase zero agent products open-source verticalizados. JoyAgent é horizontal. Primeiro a verticalizar pra uma profissão específica com dados de domínio ganha o mercado.
+
+### Insight #2: "Vision AI" finalmente commoditizou — o valor migrou de "modelo" para "edge + UX"
+GetStream/Vision-Agents (4.8k) demonstra que a camada de modelo (YOLO, Gemini, OpenAI) já é commodity. O que **não** é commodity: latência <30ms, SDKs nativos multi-plataforma, e orquestração de multiple models em pipeline. A demo de security camera que detecta theft e gera WANTED poster automaticamente é possível porque alguém integrou YOLO+face recognition+Nano Banana+Gemini num pipeline coeso. **Padrão emergente:** o valor em vision AI migrou de "ter o melhor modelo" para "ter a melhor infra de composição". Isso espelha o que aconteceu com cloud (AWS não faz o melhor compute — faz a melhor cola). O gap enorme: **ninguém fez "Vercel for Vision AI"** — deploy one-click de pipelines video+AI em edge. Stream tem a infra mas é focus em chat/video; Roboflow tem modelos mas não tem edge network. O primeiro a unificar ganha um mercado de $20B+.
+
+---
+
 ## 2026-02-02 — Self-Hosted Digital Sovereignty: O "De-SaaS" Movement Amadurece
 
 ### Insight #1: "Unified PIM" é o próximo battleground — Google Workspace tem $0 de moat técnico
