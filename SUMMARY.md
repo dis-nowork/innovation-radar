@@ -565,3 +565,11 @@
 | 510 | karol-broda/snitch | 2.9k | DevTools/Network | `ss`/`netstat` bonito — TUI pra inspecionar conexões de rede com 16 temas, filtros, auto-refresh, Docker, Go, MIT | 🎯💎 |
 | 511 | surajverma/homehub | 1.1k | Casa/Family Dashboard | Dashboard familiar all-in-one self-hosted — notas, shopping list, chores, calendário, expenses, media download, recipes, PWA sem login, Raspberry Pi, MIT | 🎯💸🚀 |
 | 512 | Quenary/tugtainer | 1.1k | Infra/Docker Updates | Automação de Docker container updates com Web UI — multi-host, crontab, per-container config, private registries, linked containers, Python, MIT | 🎯💎🚀 |
+
+| 513 | mmulet/term.everything | 7.7k | Terminal/Remote Access | Compositor Wayland que renderiza QUALQUER app GUI no terminal — roda Firefox, file managers, jogos no terminal, funciona via SSH, Go, AGPL-3.0 | 🎯💎⚡🚀 |
+| 514 | rainxchzed/Github-Store | 6.0k | Distribuição/App Store | App store para GitHub releases — browse, discover, install one-click, cross-platform (Android+Desktop), detecta APK/EXE/DMG/AppImage, Kotlin+Compose, Apache-2.0 | 🎯💎🚀 |
+| 515 | vicinaehq/vicinae | 6.0k | Produtividade/Launcher | Raycast killer para Linux — launcher nativo com extensões TypeScript/React, compatível com extensions Raycast, clipboard history, calculator, extension store, C++, GPL-3.0 | 🎯💎💸🚀 |
+| 516 | Soul-AILab/SoulX-Podcast | 3.1k | Voice AI/Podcast | Geração de podcasts high-fidelity de texto — multi-speaker, paralinguistic tags (risada, suspiro), dialetos, voice cloning zero-shot, paper arXiv, Python | 🎯💎⚡💸 |
+| 517 | Gaurav-Gosain/tuios | 2.4k | Terminal/Multiplexer | Terminal UI OS — window manager no terminal com BSP tiling, workspaces, web terminal, tape scripting/recording, vim-modal, Charm stack, Go, MIT | 🎯💎🚀 |
+| 518 | panphora/overtype | 3.4k | DevTools/Editor | Editor Markdown WYSIWYG em 95KB — invisible textarea overlay, zero deps, mobile-perfect, framework-agnostic, 5-10x menor que alternatives, MIT | 🎯💎⚡💸 |
+| 519 | productdevbook/port-killer | 4.0k | DevTools/Ports | Port management cross-platform — monitora portas, K8s port-forwards, Cloudflare Tunnels, kill processes one-click, macOS+Windows native, Swift, MIT | 🎯💎⚡ |

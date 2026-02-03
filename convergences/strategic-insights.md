@@ -4,6 +4,16 @@ Padrões emergentes e gaps de mercado identificados nas análises.
 
 ---
 
+## 2026-02-03 — Desktop Tools, Distribution & The "Terminal as Platform" Movement
+
+### Insight #1: A "App Store para Open Source" é o elo perdido — GitHub Store prova que distribuição é o gargalo
+Com 6k⭐ em poucos meses, GitHub Store (#514) tocou num nervo: **open source tem um problema de distribuição, não de qualidade**. Existem 504+ repos neste radar que matam SaaS caros — mas nenhum deles é fácil de instalar pra não-devs. O gap é grotesco: bilhões de dólares em software gratuito que 95% das pessoas não conseguem acessar porque "ir no GitHub Releases e baixar o binário certo" é barreira demais. **A oportunidade mega:** quem construir o **"App Store + Auto-Update + One-Click Deploy"** para self-hosted software captura uma audiência de centenas de milhões. Imagine: abrir um app, buscar "CRM", ver Twenty (#5), clicar "Install" e ter rodando em 30 segundos. O modelo de negócio é óbvio: freemium store (free para users, devs pagam para featured placement), managed hosting, enterprise distribution. GitHub Store está atacando o mobile/desktop layer. Falta alguém atacar o **server/self-hosted layer** (one-click deploy de Docker stacks). CasaOS e Cosmos tentam mas nenhum tem a UX de app store + ecosystem de reviews/ratings. TAM potencial: $10B+ (Shopify do open source).
+
+### Insight #2: "Terminal as Platform" — o terminal está virando um OS
+term.everything (#513) renderizando GUIs no terminal, TUIOS (#517) como window manager terminal, Gonzo (#507) como analytics TUI, LazySSH (#509) como SSH TUI — o padrão é claro: **o terminal está se tornando uma plataforma de aplicações, não só uma linha de comando**. Isso é impulsionado por dois fatores convergentes: (1) AI coding agents vivem no terminal e precisam de UIs ricas, (2) a "TUI Renaissance" tornou terminals bonitos e interativos via Charm/Bubbletea/Ratatui. A convergência: quem construir o **"Electron do Terminal"** — um framework que permite criar apps TUI ricos tão facilmente quanto criar apps web — domina a próxima década de developer tools. Charm (BubbleTea + Lip Gloss + SSH) está mais perto, mas ainda é framework, não plataforma. O gap: **ninguém construiu uma "app store" para TUIs** — discover, install, update TUI apps com `tuistore install lazyssh`. Combinando GitHub Store + terminal apps = distribuição nativa pra esse ecossistema emergente.
+
+---
+
 ## 2026-02-03 — DevTools Práticos & A "TUI Renaissance"
 
 ### Insight #1: A Renaissance das TUIs — CLIs bonitas são os novos produtos
