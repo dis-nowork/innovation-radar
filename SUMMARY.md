@@ -556,3 +556,12 @@
 | 502 | browseros-ai/BrowserOS | 9.1k | AI/Browser | Browser agêntico open-source — Chromium fork com AI agents nativos, BYOK/Ollama local, MCP server (31 tools), workflows visuais, cowork (browser+files), alt. a ChatGPT Atlas/Perplexity Comet | 🎯💸🚀 |
 | 503 | siddharthvaddem/openscreen | 6.8k | Creative Tools/Screen | Screen Studio killer — screen recording polido grátis, zoom manual, motion blur, annotations, crop, export multi-resolução, 100% free p/ uso comercial | 🎯💸💎 |
 | 504 | presenton/presenton | 3.9k | Produtividade/Apresentações | Gamma/Beautiful AI killer — gerador de apresentações com AI local, BYOK (OpenAI/Gemini/Ollama), upload PPTX como template, MCP server, export PPTX/PDF | 🎯💸⚡🚀 |
+
+| 505 | Michael-A-Kuykendall/shimmy | 3.6k | AI/Inference Server | Inference server LLM em Rust — single binary, zero config, OpenAI-API compatible, GGUF+SafeTensors, hot model swap, auto-discovery, GPU backends inclusos, Apache-2.0 | 🎯⚡💸 |
+| 506 | lintsinghua/DeepAudit | 4.4k | Security/AI Audit | Multi-agent code vulnerability scanner — 48 CVEs reais descobertos, sandbox PoC, Ollama local, dashboard+reporting, one-click deploy, AGPL-3.0 | 🎯💸⚡🚀 |
+| 507 | control-theory/gonzo | 2.4k | DevTools/Log Analysis | TUI de análise de logs com AI + heatmaps + real-time streaming — Kubernetes nativo, OTLP receiver, "k9s dos logs", Go, MIT | 🎯💸💎⚡ |
+| 508 | mostafa-wahied/portracker | 1.7k | Infra/Network Discovery | Port monitoring + service discovery self-hosted — auto-discovery Docker+TrueNAS, P2P multi-server, SQLite embedded, MIT | 🎯⚡💸 |
+| 509 | Adembc/lazyssh | 3.0k | DevTools/SSH | SSH manager TUI estilo lazydocker — fuzzy search, tags, pin favorites, port forwarding config, key management, Go, MIT | 🎯💎⚡ |
+| 510 | karol-broda/snitch | 2.9k | DevTools/Network | `ss`/`netstat` bonito — TUI pra inspecionar conexões de rede com 16 temas, filtros, auto-refresh, Docker, Go, MIT | 🎯💎 |
+| 511 | surajverma/homehub | 1.1k | Casa/Family Dashboard | Dashboard familiar all-in-one self-hosted — notas, shopping list, chores, calendário, expenses, media download, recipes, PWA sem login, Raspberry Pi, MIT | 🎯💸🚀 |
+| 512 | Quenary/tugtainer | 1.1k | Infra/Docker Updates | Automação de Docker container updates com Web UI — multi-host, crontab, per-container config, private registries, linked containers, Python, MIT | 🎯💎🚀 |
