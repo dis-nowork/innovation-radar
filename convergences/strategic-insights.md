@@ -2419,3 +2419,37 @@ Mas enquanto todos focam no "agent engine", o valor real está migrando para a *
 
 **Gap gigante:** Ninguém integrou memory + orchestration + observability + eval num único product. É como se em 2015 alguém tivesse que usar Jenkins + Nagios + Puppet + Vagrant separadamente antes do Docker + K8s unificar tudo. O "Kubernetes de AI Agents" = $10B+ opportunity.
 
+
+---
+
+## Insight #81 — A "Creator SaaS Stack" Open-Source Está Completa (Fev 2, 2026)
+
+**Padrão observado:** Pela primeira vez, um creator independente pode rodar uma stack completa de produção de conteúdo 100% open-source e self-hosted:
+- **Design:** Penpot (44k⭐) + Onlook (24.6k⭐)
+- **Vídeo:** OpenCut (45.5k⭐) + remotion (34.3k⭐) + OpenScreen (6.8k⭐)
+- **Apresentações:** Presenton (3.9k⭐)
+- **Email/Newsletter:** Mail-0 (10.4k⭐) + listmonk (18.9k⭐)
+- **Social Media:** postiz-app (26.3k⭐)
+- **Analytics:** rybbit (11.1k⭐)
+- **Automação:** BrowserOS (9.1k⭐)
+
+**A implicação:** O custo mensal de um creator stack caiu de ~$300-500/mês (Figma + Premiere + Canva + Mailchimp + Buffer + GA) para $0 + tempo de setup. Isso é **5-10x menor custo** no eixo mais impactante: democratização de ferramentas profissionais.
+
+**O produto que falta:** Um **"Creator OS"** que integra todas essas ferramentas num único dashboard — install 1-click, SSO unificado, storage compartilhado. Think: "Coolify para creators" — deploy self-hosted de toda a stack com um `docker-compose up`. Primeiro a fazer = captura o mercado de 50M+ creators independentes que gastam >$200/mês em SaaS.
+
+**Sizing:** Creator economy = $250B (2025). SaaS tools para creators = ~$15B. Open-source alternative layer = $2-5B.
+
+---
+
+## Insight #82 — Browser = O Novo OS (E Está Sendo Tomado por AI) (Fev 2, 2026)
+
+**Padrão observado:** Três forças convergindo no browser:
+1. **Agentic browsers** (BrowserOS 9.1k, nanobrowser 12.1k) — AI agents rodando no browser
+2. **AI-first web builders** (Onlook 24.6k, Dyad 19.5k) — construir apps no/para browser com AI
+3. **Browser automation** (browser-use 77.5k, Skyvern 20.2k) — automatizar tudo no browser
+
+**A implicação:** O browser está se tornando a plataforma mais importante de AI deployment. Não é o terminal (coding agents), não é APIs (backend agents) — é o browser, porque é onde knowledge workers passam 80%+ do tempo.
+
+**Gap de mercado:** BrowserOS é o mais ambicioso (Chromium fork + AI nativo + MCP server), mas forks de browser são brutalmente difíceis de manter. O modelo mais sustentável pode ser **extension-based** (como nanobrowser) ou **middleware** (MCP server que controla qualquer browser). Quem resolver "AI agent confiável no browser com memory persistente" = controla o knowledge worker productivity stack.
+
+**Sizing:** Knowledge worker productivity tools = $50B+. "AI browser layer" como nova categoria = $5-10B em 5 anos.
