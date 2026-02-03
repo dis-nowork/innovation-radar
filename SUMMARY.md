@@ -78,6 +78,12 @@
 | 69 | aureuserp/aureuserp | 9.0k | ERP | ERP completo open-source (Laravel/Filament) | 🎯💸🚀 |
 | 70 | ElatoAI/ElatoAI | 1.4k | Voice AI/IoT | Voice AI agents em ESP32 (toys, companions) | 🎯⚡🚀💎 |
 | 71 | 1Panel-dev/1Panel | 33.1k | Infra/MCP | Painel web p/ servers Linux + MCP Server nativo | 🎯💸🚀 |
+| 72 | kortix-ai/suna | 19.3k | AI Agent Platform | Plataforma completa p/ criar AI agents autônomos | 🎯⚡🚀💸 |
+| 73 | bytedance/deer-flow | 19.6k | AI Research | Deep Research framework multi-tool (search+crawl+code) | 🎯⚡💎 |
+| 74 | MotiaDev/motia | 14.5k | Backend Framework | Framework unificado: APIs+jobs+queues+AI agents+streams | 🎯⚡🚀 |
+| 75 | trycua/cua | 12.2k | Computer Use | Infra open-source p/ Computer-Use Agents (sandbox+SDK+bench) | 🎯⚡🚀💎 |
+| 76 | nanobrowser/nanobrowser | 12.1k | Browser AI | Chrome extension p/ AI web automation multi-agent | 🎯💸🚀 |
+| 77 | bytedance/flowgram.ai | 7.6k | Workflow Canvas | Framework extensível p/ construir plataformas de AI workflow | 🎯⚡🚀 |
 | 72 | OpenCut-app/OpenCut | 45.4k | Creative Tools | Editor de vídeo open-source (CapCut killer) | 🎯💸🚀 |
 | 73 | resemble-ai/chatterbox | 22.1k | Voice AI | TTS SoTA open-source (ElevenLabs killer) | 💸💎⚡ |
 | 74 | usestrix/strix | 19.6k | Security | AI hackers autônomos p/ pentest de apps | 🎯💸⚡🚀 |

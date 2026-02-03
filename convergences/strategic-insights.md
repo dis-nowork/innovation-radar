@@ -2476,3 +2476,44 @@ Mas enquanto todos focam no "agent engine", o valor real está migrando para a *
 **Gap de mercado:** BrowserOS é o mais ambicioso (Chromium fork + AI nativo + MCP server), mas forks de browser são brutalmente difíceis de manter. O modelo mais sustentável pode ser **extension-based** (como nanobrowser) ou **middleware** (MCP server que controla qualquer browser). Quem resolver "AI agent confiável no browser com memory persistente" = controla o knowledge worker productivity stack.
 
 **Sizing:** Knowledge worker productivity tools = $50B+. "AI browser layer" como nova categoria = $5-10B em 5 anos.
+
+---
+
+## Insight #83 — A Stack de AI Agents Está Se Cristalizando em 4 Camadas (Fev 3, 2026)
+
+**Padrão observado:** Os repos desta rodada revelam uma stack emergente de 4 camadas para AI agents autônomos:
+
+1. **Sandbox Layer** — CUA (12.2k⭐): ambientes isolados onde agents executam (VMs, Docker, QEMU)
+2. **Action Layer** — Nanobrowser (12.1k⭐), browser-use (77.5k⭐): como agents interagem com o mundo (browser, desktop, APIs)
+3. **Orchestration Layer** — Motia (14.5k⭐), FlowGram (7.6k⭐): como agents são coordenados e conectados
+4. **Application Layer** — Suna (19.3k⭐), deer-flow (19.6k⭐): agents end-to-end para tarefas específicas
+
+**A implicação:** Estamos vendo a formação de uma "cloud stack para AI agents" análoga à stack de cloud computing (IaaS → PaaS → SaaS). Cada camada é um mercado de bilhões. E cada camada está sendo open-sourced — o que significa que a competição vai ser em **integração vertical** (quem monta a melhor stack end-to-end) e não em features individuais.
+
+**O produto que falta:** Um **"Agent Cloud"** que verticaliza todas as 4 camadas: deploy sandboxes → configure actions → orchestrate workflows → launch agents. Tipo Vercel, mas para AI agents em vez de web apps. CUA + Motia + FlowGram + Suna = todas as peças existem, mas ninguém integrou ainda.
+
+**Sizing:** AI agent infrastructure = $10-25B em 2028. A empresa que integra essas 4 camadas captura o "middleware tax" de toda a economia de AI agents.
+
+---
+
+## Insight #84 — Deep Research É a Killer App de AI (Mas o Moat Não Está no Research) (Fev 3, 2026)
+
+**Padrão observado:** Explosão de frameworks de Deep Research:
+- deer-flow (ByteDance) — 19.6k⭐
+- gpt-researcher — 25.2k⭐
+- DeepResearch (Alibaba) — 18.1k⭐
+- khoj — 32.4k⭐
+- open_deep_research (LangChain) — 10.4k⭐
+- local-deep-researcher (LangChain) — 8.5k⭐
+
+São 6+ frameworks fazendo essencialmente a mesma coisa: search → crawl → synthesize → iterate.
+
+**A implicação:** Deep Research como feature genérica está virando commodity — todo framework faz. O moat REAL está nas **verticais**:
+- **Legal Research** (precedentes, regulações) — mercado de $8B/ano só em legal research tools
+- **Due Diligence** (M&A, investimentos) — $20B+ em consulting fees
+- **Medical Research** (papers, clinical trials) — $5B+ em research tools
+- **Market Intelligence** (competitors, trends) — $15B em market research
+
+Quem pega um desses frameworks genéricos (deer-flow é o melhor em qualidade) e **verticaliza** com domínio expertise + data sources específicas + compliance (HIPAA, SOX, etc.) = cria um produto de $100M+ ARR.
+
+**Sizing:** Vertical research tools = $50B+ total. AI-powered vertical research = $10-20B em 3 anos.
