@@ -2368,3 +2368,54 @@ Mas enquanto todos focam no "agent engine", o valor real está migrando para a *
 **O produto que falta:** Um **"TTS gateway"** que roteia entre esses 3 modelos (+ local Whisper/Parakeet para ASR) baseado em use case — Chatterbox Turbo para agents (latência), VibeVoice para long-form (qualidade+60min), Sesame para chatbots (naturalidade). Ninguém integra os três. Primeiro a fazer = captura o mercado de voice AI self-hosted.
 
 **Sizing:** Voice AI market projetado $25B+ em 2027. Self-hosted voice = 15-20% disso = $4-5B.
+
+---
+
+## Insight #78 — A Estratificação do Ecossistema de AI Assistants (Fev 2, 2026)
+
+**Padrão observado:** O ecossistema OpenClaw/Clawdbot está se estratificando em 4 camadas distintas, cada uma com oportunidades diferentes:
+
+1. **Full-featured (OpenClaw):** 430k+ linhas, 152k stars, enterprise-grade
+2. **Ultra-lightweight (nanobot):** 4k linhas, research-ready, hackable
+3. **Platform-deployed (moltworker):** Cloudflare Workers, zero-ops
+4. **Apple-native (nanoclaw):** Containers isolados, security-first
+
+**A implicação:** Assistentes pessoais AI estão seguindo o mesmo padrão de Linux (Ubuntu→Alpine→ChromeOS→macOS): o mercado se fragmenta por use case, não converge. O winner não é "o melhor assistente", mas o melhor **para cada segmento**.
+
+**Gap:** Ninguém está construindo um "assistant orchestrator" que roda múltiplos nano-agents especializados coordenados. ccpm (automazeio) é o mais próximo mas focado em dev. O produto que falta = ccpm para vida pessoal (finanças agent + saúde agent + produtividade agent, cada um lightweight, coordenados).
+
+---
+
+## Insight #79 — TTS On-Device: A Corrida para o Edge Está Ganha (Fev 2, 2026)
+
+**Padrão observado:** Em 3 meses, 4 projetos TTS on-device atingiram qualidade cloud-comparable:
+- **Supertonic** (66M params, 167x real-time, Raspberry Pi)
+- **NeuTTS** (120-360M params, Galaxy A25)  
+- **Chatterbox Turbo** (350M, sub-200ms)
+- **Qwen3-TTS** (0.6-1.7B, streaming)
+
+**A implicação:** TTS cloud está morto para 80% dos use cases. A competição agora é em:
+1. **Menor footprint** (Supertonic ganha: 66M)
+2. **Mais idiomas** (Qwen3 ganha: 10+)
+3. **Voice cloning** (Chatterbox ganha: zero-shot)
+4. **Voice ownership** (Supertonic Voice Builder: único com "crie e possua")
+
+**O produto que falta:** Um **"Voice Runtime"** universal que embarca em qualquer app/device com API unificada. Think: "SQLite para voz" — um `.so`/WASM que qualquer app embarca. Supertonic (ONNX + multi-SDK) está mais perto, mas ainda não é drop-in como SQLite. Primeiro a fazer = captura IoT/embedded/mobile market inteiro.
+
+**Sizing:** Edge voice market projetado $8B em 2027. "Voice Runtime" como infra layer = $1-2B.
+
+---
+
+## Insight #80 — Agent DevOps: O Stack Está se Cristalizando (Fev 2, 2026)
+
+**Padrão observado:** O stack completo de "Agent DevOps" agora tem todas as peças open-source:
+- **Memory:** Memori, memvid, claude-supermemory
+- **Orchestration:** ccpm, ralph, hive
+- **Observability:** coze-loop, LangSmith (closed)
+- **Testing/Eval:** coze-loop, easy-dataset
+- **Deployment:** moltworker, Docker, Vercel
+
+**A implicação:** Estamos no momento "2015 do DevOps para AI Agents" — as ferramentas existem mas ninguém integrou num platform play. O LangSmith tentou mas é closed-source e caro. Coze-loop (ByteDance) é o primeiro credível open-source.
+
+**Gap gigante:** Ninguém integrou memory + orchestration + observability + eval num único product. É como se em 2015 alguém tivesse que usar Jenkins + Nagios + Puppet + Vagrant separadamente antes do Docker + K8s unificar tudo. O "Kubernetes de AI Agents" = $10B+ opportunity.
+
