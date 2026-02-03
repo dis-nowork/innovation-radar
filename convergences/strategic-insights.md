@@ -2263,3 +2263,34 @@ Software enterprise (SAP, Oracle, Manhattan) custa $100k-1M+ e atende empresas d
 
 **O timing é perfeito:** E-commerce global cresce 10%/ano. Cada novo vendedor online precisa de WMS + inventory + billing. A reescrita do GreaterWMS em Rust (Bomiot) pode ser o catalisador técnico.
 
+---
+
+## 🧠 Insight #47 — "The Agent Training Stack is Crystalizing" (Feb 2, 2026)
+
+**Observação:** Três peças antes separadas estão convergindo numa pipeline end-to-end de criação e otimização de AI agents:
+
+1. **Data Creation:** Easy Dataset (13k⭐) — transforma docs em datasets de fine-tuning
+2. **Agent Training:** Agent Lightning (13.3k⭐, Microsoft) — treina qualquer agent com RL, zero code change
+3. **Prompt Optimization:** Prompt Optimizer (19k⭐) — refina prompts automaticamente com A/B testing
+
+**O gap:** Ninguém conectou essas 3 peças. Quem construir o "Agent Factory" — upload docs → gerar dataset → fine-tune modelo → otimizar prompts → deploy agent otimizado — captura um mercado de $10-30B. O equivalente do "Vercel for AI agents" mas para o ciclo de TREINAMENTO, não deployment.
+
+**Por que agora:** Fine-tuning ficou barato (DeepSeek, Qwen, Llama abertos). O bottleneck mudou de "ter um modelo" para "ter bons dados e bons prompts". Essas ferramentas resolvem exatamente esse bottleneck.
+
+---
+
+## 🧠 Insight #48 — "Terminal Coding Agents: The IDE Wars 2.0" (Feb 2, 2026)
+
+**Observação:** O mercado de coding agents terminais explodiu em 2025-2026:
+- Claude Code (63k⭐), Codex (58k⭐), Gemini CLI (93k⭐), OpenCode (95k⭐), Qwen Code (18k⭐), Crush (19.4k⭐)
+
+Mas enquanto todos focam no "agent engine", o valor real está migrando para a **infraestrutura ao redor**:
+- **Context:** Archon (13.7k⭐) — knowledge base + tasks como MCP
+- **Orchestration:** Vibe Kanban (20k⭐), Ralph (9.2k⭐) — rodar agents em paralelo
+- **Methodology:** Superpowers (42k⭐), BMAD (33k⭐) — frameworks de como USAR agents
+- **Training:** Agent Lightning (13.3k⭐) — otimizar agents automaticamente
+
+**A tese:** O agent engine em si vira commodity (todos convergem em features similares). O **moat** está em context engineering (Archon), orchestration (Vibe Kanban), e training (Agent Lightning). Crush da Charmbracelet aposta na UX como diferencial — e historicamente, Charm ecosystem tem stickiness real (25k+ apps dependem deles).
+
+**Oportunidade imediata:** Uma "meta-layer" que funcione com QUALQUER coding agent (Crush, Claude Code, Codex...) e forneça knowledge persistence + prompt optimization + orchestration. Archon está mais perto disso, mas ainda é focused demais em RAG.
+
