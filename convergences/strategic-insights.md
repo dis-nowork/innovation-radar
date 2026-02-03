@@ -2558,3 +2558,36 @@ Quem pega um desses frameworks genéricos (deer-flow é o melhor em qualidade) e
 **A implicação:** O value não está no Ralph em si (é um shell script glorificado), mas no **padrão de autonomous loops com memory via git**. Quem produtiza isso com UI, cost tracking, team collaboration, e multi-agent orchestration cria o "Jenkins for AI Agents".
 
 **Sizing:** CI/CD market = $15B. AI-powered development tools = $10B. "AI Agent Orchestration" = $5-15B em 2028.
+
+---
+
+## 2026-02-03 — Agent Training, AI Finance Arenas & Mobile-First Agent Control
+
+### Insight #1: "Agent RL Training" é o próximo grande mercado de infra AI — e Microsoft acaba de abrir o jogo
+Agent Lightning (13.4k⭐) resolve um problema que TODA empresa com AI agents enfrenta: agents deployados com prompts estáticos não melhoram com uso. A analogia histórica é perfeita:
+
+- **2015:** ML models deployados como "train once, serve forever" → MLOps nasceu ($5B market)
+- **2026:** AI agents deployados com prompts fixos → **AgentOps** está nascendo
+
+O gap que Lightning preenche: instrumentar agents existentes (LangChain, CrewAI, AutoGen) com *zero code change* para coleta de traces, depois treinar com RL/SFT/prompt optimization. Verificado em 128 GPUs (Tencent).
+
+**Implicação para empreendedores:** Quem construir o **"Weights & Biases para AI Agents"** — UI bonita de experiment tracking + one-click RL training + A/B deployment de versões de agent — captura o mercado de AgentOps inteiro. A diferença vs W&B tradicional: agents têm *trajectories* (sequências de ações), não batches de dados. Lightning mostra que RL funciona para isso.
+
+**Combinação explosiva:** Agent Lightning (treinar) + coze-loop (#496, eval) + VoltAgent (#272, observe) = **ciclo completo de melhoria contínua de agents**. Imagina: agent executa → traces coletados → avaliados automaticamente → RL otimiza → nova versão deployada → repeat. Nenhum player consolidou esse loop. TAM: $10-15B em Agent DevOps.
+
+### Insight #2: "AI Trading Arenas" são o futuro do benchmark — e abrem um mercado de $20B
+Dois repos convergem nesta tese: AI-Trader (HKU, 10.9k⭐) e TradingAgents-CN (15.5k⭐). A diferença entre eles e benchmarks tradicionais é fundamental:
+
+- **Benchmarks acadêmicos:** datasets estáticos, sem market impact, sem adversários
+- **Arenas competitivas:** mercados reais, hourly decisions, multi-agent competition, public leaderboard
+
+O modelo de AI-Trader (5 AI models competem com $10K virtual em NASDAQ/SSE 50/crypto) é **replicável para qualquer domínio:**
+- Healthcare diagnosis arenas
+- Legal case prediction arenas
+- Supply chain optimization arenas
+- Real estate valuation arenas
+
+**Por que isso é enorme:** Benchmarks estáticos (MMLU, HumanEval) estão perdendo relevância — saturam rápido e não medem performance real. Arenas dinâmicas com adversários humanos e AI são o próximo padrão. Kaggle vale $1B+ por resolver isso parcialmente.
+
+**Oportunidade concreta:** Plataforma de "AI Arena as a Service" — empresas definem um domínio + rules + data feed, múltiplos AI models competem continuamente, winners são deployados em produção. Pricing: $5-50K/mês enterprise. TAM combinado com agent training: $20B+.
+
